@@ -35,6 +35,11 @@
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>Uranium</Key>
+      <Value>Uranium</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Copper</Key>
       <Value>Cuivre</Value>
       <Unit>g</Unit>
@@ -55,8 +60,28 @@
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>Nickel</Key>
+      <Value>Nickel</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Lead</Key>
       <Value>Plomb</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Electrum</Key>
+      <Value>Electrum</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Invar</Key>
+      <Value>Invar</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Constantan</Key>
+      <Value>Constantan</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -100,6 +125,11 @@
       <Unit/>
     </RecordReagent>
     <RecordReagent>
+      <Key>Fenoxitone</Key>
+      <Value>Fénoxitone</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>ColorRed</Key>
       <Value>Coloration rouge</Value>
       <Unit>g</Unit>
@@ -135,6 +165,36 @@
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>Waspaloy</Key>
+      <Value>Waspaloy</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Stellite</Key>
+      <Value>Stellite</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Inconel</Key>
+      <Value>Inconel</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Hastelloy</Key>
+      <Value>Hastelloy</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Astroloy</Key>
+      <Value>Astroloy</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Cobalt</Key>
+      <Value>Cobalt</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Corn</Key>
       <Value>Maïs</Value>
       <Unit>g</Unit>
@@ -152,6 +212,11 @@
     <RecordReagent>
       <Key>Soy</Key>
       <Value>Soja</Value>
+      <Unit />
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Mushroom</Key>
+      <Value>Champignons</Value>
       <Unit>g</Unit>
     </RecordReagent>
   </Reagents>
@@ -243,6 +308,10 @@
       <Value>Planter</Value>
     </Record>
     <Record>
+      <Key>Water</Key>
+      <Value>Eau</Value>
+    </Record>
+    <Record>
       <Key>Harvest</Key>
       <Value>Récolter</Value>
     </Record>
@@ -261,6 +330,14 @@
     <Record>
       <Key>Closed</Key>
       <Value>Fermé</Value>
+    </Record>
+    <Record>
+      <Key>Off</Key>
+      <Value>Off</Value>
+    </Record>
+    <Record>
+      <Key>On</Key>
+      <Value>On</Value>
     </Record>
     <Record>
       <Key>Powered</Key>
@@ -339,6 +416,10 @@
       <Value>Paramétrer</Value>
     </Record>
     <Record>
+      <Key>Cycle</Key>
+      <Value>Cycle</Value>
+    </Record>
+    <Record>
       <Key>ForceClose</Key>
       <Value>Forcer fermeture</Value>
     </Record>
@@ -371,290 +452,367 @@
     <RecordThing>
       <Key>ApplianceMicrowave</Key>
       <Value>Micro-onde</Value>
+      <Description>Alors que d'innombrables "meilleures" méthodes de cuisson {LINK:FoodPage;Food} ont été inventées au cours des dernières centaines d'années, il n'y a pas de raison d'en faire autant, peu sont aussi durables et faciles à fabriquer que le micro-ondes. Sous licence de {LINK:Xigo;Xigo}, les plans sont basés sur un modèle classique du milieu du 21e siècle, ce qui lui confère un aspect rétro charmant. Mais ne vous inquiétez pas, il fait osciller les molécules de {GAS:Water} plus qu'adéquatement. 
+Il suffit de le boulonner à un {THING:StructureBench} en utilisant une {THING:ItemWrench} pour l'alimenter, de suivre la recette et le tour est joué.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
       <Value>Mixeur</Value>
+      <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the {LINK:Xigo;Xigo} reagent processor turns certain raw materials and food items into cooking and crafting ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
       <Value>Bras Gauche Femme</Value>
+      <Description>As far as left arms go, this is an acceptable, if slightly forgettable example of its kind. It's seen better days.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmR</Key>
       <Value>Bras Droit Femme</Value>
+      <Description>One of a pair. The other is probably nearby.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleHead</Key>
       <Value>Tête Femme</Value>
+      <Description>If the eyes are windows to the soul, what does that make the head?</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegL</Key>
       <Value>Jambe Gauche Femme</Value>
+      <Description>A leg, is a leg, is a leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegR</Key>
       <Value>Jambe Droite Femme</Value>
+      <Description>This is a woman's right leg. To judge by its state, she was fairly healthy, of average height, with a tendency to walk on the balls of her feet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleTorso</Key>
       <Value>Torse Femme</Value>
+      <Description>This is a woman's right leg. To judge by its state, she was fairly healthy, of average height, with a tendency to walk on the balls of her feet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmL</Key>
       <Value>Bras Gauche Homme</Value>
+      <Description>Your arm is your fourth most important body part.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmR</Key>
       <Value>Bras Droit Homme</Value>
+      <Description>There's nothing funny about this humerus.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleHead</Key>
       <Value>Tête Homme</Value>
+      <Description>{LINK:Stationeers;Stationeer]s need to keep their heads at all times.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegL</Key>
       <Value>Jambe Gauche Homme</Value>
+      <Description>This is a leg. Someone probably misses it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegR</Key>
       <Value>Jambe Droite Homme</Value>
+      <Description>Legs are really useful things, but wheels would have been cool.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautTorso</Key>
       <Value>Torse d&apos;astronaute</Value>
+      <Description>Once, this was most of someone.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickBody</Key>
       <Value>Corps de Poussin</Value>
+      <Description>The fluffy heart of a harmless proto-hen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownBody</Key>
       <Value>Corps de Poulet</Value>
+      <Description>Let's not over-complicate things. It's a chicken.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownHead</Key>
       <Value>Tête de Poulet Brun</Value>
+      <Description>A chicken head is useful for many things, but principally voodoo and space curses.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownLegL</Key>
       <Value>Patte Gauche de Poulet Brun</Value>
+      <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownLegR</Key>
       <Value>Patte Droite de Poulet Brun</Value>
+      <Description>Also a chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownTail</Key>
       <Value>Queue de Poulet Brun</Value>
+      <Description>A chicken's tail is arguably its least endearing feature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownWingL</Key>
       <Value>Aile Gauche de Poulet Brun</Value>
+      <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownWingR</Key>
       <Value>Aile Droite de Poulet Brun</Value>
+      <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteBody</Key>
       <Value>Corps de Poulet Blanc</Value>
+      <Description>Part of a chicken.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteHead</Key>
       <Value>Tête de Poulet Blanc</Value>
+      <Description>A chicken's head. Once used as currency by long-departed alien races.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteLegL</Key>
       <Value>Patte Gauche de Poulet Blanc</Value>
+
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteLegR</Key>
       <Value>Patte Droite de Poulet Blanc</Value>
+
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteTail</Key>
       <Value>Queue de Poulet Blanc</Value>
+      <Description>A chicken tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteWingL</Key>
       <Value>Aile Gauche de Poulet Blanc</Value>
+      <Description>It's a chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteWingR</Key>
       <Value>Aile Droite de Poulet Blanc</Value>
+      <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickHead</Key>
       <Value>Tête de Poussin</Value>
+      <Description>The head of a chicken. Once, it had the heart of a tiger.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegL</Key>
       <Value>Patte Gauche de Poussin</Value>
+      <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegR</Key>
       <Value>Patte Droite de Poussin</Value>
+      <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickTail</Key>
       <Value>Queue de Poussin</Value>
+      <Description>A chicken's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingL</Key>
       <Value>Aile Gauche de Poussin</Value>
+      <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingR</Key>
       <Value>Aile Droite de Poussin</Value>
+      <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmL</Key>
       <Value>Bras gauche de Graylien</Value>
+      <Description>An alien's arm.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmR</Key>
       <Value>Bras droit de Graylien</Value>
+      <Description>An alien's arm.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienBody</Key>
       <Value>Corps de Graylien</Value>
+      <Description>An alien's body, or a very convincing fake.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienHead</Key>
       <Value>Tête de Graylien</Value>
+      <Description>An alien's head.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegL</Key>
       <Value>Jambe gauche de Graylien</Value>
+      <Description>An alien's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegR</Key>
       <Value>Jambe droite de Graylien</Value>
+      <Description>An alien's other leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienPelvis</Key>
       <Value>Pelvis de Graylien</Value>
+      <Description>An alien's pelvis.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackBody</Key>
       <Value>Corps de Coq Noir</Value>
+      <Description>A rooster's body.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackHead</Key>
       <Value>Tête de Coq Noir</Value>
+      <Description>A rooster's head. The perfect gift for mother's day.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegL</Key>
       <Value>Patte Gauche de Coq Noir</Value>
+      <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegR</Key>
       <Value>Patte Droite de Coq Noir</Value>
+      <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackTail</Key>
       <Value>Croupion de coq noir</Value>
+      <Description>A rooster's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingL</Key>
       <Value>Aile Gauche de Coq Noir</Value>
+      <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingR</Key>
       <Value>Aile Droite de Coq Noir</Value>
+      <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownBody</Key>
       <Value>Corps de coq marron</Value>
+      <Description>A rooster's body.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownHead</Key>
       <Value>Tête de coq marron</Value>
+      <Description>The head of a brown rooster.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegL</Key>
       <Value>Patte gauche de coq marron</Value>
+      <Description>A brown rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegR</Key>
       <Value>Patte droite de coq marron</Value>
+      <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownTail</Key>
       <Value>Croupion de coq marron</Value>
+      <Description>A rooster's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingL</Key>
       <Value>Aile gauche de coq marron</Value>
+      <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingR</Key>
       <Value>Aile droite de coq marron</Value>
+      <Description>A brown rooster's wing. Well, brownish.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Carte (Analyseur Atmosphérique)</Value>
+      <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by {LINK:ExMin;ExMin} for use with the OreCore {THING:ItemTablet}. It displays the pressure, concentration and molar quantity of {LINK:GasPage;gas} in rooms, tanks, or pipe networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Carte (Analyseur Médical)</Value>
+      <Description>When added to the OreCore {THING:ItemTablet}, {LINK:Asura;Asura's}'s ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
       <Value>Carte (Analyseur Réseau)</Value>
+      <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied {LINK:Sinotai;Sinotai} design, it's used in conjunction with the OreCore {THING:ItemTablet}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
       <Value>Personnage</Value>
+      <Description>This is you.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Circuit Imprimé (Contrôle atmosphérique)</Value>
+      <Description>When added to a {THING:StructureConsole}, air control circuit boards allow you to program an {THING:StructureActiveVent}. As with small dogs and 83% of people, air control circuits have only three modes: Pressure, Draft and Offline. Pressure mode maintains a 100kPa atmosphere, switching the active vent between inward and outward flow until target pressure is achieved. Draft mode allows you to pair active vents to circulate air. Offline mode deactivates the vent. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Circuit Imprimé (Contrôle du sas)</Value>
+      <Description>Rumored to have been first sketched on a {LINK:Norsec;Norsec} toilet wall by a disgruntled engineer, the Exgress airlock control circuit board’s versatility and ease of fabrication has made it the {LINK:Stationeers;Stationeers} control system of choice for {THING:StructureAirlock} cycling protocols. 
+
+To enter setup mode, insert the board into a {THING:StructureConsole} along with a data disk. In this mode, you can see all data-accessible objects currently connected to the {THING:StructureConsole}. Doors, lights, gas sensors and slave consoles can be selected (highlighted green), and will be controlled once the data disk is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Circuit Imprimé (Affichage de la caméra)</Value>
+      <Description>Surveillance is sometimes necessary when building bases in highly hostile environments. The camera display circuit board allows wary Stationeers to turn a {THING:StructureConsole} into a security display when connected to a {THING:StructureCamera}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Circuit Imprimé (Contrôle de porte)</Value>
+      <Description>A basic tool of {LINK:Stationeers;Stationeer] base construction, this circuit board provides a way to open and close a {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} or {THING:StructureGlassDoor} remotely, when connected to a {THING:StructureConsole}. This system can be further linked to {THING:StructureMotionSensor} to create automatic doors.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
       <Value>Circuit imprimé (Afficheur de gaz)</Value>
+      <Description>Information is power. Place this circuitboard into a {THING:StructureConsole} to create a display that shows gas pressure or temperature of any connected tank, storage cannister, {THING:ItemPipeAnalyizer} or {THING:ItemGasSensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardModeControl</Key>
       <Value>Circuit Imprimé (Contrôle du mode)</Value>
+      <Description>Can't decide which mode you love most? This circuit board allows you to switch any connected device between operation modes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardPowerControl</Key>
       <Value>Circuit Imprimé (Contrôle d&apos;alimentation)</Value>
+      <Description>Under distant suns and demanding environments, {LINK:Stationeers;Stationeer] systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation. 
+      
+The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
       <Value>Circuit Imprimé (Affichage vaisseau)</Value>
+      <Description>When the original {LINK:Stationeers;Stationeer] Handbook collapsed under its own weight into a singularity, certain information was irretrievably lost. Amongst this mysterious corpus of knowledge is the exact purpose of the ship display board.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
       <Value>Circuit Imprimé (Contrôle panneaux solaire)</Value>
+      <Description>Adding a solar control board to a {THING:StructureConsole} lets you manually control the horizontal and vertical angles of any connected {THING:StructureSolarPanel}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>Climatiseur portable</Value>
+      <Description>The {LINK:Sinotai;Sinotai}-designed Huxi portable air conditioner cools by drawing heat from the atmosphere and storing it, or adding heat to the atmosphere from its internal tank. With a max internal pressure of 8106kPa, its capacity is relatively limited, physics being clear on this subject. To extend its temperature storage ability, bolt the Huxi to a {THING:StructureTankConnector}, then connect it to a pipe network supplying hot or cold {LINK:GasPage;gases}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
       <Value>Caisse</Value>
+      <Description>The humble dynamic crate has become a symbol of {LINK:Stationeers;Stationeer] invention and independence. With twelve slots and handles at either end for ease of carriage, it's both standard issue and critical kit for cadets and Commanders alike.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
       <Value>Caisse (Fournitures de Construction)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
@@ -671,46 +829,64 @@
     <RecordThing>
       <Key>DynamicGasCanisterAir</Key>
       <Value>Réservoir portable (Air)</Value>
+      <Description>Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possiblities are endless.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
       <Value>Réservoir portable (CO2)</Value>
+      <Description>Portable gas tanks do one thing: store gas. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or ... boom. Once it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere ... of sorts.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterEmpty</Key>
       <Value>Réservoir portable</Value>
+      <Description>Portable gas tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterFuel</Key>
       <Value>Réservoir portable (Carburant)</Value>
+      <Description>Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or things get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really up to you.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
       <Value>Réservoir portable (Azote)</Value>
+      <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll end up with {GAS:Nitrogen} in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
       <Value>Réservoir portable (Oxygène)</Value>
+      <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
       <Value>Réservoir portable (Hydrogène)</Value>
+      <Description>Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Don't fill it above 10 MPa, unless you're the sort who loves complicated, flammable emergencies. You can refill a {THING:ItemGasCanisterVolatiles} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket and show it around the Solar System.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
       <Value>Citerne portable (Eau)</Value>
+      <Description>This portable tank stores liquid, and liquid only. You just have to fill it up. To do this, bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. 
+Try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun.
+You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>Portable Liquid Tank</Value>
+      <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Générateur portable</Value>
+      <Description>Every {LINK:Stationeers;Stationeer's} best friend, the portable generator gets you up and running, fast. Fill it with a {THING:ItemGasCanisterFuel} to power up and charge a {THING:ItemBatteryCell}, or attach it to a {THING:StructurePowerConnector} to link it into your electrical network. It's pressure driven, so functions more efficiently at lower temperatures, and REALLY efficiently if supercooled. Perfecting your fuel mix also makes a big difference.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
       <Value>Lumière portative</Value>
+      <Description>Philippe Starck might not applaud, but this battery-powered light source undarkens the corners when illumination's lacking. Powered by any battery, it's a 'no-frills' {LINK:Xigo;Xigo} design that can be cheaply fabricated with the minimum of fuss. Unless you like fuss. In which case, fuss all you like.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicScrubber</Key>
       <Value>Epurateur d&apos;air portable</Value>
+      <Description>A portable scrubber does just what it sounds like: removes specific substances from the air. For instance, attaching a {THING:ItemGasFilterCarbonDioxide} will pull {GAS:CarbonDioxide} from the surrounding atmosphere. Note that the scrubber has room for one battery and two filters, which will double its operating speed. Neat. When it reaches an internal pressure of 8106kPA, an error signal will flash on the switch, indicating it needs to be emptied. Either vent it directly, or attach it to a pipe network via a {THING:ItemTankConnector} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
@@ -719,6 +895,7 @@
     <RecordThing>
       <Key>EntityAlien</Key>
       <Value>Entité: Extraterrestre</Value>
+      <Description>The answer to the age-old question, 'Is there life on other planets?', is 'I guess so.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChick</Key>
@@ -4990,6 +5167,959 @@
     <RecordThing>
       <Key>StructureWaterBottleFillerBottom</Key>
       <Value>Remplisseur de bouteille d’eau</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidDrain</Key>
+      <Value>Kit (Liquid Drain)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidDrain</Key>
+      <Value>Liquid Drain</Value>
+      <Description>The drain is a simple device, although not without a touch of mystery. When connected to power and activated, it drains liquid from a liquid network at a rate of 1 mol per tick. Handy if there's liquid you need ... gone.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidPipeAnalyzer</Key>
+      <Value>Kit (Liquid Pipe Analyzer)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPipeAnalyzer</Key>
+      <Value>Liquid Pipe Analyzer</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketGasMining</Key>
+      <Value>Kit (Automated Rocket Gas Mining Module)</Value>
+      <Description>This kit creates a {THING:StructureModularRocketGasMining}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketGasMining</Key>
+      <Value>Automated Rocket Gas Mining Module</Value>
+      <Description>In typical {LINK:Recurso;Recurso} fashion, the A.R.M. gas mining module is a rapidly designed addition to a more sophisticated system by a company with very little concern for safety or reliability.
+      The module will store mined gas in an empty {THING:StructureModularRocketFueltank01}, so long as it is connected by a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHeatExchanger</Key>
+      <Value>Kit Heat Exchanger</Value>
+      <Description>This kit creates a {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} and {THING:StructureHeatExchangerGastoGas}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangerLiquidtoLiquid</Key>
+      <Value>Heat Exchanger - Liquid</Value>
+      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored {LINK:Sinotai;Sinotai} designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
+The 'N Flow-P' has four connections, allowing you to pass two liquid networks into the unit, which then works to equalize temperature across the two separate networks.
+As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to liquid management devices like a {THING:StructureLiquidVolumePump} or a {THING:StructureBackLiquidPressureRegulator}.
+</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangerGastoGas</Key>
+      <Value>Heat Exchanger - Gas</Value>
+      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored {LINK:Sinotai;Sinotai} designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
+The 'N Flow-P' has four connections, allowing you to pass two gas networks into the unit, which then works to equalize temperature across the two separate networks.
+As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to gas management devices like a {THING:StructureVolumePump} or a {THING:StructureBackPressureRegulator}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangeLiquidtoGas</Key>
+      <Value>Heat Exchanger - Liquid + Gas</Value>
+      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored {LINK:Sinotai;Sinotai} designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
+The 'N Flow-P' has four connections, allowing you to pass separate liquid and gas networks into the unit, which then works to equalize temperature across the two separate networks.
+As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to devices like a {THING:StructureVolumePump} or a {THING:StructureBackLiquidPressureRegulator}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangeLiquidAndGas</Key>
+      <Value>Heat Exchange Liquid And Gas</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHangerDoor</Key>
+      <Value>Kit Hanger Door</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>LogicStepSequencer8</Key>
+      <Value>Logic Step Sequencer</Value>
+      <Description>The {LINK:ODA;ODA} does not approve of soundtracks or other distractions.
+As such, {LINK:Stationeers;Stationeers} have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.
+Central to this pasttime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. 
+
+{HEADER:DIY MUSIC - GETTING STARTED}
+
+1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the lefthand side.
+
+2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdiver.
+
+3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the righthand side of the sequencer.
+
+4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.
+
+5: Set the BPM on the sequencer using a {THING:StructureLogicDial} and a {THING:StructureLogicWriter} to write to the sequencer's BPM variable. A higher bpm will play the sequence faster. 
+
+6: Insert a sound cartridge of your chosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartidge slot.
+
+7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).
+
+8: Get freaky with the {THING:DeviceLfoVolume}.
+
+9: Finally, activate the sequencer, Vibeoneer.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DeviceStepUnit</Key>
+      <Value>Device Step Unit</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StopWatch</Key>
+      <Value>Stop Watch</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeBass</Key>
+      <Value>Sound Cartridge Bass</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeDrums</Key>
+      <Value>Sound Cartridge Drums</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeLeads</Key>
+      <Value>Sound Cartridge Leads</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeSynth</Key>
+      <Value>Sound Cartridge Synth</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitMusicMachines</Key>
+      <Value>Kit (Music Machines)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulatedTankConnector</Key>
+      <Value>Insulated (Tank Connector)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedTankConnector</Key>
+      <Value>Insulated Tank Connector</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulatedTankConnectorLiquid</Key>
+      <Value>Kit (Insulated Tank Connector Liquid)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedTankConnectorLiquid</Key>
+      <Value>Insulated Tank Connector Liquid</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DecayedFood</Key>
+      <Value>Decayed Food</Value>
+      <Description>When your {LINK:OrganicPage;food} decays, it turns into this. {LINK:ODA;ODA} scientists have attempted to determine the exact constituents of this substance, but it remains evasive and mysterious. Suffice to say, eating it is a bad idea. Research has determined, however, that The exact speed of decay varies individually by:
+
+- TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C).
+
+- FOOD TYPE - Each {LINK:OrganicPage;food} type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
+
+- PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures. 
+
+- ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
+
+&gt; {GAS:Oxygen} x 1.3
+&gt; {GAS:Nitrogen} x 0.6
+&gt; {GAS:CarbonDioxide} x 0.8
+&gt; {GAS:Volatiles} x 1
+&gt; {GAS:Pollutant} x 3
+&gt; {GAS:NitrousOxide} x 1.5
+&gt; {GAS:Water} x 2
+&gt; Vacuum (see PRESSURE above)
+
+</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShelfMedium</Key>
+      <Value>Shelf Medium</Value>
+      <Description>A shelf for putting things on, so you can see them.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>PassiveSpeaker</Key>
+      <Value>Passive Speaker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DeviceLfoVolume</Key>
+      <Value>Low frequency oscillator</Value>
+      <Description>The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.
+      
+To set up an LFO:
+
+1. Place the LFO unit
+2. Set the LFO output to a {THING:PassiveSpeaker}
+2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.
+3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.
+4. Use another logic writer to write the BPM to the LFO.
+5. You are ready. This is the future. You're in space. Make it sound cool.
+
+For more info, check out the {LINK:MusicPage;music page}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFridgeBig</Key>
+      <Value>Fridge (Large)</Value>
+      <Description>The {LINK:Xigo;Xigo} Koolaid fridge is a self-cooling storage device with 15 slots that preserves food when powered and turned on. While many users have complained about the placement of the power switch, its place in the pantheon of off-world whiteware is unquestioned.
+      
+With its own permanent internal atmosphere, the Koolaid fridge slows the decay of {LINK:OrganicPage;food} by maintaining an optimal internal temperature. Its power usage varies on the external temperature against which it must balance its internal temperature. As such, it must shed heat to operate, so the Koolaid fridge DOES NOT work in a vacuum.
+      
+Also, don't leave the door open, as it will equalize with the current world temperature. And maybe start to beep.
+
+For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFridgeBig</Key>
+      <Value>Kit (Fridge Large)</Value>
+      <Description>This kit creates a {THING:StructureFridgeBig}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFridgeSmall</Key>
+      <Value>Fridge Small</Value>
+      <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the {LINK:Recurso;Recurso} Minibar fridge was a simple solution to the problem of {LINK:NutritionPage;food decay}. It stores a small number of items, at any temperature you can muster.
+      
+      For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRefrigeratedVendingMachine</Key>
+      <Value>Refrigerated Vending Machine</Value>
+      <Description>The refrigerated OmniKool vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage. It can hold up to 100 stacks.
+The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.
+NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitVendingMachineRefrigerated</Key>
+      <Value>Kit (Vending Machine Refrigerated)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Potato</Key>
+      <Value>Potato Seeds</Value>
+      <Description>Grow a {THING:ItemPotato}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Corn</Key>
+      <Value>Corn Seeds</Value>
+      <Description>Grow a {THING:ItemCorn}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Wheet</Key>
+      <Value>Wheat Seeds</Value>
+      <Description>Grow some {THING:ItemWheat}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Tomato</Key>
+      <Value>Tomato Seeds</Value>
+      <Description>Grow a {THING:ItemTomato}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Soybean</Key>
+      <Value>Soybean Seeds</Value>
+      <Description>Grow some {THING:ItemSoybean}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Rice</Key>
+      <Value>Rice Seeds</Value>
+      <Description>Grow some {THING:ItemRice}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Pumpkin</Key>
+      <Value>Pumpkin Seeds</Value>
+      <Description>Grow a {THING:ItemPumpkin}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Fern</Key>
+      <Value>Fern Seeds</Value>
+      <Description>Grow a {THING:ItemFern}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>Fertilizer</Key>
+      <Value>Fertilizer</Value>
+      <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.
+Fertilizer's affects depend on its ingredients:
+
+- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
+- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
+
+The effect of these ingredients depends on their respective proportions in the composter when processing is activated. </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAdvancedComposter</Key>
+      <Value>Advanced Composter</Value>
+      <Description>The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.
+When processing, it releases nitrogen and volatiles, as well a small amount of heat. 
+
+{HEADER:Compost composition}
+Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
+
+- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
+- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times
+</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAdvancedComposter</Key>
+      <Value>Kit (Advanced Composter)</Value>
+      <Description>Creates an {THING:StructureAdvancedComposter}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFridgeSmall</Key>
+      <Value>Kit (Fridge Small)</Value>
+      <Description>Creates a {THING:StructureFridgeSmall}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePlanter</Key>
+      <Value>Planter</Value>
+      <Description>A small planter for decorative or hydroponic purposes. Can be connected to {GAS:Water}, or watered manually using a {THING:ItemWaterBottle} or {THING:ItemGasCanisterWater}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitPlanter</Key>
+      <Value>Kit Planter</Value>
+      <Description>Places a {THING:StructurePlanter}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>PortableComposter</Key>
+      <Value>Portable Composter</Value>
+      <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
+When processing, it releases nitrogen and volatiles, as well a small amount of heat.
+
+{HEADER:Compost composition}
+Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
+
+- {LINK:OrganicPage;food} increases PLANT YIELD up to two times
+- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>AppliancePackagingMachine</Key>
+      <Value>Basic Packaging Machine</Value>
+      <Description>The {LINK:Xigo;Xigo} Cannifier requires {THING:ItemEmptyCan} and cooked {LINK:OrganicPage;food} to create {LINK:DecayPage;long-lasting}, easily stored sustenance. Note that the Cannifier must be bolted to a {THING:StructureBench} for power, and only accepts cooked food and tin cans.
+
+{HEADER:OPERATION}
+
+1. Add the correct ingredients to the device via the hopper in the TOP.
+
+2. Close the device using the dropdown handle.
+
+3. Activate the device.
+
+4. Remove canned goods from the outlet in the FRONT.
+
+Note: the Cannifier will flash an error on its activation switch if you attempt to activate it before closing it.
+
+
+      </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPlanter</Key>
+      <Value>Kit (Planter)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAutomatedOven</Key>
+      <Value>Automated Oven</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAutomatedOven</Key>
+      <Value>Kit (Automated Oven)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedMushroom</Key>
+      <Value>Canned Mushroom</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedMushroom}  and a {THING:ItemEmptyCan}, delicious mushroom soup is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPowderedeggs</Key>
+      <Value>Powdered Eggs</Value>
+      <Description>Powdered eggs: the reason you went to space.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPoweredEggs</Key>
+      <Value>Powered Eggs</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFrenchFries</Key>
+      <Value>Canned French Fries</Value>
+      <Description>Because space would suck without 'em.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedRicePudding</Key>
+      <Value>Canned Rice Pudding</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedRice} and an {THING:ItemEmptyCan}, canned rice pudding is a sweet treat, fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedCondensedMilk</Key>
+      <Value>Canned Condensed Milk</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedCondensedMilk} and an {THING:ItemEmptyCan}, canned condensed milk is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedEdamame</Key>
+      <Value>Canned Edamame</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedSoybean} and an {THING:ItemEmptyCan}, canned edamame beans are fairly high in nutrition, and do not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedPowderedEggs</Key>
+      <Value>Canned Powdered Eggs</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedPowderedEggs}  and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAdvancedPackagingMachine</Key>
+      <Value>Advanced Packaging Machine</Value>
+      <Description>The {LINK:Xigo;Xigo} Advanced Cannifier Multi-Plus Pro is an automateable packaging machine that uses {THING:ItemEmptyCan}s and cooked {LINK:OrganicPage;food} to create canned sustenance that does not decay. Note that the ACMPP only accepts cooked food and tin cans.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAdvancedPackagingMachine</Key>
+      <Value>Kit (Advanced Packaging Machine)</Value>
+      <Description>Creates and {THING:StructureAdvancedPackagingMachine.}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedSoybean</Key>
+      <Value>Cooked Soybean</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedTomato</Key>
+      <Value>Cooked Tomato</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedCorn</Key>
+      <Value>Cooked Corn</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedRice</Key>
+      <Value>Cooked Rice</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedPumpkin</Key>
+      <Value>Cooked Pumpkin</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedMushroom</Key>
+      <Value>Cooked Mushroom</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedPowderedEggs</Key>
+      <Value>Powdered Eggs</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedCondensedMilk</Key>
+      <Value>Condensed Milk</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemTropicalPlant</Key>
+      <Value>Tropical Lily</Value>
+      <Description>An anthurium, evolved in the jungles of South America, which will tolerate higher temperatures than most plants.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPeaceLily</Key>
+      <Value>Peace Lily</Value>
+      <Description>A fetching lily with greater resistance to cold temperatures.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDecorFern</Key>
+      <Value>Decorative Fern</Value>
+      <Description>One of the universe's many ferns, useful in a range of medicinal and organic recipes.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFilterFern</Key>
+      <Value>Darga Fern</Value>
+      <Description>A fern adapted by {LINK:Agrizero;Agrizero}to process a much greater volume of {GAS:CarbonDioxide} into {GAS:Oxygen} than an average plant.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitInsulatedWaterPipe</Key>
+      <Value>Insulated Water Pipe Kit</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitInsulatedLiquidPipe</Key>
+      <Value>Insulated Liquid Pipe (Kit)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>InsulatedLiquidPipeCorner</Key>
+      <Value>Insulated Liquid Pipe Corner</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>InsulatedLiquidPipeCrossJunction</Key>
+      <Value>Insulated Liquid Pipe Cross Junction</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>InsulatedLiquidPipeCrossJunction3</Key>
+      <Value>Insulated Liquid Pipe Cross Junction3</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>InsulatedLiquidPipeCrossJunction4</Key>
+      <Value>Insulated Liquid Pipe Cross Junction4</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>InsulatedLiquidPipeCrossJunction5</Key>
+      <Value>Insulated Liquid Pipe Cross Junction5</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>InsulatedLiquidPipeCrossJunction6</Key>
+      <Value>Insulated Liquid Pipe Cross Junction6</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>InsulatedLiquidPipeJunction</Key>
+      <Value>Insulated Liquid Pipe Junction</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>InsulatedLiquidPipeStraight</Key>
+      <Value>Insulated Liquid Pipe Straight</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCorner</Key>
+      <Value>Insulated Liquid Pipe (Corner)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCrossJunction</Key>
+      <Value>Insulated Liquid Pipe (Cross Junction)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
+      <Value>Insulated Liquid Pipe (Cross Junction4)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
+      <Value>Insulated Liquid Pipe (Cross Junction)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCrossJunction5</Key>
+      <Value>Insulated Liquid Pipe (Cross Junction5)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCrossJunction6</Key>
+      <Value>Insulated Liquid Pipe (Cross Junction6)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight</Key>
+      <Value>Insulated Liquid Pipe (Straight)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidTJunction</Key>
+      <Value>Insulated Liquid Pipe (T Junction)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeHeater</Key>
+      <Value>Pipe Heater (Gas)</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeOneWayValve</Key>
+      <Value>One Way Valve (Gas)</Value>
+      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.
+</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureOneWayValve</Key>
+      <Value>One Way Valve (Gas)</Value>
+      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterPipeHeater</Key>
+      <Value>Pipe Heater (Gas)</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeHeater</Key>
+      <Value>Pipe Heater Kit (Gas)</Value>
+      <Description>Creates a {THING:StructurePipeHeater}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPipeHeater</Key>
+      <Value>Pipe Heater Kit (Liquid)</Value>
+      <Description>Creates a {THING:StructureLiquidPipeHeater}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidPipeHeater</Key>
+      <Value>Pipe Heater Kit (Liquid)</Value>
+      <Description>Creates a {THING:StructureLiquidPipeHeater}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPipeHeater</Key>
+      <Value>Pipe Heater (Liquid)</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTurboVolumePump</Key>
+      <Value>Turbo Volume Pump (Gas)</Value>
+      <Description>Shifts 10 times more gas than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTurboVolumePump</Key>
+      <Value>Kit (Turbo Volume Pump - Gas)</Value>
+      <Description>Creates a {THING:StructureTurboVolumePump}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTurboVolumePump</Key>
+      <Value>Turbo Volume Pump (Liquid)</Value>
+      <Description>Shifts 10 times more liquid than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTurboVolumePump</Key>
+      <Value>Kit (Turbo Volume Pump - Liquid)</Value>
+      <Description>Creates a {THING:StructureLiquidTurboVolumePump}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMkIIToolbelt</Key>
+      <Value>Tool Belt MK II</Value>
+      <Description>A large, ten-slot tool belt with two extra generic slots for carrying whatever takes your fancy.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningBeltMKII</Key>
+      <Value>Mining Belt MK II</Value>
+      <Description>A larger and more capacious mining belt, the Mk II is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips. It also has space for two tools. </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPipeOneWayValve</Key>
+      <Value>One Way Valve (Liquid)</Value>
+      <Description>The oneway valve moves liquid in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure..</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWindowShutter</Key>
+      <Value>Window Shutter</Value>
+      <Description>For those special, private moments, a window that can be closed to prying eyes. 
+      
+When closed, has the heat transfer characteristics of a basic wall. Requires power, and can be connected to logic systems.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWindowShutter</Key>
+      <Value>Kit (Window Shutter)</Value>
+      <Description>Produces a {THING:StructureWindowShutter}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemExplosiveBasic</Key>
+      <Value>Item Explosive Basic</Value>
+      <Description>A low cost, high yield explosive with a 10 second timer.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningCharge</Key>
+      <Value>Mining Charge</Value>
+      <Description>A low cost, high yield explosive with a 10 second timer.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHorizontalAutoMiner</Key>
+      <Value>OGRE</Value>
+      <Description>The {LINK:Recurso;Recurso} OGRE (Orthogonal Ground Rotating Excavator) is a base structure with attached mining vehicle, which will mine a horizontal shaft up to X meters long. When full, the mining vehicle will return to the base to empty itself, before returning to dig. If it encounters empty space, it will also return to base and await instruction. The unit will return if deactivated.
+      
+The OGRE can be connected to a chute system, and is controllable by a logic network. Note that the OGRE outputs more {LINK:OrePage;ore} than a conventional {THING:ItemMiningDrill} over the same area, due to more efficient processing.
+
+{HEADER:MODES}
+Idle - 0
+Mining - 1
+Returning - 2
+DepostingOre - 3
+Finished - 4
+</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedCompositeWindow</Key>
+      <Value>Reinforced Window (Composite)</Value>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedCompositeWindowSteel</Key>
+      <Value>Reinforced Window (Composite Steel)</Value>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedWallPaddedWindow</Key>
+      <Value>Reinforced Window (Padded)</Value>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedWallPaddedWindowThin</Key>
+      <Value>Reinforced Window (Thin)</Value>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemStelliteGlassSheets</Key>
+      <Value>Item Stellite Glass Sheets</Value>
+      <Description>A stronger glass substitute.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitReinforcedWindows</Key>
+      <Value>Reinforced Windows (Kit)</Value>
+      <Description>Creates {THING:StructureReinforcedCompositeWindow} and other variants.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHorizontalAutoMiner</Key>
+      <Value>Kit (OGRE)</Value>
+      <Description>Creates a {THING:StructureHorizontalAutoMiner}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLaptop</Key>
+      <Value>Laptop</Value>
+      <Description>A portable IC editor, the {LINK:Norsec;Norsec} 'Slaptop' was designed for rugged use and abuse by intrepid {LINK:Stationeers;Stationeers} across the Solar System. While it will never replace the multifunctionality of the {THING:StructureComputer}, the Slaptop's low weight and portability have earned it a place in many an ODA operative's heart.
+      
+The Slaptop requires a {THING:MotherboardProgrammableChip} for operation.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPlantEndothermic_Genepool1</Key>
+      <Value>Winterspawn (Alpha variant)</Value>
+      <Description>{LINK:Agrizero;Agrizero's} Winterspawn atmospheric bio-processor is a recent addition to their catalogue of genespliced environmental decorations. Using ambient heat to split {GAS:Water} into {GAS:Volatiles} and {GAS:Oxygen}, the Winterspawn cools its surroundings, when supplied with sufficient {GAS:Nitrogen}. The alpha variant has a peak cooling and electrolysis capacity of 90Watts and is most efficient operating in air temperatures of 0 to 40 Degrees Celsius.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPlantEndothermic_Genepool2</Key>
+      <Value>Winterspawn (Beta variant)</Value>
+      <Description>{LINK:Agrizero;Agrizero's} Winterspawn atmospheric bio-processor is a recent addition to their catalogue of genespliced environmental decorations. Using ambient heat to split {GAS:Water} into {GAS:Volatiles} and {GAS:Oxygen}, the Winterspawn cools its surroundings when supplied with sufficient {GAS:Nitrogen}. The beta variant has a peak cooling and electrolysis capacity of 150Watts and is most efficient operating in air temperatures of 14 to 24 Degrees Celsius.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPlantThermogenic_Genepool1</Key>
+      <Value>Hades Flower (Alpha strain)</Value>
+      <Description>The {LINK:Agrizero;Agrizero's}-created Hades Flower is the result of as dubious experiment to combine the allure of tropical plants with the comfort and homeliness of a heat pump. The plant breathes a 1:3 mix of {GAS:Volatiles} and {GAS:Oxygen}, and exhales heated {GAS:Pollutant}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPlantThermogenic_Genepool2</Key>
+      <Value>Hades Flower (Beta strain)</Value>
+      <Description>The {LINK:Agrizero;Agrizero's}-created Hades Flower is the result of as dubious experiment to combine the allure of tropical plants with the comfort and homeliness of a heat pump. The plant breathes a 1:3 mix of {GAS:Volatiles} and {GAS:Oxygen}, and exhales heated {GAS:Pollutant}. The beta strain is notably more efficient than the earlier, more experimental alpha variant.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStirlingEngine</Key>
+      <Value>Kit (Stirling Engine)</Value>
+      <Description>Creates a {THING:StructureStirlingEngine}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureStirlingEngine</Key>
+      <Value>Stirling Engine</Value>
+      <Description>Harnessing an ancient thermal exploit, the {LINK:Recurso;Recurso} 'Libra' Stirling Engine generates power via the expansion and contraction of a working gas to drive pistons operating an electrical generator.
+      
+When high pressure hot gas is supplied into the input pipe, this gas will heat the hot side of the unit, then pass into the output pipe. The cooler side uses the room's ambient atmosphere, which must be kept at a lower temperature and pressure in order to create a differential. Add a working gas by inserting a {SLOT:GasCanister}. The unit must be deactivated when adding or removing canisters, or the working gas may leak into the surrounding atmosphere.
+ 
+Gases with a low molecular mass make the most efficient working gases. Increasing the moles of working gas can result in a greater potential power output. However, overpressuring the unit may have ... sub-optimal results.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerTransmitter</Key>
+      <Value>Microwave Power Transmitter</Value>
+      <Description>The {LINK:Norsec;Norsec} Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.
+The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerTransmitterReceiver</Key>
+      <Value>Microwave Power Receiver</Value>
+      <Description>The {LINK:Norsec;Norsec} Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.
+The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureOverheadShortCornerLocker</Key>
+      <Value>Overhead Corner Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureOverheadShortLocker</Key>
+      <Value>Overhead Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShortCornerLocker</Key>
+      <Value>Short Corner Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShortLocker</Key>
+      <Value>Short Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCornerLocker</Key>
+      <Value>Corner Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPlantEndothermic_Creative</Key>
+      <Value>Endothermic Plant Creative</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPlantThermogenic_Creative</Key>
+      <Value>Thermogenic Plant Creative</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPowerTransmitter</Key>
+      <Value>Kit (Power Transmitter)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInteriorDoorTriangle</Key>
+      <Value>Interior Door Triangle</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInteriorDoorPaddedThin</Key>
+      <Value>Interior Door Padded Thin</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInteriorDoorPadded</Key>
+      <Value>Interior Door Padded</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInteriorDoorGlass</Key>
+      <Value>Interior Door Glass</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitInteriorDoors</Key>
+      <Value>Kit (Interior Doors)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureUnpoweredHatch</Key>
+      <Value>Structure Unpowered Hatch</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureManualHatch</Key>
+      <Value>Manual Hatch</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPowerTransmitterOmni</Key>
+      <Value>Kit (Power Transmitter Omni)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerTransmitterOmni</Key>
+      <Value>Structure Power Transmitter Omni</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Battery_Wireless_cell</Key>
+      <Value>Battery Wireless Cell</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Battery_Wireless_cell_Big</Key>
+      <Value>Battery Wireless Cell (Big)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicLightNetworkTest</Key>
+      <Value>Dynamic Light Network Test</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLargeExtendableRadiator</Key>
+      <Value>Kit (Large Extendable Radiator)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLargeExtendableRadiator</Key>
+      <Value>Structure Large Extendable Radiator</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLargeExtendableRadiator01</Key>
+      <Value>Wreckage Large Extendable Radiator</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterBottleFillerPoweredBottom</Key>
+      <Value>Waterbottle Filler</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterBottleFillerPowered</Key>
+      <Value>Waterbottle Filler</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemNitrice</Key>
+      <Value>Ice (Nitrice)</Value>
+      <Description>Nitrice is the nickname given to solid {GAS:Nitrogen} Ice, and found on many planets and moons in the Solar System. Given the inert nature of the {GAS:Nitrogen} it produces, the ice is useful when making breathable atmospheres with low flammability.
+
+Highly sensitive to temperature, nitrice will begin to melt as soon as it is mined, unless the temperature is below zero, or it is stored in the {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} or devices like the {THING:StructureIceCrusher} or {THING:StructureFridgeSmall}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPassiveLargeRadiator</Key>
+      <Value>Kit (Passive Large Radiator)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePassiveLargeRadiator</Key>
+      <Value>Passive Large Radiator</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPassiveLargeRadiatorGas</Key>
+      <Value>Kit (Passive Large Radiator Gas)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPassiveLargeRadiatorLiquid</Key>
+      <Value>Kit (Passive Large Radiator Liquid)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePassiveLargeRadiatorLiquid</Key>
+      <Value>Passive Large Radiator Liquid</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePassiveLargeRadiatorGas</Key>
+      <Value>Passive Large Radiator Gas</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicGate</Key>
+      <Value>Logic Gate</Value>
+      <Description>A {LINK:LogicPage;logic} device that performs a logical operation on one or more binary inputs that produces a single binary output. An input greater than zero is considered true for operations.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureNitrolyzer</Key>
+      <Value>Nitrolyzer</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningBackPack</Key>
+      <Value>Mining Backpack</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHardMiningBackPack</Key>
+      <Value>Hard Mining Backpack</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -5138,6 +6268,10 @@
       <Value>Entité</Value>
     </Record>
     <Record>
+      <Key>Occupant</Key>
+      <Value>Occupant</Value>      
+    </Record>
+    <Record>
       <Key>PortableSlot</Key>
       <Value>Emplacement portable</Value>
     </Record>
@@ -5176,6 +6310,10 @@
     <Record>
       <Key>Storage</Key>
       <Value>Stockage</Value>
+    </Record>
+    <Record>
+      <Key>Circuit</Key>
+      <Value>Circuit</Value>      
     </Record>
     <Record>
       <Key>CircuitBoard</Key>
@@ -5320,6 +6458,10 @@
       <Value>Trainer</Value>
     </Record>
     <Record>
+      <Key>Mode</Key>
+      <Value>Mode</Value>
+    </Record>
+    <Record>
       <Key>Button1</Key>
       <Value>Bouton1</Value>
     </Record>
@@ -5420,6 +6562,38 @@
       <Value>Bouton3</Value>
     </Record>
     <Record>
+      <Key>Slot11</Key>
+      <Value>Slot11</Value>
+    </Record>
+    <Record>
+      <Key>Slot12</Key>
+      <Value>Slot12</Value>
+    </Record>
+    <Record>
+      <Key>Slot13</Key>
+      <Value>Slot13</Value>
+    </Record>
+    <Record>
+      <Key>Slot14</Key>
+      <Value>Slot14</Value>
+    </Record>
+    <Record>
+      <Key>Slot15</Key>
+      <Value>Slot15</Value>
+    </Record>
+    <Record>
+      <Key>Slot16</Key>
+      <Value>Slot16</Value>
+    </Record>
+    <Record>
+      <Key>Slot17</Key>
+      <Value>Slot17</Value>
+    </Record>
+    <Record>
+      <Key>Slot18</Key>
+      <Value>Slot18</Value>
+    </Record>
+    <Record>
       <Key>Slot19</Key>
       <Value>Emplacement 19</Value>
     </Record>
@@ -5432,6 +6606,18 @@
       <Value>Emplacement 21</Value>
     </Record>
     <Record>
+      <Key>Slot22</Key>
+      <Value>Slot22</Value>
+    </Record>
+    <Record>
+      <Key>Slot23</Key>
+      <Value>Slot23</Value>
+    </Record>
+    <Record>
+      <Key>Slot24</Key>
+      <Value>Slot24</Value>
+    </Record>
+    <Record>
       <Key>Slot25</Key>
       <Value>Emplacement 25</Value>
     </Record>
@@ -5442,6 +6628,18 @@
     <Record>
       <Key>Slot27</Key>
       <Value>Emplacement 27</Value>
+    </Record>
+    <Record>
+      <Key>Slot28</Key>
+      <Value>Slot28</Value>
+    </Record>
+    <Record>
+      <Key>Slot29</Key>
+      <Value>Slot29</Value>
+    </Record>
+    <Record>
+      <Key>Slot30</Key>
+      <Value>Slot30</Value>
     </Record>
     <Record>
       <Key>TiltUpwards</Key>
@@ -5462,6 +6660,10 @@
     <Record>
       <Key>TiltDownwards</Key>
       <Value>Inclinaison vers le Bas</Value>
+    </Record>
+    <Record>
+      <Key>Export2</Key>
+      <Value>Export2</Value>
     </Record>
     <Record>
       <Key>Launch</Key>
@@ -5587,8 +6789,72 @@
       <Key>Previous</Key>
       <Value>Page Précédente</Value>
     </Record>
+    <Record>
+      <Key>Button7</Key>
+      <Value>Button7</Value>
+    </Record>
+    <Record>
+      <Key>Button8</Key>
+      <Value>Button8</Value>
+    </Record>
+    <Record>
+      <Key>Button9</Key>
+      <Value>Button9</Value>
+    </Record>
+    <Record>
+      <Key>Button10</Key>
+      <Value>Button10</Value>
+    </Record>
+    <Record>
+      <Key>Button11</Key>
+      <Value>Button11</Value>
+    </Record>
+    <Record>
+      <Key>Button12</Key>
+      <Value>Button12</Value>
+    </Record>
+    <Record>
+      <Key>Button13</Key>
+      <Value>Button13</Value>
+    </Record>
+    <Record>
+      <Key>Button14</Key>
+      <Value>Button14</Value>
+    </Record>
+    <Record>
+      <Key>Button15</Key>
+      <Value>Button15</Value>
+    </Record>
+    <Record>
+      <Key>Button16</Key>
+      <Value>Button16</Value>
+    </Record>
+    <Record>
+      <Key>Button17</Key>
+      <Value>Button17</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programmable Chip</Value>
+    </Record>
+    <Record>
+      <Key>Motherboard</Key>
+      <Value>Motherboard</Value>
+    </Record>
   </Interactables>
   <Interface>
+    <Record>
+      <Key>RespawnConditionEasy</Key>
+      <Value>Easy</Value>
+    </Record>
+    <Record>
+      <Key>RespawnConditionNormal</Key>
+      <Value>Normal</Value>
+    </Record>
+    <Record>
+      <Key>RespawnConditionStationeer</Key>
+      <Value>Stationeer</Value>
+    </Record>
     <Record>
       <Key>SlotKey</Key>
       <Value>Emplacement</Value>
@@ -5608,6 +6874,10 @@
     <Record>
       <Key>DoorCategory</Key>
       <Value>Portes et trappes</Value>
+    </Record>
+    <Record>
+      <Key>ChairTableCategory</Key>
+      <Value>Chairs</Value>
     </Record>
     <Record>
       <Key>PersonalSuits</Key>
@@ -5716,6 +6986,14 @@
     <Record>
       <Key>Fabricators</Key>
       <Value>Machines</Value>
+    </Record>
+    <Record>
+      <Key>Edibles</Key>
+      <Value>Edibles and food</Value>
+    </Record>
+    <Record>
+      <Key>Plants</Key>
+      <Value>Plants and Seeds</Value>
     </Record>
     <Record>
       <Key>AirContitioningAtmos</Key>
@@ -5846,8 +7124,20 @@
       <Value>Nom du serveur</Value>
     </Record>
     <Record>
+      <Key>JoinMenuServerListVersion</Key>
+      <Value>Version</Value>
+    </Record>
+    <Record>
       <Key>JoinMenuServerListRefreshing</Key>
       <Value>Rafraîchir la liste</Value>
+    </Record>
+    <Record>
+      <Key>CannotConnectToMetaServer</Key>
+      <Value>Cannot Connect To Meta Server</Value>
+    </Record>
+    <Record>
+      <Key>ServerListCannotBeRetrieved</Key>
+      <Value>Server List Cannot Be Retrieved</Value>
     </Record>
     <Record>
       <Key>JoinMenuInputAddressTitle</Key>
@@ -5874,12 +7164,32 @@
       <Value>Ceinture d&apos;astéroïdes</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaLoulan</Key>
+      <Value>Loulan</Value>
+    </Record>
+    <Record>
       <Key>LoulanShortDesc</Key>
       <Value>Loulan, à votre arrivée, vous remarquerez une atmosphère respirable, une pression suffisamment élevée pour maintenir la vie - mais un manque sévère de celle-ci. Ce géant des sables est situé dans le système Gargantuesque, se rapprochant chaque jour du trou noir situé au centre. Bien qu&apos;elle soit abandonnée et qu&apos;elle ne soit plus verte et pleine d&apos;eau, cette planète possède toujours une atmosphère en état de fonctionnement et vous êtes chargé de parcourir les terres incultes pour acquérir les matériaux et les ressources nécessaires à la survie dans ce désert éternel.</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVenus</Key>
       <Value>Vénus</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMars</Key>
+      <Value>Mars</Value>
+    </Record>
+    <Record>
+      <Key>Mars</Key>
+      <Value>Mars</Value>
+    </Record>
+    <Record>
+      <Key>Europa</Key>
+      <Value>Europa</Value>
+    </Record>
+    <Record>
+      <Key>EuropaBeta</Key>
+      <Value>Europa</Value>
     </Record>
     <Record>
       <Key>Moon</Key>
@@ -5898,12 +7208,28 @@
       <Value>Vulcain</Value>
     </Record>
     <Record>
+      <Key>Europa2</Key>
+      <Value>Europa</Value>
+    </Record>
+    <Record>
+      <Key>Mimas</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaEarth</Key>
       <Value>Terre</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>Europa</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaVulcan</Key>
       <Value>Vulcain</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa2</Key>
+      <Value>Europa</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVulcan2</Key>
@@ -6014,8 +7340,16 @@
       <Value>Paramètres</Value>
     </Record>
     <Record>
+      <Key>SettingsMenuGameplay</Key>
+      <Value>Gameplay</Value>
+    </Record>
+    <Record>
       <Key>SettingsMenuVideo</Key>
       <Value>Vidéo</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAudio</Key>
+      <Value>Audio</Value>
     </Record>
     <Record>
       <Key>SettingsMenuControls</Key>
@@ -6186,8 +7520,20 @@
       <Value>Impossible d&apos;acceder a la sauvegarde, utilisez vous un caractere invalide ? Essayez de changer le repertoire de sauvegarde dans les parametres.</Value>
     </Record>
     <Record>
+      <Key>PlayerIsConnecting</Key>
+      <Value>Player is connecting</Value>
+    </Record>
+    <Record>
+      <Key>GamePaused</Key>
+      <Value>Game Paused</Value>
+    </Record>
+    <Record>
       <Key>AlertButtonClose</Key>
       <Value>Fermer</Value>
+    </Record>
+    <Record>
+      <Key>AlertButtonTitle</Key>
+      <Value>Attention</Value>
     </Record>
     <Record>
       <Key>ServerSettingsButtonReset</Key>
@@ -6204,6 +7550,10 @@
     <Record>
       <Key>InputTextRename</Key>
       <Value>Renommer</Value>
+    </Record>
+    <Record>
+      <Key>ButtonOk</Key>
+      <Value>OK</Value>
     </Record>
     <Record>
       <Key>InputPassword</Key>
@@ -6315,8 +7665,10 @@
     </Record>
     <Record>
       <Key>TutorialCompleteMessage</Key>
-      <Value>Il y a encore beaucoup à apprendre.
-Alors au boulot, Stationeer !</Value>
+      <Value>
+        Il y a encore beaucoup à apprendre.
+        Alors au boulot, Stationeer !
+      </Value>
     </Record>
     <Record>
       <Key>TutorialBackToMenu</Key>
@@ -6336,8 +7688,10 @@ Alors au boulot, Stationeer !</Value>
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt;
-Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;options.</Value>
+      <Value>
+        &lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt;
+Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;options.
+      </Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -6601,8 +7955,10 @@ Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;opt
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>Le serveur de jeu ne répond pas. 
-Veuillez réessayer.</Value>
+      <Value>
+        Le serveur de jeu ne répond pas. 
+        Veuillez réessayer.
+      </Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -6623,6 +7979,10 @@ Veuillez réessayer.</Value>
     <Record>
       <Key>AlertBlankSaveName</Key>
       <Value>Vous devez entrer un nom de monde pour enregistrer.</Value>
+    </Record>
+    <Record>
+      <Key>AlertTitleAttention</Key>
+      <Value>Attention</Value>
     </Record>
     <Record>
       <Key>AlertTitlePleaseWait</Key>
@@ -6687,6 +8047,10 @@ Veuillez réessayer.</Value>
     <Record>
       <Key>JoinMenuInfoMap</Key>
       <Value>Carte:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoVersion</Key>
+      <Value>Version:</Value>
     </Record>
     <Record>
       <Key>JoinMenuInfoLatency</Key>
@@ -6793,6 +8157,10 @@ Veuillez réessayer.</Value>
       <Value>Nom du Monde</Value>
     </Record>
     <Record>
+      <Key>WorldDescriptionLabel</Key>
+      <Value>Description</Value>
+    </Record>
+    <Record>
       <Key>WorldAtmosphere</Key>
       <Value>Atmosphère</Value>
     </Record>
@@ -6805,12 +8173,20 @@ Veuillez réessayer.</Value>
       <Value>Mode Créatif</Value>
     </Record>
     <Record>
+      <Key>WorldTerrain</Key>
+      <Value>Terrain</Value>
+    </Record>
+    <Record>
       <Key>WorldSeedLabel</Key>
       <Value>Seed du Monde</Value>
     </Record>
     <Record>
       <Key>WorldCratersLabel</Key>
       <Value>Cratères</Value>
+    </Record>
+    <Record>
+      <Key>WorldTerrainPresetLabel</Key>
+      <Value>Terrain</Value>
     </Record>
     <Record>
       <Key>WorldAtmospherePresetLabel</Key>
@@ -6838,7 +8214,8 @@ Veuillez réessayer.</Value>
 Bien sûr, il fait froid, dur et joli monotone, mais au moins le soleil brille. Le panneau solaire va être utile, ainsi que le contrôleur de puissance ... et probablement aussi le four à arc.
 Il y a même un peu de nourriture et d&apos;oxygène dans les autres caisses, bien que cela ne dure définitivement pas éternellement. Ni est votre batterie.
 Tu ferais mieux de commencer à penser à la façon dont tu vas survivre. Comment pourrait-il être difficile de monter un sas? Un générateur? Peut-être même fondu du minerai et construit-il une base?
-On dirait que tu vas être ici un moment.</Value>
+On dirait que tu vas être ici un moment.
+      </Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
@@ -6846,7 +8223,8 @@ On dirait que tu vas être ici un moment.</Value>
 Fabriquez n&apos;importe quel objet, testez des idées et construisez des trucs dingues très rapidement.
 &lt;color=red&gt;Ce mode est expérimental.&lt;/color&gt; Voyez-le comme une fête spatiale libre où des choses excitantes et inattendues* peuvent et vont se produire, comparé à l&apos;expérience plus fiable de mort imminente du mode Survie.
 Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou que vous êtes attaqué par des poulets ou que vous explosez lentement en dérivant seul dans le vide infini.
-*bugs</Value>
+*bugs
+      </Value>
     </Record>
     <Record>
       <Key>TextboxEnterName</Key>
@@ -6922,8 +8300,10 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>Pression {0} 
-                                      Temperature {1}</Value>
+      <Value>
+        Pression {0} 
+        Temperature {1
+      </Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -7042,6 +8422,14 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
       <Value>Paramètres d&apos;entrée</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>Europa</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMimas</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
       <Key>NewWorldMarsShortDesc</Key>
       <Value>Boule rouge poussiéreuse et désolée, Mars présente un terrain plus varié qui peut atteindre le ciel, et une atmosphère froide qui n&apos;est pas bonne à respirer, mais qui peut peut-être servir à quelque chose...</Value>
     </Record>
@@ -7053,6 +8441,10 @@ Un endroit idéal pour le joueur débutant, avec moins de dangers et de complexi
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
       <Value>Bien qu&apos;il n&apos;y ait pas de gravité ou d&apos;atmosphère, au moins il y a beaucoup d&apos;espace à construire !  Vous vous retrouverez parmi plusieurs astéroïdes qui peuvent contenir divers minerais et glaces que vous pouvez utiliser pour survivre ici.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldVenusShortDesc</Key>
+      <Value>Unvarying extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. Dig deep, or go home.</Value>
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
@@ -7149,6 +8541,14 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Aide</Value>
     </Record>
     <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
       <Key>HeadingHelp</Key>
       <Value>Aide</Value>
     </Record>
@@ -7159,6 +8559,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>HeadingEdit</Key>
       <Value>Editer</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
     </Record>
     <Record>
       <Key>ButtonLibrary</Key>
@@ -7175,6 +8579,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>SettingsDisableWaterVisualizer</Key>
       <Value>Désactiver la visualisation de l&apos;eau</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInterface</Key>
+      <Value>Interface</Value>
     </Record>
     <Record>
       <Key>SettingsUPNPEnabled</Key>
@@ -7269,6 +8677,38 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>La température actuelle lu sur l&apos;appareil</Value>
     </Record>
     <Record>
+      <Key>LogicTypePressureInput</Key>
+      <Value>The current pressure reading of the device's Input Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureInput</Key>
+      <Value>The current temperature reading of the device's Input Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInput2</Key>
+      <Value>The current pressure reading of the device's Input2 Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureInput2</Key>
+      <Value>The current temperature reading of the device's Input2 Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureOutput</Key>
+      <Value>The current pressure reading of the device's Output Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureOutput</Key>
+      <Value>The current temperature reading of the device's Output Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureOutput2</Key>
+      <Value>The current pressure reading of the device's Output2 Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureOutput2</Key>
+      <Value>The current temperature reading of the device's Output2 Network</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePressureExternal</Key>
       <Value>Réglage pour la sécurité de pression externe, en KPa</Value>
     </Record>
@@ -7325,6 +8765,134 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>L’atmosphère d’évaluation est en feu. Retours 1 si l’atmosphère est en feu, 0 sinon.</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioOxygenInput</Key>
+      <Value>The ratio of oxygen in device's input network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxideInput</Key>
+      <Value>The ratio of {GAS:CarbonDioxide} in device's input network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogenInput</Key>
+      <Value>The ratio of nitrogen in device's input network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutantInput</Key>
+      <Value>The ratio of pollutant in device's input network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatilesInput</Key>
+      <Value>The ratio of volatiles in device's input network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWaterInput</Key>
+      <Value>The ratio of water in device's input network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxideInput</Key>
+      <Value>The ratio of {GAS:NitrousOxide} in device's input network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCombustionInput</Key>
+      <Value>The assess atmosphere is on fire. Returns 1 if device's input network is on fire, 0 if not.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOxygenInput2</Key>
+      <Value>The ratio of oxygen in device's Input2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxideInput2</Key>
+      <Value>The ratio of {GAS:CarbonDioxide} in device's Input2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogenInput2</Key>
+      <Value>The ratio of nitrogen in device's Input2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutantInput2</Key>
+      <Value>The ratio of pollutant in device's Input2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatilesInput2</Key>
+      <Value>The ratio of volatiles in device's Input2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWaterInput2</Key>
+      <Value>The ratio of water in device's Input2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxideInput2</Key>
+      <Value>The ratio of {GAS:NitrousOxide} in device's Input2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCombustionInput2</Key>
+      <Value>The assess atmosphere is on fire. Returns 1 if device's Input2 network is on fire, 0 if not.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOxygenOutput</Key>
+      <Value>The ratio of oxygen in device's Output network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxideOutput</Key>
+      <Value>The ratio of {GAS:CarbonDioxide} in device's Output network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogenOutput</Key>
+      <Value>The ratio of nitrogen in device's Output network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutantOutput</Key>
+      <Value>The ratio of pollutant in device's Output network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatilesOutput</Key>
+      <Value>The ratio of volatiles in device's Output network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWaterOutput</Key>
+      <Value>The ratio of water in device's Output network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxideOutput</Key>
+      <Value>The ratio of {GAS:NitrousOxide} in device's Output network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCombustionOutput</Key>
+      <Value>The assess atmosphere is on fire. Returns 1 if device's Output network is on fire, 0 if not.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOxygenOutput2</Key>
+      <Value>The ratio of oxygen in device's Output2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxideOutput2</Key>
+      <Value>The ratio of {GAS:CarbonDioxide} in device's Output2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogenOutput2</Key>
+      <Value>The ratio of nitrogen in device's Output2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutantOutput2</Key>
+      <Value>The ratio of pollutant in device's Output2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatilesOutput2</Key>
+      <Value>The ratio of volatiles in device's Output2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWaterOutput2</Key>
+      <Value>The ratio of water in device's Output2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxideOutput2</Key>
+      <Value>The ratio of {GAS:NitrousOxide} in device's Output2 network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCombustionOutput2</Key>
+      <Value>The assess atmosphere is on fire. Returns 1 if device's Output2 network is on fire, 0 if not.</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontal</Key>
       <Value>Réglage horizontal de l&apos;appareil</Value>
     </Record>
@@ -7365,8 +8933,16 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Quantité totale d&apos;articles importés par l&apos;appareil</Value>
     </Record>
     <Record>
+      <Key>LogicTypeImportSlotOccupant</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportQuantity</Key>
       <Value>Quantité totale d&apos;articles exportés par l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotOccupant</Key>
+      <Value>DEPRECATED</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequiredPower</Key>
@@ -7420,6 +8996,78 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Signature actuel de la recette configuré dans la production de l&apos;appareil</Value>
     </Record>
     <Record>
+      <Key>LogicTypeExportSlotHash</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportSlotHash</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth1</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth2</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth3</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth4</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth1</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth2</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth3</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth4</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency1</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency2</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency3</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency4</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash1</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash2</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash3</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash4</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRequestHash</Key>
       <Value>Lorsqu&apos;il est défini sur identification unique, recherche à nouveau un élément du même type fourni à partir du périphérique</Value>
     </Record>
@@ -7446,6 +9094,22 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>LogicTypeTotalMoles</Key>
       <Value>Indique le nombre de moles de l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMolesInput</Key>
+      <Value>Returns the total moles of the device's Input Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMolesInput2</Key>
+      <Value>Returns the total moles of the device's Input2 Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMolesOutput</Key>
+      <Value>Returns the total moles of the device's Output Network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMolesOutput2</Key>
+      <Value>Returns the total moles of the device's Output2 Network</Value>
     </Record>
     <Record>
       <Key>LogicTypeVolume</Key>
@@ -7596,6 +9260,22 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Indique la taille de pile maximale de l&apos;objet dans l&apos;emplacement</Value>
     </Record>
     <Record>
+      <Key>FuelInTankRemaining</Key>
+      <Value>Gets the fuel remaining in your rocket's fuel tank.</Value>
+    </Record>
+    <Record>
+      <Key>FuelReturnCost</Key>
+      <Value>Gets the cost of fuel to return the rocket to your current world.</Value>
+    </Record>
+    <Record>
+      <Key>RocketMode</Key>
+      <Value>Deprecated</Value>
+    </Record>
+    <Record>
+      <Key>CollectableGoods</Key>
+      <Value>Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRequestHash</Key>
       <Value>Lorsqu&apos;il est défini sur identification unique, recherche à nouveau un élément du même type fourni à partir du périphérique</Value>
     </Record>
@@ -7620,6 +9300,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Chemin</Value>
     </Record>
     <Record>
+      <Key>ButtonFolderBrowse</Key>
+      <Value>...</Value>
+    </Record>
+    <Record>
       <Key>AppearanceTitleSpecies</Key>
       <Value>Espèces</Value>
     </Record>
@@ -7632,8 +9316,16 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Terminé</Value>
     </Record>
     <Record>
+      <Key>IncidentsTitle</Key>
+      <Value>Incidents</Value>
+    </Record>
+    <Record>
       <Key>OpenIncidentUI</Key>
       <Value>Incidents actifs</Value>
+    </Record>
+    <Record>
+      <Key>ContactsTrading</Key>
+      <Value>Contacts</Value>
     </Record>
     <Record>
       <Key>TraderGoneMissing</Key>
@@ -7688,8 +9380,64 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Terminal de vente</Value>
     </Record>
     <Record>
+      <Key>TraderElectronics</Key>
+      <Value>TechTree Electronics</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrganics</Key>
+      <Value>Organicon</Value>
+    </Record>
+    <Record>
+      <Key>TraderBasic</Key>
+      <Value>Spes'mall Basics</Value>
+    </Record>
+    <Record>
+      <Key>TraderHydraulic</Key>
+      <Value>HydrauliKit</Value>
+    </Record>
+    <Record>
+      <Key>TraderOre</Key>
+      <Value>MineRiteOres</Value>
+    </Record>
+    <Record>
       <Key>TraderMicrowave</Key>
       <Value>Micro-ondes</Value>
+    </Record>
+    <Record>
+      <Key>TraderChemistry</Key>
+      <Value>Chem Lab</Value>
+    </Record>
+    <Record>
+      <Key>TraderExotics</Key>
+      <Value>ExoTech</Value>
+    </Record>
+    <Record>
+      <Key>TraderPaint</Key>
+      <Value>Color Corp Paints</Value>
+    </Record>
+    <Record>
+      <Key>TraderTool</Key>
+      <Value>Tool Corp</Value>
+    </Record>
+    <Record>
+      <Key>TraderSecurity</Key>
+      <Value>Hall Corp Security</Value>
+    </Record>
+    <Record>
+      <Key>TraderOther</Key>
+      <Value>Kolders' Assorted Goods</Value>
+    </Record>
+    <Record>
+      <Key>TraderGas</Key>
+      <Value>GasTrade</Value>
+    </Record>
+    <Record>
+      <Key>TraderCustom</Key>
+      <Value>Spes'mall</Value>
+    </Record>
+    <Record>
+      <Key>ButtonContact</Key>
+      <Value>Contact</Value>
     </Record>
     <Record>
       <Key>LoadBackupsTitle</Key>
@@ -7706,6 +9454,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>OcclusionTickSpeed</Key>
       <Value>TickSpeed masqué</Value>
+    </Record>
+    <Record>
+      <Key>RoomControlTickSpeed</Key>
+      <Value>RoomControl TickSpeed</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetX</Key>
@@ -7738,6 +9490,14 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>SettingsWorldOrigin</Key>
       <Value>Paramètres du Monde</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonPause</Key>
+      <Value>Pause</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseTitle</Key>
+      <Value>Pause</Value>
     </Record>
     <Record>
       <Key>PromptPauseBody</Key>
@@ -7808,6 +9568,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Voyager</Value>
     </Record>
     <Record>
+      <Key>Loulan</Key>
+      <Value>Loulan</Value>
+    </Record>
+    <Record>
       <Key>TravelMenuButtonTravelNew</Key>
       <Value>Nouveau monde</Value>
     </Record>
@@ -7838,6 +9602,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>HueField</Key>
       <Value>Teinte:</Value>
+    </Record>
+    <Record>
+      <Key>SaturationField</Key>
+      <Value>Saturation:</Value>
     </Record>
     <Record>
       <Key>BrightnessField</Key>
@@ -7944,16 +9712,32 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Cadres en acier</Value>
     </Record>
     <Record>
+      <Key>CartridgeTrackerDistance</Key>
+      <Value>Distance</Value>
+    </Record>
+    <Record>
       <Key>ButtonCustomWorld</Key>
       <Value>Monde personnalisé</Value>
+    </Record>
+    <Record>
+      <Key>GasItemGasSymbol</Key>
+      <Value>H0C3</Value>
     </Record>
     <Record>
       <Key>GasItemGasAmount</Key>
       <Value>100 %</Value>
     </Record>
     <Record>
+      <Key>GasItemGasMole</Key>
+      <Value>12.09 moles</Value>
+    </Record>
+    <Record>
       <Key>CartridgeAtmosAnalyserPressureTitle</Key>
       <Value>PRESSION</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeAtmosAnalyserTemperatureTitle</Key>
+      <Value>TEMPERATURE</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserTitle</Key>
@@ -7992,12 +9776,24 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Hachage:</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderWeightSymbol</Key>
+      <Value>g</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderIron</Key>
       <Value>Fer</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderIce</Key>
       <Value>Glace</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderOxite</Key>
+      <Value>Oxite</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderNitrice</Key>
+      <Value>Nitrice</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderVolatiles</Key>
@@ -8016,8 +9812,16 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Cuivre</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderUranium</Key>
+      <Value>Uranium</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderSilver</Key>
       <Value>Argent</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderNickel</Key>
+      <Value>Nickel</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderLead</Key>
@@ -8028,12 +9832,20 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Silicium</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderCobalt</Key>
+      <Value>Cobalt</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderCarbon</Key>
       <Value>Carbone</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSteel</Key>
       <Value>Acier</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderUranium</Key>
+      <Value>Uranium</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderHydrocarbon</Key>
@@ -8044,8 +9856,24 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Argent</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderNickel</Key>
+      <Value>Nickel</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderLead</Key>
       <Value>Plomb</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderElectrum</Key>
+      <Value>Electrum</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderInvar</Key>
+      <Value>Invar</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderConstantan</Key>
+      <Value>Constantan</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSolder</Key>
@@ -8066,6 +9894,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>ElectronicReaderOil</Key>
       <Value>Huile</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderFenoxitone</Key>
+      <Value>Fenoxitone</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorRed</Key>
@@ -8104,6 +9936,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>oeufs</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderLiquidMeasurement</Key>
+      <Value>ml</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderTime</Key>
       <Value>Durée</Value>
     </Record>
@@ -8120,12 +9956,24 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Énergie</Value>
     </Record>
     <Record>
+      <Key>WattEnergyMeasurement</Key>
+      <Value>W</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderTemperature</Key>
       <Value>Température</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderKelvinSymbol</Key>
+      <Value>K</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderPressure</Key>
       <Value>Pression</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderPressureSym</Key>
+      <Value>Pa</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserNetwork</Key>
@@ -8154,6 +10002,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>CartridgeElectronicReaderTitle</Key>
       <Value>ENCYCLOPEDIE</Value>
+    </Record>
+    <Record>
+      <Key>NotApplicableString</Key>
+      <Value>N/A</Value>
     </Record>
     <Record>
       <Key>CustomWorld</Key>
@@ -8270,6 +10122,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Annuler</Value>
+    </Record>
+    <Record>
+      <Key>ServerReadyString</Key>
+      <Value>Server can now be started.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandL</Key>
@@ -8696,6 +10552,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Pause de l&apos;exécution pour 1 cycle</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandLabel</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandPeek</Key>
       <Value>Stocke la valeur du haut de la pile dans le registre</Value>
     </Record>
@@ -8744,6 +10604,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Renvoie l&apos;angle dont la tangente est la valeur spécifiée</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandATan2</Key>
+      <Value>Returns the angle (radians) whose tangent is the quotient of two specified values: a (y) and b (x)</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandCommand</Key>
       <Value>commande</Value>
     </Record>
@@ -8784,6 +10648,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Militaire</Value>
     </Record>
     <Record>
+      <Key>ResearchProduction</Key>
+      <Value>Production</Value>
+    </Record>
+    <Record>
       <Key>ResearchAutomation</Key>
       <Value>Automatisation</Value>
     </Record>
@@ -8794,6 +10662,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>ResearchOrganics</Key>
       <Value>Fournitures biologiques</Value>
+    </Record>
+    <Record>
+      <Key>ResearchConstruction</Key>
+      <Value>Construction</Value>
     </Record>
     <Record>
       <Key>ResearchLogic</Key>
@@ -8842,6 +10714,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>StatusWindowVitals</Key>
       <Value>Satiété</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowJetpack</Key>
+      <Value>Jetpack</Value>
     </Record>
     <Record>
       <Key>StatusWindowTarget</Key>
@@ -8914,6 +10790,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>Empty</Key>
       <Value>Vide</Value>
+    </Record>
+    <Record>
+      <Key>Cycle</Key>
+      <Value>Cycle</Value>
     </Record>
     <Record>
       <Key>BuildStateOfHash</Key>
@@ -9032,6 +10912,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Doyen du Hall</Value>
     </Record>
     <Record>
+      <Key>TutorialCompleteTruly</Key>
+      <Value>Commodore ODA</Value>
+    </Record>
+    <Record>
       <Key>TutorialCompleteNextTutorial</Key>
       <Value>Tutoriel suivant</Value>
     </Record>
@@ -9046,6 +10930,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>SetSpawnTitle</Key>
       <Value>Point de réapparition</Value>
+    </Record>
+    <Record>
+      <Key>ControlPrimaryClick</Key>
+      <Value>{KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlPrimaryClickDisc</Key>
@@ -9076,12 +10964,44 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Récolter</Value>
     </Record>
     <Record>
+      <Key>ControlPlayerMovement</Key>
+      <Value>{KEY:Forward}{KEY:Left}{KEY:Backward}{KEY:Right}</Value>
+    </Record>
+    <Record>
       <Key>ControlPlayerMovementDisc</Key>
       <Value>Mouvement</Value>
     </Record>
     <Record>
+      <Key>ControlSwapHands</Key>
+      <Value>{KEY:SwapHands}</Value>
+    </Record>
+    <Record>
       <Key>ControlSwapHandsDisc</Key>
       <Value>Changer la main active</Value>
+    </Record>
+    <Record>
+      <Key>ActivateExplosiveKey</Key>
+      <Value>Activate countdown</Value>
+    </Record>
+    <Record>
+      <Key>ActivateExplosiveTooltipKey1</Key>
+      <Value>Activates a</Value>
+    </Record>
+    <Record>
+      <Key>ActivateExplosiveTooltipKey2</Key>
+      <Value>second timer. Timer cannot be turned off. Caution is advised.</Value>
+    </Record>
+    <Record>
+      <Key>CommandSave</Key>
+      <Value>Saves the game and names it as a given parameter. usage: "/save nameofsave"</Value>
+    </Record>
+    <Record>
+      <Key>CommandShutdown</Key>
+      <Value>Shutsdown the game server and returns player to the lobby can append a timer and message. usage: "/shutdown"</Value>
+    </Record>
+    <Record>
+      <Key>CommandNotice</Key>
+      <Value>Send a message to the players of a server. usage: "/notice the message you want to send"</Value>
     </Record>
     <Record>
       <Key>CommandStatus</Key>
@@ -9096,8 +11016,24 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Révoquer une interdiction d&apos;un identifiant Steam donné du serveur: &quot;/unban 102039237390&quot;</Value>
     </Record>
     <Record>
+      <Key>CommandKick</Key>
+      <Value>Kicks a player from a given steam ID from the server: "/kick 102039237390"</Value>
+    </Record>
+    <Record>
       <Key>CommandClearAll</Key>
       <Value>Efface tous les joueurs déconnectés du serveur:  &quot;/clearall&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandThreadStatus</Key>
+      <Value>Shows the current status of the game's threads.: "/threadstatus"</Value>
+    </Record>
+    <Record>
+      <Key>CommandResetThread</Key>
+      <Value>Resets a given thread. : "/resetthread atmospherics"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetHunger</Key>
+      <Value>Sets the hunger rate. : "/hungerrate 0.25"</Value>
     </Record>
     <Record>
       <Key>CommandPause</Key>
@@ -9110,6 +11046,18 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>CommandToggleGod</Key>
       <Value>Active ou désactive l’invincibilité du joueur, y compris la combinaison. : &quot;/tg&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleInfinitePower</Key>
+      <Value>Toggles Infinite power on a player or serverwide. : "/tgp"</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleGameMode</Key>
+      <Value>Toggles Gamemode between Survival and Creative. : "/tgm"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetTime</Key>
+      <Value>Sets the sun offset affectivley changing the time of day. : "/settime 0.25"</Value>
     </Record>
     <Record>
       <Key>CommandToggleInstaGrow</Key>
@@ -9140,6 +11088,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Affiche l&apos;étape actuelle de la mission et le nombre d&apos;étapes de la mission. : &quot;/showstage&quot;</Value>
     </Record>
     <Record>
+      <Key>CommandFillNeeds</Key>
+      <Value>Fills a players hunger and hydration. : "/fillneeds"</Value>
+    </Record>
+    <Record>
       <Key>CommandFillHealth</Key>
       <Value>Soigner un joueur. : &quot;/fillhealth&quot;</Value>
     </Record>
@@ -9152,78 +11104,163 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Ajoute du gaz ou des liquides à un réservoir ou un réseau de canalisations donné. : &quot;/addgas [refID] [gasType 1-8] [molecount]&quot;</Value>
     </Record>
     <Record>
+      <Key>CommandCount</Key>
+      <Value>Counts all the Things of specified type in the save. : "/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetDecay</Key>
+      <Value>Sets the global food Decay Multiplier. : "/setdecay 2"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetContact</Key>
+      <Value>Sets the required signal amount to contact a trader. : "/setcontact 10"</Value>
+    </Record>
+    <Record>
+      <Key>CommandHelp</Key>
+      <Value>Displays the commands list. : "/help"</Value>
+    </Record>
+    <Record>
+      <Key>Seedsstring</Key>
+      <Value>Seeds</Value>
+    </Record>
+    <Record>
+      <Key>Agrizero</Key>
+      <Value>Agrizero</Value>
+    </Record>
+    <Record>
       <Key>AgrizeroDesc</Key>
       <Value>Agrizero est une entreprise de biotechnologie agricole axée sur la recherche et le déploiement hors-monde de technologies agricoles. L’objectif de l’entreprise est de fournir un réseau de &quot;bio-usines&quot; autonomes et autosuffisantes qui, à terme, alimenteront un million d’êtres humains dans l’espace.
 Émergeant des catastrophes environnementales de la fin du XXIe siècle, l’entreprise prends racine dans les initiatives chinoises d’agriculture artificielle. Elle s’est maintenant étendue aux installations de la ceinture d’astéroïdes, où l’approvisionnement en astéroïdes de glace rend l’agriculture verticale en environnement contrôlée extrêmement prometteuse.
-Alors que beaucoup de leurs installations sont encore en construction, Agrizero est déjà l’un des principaux fournisseurs de groupes hors-monde tels que &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; et &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; à travers un réseau de commerçants en constante expansion.</Value>
+Alors que beaucoup de leurs installations sont encore en construction, Agrizero est déjà l’un des principaux fournisseurs de groupes hors-monde tels que &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; et &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; à travers un réseau de commerçants en constante expansion.
+      </Value>
+    </Record>
+    <Record>
+      <Key>Asura</Key>
+      <Value>Asura Biomedia</Value>
     </Record>
     <Record>
       <Key>AsuraDesc</Key>
       <Value>Asura Biomedia a été fondée au début du 22e siècle par Ashan Gurwaja, trillionaire de Mumbai. Théoriquement axée sur la «biotechnologie», l’entreprise a toujours eu une notion « élastique » de ce que cela impliquait, depuis les produits pharmaceutiques jusqu’aux aliments pour animaux de compagnie.
 L’expérience de Gurwaja dans les entreprises de bio-ingénierie a placé l’entreprise au plus haut niveau des industries de bio-sciences dès le début, et elle a grandi exactement comme son fondateur l’avait prévu : rapidement et de manière fiable. L&apos;entreprise est structurée spécifiquement pour engloutir toutes les petites entreprises sur son chemin.
 Vers le milieu du siècle, les ambitions d’Asura ont évolué pour englober l’ensemble des systèmes de santé – elle est aujourd’hui le plus grand fournisseur de soins de santé sur Terre, intégrant les hôpitaux et les soins primaires avec les fournitures médicales, la production pharmaceutique et la vente au détail, les soins résidentiels et les services funéraires.
-En 2150, l’entreprise d’Asura était une simple proposition, comme en témoigne leur célèbre slogan publicitaire, si ce n’est tristement célèbre : « Nous sommes en vous ».</Value>
+En 2150, l’entreprise d’Asura était une simple proposition, comme en témoigne leur célèbre slogan publicitaire, si ce n’est tristement célèbre : « Nous sommes en vous ».
+      </Value>
+    </Record>
+    <Record>
+      <Key>CHAC</Key>
+      <Value>CHAC</Value>
     </Record>
     <Record>
       <Key>CHACDesc</Key>
       <Value>Fondée en 2085 pour produire des armes pour les forces spatiales de &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;, la société est connue pour fabriquer des armes hautement fiables et abordables pour une utilisation hors monde.
 Leur approche pragmatique se traduit par l’accent mis sur les conceptions adaptées à l’impression 3D et à la production de masse, ainsi que par une grande réutilisation des composants entre les modèles et les classes d’armes.
-En conséquence, bien que les canons CHAC n&apos;excellent dans aucune catégorie particulière, et n’ont certainement jamais été accusés de grandeurs. Ils ne souffrent pas de manquements importants et ont suffisamment bien passé les tests les plus connues pour que leurs concepteurs aient gagné le titre informel d&apos;armurier du système solaire.</Value>
+En conséquence, bien que les canons CHAC n&apos;excellent dans aucune catégorie particulière, et n’ont certainement jamais été accusés de grandeurs. Ils ne souffrent pas de manquements importants et ont suffisamment bien passé les tests les plus connues pour que leurs concepteurs aient gagné le titre informel d&apos;armurier du système solaire.
+      </Value>
+    </Record>
+    <Record>
+      <Key>ExMin</Key>
+      <Value>ExMin</Value>
     </Record>
     <Record>
       <Key>ExMinDesc</Key>
       <Value>Au lendemain de la catastrophe de Sisyphe sur Mars en 2079, le déplacement d’astéroïdes a été officiellement interdit par l’ &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;. Ce changement a forcé l’industrie minière spatiale naissante à reconsidérer ses stratégies, mais jusqu’à l’ouverture de l’ascenseur spatial de Manaus, l’extraction de ressources hors monde était effectivement impossible du a une économie marginale.
 Formé en 2095 par un ancien conglomérat minier suisse-allemand et un consortium d’autres intérêts, ExMin fut plus une idée qu’une réalité commerciale pendant plusieurs décennies. Créé avec la certitude qu’un ascenseur spatial finirait par être construit, ExMin a été l’un des premiers à exploiter l’accès qu’il offrait. Par la suite, il est devenu l’une des entités commerciales les plus puissantes du Système solaire.
-Avec l’accès à l’espace sécurisé, ExMin est devenu un acteur central dans le flux de ressources vers la Terre. Elle est en concurrence, principalement avec le géant minier brésilien &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, mais l’entreprise n’a jamais complètement perdu son avance sur l’exploitation minière hors monde. Synonyme de métaux rares et pionnier de l’extraction de ressources hors-monde, ExMin est à l’avant-garde du développement dans tout le système solaire.</Value>
+Avec l’accès à l’espace sécurisé, ExMin est devenu un acteur central dans le flux de ressources vers la Terre. Elle est en concurrence, principalement avec le géant minier brésilien &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, mais l’entreprise n’a jamais complètement perdu son avance sur l’exploitation minière hors monde. Synonyme de métaux rares et pionnier de l’extraction de ressources hors-monde, ExMin est à l’avant-garde du développement dans tout le système solaire.
+      </Value>
+    </Record>
+    <Record>
+      <Key>GeFabrik</Key>
+      <Value>GeFabrik</Value>
     </Record>
     <Record>
       <Key>GeFabrikDesc</Key>
       <Value>Officiellement connue sous le nom de Gewehrfabrik GmbH, GeFabrik est l’une des entreprises d’armement les plus anciennes et les plus réputées au monde. Elle est connue pour produire des armes à feu extrêmement précises et de haute qualité.
 Dans la foulée de l’effondrement de la fabrication d’armes en Europe dans les années 2030, un groupe d&apos;ancien employé de l’armement au chômage a formé GeFabrik. Vouée au renouvellement des principes de conception originaux, l’entreprise est légendaire pour ses essais approfondis, qui durent parfois jusqu’à 10 ans, afin de produire des armes au format « ganz ».
-GeFabrik est largement reconnu comme ayant à lui seul sauvé la réputation de la qualité de fabrication allemande, tout en ne faisant rien pour leur sens de l’humour.</Value>
+GeFabrik est largement reconnu comme ayant à lui seul sauvé la réputation de la qualité de fabrication allemande, tout en ne faisant rien pour leur sens de l’humour.
+      </Value>
+    </Record>
+    <Record>
+      <Key>Hiiragi</Key>
+      <Value>Hiiragi</Value>
     </Record>
     <Record>
       <Key>HiiragiDesc</Key>
       <Value>Fondée par Noboru Hiiragi au lendemain de la bulle économique de 2110, Hiiragi Communications a absorbé plusieurs actifs étrangers de premier plan, devenant rapidement le réseau de communication trans-stellaire le plus utilisé.
-Si vous avez communiqué avec vos amis et votre famille récemment, c’est grâce au réseau Hiiragi, même s’il a été masqué par le nom de l’une de ses nombreuses filiales. Hiiragi est également le numéro un des vendeur de PCD (Personal Communication Devices) ainsi qu&apos;un important investisseur dans les réseaux de télécommunications terrestres.</Value>
+Si vous avez communiqué avec vos amis et votre famille récemment, c’est grâce au réseau Hiiragi, même s’il a été masqué par le nom de l’une de ses nombreuses filiales. Hiiragi est également le numéro un des vendeur de PCD (Personal Communication Devices) ainsi qu&apos;un important investisseur dans les réseaux de télécommunications terrestres.
+      </Value>
+    </Record>
+    <Record>
+      <Key>Norsec</Key>
+      <Value>Norsec</Value>
     </Record>
     <Record>
       <Key>NorsecDesc</Key>
       <Value>Avec ses racines dans l’industrie de la défense du début du XXe siècle, Norsec (alias Northern Security Systems) a été un des premiers à se lancer dans l’exploitation minière des astéroïdes. D&apos;ailleurs, l’un de ses remorqueurs fut impliqué dans la célèbre Catastrophe de Sisyphus, un astéroïde délocalisé détruit la colonie martienne naissante de Sanders.
 Norsec a été officiellement disculpé de tout acte répréhensible, mais lorsque l’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; interdit la délocalisation astéroïdale, l’entreprise s’est tournée vers l’infrastructure et la fabrication.
-La Division des systèmes spatiaux basés en orbite de Norsec est responsable de la conception et de la production des systèmes de transport d’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, tout en étant également soupçonnée de détenir une grande partie du capital d&apos;&lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. L’entreprise est également reconnue pour son engagement dans la technologie robotique expérimentale.</Value>
+La Division des systèmes spatiaux basés en orbite de Norsec est responsable de la conception et de la production des systèmes de transport d’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, tout en étant également soupçonnée de détenir une grande partie du capital d&apos;&lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. L’entreprise est également reconnue pour son engagement dans la technologie robotique expérimentale.
+      </Value>
+    </Record>
+    <Record>
+      <Key>ODA</Key>
+      <Value>ODA</Value>
     </Record>
     <Record>
       <Key>ODADesc</Key>
-      <Value>Au lendemain de la crise terrestre, l’intérêt de l’humanité pour l’espace a diminué. Pourtant, beaucoup ont estimé que, sans ambitions au-delà de notre planète, notre espèce pourrait dépérir.
+      <Value>
+        Au lendemain de la crise terrestre, l’intérêt de l’humanité pour l’espace a diminué. Pourtant, beaucoup ont estimé que, sans ambitions au-delà de notre planète, notre espèce pourrait dépérir.
 Créée en 2070 par une Organisation des Nations Unies nouvellement remaniée, l’Offworld Development Agency a reçu un objectif très spécifique : guider et encourager l’exploration spatiale humaine à un moment où le cosmos s’estompait dans l’esprit du public. 
-L&apos;ODA inaugura le programme &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; en 2095. Sachant qu’il serait difficile d’obtenir du financement, l’ODA  conçu le programme comme une initiative spatiale à progression lente et à faibles coûts. Bien que certains &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; aient été qualifiés de &apos;naufragés cosmiques à bas prix&apos;, le succès du programme témoigne de la sagesse et du pragmatisme de la vision de l’ODA.</Value>
+L&apos;ODA inaugura le programme &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; en 2095. Sachant qu’il serait difficile d’obtenir du financement, l’ODA  conçu le programme comme une initiative spatiale à progression lente et à faibles coûts. Bien que certains &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; aient été qualifiés de &apos;naufragés cosmiques à bas prix&apos;, le succès du programme témoigne de la sagesse et du pragmatisme de la vision de l’ODA.
+      </Value>
+    </Record>
+    <Record>
+      <Key>Recurso</Key>
+      <Value>Recurso Espaciais</Value>
     </Record>
     <Record>
       <Key>RecursoDesc</Key>
       <Value>Cet ancien groupe minier brésilien s’est ramifié dans l’exploitation spatiale à la fin du XXIe siècle.
 Axée principalement sur les minéraux et les métaux, l’entreprise peut-être vue comme une extension du gouvernement brésilien. Très peu de personnalités politiques de haut niveau du Brésil moderne ne sont pas impliquées d&apos;un manière ou d&apos;une autre avec ce géant industriel.
 L&apos;enchevêtrement avec la politique sud-américaine a donné à la compagnie beaucoup d’influence sur l’ascenseur spatial de Manaus. Ce profond contrôle de l’état brésilien a amené d’autres groupes (y compris l’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;) à exercer une certaine « souplesse » à l’égard de Recurso.
-Des accusations de délocalisation illégale d’astéroïdes, de violations de la sécurité et de nombreuses infractions commerciales l&apos;ont à peine touché. En même temps, les défenseurs de Recurso soulignent que très peu de choses ont été prouvées par un tribunal, et Recurso n’est pas seul accusé. D’où le truisme : &quot;Dans l’espace, nous vivons tous dans des maisons de verre. &quot;</Value>
+Des accusations de délocalisation illégale d’astéroïdes, de violations de la sécurité et de nombreuses infractions commerciales l&apos;ont à peine touché. En même temps, les défenseurs de Recurso soulignent que très peu de choses ont été prouvées par un tribunal, et Recurso n’est pas seul accusé. D’où le truisme : &quot;Dans l’espace, nous vivons tous dans des maisons de verre. &quot;
+      </Value>
+    </Record>
+    <Record>
+      <Key>Sinotai</Key>
+      <Value>Sinotai</Value>
     </Record>
     <Record>
       <Key>SinotaiDesc</Key>
       <Value>Seule entité étatique &apos;traditionnelle&apos; capable de survivre à la politique hors monde, l&apos;influence et le pouvoir de Sinotai n’ont d’égal que l’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; elle-même. À bien des égards, c&apos;est une relique, un sous-organisme d’une bureaucratie d’entreprise incroyablement compliquée liée à la Terre. Sa structure permis à Sinotai de réaliser des choses incroyables.
 Prouvant sa force au début du 21ème siècle, en envoyant les premiers humains sur Mars, en établissant le premier système de puissance gigawatt hors monde, et la première raffinerie de carburant spatiale. Toutes les organisations spatiales ont d’un certain degré de relation avec Sinotai. Une blague courante dit qu’il est impossible de faire quoi que ce soit dans l’espace sans eux.
-Indépendamment de la vérité, l’approche de Sinotai du développement hors-monde a été une approche &apos;soft power&apos; faites de MOU avec &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (leur donnant un accès préférentiel à l’ascenseur spatial de Manaus) aux sombres alliances de convenance avec un éventail de groupes de commerçants.</Value>
+Indépendamment de la vérité, l’approche de Sinotai du développement hors-monde a été une approche &apos;soft power&apos; faites de MOU avec &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (leur donnant un accès préférentiel à l’ascenseur spatial de Manaus) aux sombres alliances de convenance avec un éventail de groupes de commerçants.
+      </Value>
+    </Record>
+    <Record>
+      <Key>TK</Key>
+      <Value>TK Systems</Value>
     </Record>
     <Record>
       <Key>TKDesc</Key>
       <Value>À l’origine un entrepreneur de la défense spécialisé dans la force brute, l’armement haute puissance, Tanzanian Kinetic Systems a exécuté un changement à grande échelle en temps de paix pour devenir le principal concepteur de l’Assemblée africaine des convoyeurs de marchandises à grande vitesse.
 Aujourd’hui, grâce aux partenariats Afro-Sino du XXIe siècle, TK produit et conçoit des réseaux de gaines de transports. Basée dans le district « reconnecté » de Kigamboni à Dar E Salaam, la Société conclut régulièrement des partenariats de développement avec le &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; et, par conséquent, leurs nombreux produits présentent des similitudes.
-Après tout, qu’est-ce qu’une arme à feu ? Un « convoyeur de marchandises à grande vitesse ».</Value>
+Après tout, qu’est-ce qu’une arme à feu ? Un « convoyeur de marchandises à grande vitesse ».
+      </Value>
+    </Record>
+    <Record>
+      <Key>Xigo</Key>
+      <Value>Xigo</Value>
     </Record>
     <Record>
       <Key>XigoDesc</Key>
       <Value>Un sondage de 2150CE a révélé le &apos;X&apos; de Xigo comme l’un des symboles les plus reconnus dans le monde. Pourtant, peu de participants ont pu décrire clairement l&apos;étendue réelle de l’entreprise.
 Précisément là où l’entreprise commence et elle se termine, a fait l’objet de théories, d’études financières et de poursuites sans fin. A l’origine un site Web de comparaison des prix, le conglomérat s’est élargi pour englober les données, puis la distribution et enfin la production.
 Il s’agissait d’une expansion apparemment aveugle, centrée non pas sur une seule industrie, mais sur toutes les industries. Couvrant un si grand nombre de domaines que les analystes commerciaux ont largement rejeté l’idée que Xigo était une entité unique. Il s’agit plutôt d’un regroupement conceptuel pour une branche de l’activité humaine. Et bien que de telles statistiques soient, par leur nature même, difficiles à confirmer, des estimations récentes suggèrent que Xigo emploie plus de 1,5 % de toute la race humaine.
-Autant dire, il produit presque tout.</Value>
+Autant dire, il produit presque tout.
+      </Value>
+    </Record>
+    <Record>
+      <Key>Stationeers</Key>
+      <Value>Stationeers</Value>
     </Record>
     <Record>
       <Key>StationeersDesc</Key>
@@ -9232,7 +11269,12 @@ Initié par l’&lt;color=#0080FFFF&gt;{LINK:ODA;Offworld Development Agency}&lt
 Les stationnaires sont tout : astronautes, ingénieurs et explorateurs. Ils sont déployés avec un équipement et des outils limités, formés pour faire plus avec moins. Leur travail consiste à fournir une infrastructure pour les humains dans l’espace, à une fraction du coût des programmes spatiaux traditionnels.
 Capables de construire et de maintenir des bases n’importe où de la Lune à Mimas et au-delà, les Stationeers sont notre avant-garde dans le cosmos. Formés à la survie hors-monde, aux techniques minières et de construction, à la métallurgie de base, à l’électronique, à la fuséologie, à l’hydroponie et à des sciences plus « arcaniques », les Stationeers font ce qu’ils doivent faire pour survivre et prospérer.
 Réputé pour n’avoir aucun critère d’entrée, il n’existe pas de Stationeer « typique ». Le profilage psychologique suggère que les cadets qui réussissent sont pragmatiques et monomentaux, mais certains des plus célèbres stationnaires n’ont ni l’une ni l’autre de ces qualités.
-Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité, recrute dans les domaines du génie civil, des industries militaires et aérospatiales, du développement de logiciels, des groupes miniers, ainsi que des domaines scientifiques et même des ordres religieux.</Value>
+Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité, recrute dans les domaines du génie civil, des industries militaires et aérospatiales, du développement de logiciels, des groupes miniers, ainsi que des domaines scientifiques et même des ordres religieux.
+      </Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseControl</Key>
+      <Value>{KEY:MouseControl}</Value>
     </Record>
     <Record>
       <Key>ControlMouseControlDisc</Key>
@@ -9247,12 +11289,24 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Déplacer la sélection</Value>
     </Record>
     <Record>
+      <Key>ControlSecondaryAction</Key>
+      <Value>{KEY:SecondaryAction}</Value>
+    </Record>
+    <Record>
       <Key>ControlSecondaryActionBuildModeDisc</Key>
       <Value>Passer en mode de construction</Value>
     </Record>
     <Record>
+      <Key>ControlScrollWheelSelect</Key>
+      <Value>{KEY:SecondaryAction}</Value>
+    </Record>
+    <Record>
       <Key>ControlScrollWheelSelectDisc</Key>
       <Value>Passer en mode de construction</Value>
+    </Record>
+    <Record>
+      <Key>ControlAutoRotate</Key>
+      <Value>{KEY:QuantityModifier}</Value>
     </Record>
     <Record>
       <Key>ControlAutoRotateDisc</Key>
@@ -9297,6 +11351,10 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     <Record>
       <Key>ControlSecondaryEatDisc</Key>
       <Value>Manger</Value>
+    </Record>
+    <Record>
+      <Key>HelpCommand</Key>
+      <Value>Test /n Test /n Test</Value>
     </Record>
     <Record>
       <Key>ToggleChangeLog</Key>
@@ -9359,6 +11417,10 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Produits biologiques et alimentaires</Value>
     </Record>
     <Record>
+      <Key>StructureCategoryKey</Key>
+      <Value>Structures</Value>
+    </Record>
+    <Record>
       <Key>LogicCategoryKey</Key>
       <Value>Unités Logiques</Value>
     </Record>
@@ -9415,8 +11477,16 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Puissance maximale :</Value>
     </Record>
     <Record>
+      <Key>StationpediaTitle</Key>
+      <Value>Stationpedia</Value>
+    </Record>
+    <Record>
       <Key>StationpediaSearch</Key>
       <Value>Rechercher</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBeginnerGuides</Key>
+      <Value>Guides</Value>
     </Record>
     <Record>
       <Key>StationpediaAdvancedGuides</Key>
@@ -9425,6 +11495,10 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     <Record>
       <Key>StationpediaConstructWith</Key>
       <Value>Constructions possibles:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPrefabHash</Key>
+      <Value>Prefab Hash:</Value>
     </Record>
     <Record>
       <Key>StationpediaPaintable</Key>
@@ -9475,6 +11549,10 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Etapes de construction</Value>
     </Record>
     <Record>
+      <Key>StationpediaMachineVersion</Key>
+      <Value>Versions</Value>
+    </Record>
+    <Record>
       <Key>StationpediaGasHeader</Key>
       <Value>Gaz</Value>
     </Record>
@@ -9496,7 +11574,13 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>StationpediaConstructionOptions</Key>
-      <Value>Options de construction</Value>
+      <Value>
+        Options de construction
+</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaModeHeader</Key>
+      <Value>Mode</Value>
     </Record>
     <Record>
       <Key>StationpediaLogicHeader</Key>
@@ -9519,6 +11603,14 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Hydratation</Value>
     </Record>
     <Record>
+      <Key>EvaSPDAKey</Key>
+      <Value>EVA</Value>
+    </Record>
+    <Record>
+      <Key>NutritionSPDAKey</Key>
+      <Value>Nutrition</Value>
+    </Record>
+    <Record>
       <Key>StatusIconHydrationDesc</Key>
       <Value>L&apos;hydratation diminue</Value>
     </Record>
@@ -9535,6 +11627,10 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Hydratation Critique</Value>
     </Record>
     <Record>
+      <Key>Guides</Key>
+      <Value>Guides</Value>
+    </Record>
+    <Record>
       <Key>Lore</Key>
       <Value>Savoir-faire</Value>
     </Record>
@@ -9543,8 +11639,143 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Distance des ombres des lampes</Value>
     </Record>
     <Record>
+      <Key>CrowbarToFlip</Key>
+      <Value>Flip using crowbar</Value>
+    </Record>
+    <Record>
       <Key>TimerPanel</Key>
       <Value>Durée</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTime</Key>
+      <Value>Time</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeBpm</Key>
+      <Value>Bpm</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeEnvironmentEfficiency</Key>
+      <Value>The Environment Efficiency reported by the machine, as a float between 0 and 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeWorkingGasEfficiency</Key>
+      <Value>The Working Gas Efficiency reported by the machine, as a float between 0 and 1</Value>
+    </Record>
+    <Record>
+      <Key>Pitch</Key>
+      <Value>Pitch</Value>
+    </Record>
+    <Record>
+      <Key>Volume</Key>
+      <Value>Volume</Value>
+    </Record>
+    <Record>
+      <Key>NoAudioReceiverDevices</Key>
+      <Value>No Audio Receiver Devices</Value>
+    </Record>
+    <Record>
+      <Key>Speed</Key>
+      <Value>Speed</Value>
+    </Record>
+    <Record>
+      <Key>Attack</Key>
+      <Value>Attack</Value>
+    </Record>
+    <Record>
+      <Key>Release</Key>
+      <Value>Release</Value>
+    </Record>
+    <Record>
+      <Key>CurrentInstrument</Key>
+      <Value>Current Instrument</Value>
+    </Record>
+    <Record>
+      <Key>NoSoundCartridge</Key>
+      <Value>No Sound Cartridge</Value>
+    </Record>
+    <Record>
+      <Key>NoNote</Key>
+      <Value>No Note</Value>
+    </Record>
+    <Record>
+      <Key>Intensity</Key>
+      <Value>Intensity</Value>
+    </Record>
+    <Record>
+      <Key>Waveform</Key>
+      <Value>Waveform</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBasePowerUsage</Key>
+      <Value>Base Power Usage:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMaxPressure</Key>
+      <Value>Max Pressure:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaVolume</Key>
+      <Value>Volume:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaNutrition</Key>
+      <Value>Nutrition:</Value>
+    </Record>
+    <Record>
+      <Key>MoleOxygenDescription</Key>
+      <Value>Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures.</Value>
+    </Record>
+    <Record>
+      <Key>MoleNitrogenDescription</Key>
+      <Value>{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System.</Value>
+    </Record>
+    <Record>
+      <Key>MoleCarbonDioxideDescription</Key>
+      <Value>You breathe it out, {LINK:OrganicPage;plants} breath it in. They don't grow without it. You can use items placed in {SLOT:GasFilter} slots to remove this from the atmosphere.
+      
+{GAS:CarbonDioxide} has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Coo
+{THING:StructureWallCooler}. {GAS:Water} is better, but usually has more important uses.</Value>
+    </Record>
+    <Record>
+      <Key>MoleVolatilesDescription</Key>
+      <Value>Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.
+      
+Due to obscure and largely forgotten {LINK:ODA;ODA} regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. {GAS:Volatiles} will not produce {GAS:Water} when combusted, without a catalyst (see the {THING:H2Combustor}). Alone, they create {GAS:Pollutant}s and {GAS:CarbonDioxide} when burned in the following ratio:
+      
+2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + heat.</Value>
+    </Record>
+    <Record>
+      <Key>MolePollutantDescription</Key>
+      <Value>Also known as 'X', {GAS:Pollutant} is created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere.
+      
+Pollutant has a high specific heat, making it an excellent coolant. Unfortunately it is extremely bad for organic beings, and will severely damage the lungs of most {REAGENT:Carbon} based organisms.</Value>
+    </Record>
+    <Record>
+      <Key>MoleWaterDescription</Key>
+      <Value>You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}, or by combusting {GAS:Volatiles} and oxygen using the {THING:H2Combustor}.
+      
+{GAS:Water} is critical for {LINK:OrganicPage;plants} to stay alive, and grow {LINK:NutritionPage;food}. It is also an exceptional coolant with a very high specific heat capacity.
+
+Note: {GAS:Water} was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. {GAS:Water} is currently the only available liquid, and does not presently change states.
+</Value>
+    </Record>
+    <Record>
+      <Key>MoleNitrousOxideDescription</Key>
+      <Value>Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSmoothTerrain</Key>
+      <Value>Smooth Terrain</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVirtualizedRendering</Key>
+      <Value>Virtualized Rendering
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsStartLocalHost</Key>
+      <Value>StartLocalHost</Value>
     </Record>
   </Interface>
   <Colors>
@@ -9559,6 +11790,10 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     <Record>
       <Key>ColorGreen</Key>
       <Value>Vert</Value>
+    </Record>
+    <Record>
+      <Key>ColorOrange</Key>
+      <Value>Orange</Value>
     </Record>
     <Record>
       <Key>ColorRed</Key>
@@ -9603,8 +11838,20 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Retour arrière</Value>
     </Record>
     <Record>
+      <Key>Tab</Key>
+      <Value>Tab</Value>
+    </Record>
+    <Record>
+      <Key>Clear</Key>
+      <Value>Clear</Value>
+    </Record>
+    <Record>
       <Key>Return</Key>
       <Value>Entrée</Value>
+    </Record>
+    <Record>
+      <Key>Pause</Key>
+      <Value>Pause</Value>
     </Record>
     <Record>
       <Key>Escape</Key>
@@ -9767,6 +12014,110 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>`</Value>
     </Record>
     <Record>
+      <Key>A</Key>
+      <Value>A</Value>
+    </Record>
+    <Record>
+      <Key>B</Key>
+      <Value>B</Value>
+    </Record>
+    <Record>
+      <Key>C</Key>
+      <Value>C</Value>
+    </Record>
+    <Record>
+      <Key>D</Key>
+      <Value>D</Value>
+    </Record>
+    <Record>
+      <Key>E</Key>
+      <Value>E</Value>
+    </Record>
+    <Record>
+      <Key>F</Key>
+      <Value>F</Value>
+    </Record>
+    <Record>
+      <Key>G</Key>
+      <Value>G</Value>
+    </Record>
+    <Record>
+      <Key>H</Key>
+      <Value>H</Value>
+    </Record>
+    <Record>
+      <Key>I</Key>
+      <Value>I</Value>
+    </Record>
+    <Record>
+      <Key>J</Key>
+      <Value>J</Value>
+    </Record>
+    <Record>
+      <Key>K</Key>
+      <Value>K</Value>
+    </Record>
+    <Record>
+      <Key>L</Key>
+      <Value>L</Value>
+    </Record>
+    <Record>
+      <Key>M</Key>
+      <Value>M</Value>
+    </Record>
+    <Record>
+      <Key>N</Key>
+      <Value>N</Value>
+    </Record>
+    <Record>
+      <Key>O</Key>
+      <Value>O</Value>
+    </Record>
+    <Record>
+      <Key>P</Key>
+      <Value>P</Value>
+    </Record>
+    <Record>
+      <Key>Q</Key>
+      <Value>Q</Value>
+    </Record>
+    <Record>
+      <Key>R</Key>
+      <Value>R</Value>
+    </Record>
+    <Record>
+      <Key>S</Key>
+      <Value>S</Value>
+    </Record>
+    <Record>
+      <Key>T</Key>
+      <Value>T</Value>
+    </Record>
+    <Record>
+      <Key>U</Key>
+      <Value>U</Value>
+    </Record>
+    <Record>
+      <Key>V</Key>
+      <Value>V</Value>
+    </Record>
+    <Record>
+      <Key>W</Key>
+      <Value>W</Value>
+    </Record>
+    <Record>
+      <Key>X</Key>
+      <Value>X</Value>
+    </Record>
+    <Record>
+      <Key>Y</Key>
+      <Value>Y</Value>
+    </Record>
+    <Record>
+      <Key>Z</Key>
+      <Value>Z</Value>
+    </Record>
+    <Record>
       <Key>LeftCurlyBracket</Key>
       <Value>{</Value>
     </Record>
@@ -9777,6 +12128,10 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     <Record>
       <Key>RightCurlyBracket</Key>
       <Value>}</Value>
+    </Record>
+    <Record>
+      <Key>Tilde</Key>
+      <Value>Tilde</Value>
     </Record>
     <Record>
       <Key>Delete</Key>
@@ -9867,6 +12222,14 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Flèche Gauche</Value>
     </Record>
     <Record>
+      <Key>Insert</Key>
+      <Value>Insert</Value>
+    </Record>
+    <Record>
+      <Key>Home</Key>
+      <Value>Home</Value>
+    </Record>
+    <Record>
       <Key>End</Key>
       <Value>Fin</Value>
     </Record>
@@ -9877,6 +12240,66 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     <Record>
       <Key>PageDown</Key>
       <Value>Page Bas</Value>
+    </Record>
+    <Record>
+      <Key>F1</Key>
+      <Value>F1</Value>
+    </Record>
+    <Record>
+      <Key>F2</Key>
+      <Value>F2</Value>
+    </Record>
+    <Record>
+      <Key>F3</Key>
+      <Value>F3</Value>
+    </Record>
+    <Record>
+      <Key>F4</Key>
+      <Value>F4</Value>
+    </Record>
+    <Record>
+      <Key>F5</Key>
+      <Value>F5</Value>
+    </Record>
+    <Record>
+      <Key>F6</Key>
+      <Value>F6</Value>
+    </Record>
+    <Record>
+      <Key>F7</Key>
+      <Value>F7</Value>
+    </Record>
+    <Record>
+      <Key>F8</Key>
+      <Value>F8</Value>
+    </Record>
+    <Record>
+      <Key>F9</Key>
+      <Value>F9</Value>
+    </Record>
+    <Record>
+      <Key>F10</Key>
+      <Value>F10</Value>
+    </Record>
+    <Record>
+      <Key>F11</Key>
+      <Value>F11</Value>
+    </Record>
+    <Record>
+      <Key>F12</Key>
+      <Value>F12</Value>
+    </Record>
+    <Record>
+      <Key>F13</Key>
+      <Value>F13</Value>
+    </Record>
+    <Record>
+      <Key>F14</Key>
+      <Value>F14</Value>
+    </Record>
+    <Record>
+      <Key>F15</Key>
+      <Value>F15</Value>
     </Record>
     <Record>
       <Key>Numlock</Key>
@@ -9943,12 +12366,24 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Alt Gr</Value>
     </Record>
     <Record>
+      <Key>Help</Key>
+      <Value>Help</Value>
+    </Record>
+    <Record>
       <Key>Print</Key>
       <Value>Impr écran</Value>
     </Record>
     <Record>
       <Key>SysReq</Key>
       <Value>Sys Req</Value>
+    </Record>
+    <Record>
+      <Key>Break</Key>
+      <Value>Break</Value>
+    </Record>
+    <Record>
+      <Key>Menu</Key>
+      <Value>Menu</Value>
     </Record>
     <Record>
       <Key>Mouse0</Key>
@@ -10709,6 +13144,14 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Glace</Value>
     </Record>
     <Record>
+      <Key>Oxite</Key>
+      <Value>Oxite</Value>
+    </Record>
+    <Record>
+      <Key>Nitrice</Key>
+      <Value>Nitrice</Value>
+    </Record>
+    <Record>
       <Key>Volatiles</Key>
       <Value>Hydrogène</Value>
     </Record>
@@ -10725,8 +13168,16 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Cuivre</Value>
     </Record>
     <Record>
+      <Key>Uranium</Key>
+      <Value>Uranium</Value>
+    </Record>
+    <Record>
       <Key>Silver</Key>
       <Value>Argent</Value>
+    </Record>
+    <Record>
+      <Key>Nickel</Key>
+      <Value>Nickel</Value>
     </Record>
     <Record>
       <Key>Lead</Key>
@@ -10735,6 +13186,10 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     <Record>
       <Key>Silicon</Key>
       <Value>Silicium</Value>
+    </Record>
+    <Record>
+      <Key>Cobalt</Key>
+      <Value>Cobalt</Value>
     </Record>
   </Mineables>
   <ScreenSpaceToolTips/>
