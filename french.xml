@@ -458,117 +458,117 @@ Il suffit de le boulonner à un {THING:StructureBench} en utilisant une {THING:I
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
       <Value>Mixeur</Value>
-      <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the {LINK:Xigo;Xigo} reagent processor turns certain raw materials and food items into cooking and crafting ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
+      <Description>Situé quelque part entre une centrifugeuse à haute puissance et l'alambic d'un alchimiste, le processeur de réactifs {LINK:Xigo;Xigo} transforme certaines matières premières et aliments en ingrédients de cuisine et d'artisanat. Indispensable dans toute cuisine de l'espace, il suffit de le boulonner à l'établi, et vous êtes prêt à partir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
       <Value>Bras Gauche Femme</Value>
-      <Description>As far as left arms go, this is an acceptable, if slightly forgettable example of its kind. It's seen better days.</Description>
+      <Description>En ce qui concerne les bras gauches, il s'agit d'un exemple acceptable, bien que légèrement oubliable, de ce type. Il a connu des jours meilleurs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmR</Key>
       <Value>Bras Droit Femme</Value>
-      <Description>One of a pair. The other is probably nearby.</Description>
+      <Description>Un d'une paire. L'autre est probablement à proximité.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleHead</Key>
       <Value>Tête Femme</Value>
-      <Description>If the eyes are windows to the soul, what does that make the head?</Description>
+      <Description>Si les yeux sont les fenêtres de l'âme, qu'en est-il de la tête ?</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegL</Key>
       <Value>Jambe Gauche Femme</Value>
-      <Description>A leg, is a leg, is a leg.</Description>
+      <Description>Une jambe, aussi une jambe, aussi une jambe.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegR</Key>
       <Value>Jambe Droite Femme</Value>
-      <Description>This is a woman's right leg. To judge by its state, she was fairly healthy, of average height, with a tendency to walk on the balls of her feet.</Description>
+      <Description>C'est la jambe droite d'une femme. À en juger par son état, elle était en assez bonne santé, de taille moyenne, avec une tendance à marcher sur la pointe des pieds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleTorso</Key>
       <Value>Torse Femme</Value>
-      <Description>This is a woman's right leg. To judge by its state, she was fairly healthy, of average height, with a tendency to walk on the balls of her feet.</Description>
+      <Description>Ça ne va nulle part tout seul.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmL</Key>
       <Value>Bras Gauche Homme</Value>
-      <Description>Your arm is your fourth most important body part.</Description>
+      <Description>Votre bras est la quatrième partie la plus importante de votre corps.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmR</Key>
       <Value>Bras Droit Homme</Value>
-      <Description>There's nothing funny about this humerus.</Description>
+      <Description>Il n'y a rien de drôle avec cet humérus.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleHead</Key>
       <Value>Tête Homme</Value>
-      <Description>{LINK:Stationeers;Stationeer]s need to keep their heads at all times.</Description>
+      <Description>Les {LINK:Stationeers;Stationeer]doivent garder la tête froide à tout moment.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegL</Key>
       <Value>Jambe Gauche Homme</Value>
-      <Description>This is a leg. Someone probably misses it.</Description>
+      <Description>C'est une jambe. Quelqu'un doit la perdu.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegR</Key>
       <Value>Jambe Droite Homme</Value>
-      <Description>Legs are really useful things, but wheels would have been cool.</Description>
+      <Description>Les jambes sont des choses vraiment utiles, mais des roues auraient été cool.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautTorso</Key>
       <Value>Torse d&apos;astronaute</Value>
-      <Description>Once, this was most of someone.</Description>
+      <Description>Une fois, c'était a quelqu'un.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickBody</Key>
       <Value>Corps de Poussin</Value>
-      <Description>The fluffy heart of a harmless proto-hen.</Description>
+      <Description>Le cœur d'une inoffensive proto-poule.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownBody</Key>
       <Value>Corps de Poulet</Value>
-      <Description>Let's not over-complicate things. It's a chicken.</Description>
+      <Description>Ne compliquons pas trop les choses. C'est un poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownHead</Key>
       <Value>Tête de Poulet Brun</Value>
-      <Description>A chicken head is useful for many things, but principally voodoo and space curses.</Description>
+      <Description>Une tête de poulet est utile pour beaucoup de choses, mais principalement pour le vaudou et les malédictions spatiales.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownLegL</Key>
       <Value>Patte Gauche de Poulet Brun</Value>
-      <Description>A chicken leg.</Description>
+      <Description>Une cuisse de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownLegR</Key>
       <Value>Patte Droite de Poulet Brun</Value>
-      <Description>Also a chicken leg.</Description>
+      <Description>Et aussi une cuisse de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownTail</Key>
       <Value>Queue de Poulet Brun</Value>
-      <Description>A chicken's tail is arguably its least endearing feature.</Description>
+      <Description>La queue d'un poulet est sans doute sa caractéristique la moins attachante.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownWingL</Key>
       <Value>Aile Gauche de Poulet Brun</Value>
-      <Description>A chicken wing.</Description>
+      <Description>Une aile de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownWingR</Key>
       <Value>Aile Droite de Poulet Brun</Value>
-      <Description>A chicken wing.</Description>
+      <Description>Une aile de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteBody</Key>
       <Value>Corps de Poulet Blanc</Value>
-      <Description>Part of a chicken.</Description>
+      <Description>Une partie d'un poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteHead</Key>
       <Value>Tête de Poulet Blanc</Value>
-      <Description>A chicken's head. Once used as currency by long-departed alien races.</Description>
+      <Description>Une tête de poulet. Utilisée autre fois comme monnaie par des races extraterrestres disparues depuis longtemps.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteLegL</Key>
@@ -583,231 +583,231 @@ Il suffit de le boulonner à un {THING:StructureBench} en utilisant une {THING:I
     <RecordThing>
       <Key>BodyPartChickenWhiteTail</Key>
       <Value>Queue de Poulet Blanc</Value>
-      <Description>A chicken tail.</Description>
+      <Description>Une queue de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteWingL</Key>
       <Value>Aile Gauche de Poulet Blanc</Value>
-      <Description>It's a chicken wing.</Description>
+      <Description>C'est une aile de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteWingR</Key>
       <Value>Aile Droite de Poulet Blanc</Value>
-      <Description>A chicken wing.</Description>
+      <Description>C'est une aile de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickHead</Key>
       <Value>Tête de Poussin</Value>
-      <Description>The head of a chicken. Once, it had the heart of a tiger.</Description>
+      <Description>La tête d'un poulet. Autrefois, il avait le cœur d'un tigre.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegL</Key>
       <Value>Patte Gauche de Poussin</Value>
-      <Description>A chicken leg.</Description>
+      <Description>Une cuisse de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegR</Key>
       <Value>Patte Droite de Poussin</Value>
-      <Description>A chicken leg.</Description>
+      <Description>Une cuisse de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickTail</Key>
       <Value>Queue de Poussin</Value>
-      <Description>A chicken's tail.</Description>
+      <Description>Une queue de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingL</Key>
       <Value>Aile Gauche de Poussin</Value>
-      <Description>A chicken wing.</Description>
+      <Description>C'est une aile de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingR</Key>
       <Value>Aile Droite de Poussin</Value>
-      <Description>A chicken wing.</Description>
+      <Description>C'est une aile de poulet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmL</Key>
       <Value>Bras gauche de Graylien</Value>
-      <Description>An alien's arm.</Description>
+      <Description>Le bras d'un alien.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmR</Key>
       <Value>Bras droit de Graylien</Value>
-      <Description>An alien's arm.</Description>
+      <Description>Le bras d'un alien.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienBody</Key>
       <Value>Corps de Graylien</Value>
-      <Description>An alien's body, or a very convincing fake.</Description>
+      <Description>Un corps d'alien, ou un faux très convaincant..</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienHead</Key>
       <Value>Tête de Graylien</Value>
-      <Description>An alien's head.</Description>
+      <Description>La tête d'un alien.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegL</Key>
       <Value>Jambe gauche de Graylien</Value>
-      <Description>An alien's leg.</Description>
+      <Description>La jambe d'un alien.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegR</Key>
       <Value>Jambe droite de Graylien</Value>
-      <Description>An alien's other leg.</Description>
+      <Description>La jambe d'un alien.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienPelvis</Key>
       <Value>Pelvis de Graylien</Value>
-      <Description>An alien's pelvis.</Description>
+      <Description>Le bassin d'un alien.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackBody</Key>
       <Value>Corps de Coq Noir</Value>
-      <Description>A rooster's body.</Description>
+      <Description>Le corps d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackHead</Key>
       <Value>Tête de Coq Noir</Value>
-      <Description>A rooster's head. The perfect gift for mother's day.</Description>
+      <Description>Une tête de coq. Le cadeau idéal pour la fête des mères.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegL</Key>
       <Value>Patte Gauche de Coq Noir</Value>
-      <Description>A rooster's leg.</Description>
+      <Description>La patte d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegR</Key>
       <Value>Patte Droite de Coq Noir</Value>
-      <Description>A rooster's leg.</Description>
+      <Description>La patte d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackTail</Key>
       <Value>Croupion de coq noir</Value>
-      <Description>A rooster's tail.</Description>
+      <Description>La queue d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingL</Key>
       <Value>Aile Gauche de Coq Noir</Value>
-      <Description>A rooster's wing.</Description>
+      <Description>L'aile d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingR</Key>
       <Value>Aile Droite de Coq Noir</Value>
-      <Description>A rooster's wing.</Description>
+      <Description>L'aile d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownBody</Key>
       <Value>Corps de coq marron</Value>
-      <Description>A rooster's body.</Description>
+      <Description>Le corps d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownHead</Key>
       <Value>Tête de coq marron</Value>
-      <Description>The head of a brown rooster.</Description>
+      <Description>La tête d'un coq brun.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegL</Key>
       <Value>Patte gauche de coq marron</Value>
-      <Description>A brown rooster's leg.</Description>
+      <Description>Une patte de coq marron.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegR</Key>
       <Value>Patte droite de coq marron</Value>
-      <Description>A rooster's leg.</Description>
+      <Description>La patte d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownTail</Key>
       <Value>Croupion de coq marron</Value>
-      <Description>A rooster's tail.</Description>
+      <Description>La queue d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingL</Key>
       <Value>Aile gauche de coq marron</Value>
-      <Description>A rooster's wing.</Description>
+      <Description>L'aile d'un coq.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingR</Key>
       <Value>Aile droite de coq marron</Value>
-      <Description>A brown rooster's wing. Well, brownish.</Description>
+      <Description>Une aile de coq marron. Enfin, brunâtre.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Carte (Analyseur Atmosphérique)</Value>
-      <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by {LINK:ExMin;ExMin} for use with the OreCore {THING:ItemTablet}. It displays the pressure, concentration and molar quantity of {LINK:GasPage;gas} in rooms, tanks, or pipe networks.</Description>
+      <Description>L'analyseur atmos Lorenz est un spectromètre de masse multifonctionnel conçu par {LINK:ExMin;ExMin} pour être utilisé avec la {THING:ItemTablet}OreCore. Il affiche la pression, la concentration et la quantité molaire de {LINK:GasPage;gas} dans des pièces, des réservoirs ou des réseaux de tuyaux.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Carte (Analyseur Médical)</Value>
-      <Description>When added to the OreCore {THING:ItemTablet}, {LINK:Asura;Asura's}'s ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
+      <Description>Une fois ajouté à l'OreCore {THING:ItemTablet}, {LINK:Asura;Asura's}l'analyseur médical ReadyMed de révèle la santé, ou non, des différents organes des utilisateurs. En raison d'un défaut de conception, les anciens modèles étaient réputés pour produire des niveaux de rayonnement X semblables à ceux des quasars. Les progrès récents en matière de blindage ont plus que réduit de moitié le risque pour les utilisateurs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
       <Value>Carte (Analyseur Réseau)</Value>
-      <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied {LINK:Sinotai;Sinotai} design, it's used in conjunction with the OreCore {THING:ItemTablet}.</Description>
+      <Description>Chef-d'œuvre de l'ingénierie microélectronique, l'analyseur de réseau affiche le courant, la tension et la puissance d'un réseau câblé, ainsi que de tout appareil qui y est connecté. Basé sur un design largement copié {LINK:Sinotai;Sinotai}, il est utilisé conjointement avec la OreCore. {THING:ItemTablet}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
       <Value>Personnage</Value>
-      <Description>This is you.</Description>
+      <Description>C'est vous.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Circuit Imprimé (Contrôle atmosphérique)</Value>
-      <Description>When added to a {THING:StructureConsole}, air control circuit boards allow you to program an {THING:StructureActiveVent}. As with small dogs and 83% of people, air control circuits have only three modes: Pressure, Draft and Offline. Pressure mode maintains a 100kPa atmosphere, switching the active vent between inward and outward flow until target pressure is achieved. Draft mode allows you to pair active vents to circulate air. Offline mode deactivates the vent. </Description>
+      <Description>Lorsqu'ils sont ajoutés à une {THING:StructureConsole}les circuits de contrôle d'air permettent de programmer un {THING:StructureActiveVent}. Les circuits de contrôle d'air n'ont que trois modes : Pression, tirage et hors ligne. Le mode Pression maintient une atmosphère de 100kPa, en commutant l'évent actif entre l'écoulement vers l'intérieur et vers l'extérieur jusqu'à ce que la pression cible soit atteinte. Le mode tirage permet de coupler les évents actifs pour faire circuler l'air. Le mode hors ligne désactive l'évent. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Circuit Imprimé (Contrôle du sas)</Value>
-      <Description>Rumored to have been first sketched on a {LINK:Norsec;Norsec} toilet wall by a disgruntled engineer, the Exgress airlock control circuit board’s versatility and ease of fabrication has made it the {LINK:Stationeers;Stationeers} control system of choice for {THING:StructureAirlock} cycling protocols. 
+      <Description>La carte de circuit imprimé de contrôle du sas Exgress, dont on dit qu'elle a été dessinée pour la première fois sur le mur d'une {LINK:Norsec;Norsec} toilette par un ingénieur mécontent, sa polyvalence et sa facilité de fabrication en ont fait le système de contrôle de choix pour les protocoles de cyclage  {THING:StructureAirlock} cycling protocols. 
 
-To enter setup mode, insert the board into a {THING:StructureConsole} along with a data disk. In this mode, you can see all data-accessible objects currently connected to the {THING:StructureConsole}. Doors, lights, gas sensors and slave consoles can be selected (highlighted green), and will be controlled once the data disk is removed.</Description>
+Pour passer en mode configuration, insérez la carte dans une {THING:StructureConsole} avec un disque de données. Dans ce mode, vous pouvez voir tous les objets accessibles aux données actuellement connectés à la  {THING:StructureConsole}. Les portes, les lumières, les capteurs de gaz et les consoles esclaves peuvent être sélectionnés (surlignés en vert) et seront contrôlés dès que le disque de données sera retiré.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Circuit Imprimé (Affichage de la caméra)</Value>
-      <Description>Surveillance is sometimes necessary when building bases in highly hostile environments. The camera display circuit board allows wary Stationeers to turn a {THING:StructureConsole} into a security display when connected to a {THING:StructureCamera}.</Description>
+      <Description>La surveillance est parfois nécessaire lors de la construction de bases dans des environnements hautement hostiles. La carte de circuit d'affichage de caméra permet aux stationnaires méfiants de transformer une  {THING:StructureConsole} en un affichage de sécurité lorsqu'elle est connectée à une {THING:StructureCamera}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Circuit Imprimé (Contrôle de porte)</Value>
-      <Description>A basic tool of {LINK:Stationeers;Stationeer] base construction, this circuit board provides a way to open and close a {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} or {THING:StructureGlassDoor} remotely, when connected to a {THING:StructureConsole}. This system can be further linked to {THING:StructureMotionSensor} to create automatic doors.</Description>
+      <Description>Un outil de base de la construction d'un {LINK:Stationeers;Stationeer] cette carte de circuit imprimé permet d'ouvrir et de fermer une {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} ou {THING:StructureGlassDoor} à distance, lorsqu'elle est connectée à une {THING:StructureConsole}. Ce système peut être relié à {THING:StructureMotionSensor} pour créer des portes automatiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
       <Value>Circuit imprimé (Afficheur de gaz)</Value>
-      <Description>Information is power. Place this circuitboard into a {THING:StructureConsole} to create a display that shows gas pressure or temperature of any connected tank, storage cannister, {THING:ItemPipeAnalyizer} or {THING:ItemGasSensor}.</Description>
+      <Description>L'information est un pouvoir. Placez cette carte de circuit imprimé dans une {THING:StructureConsole} pour créer un affichage qui indique la pression ou la température du gaz de tout réservoir, {THING:ItemPipeAnalyizer} ou {THING:ItemGasSensor} connecté.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardModeControl</Key>
       <Value>Circuit Imprimé (Contrôle du mode)</Value>
-      <Description>Can't decide which mode you love most? This circuit board allows you to switch any connected device between operation modes.</Description>
+      <Description>Vous n'arrivez pas à décider quel mode vous aimez le plus ? Cette carte de circuit imprimé vous permet de faire passer n'importe quel appareil connecté d'un mode de fonctionnement à l'autre.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardPowerControl</Key>
       <Value>Circuit Imprimé (Contrôle d&apos;alimentation)</Value>
-      <Description>Under distant suns and demanding environments, {LINK:Stationeers;Stationeer] systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation. 
+      <Description>Sous des soleils lointains et dans des environnements exigeants, les systèmes doivent concilier fiabilité, résilience et polyvalence. La carte de contrôle de l'alimentation permet d'activer et de désactiver à distance des dispositifs sélectionnés, en supprimant les opérations manuelles. 
       
-The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state. </Description>
+La carte de circuit imprimé a deux modes : "Link" (lien) allume ou éteint tous les dispositifs ; "Toggle" (basculement) fait passer chaque dispositif à son état alternatif. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
       <Value>Circuit Imprimé (Affichage vaisseau)</Value>
-      <Description>When the original {LINK:Stationeers;Stationeer] Handbook collapsed under its own weight into a singularity, certain information was irretrievably lost. Amongst this mysterious corpus of knowledge is the exact purpose of the ship display board.</Description>
+      <Description>Lorsque le Manuel original du {LINK:Stationeers;Stationeer] s'est effondré sous son propre poids en une singularité, certaines informations ont été irrémédiablement perdues. Parmi ce mystérieux corpus de connaissances se trouve le but exact du tableau d'affichage du vaisseau.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
       <Value>Circuit Imprimé (Contrôle panneaux solaire)</Value>
-      <Description>Adding a solar control board to a {THING:StructureConsole} lets you manually control the horizontal and vertical angles of any connected {THING:StructureSolarPanel}.</Description>
+      <Description>L'ajout d'un panneau de contrôle solaire à une  {THING:StructureConsole} vous permet de contrôler manuellement les angles horizontaux et verticaux de tout  {THING:StructureSolarPanel} connecté.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>Climatiseur portable</Value>
-      <Description>The {LINK:Sinotai;Sinotai}-designed Huxi portable air conditioner cools by drawing heat from the atmosphere and storing it, or adding heat to the atmosphere from its internal tank. With a max internal pressure of 8106kPa, its capacity is relatively limited, physics being clear on this subject. To extend its temperature storage ability, bolt the Huxi to a {THING:StructureTankConnector}, then connect it to a pipe network supplying hot or cold {LINK:GasPage;gases}.</Description>
+      <Description>Le climatiseur portable Huxi conçu par {LINK:Sinotai;Sinotai} refroidit en tirant de la chaleur de l'atmosphère et en la stockant, ou en ajoutant de la chaleur à l'atmosphère à partir de son réservoir interne. Avec une pression interne maximale de 8106kPa, sa capacité est relativement limitée, la physique étant claire à ce sujet. Pour étendre sa capacité de stockage de la température, boulonnez le Huxi à un  {THING:StructureTankConnector}, puis connectez-le à un réseau de tuyaux fournissant des  {LINK:GasPage;gases} chauds ou froids.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
       <Value>Caisse</Value>
-      <Description>The humble dynamic crate has become a symbol of {LINK:Stationeers;Stationeer] invention and independence. With twelve slots and handles at either end for ease of carriage, it's both standard issue and critical kit for cadets and Commanders alike.</Description>
+      <Description>L'humble caisse dynamique est devenue un symbole d'invention et d'indépendance pour un {LINK:Stationeers;Stationeer]. Avec douze fentes et des poignées à chaque extrémité pour faciliter le transport, c'est à la fois un équipement standard et un kit essentiel pour les cadets et les commandants.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
@@ -829,64 +829,64 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>DynamicGasCanisterAir</Key>
       <Value>Réservoir portable (Air)</Value>
-      <Description>Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possiblities are endless.</Description>
+      <Description>Les citernes à gaz portables ne font qu'une chose : stocker du gaz. Mais vous pouvez faire beaucoup de choses avec elles. Pour remplir le réservoir, vissez-le à un {THING:ItemTankConnector}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou de mauvaises choses se produiront. Une fois qu'il est plein, tu peux remplir une {THING:ItemGasCanisterOxygen} en l'attachant à la section rayée du réservoir. Vous pouvez également ventiler la valve à débit variable du réservoir dans une pièce et créer une atmosphère. Ils se fixent également aux rovers et aux fusées. Vous pouvez aussi le renverser et vous entraîner à faire des tonneaux. Les possibilités sont infinies.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
       <Value>Réservoir portable (CO2)</Value>
-      <Description>Portable gas tanks do one thing: store gas. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or ... boom. Once it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere ... of sorts.</Description>
+      <Description>Les citernes à gaz portables ne font qu'une chose : stocker du gaz. Pour remplir le réservoir, vissez-le à un {THING:ItemTankConnector}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de le pousser au-dessus de 10 MPa, ou ... boom. Une fois qu'il est plein, tu peux remplir une  {THING:ItemGasCanisterCarbonDioxide} en l'attachant à la section rayée du réservoir. Vous pouvez également ventiler la valve à débit variable du réservoir dans une pièce et créer une atmosphère... en quelque sorte.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterEmpty</Key>
       <Value>Réservoir portable</Value>
-      <Description>Portable gas tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere.</Description>
+      <Description>Les réservoirs de gaz portables stockent le gaz. Pour en remplir une, vissez-le à un {THING:ItemTankConnector}, puis connectez-la à un réseau de tuyaux. Essayez d'éviter de la pousser au-delà de 10 MPa, ou de mauvaises choses se produiront. Une fois qu'il est plein, tu peux remplir un {THING:ItemGasCanisterEmpty} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ventiler la valve à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterFuel</Key>
       <Value>Réservoir portable (Carburant)</Value>
-      <Description>Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or things get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really up to you.</Description>
+      <Description>Les réservoirs portatifs stockent le gaz. Ils sont bons pour ça. Si vous avez besoin de remplir un réservoir, vissez-le à un {THING:ItemTankConnector}, puis connectez le tout à un réseau de tuyaux. Essayez d’éviter de le remplir au-dessus de 10 MPa ou cela va devenir désordonnées. Vous pouvez remplir un {THING:ItemGasCanisterFuel} en l’insérant dans la section rayée du réservoir. Vous pourriez aussi utiliser une {THING:ItemWrench} pour l’attacher à un rover ou une fusée pour l'utiliser plus tard. C’est à vous de décider.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
       <Value>Réservoir portable (Azote)</Value>
-      <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll end up with {GAS:Nitrogen} in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later.</Description>
+      <Description>Les réservoirs portables stockent le gaz. Si vous avez besoin de remplir un réservoir, vissez-le à un {THING:ItemTankConnector} en utilisant une {THING:ItemWrench}, puis connectez le tout à un réseau de tuyaux. Essayez d’éviter de le remplir au-dessus de 10 MPa, ou vous vous retrouverez avec de l’{GAS:Nitrogen} dans des endroits que vous n’attendiez pas. Vous pouvez remplir une {THING:ItemGasCanisterNitrogen} en l'insérant dans la section rayée du réservoir. Vous pourriez aussi utiliser une {THING:ItemWrench} pour l’attacher à un rover ou une fusée pour l'utiliser plus tard.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
       <Value>Réservoir portable (Oxygène)</Value>
-      <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart.</Description>
+      <Description>Les réservoirs portables stockent le gaz. Si vous avez besoin de remplir un réservoir, vissez-le à un {THING:ItemTankConnector} en utilisant une {THING:ItemWrench}, puis connectez le tout à un réseau de tuyaux. Essayez d’éviter de le remplirr au-dessus de 10 MPa, ou vous ramasserez des éclats de réservoir partout. Vous pouvez remplir une {THING:ItemGasCanisterOxygen} en l'insérant dans la section rayée du réservoir. Ou vous pourriez le ventiler dans une pièce scellée pour y créer une atmosphère. Ou même le peindre en rose, l’appeler Steve et remplir cet espace triste dans votre cœur.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
       <Value>Réservoir portable (Hydrogène)</Value>
-      <Description>Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Don't fill it above 10 MPa, unless you're the sort who loves complicated, flammable emergencies. You can refill a {THING:ItemGasCanisterVolatiles} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket and show it around the Solar System.</Description>
+      <Description>Les réservoirs portables stockent le gaz. Pour en remplir un, vissez-le à un {THING:ItemTankConnector} en utilisant une {THING:ItemWrench}, puis connectez le tout à un réseau de tuyaux. Ne le remplissez pas au-dessus de 10 MPa, sauf si vous êtes le genre qui aime les urgences complexes et inflammables. Vous pouvez remplir une {THING:ItemGasCanisterVolatiles} en l'insérant dans la section rayée du réservoir. Ou vous pourriez utiliser une {THING:ItemWrench} pour l’attacher à une fusée et la montrer a tout le système solaire.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
       <Value>Citerne portable (Eau)</Value>
-      <Description>This portable tank stores liquid, and liquid only. You just have to fill it up. To do this, bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. 
-Try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun.
-You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
+      <Description>Ce réservoir portable stocke du liquide, et uniquement du liquide. Il suffit de le remplir. Pour ce faire, visse-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connecte-le à {THING:StructurePipeLiquidStraight} pour alimenter un réseau en liquide. 
+Essayez de maintenir une pression inférieure à 10 MPa, sinon vous finirez mouillé, blessé et désolé, sans aucun plaisir.
+Tu peux remplir un {THING:ItemGasCanisterWater} en l'attachant à la section rayée du réservoir. Ou tu peux utiliser une {THING:ItemWrench} pour l'attacher à une fusée et l'emmener dans un endroit distant et sec, puis te sentir bien dans ta peau.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
-      <Value>Portable Liquid Tank</Value>
-      <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
+      <Value>Réservoir à liquide portable</Value>
+      <Description>Ce réservoir portatif stocke les liquides, et seulement les liquides. Vous pouvez le boulonner à un {THING:ItemTankConnectorLiquid} à l’aide de la {THING:ItemWrench}, puis le connecter à un réseau de tuyaux pour son remplissage. Vous pouvez remplir un {THING:ItemGasCanisterWater} en l’insérant dans la section rayée de la citerner. Ou vous pouvez utiliser une {THING:ItemWrench} pour l’attacher à une fusée et l’emmener dans un endroit lointain et sec, puis vous sentir bien dans votre peau.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Générateur portable</Value>
-      <Description>Every {LINK:Stationeers;Stationeer's} best friend, the portable generator gets you up and running, fast. Fill it with a {THING:ItemGasCanisterFuel} to power up and charge a {THING:ItemBatteryCell}, or attach it to a {THING:StructurePowerConnector} to link it into your electrical network. It's pressure driven, so functions more efficiently at lower temperatures, and REALLY efficiently if supercooled. Perfecting your fuel mix also makes a big difference.</Description>
+      <Description>Meilleur ami de tous les {LINK:Stationeers;Stationeer's}, le générateur portable vous permet d'être opérationnel rapidement. Remplissez-le d'un {THING:ItemGasCanisterFuel} pour alimenter et charger une {THING:ItemBatteryCell}, ou attachez-le à un {THING:StructurePowerConnector} pour le relier à votre réseau électrique. Il est alimenté par la pression et fonctionne donc plus efficacement à basse température, et de manière TRÈS efficace s'il est surfondu. Le perfectionnement de votre mélange de carburant fait également une grande différence.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
       <Value>Lumière portative</Value>
-      <Description>Philippe Starck might not applaud, but this battery-powered light source undarkens the corners when illumination's lacking. Powered by any battery, it's a 'no-frills' {LINK:Xigo;Xigo} design that can be cheaply fabricated with the minimum of fuss. Unless you like fuss. In which case, fuss all you like.</Description>
+      <Description>Philippe Starck n'applaudira peut-être pas, mais cette source lumineuse alimentée par une pile permet d'éclaircir les coins où l'éclairage fait défaut. Alimentée par n'importe quelle pile, c'est une conception {LINK:Xigo;Xigo} qui peut être fabriquée à peu de frais et avec un minimum d'efforts. Sauf si vous aimez les complications. Dans ce cas, faites-en autant que vous voulez.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicScrubber</Key>
       <Value>Epurateur d&apos;air portable</Value>
-      <Description>A portable scrubber does just what it sounds like: removes specific substances from the air. For instance, attaching a {THING:ItemGasFilterCarbonDioxide} will pull {GAS:CarbonDioxide} from the surrounding atmosphere. Note that the scrubber has room for one battery and two filters, which will double its operating speed. Neat. When it reaches an internal pressure of 8106kPA, an error signal will flash on the switch, indicating it needs to be emptied. Either vent it directly, or attach it to a pipe network via a {THING:ItemTankConnector} and a {THING:ItemWrench}.</Description>
+      <Description>Un épurateur portable fait exactement ce qu'il semble faire : il élimine des substances spécifiques de l'air. Par exemple, en attachant un {THING:ItemGasFilterCarbonDioxide} on extrait {GAS:CarbonDioxide} de l'atmosphère environnante. Notez que l'épurateur a de la place pour une batterie et deux filtres, ce qui doublera sa vitesse de fonctionnement. Lorsqu'il atteint une pression interne de 8106kPA, un signal d'erreur clignote sur l'interrupteur, indiquant qu'il doit être vidé. Vous pouvez soit le purger directement, soit l'attacher à un réseau de tuyaux via un  {THING:ItemTankConnector} et une {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
@@ -895,123 +895,123 @@ You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's stri
     <RecordThing>
       <Key>EntityAlien</Key>
       <Value>Entité: Extraterrestre</Value>
-      <Description>The answer to the age-old question, 'Is there life on other planets?', is 'I guess so.'</Description>
+      <Description>La réponse à la question séculaire, Y a-t-il de la vie sur d’autres planètes ? je suppose que oui.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChick</Key>
       <Value>Entité: Poussin</Value>
-      <Description>Once a chick is hatched, it gets hungry. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Description>Une fois qu’un poussin est éclos, il a faim. Il mangera du soja, du maïs et du blé et pondra des œufs. Certains seront fécondés, produisant d’autres poulets. Certains ne le seront pas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenBrown</Key>
       <Value>Entité: Poulet Brun</Value>
-      <Description>Like so many of its bretheren, this is a chicken. A brown one. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Description>Comme beaucoup de ses congénères, c'est un poulet. Un poulet brun. Il mangera du soja, du maïs et du blé, et pondra des œufs. Certains seront fertilisés, produisant d'autres poulets. D'autres non.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenWhite</Key>
       <Value>Entité: Poulet Blanc</Value>
-      <Description>It's a chicken, as white as moondust. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Description>Comme beaucoup de ses congénères, c'est un poulet. Un poulet blanc. Il mangera du soja, du maïs et du blé, et pondra des œufs. Certains seront fertilisés, produisant d'autres poulets. D'autres non.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityGraylien</Key>
       <Value>Entité: Graylien</Value>
-      <Description>While humanity has historically referred to these creatures as 'Greys', they prefer the more inclusive 'Trans-beige' label.</Description>
+      <Description>Alors que l'humanité a toujours appelé ces créatures des gris, ils préfèrent l'étiquette plus inclusive de trans-beige.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBlack</Key>
       <Value>Entité: Coq noir</Value>
-      <Description>This is a rooster. It is black. There is dignity in this.</Description>
+      <Description>C'est un coq. Il est noir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBrown</Key>
       <Value>Entité: Coq marron</Value>
-      <Description>The common brown rooster. Don't let it hear you say that.</Description>
+      <Description>Le coq marron commun.</Description>
     </RecordThing>
     <RecordThing>
       <Key>GasTankAir</Key>
       <Value>Réservoir de Gaz (Air)</Value>
-      <Description>Portable gas tanks store gas, and gas only. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice.</Description>
+      <Description>Les réservoirs de gaz portatifs stockent le gaz, et seulement le gaz. Pour le remplir, vissez-le à un {THING:ItemTankConnector} en utilisant une {THING:ItemWrench}, puis connectez le tout à un réseau de tuyaux. Essayez d’éviter de le remplir au-dessus de 100 atmosphères, ou vous goûterez la saveur délicate du regret. Utilisez des réservoirs pour remplir une {THING:ItemGasCanisterEmpty} en l'insérant dans la section rayée du réservoir. Ou vous pourriez le ventiler dans une pièce scellée pour créer une atmosphère, l’attacher à un rover et l'emmener pour une promenade, ou simplement vous en servir une coûteuse cible d'entrainement.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemActiveVent</Key>
       <Value>Kit (Ventilation Active)</Value>
-      <Description>When constructed, this kit places an {THING:StructureActiveVent} on any support structure.</Description>
+      <Description>Une fois construit, ce kit permet de placer une {THING:StructureActiveVent} sur n’importe quelle structure de support.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
       <Value>Kit (Contrôleur d&apos;Alimentation)</Value>
-      <Description>This kit places a {THING:StructureAreaPowerControl} (APC) on any support structure. The APC kit has two options, selecting which direction you would like the APC power to flow.</Description>
+      <Description>Ce kit permet de placer un {THING:StructureAreaPowerControl} (APC) sur n’importe quelle structure de support. Le kit APC a deux options, vous permettant de déterminer dans quelle direction vous souhaitez que la puissance électrique circule.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCell</Key>
       <Value>Batterie (Petite)</Value>
-      <Description>Harnessing a design pioneered in the early 21st century, the small battery cell is the {LINK:Stationeers;Stationeer's} basic unit of portable electrical power. While it lacks the charge of a {THING:ItemBatteryCellLarge} or {THING:ItemBatteryCellNuclear}, it has the humble advantage of being fabricated from basic resources.
+      <Description>Exploitant un concept mis au point au début du 21e siècle, la petite Batterie est l'unité de base de l'énergie électrique portable d'un {LINK:Stationeers;Stationeer's}. Bien qu'elle n'ait pas la charge d'une {THING:ItemBatteryCellLarge} ou d'une {THING:ItemBatteryCellNuclear}, elle a l'humble avantage d'être fabriquée à partir de ressources de base.
 
-{HEADER:POWER OUTPUT}
-The small cell stores up to 36000 watts of power.</Description>
+{HEADER:PUISSANCE DE SORTIE}
+La petite Batterie stocke jusqu'à 36000 watts d'énergie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
       <Value>Batterie (Grande)</Value>
-      <Description>First mass-produced by {LINK:Xigo;Xigo} in 2155 on the basis of a unattributed prototype, the classic silicon anode solid-state design extends its optimum temperature range.
+      <Description>Produite en masse pour la première fois par {LINK:Xigo;Xigo} en 2155 sur la base d'un prototype non attribué, la conception classique de l'anode en silicium à semi-conducteurs étend sa plage de température optimale.
 
-{HEADER:POWER OUTPUT}
-The large power cell can discharge 288kW of power. 
+{HEADER:PUISSANCE DE SORTIE}
+La grande Batterie stocke jusqu'à 288kW d'énergie.
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellNuclear</Key>
       <Value>Batterie (Nucléaire)</Value>
-      <Description>Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new and drastically less safety-conscious market offworld.
+      <Description>Illégales sur Terre depuis l'événement de Chengdu, les pile nucléaires Norsec ont trouvé un nouveau marché hors du monde, beaucoup moins soucieux de la sécurité.
 
-{HEADER:POWER OUTPUT}
-Pushing the power-weight balance to its limits, the 'nuke' has a 2.3 megawatt charge (2304000W), reflecting its reliance on exotic {LINK:IngotPage;superalloys}.</Description>
+{HEADER:PUISSANCE DE SORTIE}
+Poussant l'équilibre puissance-poids à ses limites, la Batterie (Nucléaire) a une charge de 2,3 mégawatts (2304000W), reflétant sa dépendance à l'égard des {LINK:IngotPage;superalloys} exotiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
       <Value>Kit (Chargeur de Batterie)</Value>
-      <Description>This kit produces a 5-slot {THING:ItemBatteryCharger}.</Description>
+      <Description>Ce kit permet d'obtenir un système à 5 fentes {THING:ItemBatteryCharger}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBook</Key>
       <Value>Livre</Value>
-      <Description>Unlike 8-tracks, laser-disks and email, books never totally vanished. Technology may have evolved, but something about the texture and sexiness of the physical book has seen them endure in a unique, if slightly irrational informational niche.</Description>
+      <Description>Contrairement aux 8-pistes, aux disques laser et au courrier électronique, les livres n'ont jamais totalement disparu. La technologie a peut-être évolué, mais quelque chose dans la texture et le charme du livre physique l'a fait perdurer dans une niche informationnelle unique, bien que légèrement irrationnelle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoil</Key>
       <Value>Bobine de Câble</Value>
-      <Description>Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first {LINK:ODA;ODA} Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any {LINK:Stationeers;Stationeer's} network begins. 
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Les métaphores corporelles sont fatiguées et humanistes, mais c'est Frida Stuppen, la première administratrice {LINK:ODA;ODA} C'est Frida Stuppen, la première administratrice de l'ODA, qui a déclaré : "Que le câblage soit comme le nerf et le vaisseau, qu'il transmette l'énergie et les données à travers des systèmes que nous forgeons parmi les étoiles. Des commentateurs ultérieurs ont suggéré qu'elle ne faisait que mettre un vernis romantique sur une pièce à l'économie douteuse. Quoi qu'il en soit, le câblage standard est le point de départ de tout réseau d'un {LINK:Stationeers;Stationeer's}.
+La bobinage normal a une puissance maximale de 5kW. Pour les applications à courant plus élevé, utilisez  {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightBlue</Key>
       <Value>Bâtons Lumineux (Bleu)</Value>
-      <Description>A safe and slightly rave-some source of blue light. Snap to activate.</Description>
+      <Description>Une source de lumière bleue sûre. Il suffit de cliquer pour l'activer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightGreen</Key>
       <Value>Bâtons Lumineux (Vert)</Value>
-      <Description>Enliven the dreariest, airless rock with this glowy green light. Snap to activate.</Description>
+      <Description>Illuminez la roche la plus morne et sans air avec cette lampe verte lumineuse. A activer par pression.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightRed</Key>
       <Value>Bâtons Lumineux (Rouge)</Value>
-      <Description>A red glowstick. Snap to activate. Then reach for the lasers.</Description>
+      <Description>Un bâton lumineux rouge. Il faut le claquer pour l'activer. Puis atteindre les lasers.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightWhite</Key>
       <Value>Bâtons Lumineux (Blanc)</Value>
-      <Description>Snap the glowstick to activate a pale radiance that keeps the darkness at bay.</Description>
+      <Description>Enclenchez le bâton lumineux pour activer un éclat pâle qui tient l'obscurité à distance.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightYellow</Key>
       <Value>Bâtons Lumineux (Jaune)</Value>
-      <Description>Dispel the darkness with this yellow glowstick.</Description>
+      <Description>Dissipez l'obscurité avec ce bâton lumineux jaune.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCoalOre</Key>
       <Value>Minerai (Charbon)</Value>
-      <Description>Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:StructureSolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create {LINK:AlloysPage;alloys}, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}.</Description>
+      <Description>L'humanité ne serait pas allée dans l'espace sans l'humble charbon. Brûlez-le dans un {THING:StructureSolidFuelGenerator}, faites-le fondre dans le {THING:StructureFurnace} pour créer {LINK:AlloysPage;alloys}, ou utilisez-le dans le {THING:ApplianceReagentProcessor} pour fabriquer {THING:ItemSprayCanBlack}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
@@ -1026,7 +1026,7 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemCopperOre</Key>
       <Value>Minerai (Cuivre)</Value>
-      <Description>Copper is a chemical element with the symbol "Cu". This common and highly conductive material is found on most astronomical bodies and is used in a variety of manufacturing processes including electronic components, alloys, and wires.</Description>
+      <Description>Le cuivre est un élément chimique portant le symbole "Cu". Ce matériau commun et hautement conducteur se trouve sur la plupart des corps astronomiques et est utilisé dans divers procédés de fabrication, notamment les composants électroniques, les alliages et les fils.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCorn</Key>
@@ -1036,7 +1036,7 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>Pied de biche</Value>
-      <Description>{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer] settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise.</Description>
+      <Description>{LINK:Recurso;Recurso's} Le pied-de-biche d'entrée de gamme est utile dans une variété de situations quotidiennes d'un {LINK:Stationeers;Stationeer] de l'ouverture de {THING:StructureAreaPowerControl}s et de {THING:StructureAirlock}, non alimentés, à l'éclatement de headcrabs pan-dimensionnels, si le besoin s'en fait sentir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
@@ -1046,13 +1046,13 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemDrill</Key>
       <Value>Perceuse</Value>
-      <Description>The {LINK:ExMin;ExMin} Off-whirled Hand Drill has been a companion to {LINK:Stationeers;Stationeers} for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
+      <Description>Le {LINK:ExMin;ExMin} La perceuse à main excentrée est le compagnon des {LINK:Stationeers;Stationeers} depuis des décennies. Indispensable pour assembler et déconstruire divers objets et structures, indépendamment de la gravité, de la pression ou de la température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>Ruban adhésif</Value>
-      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. {LINK:Stationeers;Stationeers} have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, or even a {THING:StructureSolarPanel}.
-To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
+      <Description>Dans un passé lointain, l'un des grands champions de la Terre a enseigné à une génération de "réparateurs" que le ruban adhésif était la réponse à tous les problèmes. Les {LINK:Stationeers;Stationeers} ont démontré que cette vérité tient la route, tant que le problème est une {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, ou même un  {THING:StructureSolarPanel} endommagé.
+Pour l'utiliser sur vous-même : mettez du ruban adhésif dans votre main active, maintenez la TOUCHE SOURIS DROITE enfoncée pour réparer automatiquement les dégâts.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamite</Key>
@@ -1062,9 +1062,9 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemEgg</Key>
       <Value>Oeuf</Value>
-      <Description>Resolving, finally, the question of which came first: it was the egg. 
-Eggs are deposited every 60-90 seconds by your average chicken.
-If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave} and all manner of {LINK:FoodPage;gustatory} consolations.</Description>
+      <Description>La question de savoir qui est venu en premier est enfin résolue : c'est l'œuf. 
+Les oeufs sont déposés toutes les 60-90 secondes par votre poulet moyen.
+Si un oeuf a été fécondé et qu'il est conservé entre 20C et 30C, un  {THING:EntityChick} en sortira. Pour le reste, il y a le {THING:ApplianceMicrowave} et toutes sortes de consolations {LINK:FoodPage;gustatory}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEggBottom</Key>
@@ -1074,7 +1074,7 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemEggCarton</Key>
       <Value>Carton d&apos;oeufs</Value>
-      <Description>Within, eggs reside in mysterious, marmoreal silence.</Description>
+      <Description>À l'intérieur, les œufs résident dans un silence mystérieux</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEggTop</Key>
@@ -1084,7 +1084,7 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemEvaSuit</Key>
       <Value>Combinaison EVA</Value>
-      <Description>The EVA suit is the basic suit {LINK:Stationeers;Stationeers} need to survive in the inhospitable environment of space. For more information on EVA suits, consult the {LINK:EVAPage;EVA suit} guide.</Description>
+      <Description>La combinaison EVA est la combinaison de base du {LINK:Stationeers;Stationeers} nécessaire pour survivre dans l'environnement inhospitalier de l'espace. Pour plus d'informations sur les combinaisons EVA, consultez le guide {LINK:EVAPage;EVA suit}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
