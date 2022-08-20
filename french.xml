@@ -1104,32 +1104,32 @@ Si un oeuf a été fécondé et qu'il est conservé entre 20C et 30C, un  {THING
     <RecordThing>
       <Key>ItemFlour</Key>
       <Value>Farine</Value>
-      <Description>Pulverized {THING:ItemWheat}, a key ingredient in many foods created by the {THING:ApplianceMicrowave} and the {THING:ItemKitAutomatedOven}.</Description>
+      <Description>{THING:ItemWheat}, un ingrédient clé dans de nombreux aliments créés par les {THING:ApplianceMicrowave} et {THING:ItemKitAutomatedOven}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
       <Value>Bouteille de Gaz (CO2)</Value>
-      <Description>When fabricated, the {GAS:CarbonDioxide} {SLOT:GasCanister} is filled a pressure of 8000kPa (80 atmospheres) and coloured default grey. Used as a secondary fuel in the {THING:ItemJetpackBasic}, it can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to overpressurize when refilling, or it may go 'bang'.</Description>
+      <Description>Une fois fabriquée, le {GAS:CarbonDioxide} {SLOT:GasCanister} est rempli à une pression de 8000kPa (80 atmosphères) et coloré en gris par défaut. Utilisé comme carburant secondaire dans le {THING:ItemJetpackBasic}, il peut être monté sur un {THING:DynamicGasCanisterAir} ou un {THING:StructureGasTankStorage} pour être rechargé.
+Attention à ne pas surpressuriser lors du remplissage, ou il pourrait faire "boum".</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Bouteille de Gaz (Polluant)</Value>
-      <Description>While this byproduct from smelting - sometimes known simply as 'X' - is a toxin, its specific heat makes it a valuable coolant. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. 
-Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
+      <Description>Bien que ce sous-produit de la fonte - parfois appelé simplement "X" - soit une toxine, sa chaleur spécifique en fait un précieux liquide de refroidissement. Toutes les bonbonnes de gaz sont pleines lorsqu'elles sont fabriquées à une pression de 8000kPa (80 atmosphères), et peuvent être montées sur un {THING:DynamicGasCanisterAir} ou un {THING:StructureGasTankStorage} pour être remplies. 
+Veillez à ne pas dépasser une pression de 10MPa, sinon elle risque de faire "boum".</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Bouteille de Gaz</Value>
-      <Description>The portable {SLOT:GasCanister} is the {LINK:Stationeers;Stationeer's} basic unit of {LINK:GasPage;gas} delivery. Rated to a standard pressure of 8000kPa (80 atmospheres), empty gas canisters can be mounted to a 
-{THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 10MPa, or it may go 'bang'. Contains 64L of gas.</Description>
+      <Description>Le {SLOT:GasCanister}portable est l'unité de base du{LINK:Stationeers;Stationeer's} pour la livraison de {LINK:GasPage;gas}. D'une pression standard de 8000kPa (80 atmosphères), les cartouches de gaz vides peuvent être montées sur une station de pompage.  
+{THING:DynamicGasCanisterAir} ou {THING:StructureGasTankStorage}pour être remplies.
+Attention à ne pas pressuriser au-delà de 10MPa, ou cela pourrait faire "boum". Contient 64L de gaz.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Bouteille de Gaz (Carburant)</Value>
-      <Description>The orange portable {LINK:GasPage;fuel} {SLOT:GasCanister} supplies a 64L mixture of 66% {GAS:Volatiles}/34% {GAS:Oxygen} for powering such items as the {THING:ItemWeldingTorch} and the {THING:DynamicGenerator}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
+      <Description>La cartouche de gaz portable orange {LINK:GasPage;fuel} {SLOT:GasCanister} fournit un mélange de 64L de 66% {GAS:Volatiles}/34% {GAS:Oxygen} pour alimenter des objets tels que le {THING:ItemWeldingTorch}et le {THING:DynamicGenerator}. Toutes les bouteilles de gaz sont pleines lorsqu'elles sont fabriquées à une pression de 8000kPa (80 atmosphères), et peuvent être montées sur un {THING:DynamicGasCanisterAir} ou un {THING:StructureGasTankStorage}pour être remplies.
+Veillez à ne pas dépasser une pression de 10MPa, sinon elle risque de faire "boum".</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
@@ -1138,24 +1138,24 @@ Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Descript
     <RecordThing>
       <Key>ItemGasCanisterNitrogen</Key>
       <Value>Bouteille de Gaz (Azote)</Value>
-      <Description>The green portable {GAS:Nitrogen} {SLOT:GasCanister} supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
+      <Description>La cartouche de gaz verte portable {GAS:Nitrogen} {SLOT:GasCanister} fournit le propulseur pour le {THING:ItemSpacepack} et le {THING:ItemHardJetpack}. Toutes les bouteilles de gaz sont pleines lorsqu'elles sont fabriquées à une pression de 8000kPa (80 atmosphères), et peuvent être montées sur un {THING:DynamicGasCanisterAir} ou un {THING:StructureGasTankStorage} pour être remplies.
+Veillez à ne pas dépasser une pression de 10MPa, sinon elle risque de faire "boum".</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
       <Value>Bouteille de Gaz (Oxygène)</Value>
-      <Description>The white portable 64L {SLOT:GasCanister} is the {LINK:Stationeers;Stationeer's} basic unit of {GAS:Oxygen} delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
+      <Description>La cartouche de gaz Blanche portable {SLOT:GasCanister} et le {LINK:Stationeers;Stationeer's} fournit 64L d'{GAS:Oxygen}. Toutes les bouteilles de gaz sont pleines lorsqu'elles sont fabriquées à une pression de 8000kPa (80 atmosphères), et peuvent être montées sur un {THING:DynamicGasCanisterAir}ou un {THING:StructureGasTankStorage} pour être remplies.
+Veillez à ne pas dépasser une pression de 10MPa, sinon elle risque de faire "boum".</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Bonbonne (Eau)</Value>
-      <Description>The blue portable {GAS:Water} {SLOT:GasCanister} has a 64L capacity, supplying {GAS:Water} to items like the {THING:DynamicHydroponics} unit, or any other connected system. All liquid canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicLiquidCanisterEmpty} or {THING:StructureLiquidTankStorage} for refill.</Description>
+      <Description>La cartouche de gaz Bleu portable{GAS:Water} et le {SLOT:GasCanister}fournit 64L {GAS:Water} à des éléments comme le {THING:DynamicHydroponics}, ou tout autre système connecté. Tous les bidons de liquide sont pleins lorsqu'ils sont fabriqués à une pression de 8000kPa (80 atmosphères), et peuvent être montés sur un {THING:DynamicLiquidCanisterEmpty} ou un {THING:StructureLiquidTankStorage} pour être remplies.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
-      <Value>Liquid Canister</Value>
-      <Description>Holds {GAS:Water}, if you have some.</Description>
+      <Value>Bouteille De Liquide</Value>
+      <Description>Contient de {GAS:Water}, si vous en avez.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
