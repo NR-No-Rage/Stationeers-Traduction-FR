@@ -2333,7 +2333,6 @@ Tous les tuyaux du rack doivent être connectés ou l'unité affichera un état 
       <Description>Le {LINK:Xigo;Xigo} Le refroidisseur mural Freezy Boi complète le chauffage mural, qui ne peut qu'augmenter la température. Le refroidisseur mural fonctionne en tirant la chaleur de l'atmosphère environnante et en ajoutant cette chaleur dans son réseau de tuyaux.
 Pour faire fonctionner correctement le rafraîchisseur mural, vous devez raccorder des tuyaux au rafraîchisseur mural et remplir le réseau de tuyaux raccordés avec un type de gaz. La capacité thermique et le volume du gaz déterminent la vitesse à laquelle il réagit aux changements de température.
 
-
 {HEADER:EFFICACITÉ}
 Plus la différence de température entre le gaz stocké dans les tuyaux et la pièce est élevée, moins le rafraîchisseur mural sera efficace. Pour que le rafraîchisseur mural fonctionne avec une efficacité acceptable, vous devez donc éliminer la chaleur qui s'accumule dans les tuyaux qui y sont raccordés. Une pratique courante consiste à faire passer les tuyaux à l'extérieur et à utiliser des radiateurs sur la section extérieure des tuyaux pour évacuer la chaleur.
 Moins le refroidisseur mural est efficace, moins il consomme d'énergie. Il consommera 1010W avec une efficacité maximale. Le refroidisseur mural peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain degré.
@@ -9343,8 +9342,7 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
-      <Value>Si la présence de charbon n&apos;est pas typique de la Lune, le terrain relativement plat, parsemé de cratères de taille variable et dépourvu d&apos;atmosphère dans un paysage gris, est peut-être plus familier.
-Un endroit idéal pour le joueur débutant, avec moins de dangers et de complexités que dans des mondes plus exotiques.</Value>
+      <Value>Si la présence de charbon n&apos;est pas typique de la Lune, le terrain relativement plat, parsemé de cratères de taille variable et dépourvu d&apos;atmosphère dans un paysage gris, est peut-être plus familier. Un endroit idéal pour le joueur débutant, avec moins de dangers et de complexités que dans des mondes plus exotiques.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
@@ -9364,13 +9362,11 @@ Un endroit idéal pour le joueur débutant, avec moins de dangers et de complexi
     </Record>
     <Record>
       <Key>NewWorldVulcan2ShortDesc</Key>
-      <Value>Un monde déchiré en raison des forces de marée massives du trou noir supermassif qu’il orbite. Vulcan ne laisse guère d’espoir aux organismes qui aboutissent ici, mais sa surface fracturée et ses riches gisements minéraux en font une entreprise à la fois risquée et rentable pour les traders entreprenants.
-Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels sous la surface !</Value>
+      <Value>Un monde déchiré en raison des forces de marée massives du trou noir supermassif qu’il orbite. Vulcan ne laisse guère d’espoir aux organismes qui aboutissent ici, mais sa surface fracturée et ses riches gisements minéraux en font une entreprise à la fois risquée et rentable pour les traders entreprenants. Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels sous la surface !</Value>
     </Record>
     <Record>
       <Key>NewWorldMimasShortDesc</Key>
-      <Value>Une roche stérile nichée sous l&apos;aile des anneaux spectaculaires de Saturne. La petite stature de Mimas se reflète dans sa gravité extrêmement faible, et la surface de Mimantean est saturée de cratères d&apos;impact provenant des occupants de l&apos;anneau capricieux. Sa distance du soleil fournit peu d&apos;énergie à partir d&apos;appareils solaires.
-Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un long chemin et gagner beaucoup de vitesse en raison de la gravité extrêmement faible.</Value>
+      <Value>Une roche stérile nichée sous l&apos;aile des anneaux spectaculaires de Saturne. La petite stature de Mimas se reflète dans sa gravité extrêmement faible, et la surface de Mimantean est saturée de cratères d&apos;impact provenant des occupants de l&apos;anneau capricieux. Sa distance du soleil fournit peu d&apos;énergie à partir d&apos;appareils solaires. Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un long chemin et gagner beaucoup de vitesse en raison de la gravité extrêmement faible.</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
@@ -9874,7 +9870,8 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     </Record>
     <Record>
       <Key>LogicTypeColor</Key>
-      <Value>Que ce soit par souci de clarté, de sécurité ou de simple esthétique, les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; ont accès à un petit panel de couleurs pour leurs constructions. Ci-dessous, les paramètres de couleur, représentés par un nombre entier.
+      <Value>
+        Que ce soit par souci de clarté, de sécurité ou de simple esthétique, les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; ont accès à un petit panel de couleurs pour leurs constructions. Ci-dessous, les paramètres de couleur, représentés par un nombre entier.
 
 0: Bleu
 1: Gris
@@ -9889,7 +9886,8 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
 10: Rose
 11: Violet
 
-C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera violet. L&apos;&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; est impuissante à changer cela. De même, tout ce qui est inférieur à 0 sera bleu.</Value>
+C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera violet. L&apos;&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; est impuissante à changer cela. De même, tout ce qui est inférieur à 0 sera bleu.
+     </Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorSpeed</Key>
