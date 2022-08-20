@@ -503,7 +503,7 @@ Il suffit de le boulonner à un {THING:StructureBench} en utilisant une {THING:I
     <RecordThing>
       <Key>BodyPartAstronautMaleHead</Key>
       <Value>Tête Homme</Value>
-      <Description>Les {LINK:Stationeers;Stationeer]doivent garder la tête froide à tout moment.</Description>
+      <Description>Les {LINK:Stationeers;Stationeer} doivent garder la tête froide à tout moment.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegL</Key>
@@ -770,7 +770,7 @@ Pour passer en mode configuration, insérez la carte dans une {THING:StructureCo
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Circuit Imprimé (Contrôle de porte)</Value>
-      <Description>Un outil de base de la construction d'un {LINK:Stationeers;Stationeer] cette carte de circuit imprimé permet d'ouvrir et de fermer une {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} ou {THING:StructureGlassDoor} à distance, lorsqu'elle est connectée à une {THING:StructureConsole}. Ce système peut être relié à {THING:StructureMotionSensor} pour créer des portes automatiques.</Description>
+      <Description>Un outil de base de la construction d'un {LINK:Stationeers;Stationeer} cette carte de circuit imprimé permet d'ouvrir et de fermer une {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} ou {THING:StructureGlassDoor} à distance, lorsqu'elle est connectée à une {THING:StructureConsole}. Ce système peut être relié à {THING:StructureMotionSensor} pour créer des portes automatiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
@@ -792,7 +792,7 @@ La carte de circuit imprimé a deux modes : "Link" (lien) allume ou éteint tous
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
       <Value>Circuit Imprimé (Affichage vaisseau)</Value>
-      <Description>Lorsque le Manuel original du {LINK:Stationeers;Stationeer] s'est effondré sous son propre poids en une singularité, certaines informations ont été irrémédiablement perdues. Parmi ce mystérieux corpus de connaissances se trouve le but exact du tableau d'affichage du vaisseau.</Description>
+      <Description>Lorsque le Manuel original du {LINK:Stationeers;Stationeer} s'est effondré sous son propre poids en une singularité, certaines informations ont été irrémédiablement perdues. Parmi ce mystérieux corpus de connaissances se trouve le but exact du tableau d'affichage du vaisseau.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
@@ -807,7 +807,7 @@ La carte de circuit imprimé a deux modes : "Link" (lien) allume ou éteint tous
     <RecordThing>
       <Key>DynamicCrate</Key>
       <Value>Caisse</Value>
-      <Description>L'humble caisse dynamique est devenue un symbole d'invention et d'indépendance pour un {LINK:Stationeers;Stationeer]. Avec douze fentes et des poignées à chaque extrémité pour faciliter le transport, c'est à la fois un équipement standard et un kit essentiel pour les cadets et les commandants.</Description>
+      <Description>L'humble caisse dynamique est devenue un symbole d'invention et d'indépendance pour un {LINK:Stationeers;Stationeer}. Avec douze fentes et des poignées à chaque extrémité pour faciliter le transport, c'est à la fois un équipement standard et un kit essentiel pour les cadets et les commandants.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
@@ -1250,7 +1250,7 @@ Veillez à ne pas dépasser une pression de 10MPa, sinon elle risque de faire "b
     <RecordThing>
       <Key>ItemIronIngot</Key>
       <Value>Lingot (Fer)</Value>
-      <Description>Unité de construction la plus élémentaire à la disposition des {LINK:Stationeers;Stationeer]les lingots de fer sont créés par la fusion de {THING:ItemIronOre} dans le {THING:StructureFurnace} et le {THING:StructureArcFurnace}, et utilisés pour créer une variété d'objets.</Description>
+      <Description>Unité de construction la plus élémentaire à la disposition des {LINK:Stationeers;Stationeer}les lingots de fer sont créés par la fusion de {THING:ItemIronOre} dans le {THING:StructureFurnace} et le {THING:StructureArcFurnace}, et utilisés pour créer une variété d'objets.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
@@ -1768,207 +1768,207 @@ La carte mère de la trieuse {LINK:Norsec;Norsec-designed} K-cops 10-10 permet a
       <Key>StructureActiveVent</Key>
       <Value>Ventilation Active</Value>
       <Description>Les fragments du manuel d'origine récupérés dans la singularité décrivent la conception des évents actifs :
-... l'évent actif est un dispositif motorisé permettant de maintenir la pression {LINK:GasPage;gas} en pompant le gaz dans (ou hors) d'un réseau de tuyaux. L'évent a deux modes : "Outward" (vers l'extérieur) lui permet de pomper du gaz dans un espace jusqu'à ce que la pression soit atteinte ; "Inward" (vers l'intérieur) lui permet de pomper du gaz jusqu'à ce que la pression soit atteinte. Le paramètre de pression peut être défini sur une {THING:StructureConsole}. connectée. La pression par défaut est de 101kPa pour Outward ; 0kPa pour Inward ...</Description>
+       l'évent actif est un dispositif motorisé permettant de maintenir la pression {LINK:GasPage;gas} en pompant le gaz dans (ou hors) d'un réseau de tuyaux. L'évent a deux modes : "Outward" (vers l'extérieur) lui permet de pomper du gaz dans un espace jusqu'à ce que la pression soit atteinte ; "Inward" (vers l'intérieur) lui permet de pomper du gaz jusqu'à ce que la pression soit atteinte. Le paramètre de pression peut être défini sur une {THING:StructureConsole}. connectée. La pression par défaut est de 101kPa pour Outward ; 0kPa pour Inward ...</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>Climatiseur</Value>
-      <Description>Built using the {THING:ItemKitAtmospherics}, the {LINK:ExMin;ExMin-designed} air conditioner is used to raise or lower local temperature.
-The unit has three pipe connections: input, output, and waste. Attach an {THING:ItemActiveVent} to the unit's input port, and a passive vent to the output port, so the unit can draw gas through it. Run pipes from the unit's waste port to outside your base, where you can add {THING:StructurePipeRadiator}s to rapidly shed or gain temperature from the network. 
-Note that some {LINK:GasPage;gases} are better coolants than others, but if the coolant pipe has less than 100kPa pressure, it will siphon its output to reach the necessary pressure.
-For more information on using the air conditioner, consult the {LINK:TemperatureControlPage;temperature control} Guides page.</Description>
+      <Description>Construit à l'aide du {THING:ItemKitAtmospherics}, le climatiseur {LINK:ExMin;ExMin-designed} est utilisé pour augmenter ou diminuer la température locale.
+L'unité dispose de trois connexions de tuyaux : entrée, sortie et déchets. Attachez un {THING:ItemActiveVent} au port d'entrée de l'unité, et un évent passif au port de sortie, afin que l'unité puisse aspirer du gaz à travers lui. Faites passer des tuyaux du port d'évacuation de l'unité à l'extérieur de votre base, où vous pouvez ajouter des {THING:StructurePipeRadiator} pour perdre ou gagner rapidement de la température dans le réseau. 
+Notez que certains {LINK:GasPage;gases} sont de meilleurs réfrigérants que d'autres, mais si le tuyau de réfrigérant a une pression inférieure à 100kPa, il siphonnera sa sortie pour atteindre la pression nécessaire.
+Pour plus d'informations sur l'utilisation du climatiseur, consultez la page {LINK:TemperatureControlPage;temperature control} des guides.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
       <Value>Porte étanche</Value>
-      <Description>The standard airlock is a powered portal that forms the main component of an airlock chamber. As long as the airlock is not locked, it can be manually opened using a crowbar.</Description>
+      <Description>Le sas standard est un portail motorisé qui constitue l'élément principal d'un sas. Tant que le sas n'est pas verrouillé, il peut être ouvert manuellement à l'aide d'un pied-de-biche.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>Contrôleur d&apos;Alimentation</Value>
-      <Description>An Area Power Control (APC) has three main functions: 
-Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. 
-APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network.
-Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
+      <Description>Un régulateur de puissance (APC) a trois fonctions principales : 
+Son objectif principal est de réguler le flux d'énergie, afin de garantir des performances ininterrompues des appareils et des machines, en particulier ceux dont la consommation fluctue. 
+Les APC créent également des sous-réseaux, car aucun appareil situé de l'autre côté d'un APC n'est visible sur le réseau principal.
+Enfin, un APC charge des batteries, qui peuvent fournir une alimentation de secours au sous-réseau en cas de panne. Notez qu'un APC a besoin d'une batterie pour stabiliser la consommation électrique. Il existe également deux variantes, chacune permettant à l'énergie de circuler dans une seule direction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Contrôleur d&apos;Alimentation</Value>
-      <Description>An Area Power Control (APC) has three main functions. 
-Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. 
-APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. 
-Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
+      <Description>Un régulateur de puissance (APC) a trois fonctions principales. 
+Son objectif principal est de réguler le flux d'énergie, afin de garantir des performances ininterrompues des appareils et des machines, en particulier ceux dont la consommation fluctue. 
+Les APC créent également des sous-réseaux, car aucun appareil situé de l'autre côté d'un APC n'est visible sur le réseau principal. 
+Enfin, un APC charge des batteries, qui peuvent fournir une alimentation de secours au sous-réseau en cas de panne. Notez qu'un APC a besoin d'une batterie pour stabiliser la consommation électrique. Il existe également deux variantes, chacune permettant à l'énergie de circuler dans une seule direction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>Régulateur de pression arrière</Value>
-      <Description>Unlike the {THING:StructurePressureRegulator}, which closes when the input exceeds a given pressure, the back pressure regulator opens when input pressure reaches a given value.</Description>
+      <Description>Contrairement au {THING:StructurePressureRegulator}, qui se ferme lorsque l'entrée dépasse une pression donnée, le régulateur de contre-pression s'ouvre lorsque la pression d'entrée atteint une valeur donnée.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBattery</Key>
       <Value>Station Battery</Value>
-      <Description>Providing large-scale, reliable power storage, the {LINK:Sinotai;Sinotai} 'Dianzi' station battery is the heart of most {LINK:Stationeers;Stationeer] bases. 
-There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
-{HEADER:POWER OUTPUT}
-Able to store up to 3600000W of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}.</Description>
+      <Description>Fournissant un stockage d'énergie fiable et à grande échelle, la batterie de la station {LINK:Sinotai;Sinotai} 'Dianzi' est le cœur de la plupart des bases des {LINK:Stationeers;Stationeer}. 
+La conception des systèmes électriques utilisant des batteries fait l'objet de nombreuses précautions, et chaque stationneur expérimenté a une histoire à raconter, d'où l'adage des stationneurs : "Dianzi cuit, mais il fait aussi frire". 
+{HEADER:PUISSANCE DE SORTIE}
+Capable de stocker jusqu'à 3600000W de puissance, il n'y a aucune limite pratique à son débit, d'où la sagesse d'utiliser {THING:ItemCableCoilHeavy}. Les ingénieurs électriciens chevronnés se moqueront également de ceux qui ne parviennent pas à séparer leurs réseaux de production d'énergie en utilisant un  {THING:StructureAreaPowerControl} et un {THING:StructureTransformer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>Chargeur de Batterie</Value>
-      <Description>The 5-slot {LINK:Xigo;Xigo} battery charger fits the {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} and {THING:ItemBatteryCellNuclear}, providing up to 500W to any connected cell. Note: the older design means this device has minor power draw (10W) even when not charging.</Description>
+      <Description>Le chargeur de batterie à 5 emplacements {LINK:Xigo;Xigo} s'adapte aux {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} et {THING:ItemBatteryCellNuclear}, fournissant jusqu'à 500W à toute cellule connectée. Remarque : en raison de son ancienne conception, cet appareil consomme peu d'énergie (10 W) même lorsqu'il n'est pas en charge.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
       <Value>Table de travail</Value>
-      <Description>When it's time to sit, nothing supports you like a bench. This bench is powered, so you can use appliances like the {THING:ApplianceMicrowave}.</Description>
+      <Description>Quand il est temps de s'asseoir, rien ne vous soutient comme un banc. Ce banc est alimenté, vous pouvez donc utiliser des appareils comme le {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>Porte anti-souffle</Value>
-      <Description>Airtight and almost undamageable, the original 'Millmar' series of blast door was designed by off-world mining giant {LINK:Recurso;Recurso} to protect asteroid-mining facilities from nuclear-incident-level explosive decompression.
-Short of a pocket-sized singularity blinking into the local space-time frame, there is effectively no limit to the pressure these blast doors can contain - ideal for constructing airlocks in pressure-sensitive environments.</Description>
+      <Description>Étanche à l'air et pratiquement indestructible, la série originale de portes anti-explosion "Millmar" a été conçue par le géant minier extra-monde {LINK:Recurso;Recurso} pour protéger les installations d'extraction d'astéroïdes contre les décompressions explosives de niveau incident nucléaire.
+À moins qu'une singularité de la taille d'une poche n'apparaisse dans le cadre spatio-temporel local, il n'y a effectivement aucune limite à la pression que ces portes anti-explosion peuvent contenir - idéal pour construire des sas dans des environnements sensibles à la pression.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>Câble (Coin)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Transportant aussi bien l'énergie que les données, la bobine de câble en est venue à symboliser l'innovation, l'indépendance et la flexibilité de la vie des {LINK:Stationeers;Stationeer} si essentielle que les {LINK:ODA;ODA} l'ont désignée comme un  {LINK:ToolPage;'tool'} officiel lors de la 3e conférence annuelle Stationeer Solar.
+La bobine normale a une puissance maximale de 5kW. Pour des applications à courant plus élevé, utilisez {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>Câble (Coin à 3 Voies)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Transportant aussi bien l'énergie que les données, la bobine de câble en est venue à symboliser l'innovation, l'indépendance et la flexibilité de la vie des {LINK:Stationeers;Stationeer} si essentielle que les {LINK:ODA;ODA} l'ont désignée comme un  {LINK:ToolPage;'tool'} officiel lors de la 3e conférence annuelle Stationeer Solar.
+La bobine normale a une puissance maximale de 5kW. Pour des applications à courant plus élevé, utilisez {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>Câble (Jonction)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Transportant aussi bien l'énergie que les données, la bobine de câble en est venue à symboliser l'innovation, l'indépendance et la flexibilité de la vie des {LINK:Stationeers;Stationeer} à tel point que le {LINK:ODA;ODA} l'ont désignée comme un  {LINK:ToolPage;'tool'} officiel lors de la 3e conférence annuelle Stationeer Solar.
+La bobine normale a une puissance maximale de 5kW. Pour des applications à courant plus élevé, utilisez {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>Câble (Jonction à 4 Voies)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Transportant aussi bien l'énergie que les données, la bobine de câble en est venue à symboliser l'innovation, l'indépendance et la flexibilité de la vie des {LINK:Stationeers;Stationeer} à tel point que le {LINK:ODA;ODA} l'ont désignée comme un  {LINK:ToolPage;'tool'} officiel lors de la 3e conférence annuelle Stationeer Solar.
+La bobine normale a une puissance maximale de 5kW. Pour des applications à courant plus élevé, utilisez {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>Câble (Jonction à 6 Voies)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] duty - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Transportant aussi bien l'énergie que les données, la bobine de câble en est venue à symboliser l'innovation, l'indépendance et la flexibilité de la vie des {LINK:Stationeers;Stationeer} à tel point que le {LINK:ODA;ODA} l'ont désignée comme un  {LINK:ToolPage;'tool'} officiel lors de la 3e conférence annuelle Stationeer Solar.
+La bobine normale a une puissance maximale de 5kW. Pour des applications à courant plus élevé, utilisez {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>Câble (Droit)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer] life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'}.
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Transportant aussi bien l'énergie que les données, la bobine de câble en est venue à symboliser l'innovation, l'indépendance et la flexibilité de la vie des {LINK:Stationeers;Stationeer} à tel point que le {LINK:ODA;ODA} l'ont désignée comme un  {LINK:ToolPage;'tool'}.
+La bobine normale a une puissance maximale de 5kW. Pour les applications à courant plus élevé, utilisez {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCamera</Key>
       <Value>Caméra</Value>
-      <Description>Nothing says 'I care' like a security camera that's been linked a {THING:StructureMotionSensor} and a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay}.
-Be there, even when you're not.</Description>
+      <Description>Rien de tel qu'une caméra de sécurité reliée à un  {THING:StructureMotionSensor} et à une {THING:StructureConsole} équipée d'un {THING:CircuitboardCameraDisplay}.
+Soyez là, même quand vous ne l'êtes pas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Centrifugeuse</Value>
-      <Description>If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim the raw {LINK:OrePage;ore}.</Description>
+      <Description>Si un {THING:StructureRecycler} ou un {THING:StructureFurnace} produit un mélange de {LINK:ReagentPage;reagent} plutôt que les {LINK:IngotPage;ingots}, souhaités, une centrifugeuse vous permet de récupérer le {LINK:OrePage;ore}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
       <Value>Chaise</Value>
-      <Description>One of the universe's many chairs, optimized for bipeds with somewhere between zero and two upper limbs.</Description>
+      <Description>Une des nombreuses chaises de l'univers, optimisée pour les bipèdes ayant entre zéro et deux membres supérieurs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteBin</Key>
       <Value>Gaine (Tiroir d&apos;insertion)</Value>
-      <Description>The {LINK:Stationeers;Stationeer's} goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Like most {LINK:Recurso;Recurso}-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with {LINK:LogicUnitPage;logic} to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
+      <Description>L'objectif des {LINK:Stationeers;Stationeer's} est de rendre la survie hors du monde moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+Comme la plupart des systèmes conçus par {LINK:Recurso;Recurso} les bacs de chute sont des éléments motorisés simples et robustes, permettant aux articles d'être passés manuellement dans les réseaux de chute en tirant un levier. Ils peuvent également être programmés avec {LINK:LogicUnitPage;logic} pour fonctionner automatiquement, bien que l'automatisation complète nécessite l'utilisation d'éléments tels qu'un {THING:StructureSDBHopper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
       <Value>Gaine (Coin)</Value>
-      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Chute corners are fundamental components of chute networks, which allow the transport of items between machines with {LINK:ImportExportPage;import/export} slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
+      <Description>Les goulottes agissent comme des tuyaux pour les articles. Utilisez-les pour relier entre eux divers équipements {LINK:ImportExportPage;import/export} comme la {THING:StructureVendingMachine} et des imprimantes comme la {THING:StructureAutolathe}.
+L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie hors-monde moins difficile pour lui-même et pour ceux qui suivront ses traces.
+Les coins de goulotte sont des composants fondamentaux des réseaux de goulotte, qui permettent le transport d'objets entre les machines dotées de fentes {LINK:ImportExportPage;import/export} comme le {THING:StructureFurnace} et d'autres structures automatisables.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
       <Value>Gaine (Entrée)</Value>
-      <Description>The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-The chute inlet is an aperture by which items can be introduced to {LINK:ImportExportPage;import/export} networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
+      <Description>L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie hors du monde moins difficile pour lui-même et pour ceux qui suivront ses traces.
+L'entrée de parachute est une ouverture par laquelle des articles peuvent être introduits dans les réseaux  {LINK:ImportExportPage;import/export} Notez que ses origines dans l'exploitation minière en apesanteur signifient que les parachutes ne sont pas alimentés et ouverts en permanence, mais qu'ils ne sont pas interactifs et permettent de jeter des objets à l'intérieur. Elles peuvent être connectées à des systèmes {LINK:LogicUnitPage;logic} pour contrôler le débit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
       <Value>Gaine (Jonction)</Value>
-      <Description>The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with {LINK:ImportExportPage;import/export} slots.</Description>
+      <Description>L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie hors du monde moins difficile pour lui-même et pour ceux qui suivront ses traces.
+Les jonctions de goulottes sont des composants fondamentaux des réseaux de goulottes, permettant la fusion ou la division de ces réseaux. Lorsqu'elles sont combinées à un {THING:StructureSorter}, programmé, les articles peuvent être envoyés par différents chemins vers diverses machines dotées de fentes {LINK:ImportExportPage;import/export}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
       <Value>Gaine (Sortie)</Value>
-      <Description>The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-The chute outlet is an aperture for exiting items from {LINK:ImportExportPage;import/export} networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
+      <Description>L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie hors du monde moins difficile pour lui-même et pour ceux qui suivront ses traces.
+La sortie de la goulotte est une ouverture pour la sortie des articles des réseaux {LINK:ImportExportPage;import/export} Notez que les origines de la sortie dans l'exploitation minière en gravité zéro signifie qu'ils sont ouverts en permanence, plutôt que d'interagir, mais peut être connecté à {LINK:LogicUnitPage;logic} systèmes pour surveiller le débit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight</Key>
       <Value>Gaine (Droite)</Value>
       <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-The aim for any {LINK:Stationeers;Stationeer] is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie hors du monde moins difficile pour lui-même et pour ceux qui suivront ses traces.
+Les goulottes sont des éléments fondamentaux des réseaux de goulottes, qui permettent le transport d'articles entre toute machine ou dispositif doté d'une fente {LINK:ImportExportPage;import/export}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>Porte Composite</Value>
-      <Description>{LINK:Recurso;Recurso's} composite doors are rated to 300kPa, which is more than sufficient for most purposes they were designed for. However, steep pressure differentials are not your friend.</Description>
+      <Description>{LINK:Recurso;Recurso's} Les portes composites ont une capacité de 300 kPa, ce qui est plus que suffisant pour la plupart des usages pour lesquels elles ont été conçues. Cependant, les fortes différences de pression ne sont pas votre ami.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
       <Value>Caillebotis Composite</Value>
-      <Description>While aesthetics rank low on the ladder of {LINK:Stationeers;Stationeer] concerns, composite gratings allow the concealment of unsightly cables on floors, walls and ceilings.</Description>
+      <Description>Bien que l'esthétique ne soit pas une préoccupation majeure, les caillebotis composites permettent de dissimuler les câbles disgracieux sur les sols, les murs et les plafonds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall</Key>
       <Value>Mur Composite</Value>
-      <Description>Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties.</Description>
+      <Description>Étanches à l'air et résistants aux températures extrêmes, les murs composites privilégient la forme à la fonction et se déclinent en une série de variétés légèrement différentes mais fonctionnellement identiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallRound</Key>
       <Value>Mur Composite rond</Value>
-      <Description>Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties.</Description>
+      <Description>Étanches à l'air et résistants aux températures extrêmes, les murs composites privilégient la forme à la fonction et se déclinent en une série de variétés légèrement différentes mais fonctionnellement identiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType1</Key>
       <Value>Mur Composite (Type 1)</Value>
-      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
+      <Description>Étanches à l'air et résistants aux températures extrêmes, les murs composites se déclinent en plusieurs variétés charmantes, presque identiques, qui reflètent l'accent mis par leur concepteur sur la forme plutôt que sur la fonction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType2</Key>
       <Value>Mur Composite (Type 2)</Value>
-      <Description>Air-tight and resistant to extreme temperatures, composite walls come several charming, near identical varieties - reflecting their focus on form over function.</Description>
+      <Description>Étanches à l'air et résistants aux températures extrêmes, les murs composites se déclinent en plusieurs variétés charmantes, presque identiques, qui reflètent l'accent mis sur la forme plutôt que sur la fonction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType3</Key>
       <Value>Mur Composite (Type 3)</Value>
-      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their focus on form over function.</Description>
+      <Description>Étanches à l'air et résistants aux températures extrêmes, les murs composites se déclinent en plusieurs variétés charmantes, presque identiques, qui reflètent l'accent mis sur la forme plutôt que sur la fonction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType4</Key>
       <Value>Mur Composite (Type 4)</Value>
-      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
+      <Description>Étanches à l'air et résistants aux températures extrêmes, les murs composites se déclinent en plusieurs variétés charmantes, presque identiques, qui reflètent l'accent mis par leur concepteur sur la forme plutôt que sur la fonction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindow</Key>
       <Value>Fenêtre Composite</Value>
-      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
+      <Description>Étanches à l'air et résistants aux températures extrêmes, les murs composites se déclinent en plusieurs variétés charmantes, presque identiques, qui reflètent l'accent mis par leur concepteur sur la forme plutôt que sur la fonction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputer</Key>
       <Value>Ordinateur</Value>
-      <Description>In some ways a relic, the 'Chonk R1' was designed by severely conflicted {LINK:Norsec;Norsec} technicians, who needed a unit that could operate with a wide range of {LINK:LogicUnitPage;motherboards}, while also enduring the worst a new Cadet could throw at it.
-The result is a machine described by some as 'the only PC likely to survive our collision with a blackhole', while other, less appreciative users regard it as sharing most of its technological DNA with a cheese grater.
-Compatible motherboards:
+      <Description>En quelque sorte une relique, le "Chonk R1" a été conçu par des techniciens {LINK:Norsec;Norsec} en conflit d'intérêts, qui avaient besoin d'une unité capable de fonctionner avec une large gamme de {LINK:LogicUnitPage;motherboards}, tout en supportant le pire qu'un nouveau Cadet puisse lui infliger.
+Le résultat est une machine décrite par certains comme "le seul PC susceptible de survivre à notre collision avec un trou noir", tandis que d'autres utilisateurs moins appréciateurs considèrent qu'elle partage la majeure partie de son ADN technologique avec une râpe à fromage.
+Cartes mères compatibles :
 - {THING:MotherboardLogic}
 - {THING:MotherboardManufacturing}
 - {THING:MotherboardSorter}
@@ -1978,130 +1978,130 @@ Compatible motherboards:
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>Console</Value>
-      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port.
-A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
+      <Description>Ce boîtier de commande {LINK:Norsec;Norsec-designed} gère des dispositifs tels que le {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} et {THING:StructureCompositeDoor}, selon le {LINK:LogicPage;circuitboard} inséré dans l'unité. Elle dispose d'un port de données/alimentation partagé.
+Une console complétée affiche tous les dispositifs connectés au réseau électrique actuel. Tous les appareils qui ne sont pas liés à la carte de circuit imprimé installée seront grisés et inopérants. Les consoles sont verrouillées lorsqu'un {THING:ItemDataDisk} est retiré.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
       <Value>Console Double</Value>
-      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has separate data and power ports.
-A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
+      <Description>Ce boîtier de commande {LINK:Norsec;Norsec-designed} gère des dispositifs tels que le {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} et d'autres, en fonction de la {LINK:LogicPage;circuitboard} insérée dans l'unité. Elle possède des ports de données et d'alimentation séparés.
+Une console complète affiche tous les dispositifs connectés au réseau électrique actuel. Tous les appareils qui ne sont pas liés à la carte de circuit imprimé installée seront grisés et inopérants. Les consoles sont verrouillées lorsqu'un {THING:ItemDataDisk} est retiré.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
       <Value>Console Moniteur</Value>
-      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port, and a charming sloped interface.
-A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
+      <Description>Ce boîtier de contrôle {LINK:Norsec;Norsec-designed} gère des dispositifs tels que le {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} et {THING:StructureCompositeDoor}, selon la {LINK:LogicPage;circuitboard} insérée dans l'unité. Elle dispose d'un port de données/alimentation partagé, et d'une charmante interface inclinée.
+Une console complète affiche tous les dispositifs connectés au réseau électrique actuel. Tous les appareils qui ne sont pas liés au circuit imprimé installé seront grisés et inopérants. Les consoles sont verrouillées dès qu'un {THING:ItemDataDisk} est retiré.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureControlChair</Key>
       <Value>Siège de contrôle</Value>
-      <Description>Once, these chairs were the heart of space-going behemoths. Now, they're items of nostalgia built only by a handful of Stationeers with a sense of history. In other words, kitsch.</Description>
+      <Description>Autrefois, ces chaises étaient le cœur des mastodontes de l'espace. Aujourd'hui, ce sont des objets de nostalgie construits uniquement par une poignée de stationnaires ayant le sens de l'histoire. En d'autres termes, kitsch.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorCorner</Key>
       <Value>Convoyeur (Coin)</Value>
-      <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
-An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
+      <Description>Conçues à l'origine par {LINK:Recurso;Recurso} pour le déplacement de minerais, les solutions de convoyeurs à courroie Flexi-belt peuvent être adaptées à des utilisations spécifiques pour faciliter des flux de transport efficaces. En d'autres termes, ils déplacent des objets d'un endroit à l'autre.
+Une plainte récurrente porte sur le fait que chaque étape d'un système de convoyage doit être alimentée individuellement. Pour reprendre les mots des agents du service clientèle de Recurso à travers les âges : "Nous y travaillons.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorRiser</Key>
       <Value>Convoyeur (Vertical)</Value>
-      <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places - and up slightly, in the case of the riser.
-An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
+      <Description>Conçues à l'origine par {LINK:Recurso;Recurso} pour le déplacement de minerais, les solutions de convoyeurs à courroie Flexi-belt peuvent être adaptées à des utilisations spécifiques pour faciliter des flux de transport efficaces. En d'autres termes, ils déplacent des objets d'un endroit à l'autre - et légèrement vers le haut, dans le cas de la contremarche.
+Une plainte récurrente porte sur le fait que chaque étape d'un système de convoyage doit être alimentée individuellement. Pour reprendre les mots des agents du service clientèle de Recurso à travers les âges : "Nous y travaillons.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraight</Key>
       <Value>Convoyeur (Droit)</Value>
-      <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
-An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
+      <Description>Conçues à l'origine par {LINK:Recurso;Recurso} pour le déplacement de minerais, les solutions de convoyeurs à courroie Flexi-belt peuvent être adaptées à des utilisations spécifiques pour faciliter des flux de transport efficaces. En d'autres termes, ils déplacent des objets d'un endroit à l'autre.
+Une plainte récurrente porte sur le fait que chaque étape d'un système de convoyage doit être alimentée individuellement. Pour reprendre les mots des agents du service clientèle de Recurso à travers les âges : "Nous y travaillons.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightLong</Key>
       <Value>Convoyeur (Droit Long)</Value>
-      <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
-An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
+      <Description>Conçues à l'origine par {LINK:Recurso;Recurso} pour le déplacement de minerais, les solutions de convoyeurs à courroie Flexi-belt peuvent être adaptées à des utilisations spécifiques pour faciliter des flux de transport efficaces. En d'autres termes, ils déplacent des objets d'un endroit à l'autre.
+Une plainte récurrente porte sur le fait que chaque étape d'un système de convoyage doit être alimentée individuellement. Pour reprendre les mots des agents du service clientèle de Recurso à travers les âges : "Nous y travaillons.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightShort</Key>
       <Value>Convoyeur (Court Droit)</Value>
-      <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
-An recurring {LINK:Stationeers;Stationeer] complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
+      <Description>Conçues à l'origine par {LINK:Recurso;Recurso} pour le déplacement de minerais, les solutions de convoyeurs à courroie Flexi-belt peuvent être adaptées à des utilisations spécifiques pour faciliter des flux de transport efficaces. En d'autres termes, ils déplacent des objets d'un endroit à l'autre.
+Une plainte récurrente porte sur le fait que chaque étape d'un système de convoyage doit être alimentée individuellement. Pour reprendre les mots des agents du service clientèle de Recurso à travers les âges : "Nous y travaillons.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCryoTube</Key>
       <Value>Cryotube</Value>
-      <Description>The exact operation of the Longsleep cryotube remains a commercial secret, with {LINK:Norsec;Norsec} merely licensing the design. Able to regenerate organ damage when supplied with power and an atmosphere, the Longsleep is a minor miracle of modern medical technology.</Description>
+      <Description>Le fonctionnement exact du cryotube reste un secret commercial, {LINK:Norsec;Norsec} se contentant d'accorder une licence pour la conception. Capable de régénérer les organes endommagés lorsqu'il est alimenté en énergie et en atmosphère, le cryotube est un petit miracle de la technologie médicale moderne.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDaylightSensor</Key>
       <Value>Capteur de luminosité</Value>
-      <Description>Daylight sensors provide data on whether the current region of your base is in sunlight, and report the exact solar angle. Note that the orientation of the sensor alters the reported solar angle, while {LINK:LogicPage;Logic} systems can be used to offset it.</Description>
+      <Description>Les capteurs de lumière du jour fournissent des données indiquant si la région actuelle de votre base est ensoleillée, et rapportent l'angle solaire exact. Notez que l'orientation du capteur modifie l'angle solaire rapporté, tandis que les systèmes {LINK:LogicPage;Logic} peuvent être utilisés pour le compenser.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDigitalValve</Key>
       <Value>Électrovanne à gaz</Value>
-      <Description>The digital valve allows {LINK:Stationeers;Stationeers} to create {LINK:LogicPage;logic-controlled} valves and pipe networks.</Description>
+      <Description>La vanne numérique permet au {LINK:Stationeers;Stationeers} de créer des vannes et des réseaux de tuyaux  {LINK:LogicPage;logic-controlled}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFabricator</Key>
       <Value>Fabricateur</Value>
-      <Description>Capable of manufacturing a vast array of items, the {LINK:Norsec;Norsec} General Fabricator was considered too risky by the {LINK:ODA;ODA} for widespread use. Certainly, it has been used for purposes beyond those it was intended, including counterfeiting, terrorism, and bad art. As a result, its deployment is now heavily regulated.</Description>
+      <Description>Capable de fabriquer une vaste gamme d'articles, le {LINK:Norsec;Norsec} General Fabricator était considéré comme trop risqué par l' {LINK:ODA;ODA} pour être utilisé à grande échelle. Il a certainement été utilisé à des fins autres que celles pour lesquelles il a été conçu, notamment pour la contrefaçon, le terrorisme et le mauvais art. Par conséquent, son déploiement est désormais fortement réglementé.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFiltration</Key>
       <Value>Filtration</Value>
-      <Description>The Zyklon Filtration Unit is based on a long-standing {LINK:ExMin;ExMin} system, itself based on older designs of uncertain provenance. It is available in the {THING:ItemKitAtmospherics}.
-Perhaps ill-named, the device has nonetheless proven indispensible for {LINK:Stationeers;Stationeer] atmospherics systems, as it can filter two {LINK:GasPage;gases} simultaneously from  a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases.</Description>
+      <Description>L'unité de filtration du Zyklon est basée sur un système {LINK:ExMin;ExMin} existant depuis longtemps, lui-même basé sur des conceptions plus anciennes de provenance incertaine. Il est disponible dans le {THING:ItemKitAtmospherics}.
+Peut-être mal nommé, le dispositif s'est néanmoins révélé indispensable pour les systèmes atmosphériques {LINK:Stationeers;Stationeer} car il peut filtrer deux  {LINK:GasPage;gases} simultanément à partir d'un seul réseau de tuyaux en utilisant un double réseau de filtres. L'unité dispose d'une entrée et d'une sortie de filtre ainsi que d'une sortie non filtrée pour tout gaz résiduel.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFlashingLight</Key>
       <Value>Gyrophare</Value>
-      <Description>Few objects or ideas are as clearly and transparently named as the Flashing Light, although fans of scrupulous accuracy have been known to refer to it by its full, official title: 'Default Yellow Flashing Light'.</Description>
+      <Description>Peu d'objets ou d'idées portent un nom aussi clair et transparent que le feu clignotant, bien que les amateurs de précision scrupuleuse soient connus pour le désigner par son titre complet et officiel : "Feu clignotant jaune par défaut".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrame</Key>
       <Value>Cadre en acier</Value>
-      <Description>More durable than the {THING:StructureFrameIron}, steel frames also have several variations for more complex constructions, such as the {THING:StructureFrameCorner} and {THING:StructureFrameCornerCut}. Like iron frames, they are placed then completed by welding {THING:ItemSteelSheets} to the open framework.</Description>
+      <Description>Plus durables que les {THING:StructureFrameIron}, les cadres en acier ont aussi plusieurs variantes pour des constructions plus complexes, comme les {THING:StructureFrameCorner} et {THING:StructureFrameCornerCut}. Comme les charpentes en fer, elles sont placées puis complétées par le soudage de {THING:ItemSteelSheets} sur la charpente ouverte.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCorner</Key>
       <Value>Cadre (Coin)</Value>
-      <Description>More durable than the {THING:StructureFrameIron}, steel frames also offer several variations for more complex lattice constructions. 
-With a little patience and manoeuvring, the corner frame's gothic-inspired silhouette allows the creation of ogival arches and even more ambitious architecture, although they are not airtight and cannot be built on.</Description>
+      <Description>Plus durables que le {THING:StructureFrameIron}, es cadres en acier offrent également plusieurs variantes pour des constructions en treillis plus complexes. 
+Avec un peu de patience et de manœuvre, la silhouette d'inspiration gothique de l'ossature d'angle permet de créer des arcs ogivaux et des architectures encore plus ambitieuses, bien qu'elles ne soient pas étanches à l'air et ne puissent être construites dessus.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameSide</Key>
       <Value>Cadre (Côté)</Value>
-      <Description>More durable than the {THING:StructureFrameIron}, steel frames also provide variations for more ornate constructions. 
-The tilted side frame allows for an almost infinite variety of architectural erections, though is not airtight, rendering it, ultimately, an excresence.</Description>
+      <Description>Plus durables que les {THING:StructureFrameIron}, es cadres en acier offrent également des variations pour des constructions plus ornées. 
+Le cadre latéral incliné permet une variété presque infinie d'érections architecturales, mais il n'est pas étanche à l'air, ce qui en fait, en fin de compte, une excrescence.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFurnace</Key>
       <Value>Fourneau</Value>
-      <Description>The Zhurong furnace employs a high-temperature gas mixture of {GAS:Oxygen} and {GAS:Volatiles} to smelt {LINK:IngotPage;ingots} and a range of {LINK:IngotPage;alloys} as raw materials for {LINK:FabricatorPage;fabricators}.
-A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemVolatiles} in a 1:2 ratio directly to the furnace, but more complex alloys will require careful management of a dedicated gas mixing network. Exact ingredient ratios must be observed. Likewise, smelting ores at insufficient temperatures will produce {LINK:ReagentPage;reagents}, which must be recycled.
-If water is present in the furnace, it will gather there until the furnace is connected to a liquid pipe network.</Description>
+      <Description>Le four Zhurong utilise un mélange gazeux à haute température composé de {GAS:Oxygen} et de {GAS:Volatiles} pour fondre des {LINK:IngotPage;ingots} et une gamme de {LINK:IngotPage;alloys} comme matières premières pour les {LINK:FabricatorPage;fabricators}.
+Un mélange gazeux de base peut être obtenu en ajoutant {THING:ItemOxite} et {THING:ItemVolatiles} dans un rapport de 1:2 directement dans le four, mais les alliages plus complexes nécessiteront une gestion attentive d'un réseau de mélange gazeux dédié. Les rapports exacts entre les ingrédients doivent être respectés. De même, la fusion de minerais à des températures insuffisantes produira des {LINK:ReagentPage;reagents}, qui doivent être recyclés.
+Si de l'eau est présente dans le four, elle s'y accumulera jusqu'à ce que le four soit connecté à un réseau de conduites de liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMixer</Key>
       <Value>Mélangeur de Gaz</Value>
-      <Description>Indispensible for producing precise atmospheric ratios, this gas mixer blends two gases in proportions ranging anywhere from 0-100%.</Description>
+      <Description>Indispensable pour obtenir des rapports atmosphériques précis, ce mélangeur de gaz permet de mélanger deux gaz dans des proportions allant de 0 à 100 %.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasSensor</Key>
       <Value>Capteur de Gaz</Value>
-      <Description>Gas sensors are designed to monitor and report basic atmospheric information, including temperature, pressure, and gas ratios. They also make wonderful wedding presents.</Description>
+      <Description>Les capteurs de gaz sont conçus pour surveiller et signaler les informations atmosphériques de base, notamment la température, la pression et les rapports de gaz. Ils font également de merveilleux cadeaux de mariage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasTankStorage</Key>
       <Value>Connecteur de Bouteille de Gaz</Value>
-      <Description>When connected to a pipe network, the tank storage unit allows you to refill a {THING:ItemGasCanisterEmpty}, as well as read various atmospheric data from the {SLOT:GasCanister}.</Description>
+      <Description>Lorsqu'elle est connectée à un réseau de canalisations, l'unité de stockage du réservoir vous permet de remplir une {THING:ItemGasCanisterEmpty}, ainsi que de lire diverses données atmosphériques à partir de la {SLOT:GasCanister}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankStorage</Key>
       <Value>Connecteur de Bonbonne</Value>
-      <Description>When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the {SLOT:GasCanister}. It will not accept gas canisters.</Description>
+      <Description>Lorsqu'elle est connectée à un réseau de canalisations de liquide, l'unité de stockage du réservoir vous permet de remplir un {THING:ItemLiquidCanisterEmpty}, ainsi que de lire diverses données atmosphériques à partir du {SLOT:GasCanister}. Il n'accepte pas les bidons de gaz.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGlassDoor</Key>
@@ -2115,116 +2115,116 @@ If water is present in the furnace, it will gather there until the furnace is co
     <RecordThing>
       <Key>StructureGyroscope</Key>
       <Value>Gyroscope</Value>
-      <Description>An element of an ancient class of spaceship, the gyroscope allowed these vehicles to rotate in at least one of the universe's most popular directions.</Description>
+      <Description>Élément d'une ancienne classe de vaisseaux spatiaux, le gyroscope permettait à ces véhicules de tourner dans au moins une des directions les plus populaires de l'univers.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
       <Value>Plateau Hydroponique</Value>
-      <Description>The {LINK:Agrizero;Agrizero} hydroponics tray is the ideal vessel for growing a range of {LINK:OrganicPage;plantlife}. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. 
-It can be automated using the {THING:StructureHarvie}.</Description>
+      <Description>Le bac hydroponique {LINK:Agrizero;Agrizero} est le récipient idéal pour la culture d'une gamme de {LINK:OrganicPage;plantlife}. Il doit être alimenté en eau par un réseau de tuyaux, et en lumière suffisante pour générer la photosynthèse. 
+Il peut être automatisé à l'aide du {THING:StructureHarvie}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureIgniter</Key>
       <Value>Allumeur</Value>
-      <Description>It gets the party started. Especially if that party is an explosive gas mixture.</Description>
+      <Description>Ça fait démarrer la fête. Surtout si cette fête est un mélange explosif de gaz.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLocker</Key>
       <Value>Casier</Value>
-      <Description>If a tidy base is the sign of a ordered mind, lockers are the righteous post upon which that sign hangs.</Description>
+      <Description>Si une base bien rangée est le signe d'un esprit ordonné, les casiers sont le poteau vertueux sur lequel ce signe est accroché.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Capteur de Mouvement</Value>
-      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connected to {LINK:LogicPage;Logic} systems for security purposes, automatic lighting, doors and various other applications.
-The sensor activates whenever a player enters the grid it is placed on.</Description>
+      <Description>Développé à l'origine pour surveiller les marathons de danse, le capteur de mouvement peut également être connecté à des systèmes {LINK:LogicPage;Logic} de sécurité, d'éclairage automatique, de portes et diverses autres applications.
+Le capteur s'active dès qu'un joueur entre dans la grille sur laquelle il est placé.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
       <Value>Ventilation Passive</Value>
-      <Description>Passive vents allow gases to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, merely an aperture, essentially turning an enclosed space into part of the pipe network. </Description>
+      <Description>Les évents passifs permettent aux gaz d'entrer et de sortir des réseaux de tuyaux, qui sont des systèmes fermés, sauf s'ils sont reliés à un dispositif ou à une structure. Les évents passifs ne sont pas alimentés, mais constituent simplement une ouverture, transformant essentiellement un espace fermé en une partie du réseau de canalisations. </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
       <Value>Analyseur de Tuyau</Value>
-      <Description>Allegedly the outcome of a weekend father-daughter electronics project by an overzealous {{LINK:ExMin;ExMin} engineer, the pipe analyzer is essentially a more advanced version of the {THING:StructurePipeMeter}.
-Displaying the internal pressure of pipe networks, it  also reads out temperature and gas contents, and can be connected to a {THING:StructureConsole} or {THING:StructureComputer} via a {{LINK:LogicPage;Logic} system.</Description>
+      <Description>Prétendument le résultat d'un projet électronique père-fille mené pendant un week-end par un ingénieur {LINK:ExMin;ExMin} trop zélé, l'analyseur de tuyaux est essentiellement une version plus avancée du {THING:StructurePipeMeter}.
+Affichant la pression interne des réseaux de tuyaux, il lit également la température et le contenu en gaz, et peut être connecté à une {THING:StructureConsole} ou à un {THING:StructureComputer}  via un système  {LINK:LogicPage;Logic}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCorner</Key>
       <Value>Tuyau (Coin)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>La première chose qu'un stationnaire apprend, c'est qu'il est seul. La seconde est que les tuyaux stockent du gaz.
+Les tuyaux diffusent leur contenu de manière homogène dans l'ensemble du réseau et peuvent être connectés à un large éventail de dispositifs et de structures. Les tuyaux de base peuvent supporter des pressions allant jusqu'à 60 MPa. Au-delà, les choses deviennent "intéressantes".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction</Key>
       <Value>Tuyau (Jonction)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>La première chose qu'un stationnaire apprend, c'est qu'il est seul. La seconde est que les tuyaux stockent du gaz.
+Les tuyaux diffusent leur contenu de manière homogène dans l'ensemble du réseau et peuvent être connectés à un large éventail de dispositifs et de structures. Les tuyaux de base peuvent supporter des pressions allant jusqu'à 60 MPa. Au-delà, les choses deviennent "intéressantes".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
       <Value>Tuyau (Jonction à 3 voies)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>La première chose qu'un stationnaire apprend, c'est qu'il est seul. La seconde est que les tuyaux stockent du gaz.
+Les tuyaux diffusent leur contenu de manière homogène dans l'ensemble du réseau et peuvent être connectés à un large éventail de dispositifs et de structures. Les tuyaux de base peuvent supporter des pressions allant jusqu'à 60 MPa. Au-delà, les choses deviennent "intéressantes".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction5</Key>
       <Value>Tuyau (Jonction à 5 voies)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>La première chose qu'un stationnaire apprend, c'est qu'il est seul. La seconde est que les tuyaux stockent du gaz.
+Les tuyaux diffusent leur contenu de manière homogène dans l'ensemble du réseau et peuvent être connectés à un large éventail de dispositifs et de structures. Les tuyaux de base peuvent supporter des pressions allant jusqu'à 60 MPa. Au-delà, les choses deviennent "intéressantes".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction6</Key>
       <Value>Tuyau (Jonction à 6 voies)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>La première chose qu'un stationnaire apprend, c'est qu'il est seul. La seconde est que les tuyaux stockent du gaz.
+Les tuyaux diffusent leur contenu de manière homogène dans l'ensemble du réseau et peuvent être connectés à un large éventail de dispositifs et de structures. Les tuyaux de base peuvent supporter des pressions allant jusqu'à 60 MPa. Au-delà, les choses deviennent "intéressantes".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLabel</Key>
       <Value>Étiquette de Tuyau</Value>
-      <Description>As its perspicacious name suggests, the pipe label is designed to be attached to a straight stretch of pipe. Users can then label the label with the {THING:ItemLabeller}.</Description>
+      <Description>Comme son nom perspicace le suggère, l'étiquette de tuyau est conçue pour être attachée à un tronçon de tuyau droit. Les utilisateurs peuvent ensuite étiqueter l'étiquette avec le {THING:ItemLabeller}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeMeter</Key>
       <Value>Tuyau avec Manomètre</Value>
-      <Description>While the Stationeers program has, thus far, inspired little in the way of classical poetry, the following haiku was found etched, ironically, on a piece of pipe wreckage found on Vulcan:
-"Humble pipe meter
-speaks the truth, transmits pressure
-within any pipe"</Description>
+      <Description>Bien que le programme Stationeers ait, jusqu'à présent, peu inspiré la poésie classique, le haïku suivant a été trouvé gravé, ironiquement, sur un morceau d'épave de tuyau trouvé sur Vulcain :
+"Humble compteur de tuyaux
+dit la vérité, transmet la pression
+dans n'importe quel tuyau"</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiator</Key>
       <Value>Radiateur de Tuyau</Value>
-      <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
-The speed of heat gain or loss will depend on the gas in question. Adding multiple radiators will speed up heat transfer.</Description>
+      <Description>Simple échangeur de chaleur, les radiateurs tubulaires peuvent être placés sur des tuyaux pour perdre ou gagner de la chaleur, en fonction de la température de l'atmosphère environnante. Si l'atmosphère est plus chaude, la chaleur sera ajoutée au gaz dans le réseau de tuyaux, et vice versa si elle est plus froide. Dans le vide, la chaleur sera rayonnée. 
+La vitesse de gain ou de perte de chaleur dépendra du gaz en question. L'ajout de plusieurs radiateurs accélérera le transfert de chaleur.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeStraight</Key>
       <Value>Tuyau (Droit)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>La première chose qu'un stationnaire apprend, c'est qu'il est seul. La seconde est que les tuyaux stockent du gaz.
+Les tuyaux diffusent leur contenu de manière homogène dans l'ensemble du réseau et peuvent être connectés à un large éventail de dispositifs et de structures. Les tuyaux de base peuvent supporter des pressions allant jusqu'à 60 MPa. Au-delà, les choses deviennent "intéressantes".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
       <Value>Tuyau (Jonction T)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>La première chose qu'un stationnaire apprend, c'est qu'il est seul. La seconde est que les tuyaux stockent du gaz.
+Les tuyaux diffusent leur contenu de manière homogène dans l'ensemble du réseau et peuvent être connectés à un large éventail de dispositifs et de structures. Les tuyaux de base peuvent supporter des pressions allant jusqu'à 60 MPa. Au-delà, les choses deviennent "intéressantes".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerConnector</Key>
       <Value>Connecteur d&apos;Alimentation</Value>
-      <Description>Attaches a {THING:ItemKitDynamicGenerator} to a power network.</Description>
+      <Description>Attache un {THING:ItemKitDynamicGenerator} à un réseau électrique.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePressureRegulator</Key>
       <Value>Régulateur de Pression</Value>
-      <Description>Controlling the flow of gas between two pipe networks, pressure regulators shift gas until a set pressure on the outlet side is achieved, or the gas supply is exhausted. The back pressure regulator, by contrast, will only operate when pressure on the intake side exceeds the set value. With a max pressure of over 20,000kPa, it requires power to operate.</Description>
+      <Description>Contrôlant le flux de gaz entre deux réseaux de tuyaux, les régulateurs de pression déplacent le gaz jusqu'à ce qu'une pression de consigne soit atteinte du côté de la sortie, ou que l'alimentation en gaz soit épuisée. Le régulateur de contre-pression, en revanche, ne fonctionne que lorsque la pression du côté de l'entrée dépasse la valeur de consigne. Avec une pression maximale de plus de 20 000 kPa, il a besoin d'énergie pour fonctionner.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
       <Value>Barrière industriel (Type1) </Value>
-      <Description>"Safety third."</Description>
+      <Description>"Sécurité 3."</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketEngine</Key>
@@ -2241,7 +2241,7 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureRTG</Key>
       <Value>Creative RTG</Value>
-      <Description>The {LINK:Norsec;Norsec}RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output.</Description>
+      <Description>Le {LINK:Norsec;Norsec}RTG (générateur thermoélectrique à radio-isotopes) utilise la chaleur dégagée par la désintégration radioactive pour générer une tension via un différentiel de température à travers un thermocouple. Normalement limité aux dispositifs à faible énergie, le RTG est censé exploiter l'ingénierie zrillienne pour atteindre sa puissance de sortie improbablement élevée.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
@@ -2250,24 +2250,24 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSolarPanel</Key>
       <Value>Panneau Solaire</Value>
-      <Description>{LINK:Sinotai;Sinotai's} standard solar panels are used for generating power from sunlight. They can be connected to {LINK:LogicPage;Logic} systems, in order to track sunlight, but their reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>{LINK:Sinotai;Sinotai's} Les panneaux solaires standard sont utilisés pour produire de l'énergie à partir de la lumière du soleil. Ils peuvent être connectés à des systèmes {LINK:LogicPage;Logic} afin de suivre la lumière du soleil, mais leur efficacité diminue pendant les tempêtes et lorsqu'ils sont endommagés. Vous pouvez les réparer à l'aide d'un fiable {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSorter</Key>
       <Value>Trieur</Value>
-      <Description>No amount of automation is complete without some way of moving different items to different parts of a system. The {LINK:Xigo;Xigo} A2B sorter can be programmed via a computer with a {THING:MotherboardSorter} to direct various items into different chute networks. Filtered items are always passed out the righthand side of the sorter, while non filtered items continue straight through.</Description>
+      <Description>Aucune automatisation n'est complète sans un moyen de déplacer différents éléments vers différentes parties d'un système. Le site {LINK:Xigo;Xigo} La trieuse A2B peut être programmée via un ordinateur avec un {THING:MotherboardSorter} pour diriger divers articles dans différents réseaux de goulottes. Les articles filtrés sortent toujours par le côté droit de la trieuse, tandis que les articles non filtrés passent directement.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStacker</Key>
       <Value>Empileur</Value>
-      <Description>A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs.
-The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed.</Description>
+      <Description>Un empileur est un élément important de tout réseau de goulottes automatisées. Le ProKompile {LINK:Xigo;Xigo} peut être réglé manuellement ou via la logique, pour s'assurer que les articles passant par l'empileur sont maximisés pour vos besoins de stockage.
+Le ProKompile peut empiler une grande variété de choses telles que {LINK:IngotPage;ingots}, ainsi que diviser les piles en tailles appropriées selon les besoins.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStackerReverse</Key>
       <Value>Empileur</Value>
-      <Description>A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs. The reversed stacker has power and data on the opposite side.
-The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed.</Description>
+      <Description>Un empileur est un élément important de tout réseau de goulottes automatisées. Le ProKompile {LINK:Xigo;Xigo} peut être réglé manuellement ou via la logique, pour s'assurer que les articles passant par l'empileur sont maximisés pour vos besoins de stockage. L'empileur inversé a l'alimentation et les données sur le côté opposé.
+Le ProKompile peut empiler une grande variété d'objets tels que des {LINK:IngotPage;ingots}, ainsi que diviser les piles en tailles appropriées selon les besoins.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2</Key>
@@ -2280,9 +2280,9 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     <RecordThing>
       <Key>StructureSuitStorage</Key>
       <Value>Stockage de combinaison</Value>
-      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
-When powered and connected to {THING:Oxygen} and {THING:Propellant}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasFilterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
-All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
+      <Description>Aussi ordonné qu'utile, le rack de rangement de la combinaison peut contenir une {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} et un {THING:ItemJetpackBasic}.
+Lorsqu'il est alimenté et connecté à {THING:Oxygen} et {THING:Propellant}, il recharge les batteries de la combinaison, remplit la {THING:ItemGasCanisterOxygen} et votre {THING:ItemGasFilterNitrogen} {SLOT:GasCanister}. Le réservoir à déchets sera pompé vers le tuyau connecté à la sortie des déchets.
+Tous les tuyaux du rack doivent être connectés ou l'unité affichera un état d'erreur, mais elle chargera quand même la batterie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnector</Key>
@@ -2292,7 +2292,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureTankConnectorLiquid</Key>
       <Value>Connecteur de Citerne portable</Value>
-      <Description>These basic mounting devices allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network.</Description>
+      <Description>Les raccords de réservoir sont des dispositifs de montage de base qui vous permettent de fixer un {THING:DynamicLiquidCanisterEmpty} à un réseau de conduites de gaz.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
@@ -2321,7 +2321,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureVolumePump</Key>
       <Value>Pompe</Value>
-      <Description>The volume pump pumps pumpable gases. It also separates out pipe networks into separate networks.</Description>
+      <Description>La pompe volumétrique pompe les gaz pompables. Elle sépare également les réseaux de tuyaux en réseaux distincts.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidValve</Key>
@@ -2330,25 +2330,26 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureWallCooler</Key>
       <Value>Refroidisseur mural</Value>
-      <Description>The {LINK:Xigo;Xigo} Freezy Boi wall cooler complements the wall heater, which can only raise the temperature. The wall cooler functions by drawing heat from the surrounding atmosphere and adding that heat into its pipe network.
-In order to run the wall cooler properly, you will need to connect pipes to the wall cooler and fill the connected pipe network with any type of gas. The gas's heat capacity and volume will determine how fast it reacts to temperature changes.
+      <Description>Le {LINK:Xigo;Xigo} Le refroidisseur mural Freezy Boi complète le chauffage mural, qui ne peut qu'augmenter la température. Le refroidisseur mural fonctionne en tirant la chaleur de l'atmosphère environnante et en ajoutant cette chaleur dans son réseau de tuyaux.
+Pour faire fonctionner correctement le rafraîchisseur mural, vous devez raccorder des tuyaux au rafraîchisseur mural et remplir le réseau de tuyaux raccordés avec un type de gaz. La capacité thermique et le volume du gaz déterminent la vitesse à laquelle il réagit aux changements de température.
 
-{HEADER:EFFICIENCY}
-The higher the difference in temperature between the gas stored in the pipes and the room, the less efficient the wall cooler will be. So to keep the wall cooler running at an acceptable efficiency you will need to get rid of the heat that accumulates in the pipes connected to it. A common practice would be to run the pipes to the outside and use radiators on the outside section of the pipes to get rid of the heat.
-The less efficient the wall cooler, the less power it consumes. It will consume 1010W at max efficiency. The wall cooler can be controlled by logic chips to run when the temperature hits a certain degree.
-{HEADER:ERRORS}
-If the wall cooler is flashing an error then it is missing one of the following:
 
-- Pipe connection to the wall cooler.
-- Gas in the connected pipes, or pressure is too low.
-- Atmosphere in the surrounding environment or pressure is too low.
+{HEADER:EFFICACITÉ}
+Plus la différence de température entre le gaz stocké dans les tuyaux et la pièce est élevée, moins le rafraîchisseur mural sera efficace. Pour que le rafraîchisseur mural fonctionne avec une efficacité acceptable, vous devez donc éliminer la chaleur qui s'accumule dans les tuyaux qui y sont raccordés. Une pratique courante consiste à faire passer les tuyaux à l'extérieur et à utiliser des radiateurs sur la section extérieure des tuyaux pour évacuer la chaleur.
+Moins le refroidisseur mural est efficace, moins il consomme d'énergie. Il consommera 1010W avec une efficacité maximale. Le refroidisseur mural peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain degré.
+{HEADER:ERREURS}
+ le refroidisseur mural affiche une erreur, c'est qu'il lui manque l'un des éléments suivants :
 
-For more information about how to control temperatures, consult the {LINK:TemperatureControlPage;temperature control} Guides page.</Description>
+- Raccordement de la tuyauterie au refroidisseur mural.
+- Gaz dans les tuyaux connectés, ou pression trop faible.
+- Atmosphère dans le milieu environnant ou la pression est trop faible.
+
+Pour plus d'informations sur la manière de contrôler les températures, consultez la page {LINK:TemperatureControlPage;temperature control}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallHeater</Key>
       <Value>Chauffage mural</Value>
-      <Description>The {LINK:Xigo;Xigo} wall heater is a simple device that can be installed on a wall or frame and connected to power. When switched on, it will start heating the surrounding environment. It consumes 1010W of power and can be controlled by logic chips to run when the temperature hits a certain level.</Description>
+      <Description>Le {LINK:Xigo;Xigo} Le radiateur mural est un appareil simple qui s'installe sur un mur ou un cadre et se branche sur le secteur. Lorsqu'il est allumé, il commence à chauffer l'environnement qui l'entoure. Il consomme 1010W d'énergie et peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain niveau.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -2401,7 +2402,7 @@ For more information about how to control temperatures, consult the {LINK:Temper
     <RecordThing>
       <Key>StructureSolidFuelGenerator</Key>
       <Value>Générateur (Combustible Solide)</Value>
-      <Description>The mainstay of power generation for Stationeers, this device provides 20kW of power. Multiple solid resources can be loaded. While operating, the device will output its maximum power regardless of whether you have captured it or not. Watch for blown wires! It will output much more power than your regular {THING:ItemCableCoil} can handle.</Description>
+      <Description>Le pilier de la production d'énergie pour les Stationnaires, ce dispositif fournit 20kW de puissance. Plusieurs ressources solides peuvent être chargées. En fonctionnement, l'appareil produit sa puissance maximale, que vous l'ayez capturé ou non. Attention aux fils qui sautent ! Il produira beaucoup plus de puissance que votre  {THING:ItemCableCoil} ordinaire peut gérer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGenerator</Key>
@@ -2470,8 +2471,8 @@ For more information about how to control temperatures, consult the {LINK:Temper
     <RecordThing>
       <Key>StructureTransformer</Key>
       <Value>Transformateur (Large)</Value>
-      <Description>The large {LINK:Norsec;Norsec} transformer is a critical component of extended {LINK:ElectronicPage;electrical} networks, controlling the maximum power that will flow down a cable. To prevent overloading, output can be set from 0 to 50,000W. 
-Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Description>Le grand transformateur est un élément essentiel des réseaux étendus {LINK:ElectronicPage;electrical} car il contrôle la puissance maximale qui circule dans un câble. Pour éviter toute surcharge, la puissance de sortie peut être réglée de 0 à 50 000W. 
+Notez que les transformateurs fonctionnent comme des isolateurs de données, empêchant les données de circuler dans tout réseau au-delà.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformer</Key>
@@ -2480,8 +2481,8 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureTransformerSmall</Key>
       <Value>Transformateur (Petit)</Value>
-      <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
-Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Description>Les transformateurs contrôlent la puissance maximale qui circule dans un sous-réseau de câbles, afin d'éviter de surcharger les systèmes {LINK:ElectronicPage;electrical} La puissance des petits transformateurs peut être réglée de 0 à 5000 W.
+Notez que les transformateurs fonctionnent comme des isolateurs de données, empêchant les données de circuler dans tout réseau au-delà.</Description>
     </RecordThing>
     <RecordThing>
       <Key>WeaponPistolEnergy</Key>
@@ -2490,20 +2491,20 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureChuteWindow</Key>
       <Value>Gaine (Fenêtre)</Value>
-      <Description>Chute's with windows let you see what's passing through your {LINK:ImportExportPage;import/export} network. But be warned, they are not insulated as other chutes are. Ices will melt.</Description>
+      <Description>Les goulottes avec fenêtre vous permettent de voir ce qui passe dans votre réseau {LINK:ImportExportPage;import/export} Mais attention, elles ne sont pas isolées comme les autres goulottes. Les glaces fondront.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureArcFurnace</Key>
       <Value>Four à Arc</Value>
-      <Description>The simplest smelting system available to the average {LINK:Stationeers;Stationeer], {LINK:Recurso;Recurso's} arc furnace was forged itself in the depths of the Solar System to help explorational geologists determine the purity of potential asteroidal mining targets.
-Co-opted by the {LINK:ODA;ODA}, it now provides Stationeers with a way to produce pure ingots of various resources.
-The smelting process also releases a range of by product {LINK:GasPage;gases}, principally {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} and {GAS:Oxygen} in differing ratios. These can be recaptured from the atmosphere by filtering, but also make the arc furnace a risk in closed environments. 
-Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create {LINK:IngotPage;alloys}.</Description>
+      <Description>Le système de fusion le plus simple à la disposition du {LINK:Stationeers;Stationeer}, le four à arc a été forgé lui-même dans les profondeurs du système solaire pour aider les géologues explorateurs à déterminer la pureté des cibles minières astéroïdales potentielles.
+il offre désormais aux stationnaires un moyen de produire des lingots purs de diverses ressources.
+Le processus de fusion libère également une série de sous-produits {LINK:GasPage;gases}, principalement {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} and {GAS:Oxygen} dans des proportions différentes. Ces gaz peuvent être récupérés dans l'atmosphère par filtrage, mais ils constituent un risque pour le four à arc dans les environnements fermés. 
+Contrairement au {THING:StructureFurnace}, plus avancé, le four à arc ne peut pas créer de {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAutolathe</Key>
       <Value>Tour Automatique</Value>
-      <Description>The foundation of most {LINK:Stationeers;Stationeer] fabrication systems, the {LINK:ExMin;ExMin} autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensible creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.
+      <Description>À la base de la plupart des systèmes de fabrication, l'autolathe est un système de composition moléculaire à plusieurs axes. Sa complexité exige un temps d'assemblage considérable, mais il reste un outil de création indispensable. Mettez l'appareil à niveau en utilisant un {THING:AutolathePrinterMod} pour obtenir des recettes supplémentaires et des vitesses de traitement plus rapides.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -2521,7 +2522,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemCableCoilHeavy</Key>
       <Value>Bobine de Câble (Haute Tension)</Value>
-      <Description>Use heavy cable coil for power systems with large draws. Unlike {THING:StructureCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW.</Description>
+      <Description>Utilisez la bobine de câble lourd pour les systèmes d'alimentation à fort tirage. Contrairement à {THING:StructureCableCoil}, qui ne peut conduire en toute sécurité que 5kW, les câbles lourds peuvent transmettre jusqu'à 100kW.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameIron</Key>
@@ -2538,17 +2539,17 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemSilverOre</Key>
       <Value>Minerai (Argent)</Value>
-      <Description>Silver is a chemical element with the symbol "Ag". Valued by many {LINK:Stationeers;Stationeers} for its attractive lustre and sheen, it is also used in a variety of {LINK:ElectronicPage;electronics} components and {LINK:IngotPage;alloys}.</Description>
+      <Description>L'argent est un élément chimique portant le symbole "Ag". Apprécié par de nombreux {LINK:Stationeers;Stationeers} pour son lustre et son éclat attrayants, il est également utilisé dans une variété de composants {LINK:ElectronicPage;electronics} et {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemNickelOre</Key>
       <Value>Minerai (Nickel)</Value>
-      <Description>Nickel is a chemical element with the symbol "Ni" and is a rare metal commonly used as a plating to prevent corrosion. Sought after by many {LINK:Stationeers;Stationeers}, Nickel is also commonly used to create several {LINK:IngotPage;alloys}.</Description>
+      <Description>Le nickel est un élément chimique portant le symbole "Ni". C'est un métal rare couramment utilisé comme revêtement pour prévenir la corrosion. Recherché par de nombreux {LINK:Stationeers;Stationeers}, le nickel est aussi couramment utilisé pour créer plusieurs {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLeadOre</Key>
       <Value>Minerai (Plomb)</Value>
-      <Description>Lead is a chemical element with the symbol "Pb". It is a dense, heavy metal with a low melting point. Lead is a used to make a variety of things such as {LINK:IngotPage;alloys} like {THING:ItemSolderIngot} and munitions.</Description>
+      <Description>Le plomb est un élément chimique portant le symbole "Pb". C'est un métal dense et lourd dont le point de fusion est bas. Le plomb est utilisé pour fabriquer une variété de choses telles que des  {LINK:IngotPage;alloys} comme {THING:ItemSolderIngot} et des munitions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>WeaponRifleEnergy</Key>
@@ -2597,12 +2598,12 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemAngleGrinder</Key>
       <Value>Meuleuse</Value>
-      <Description>Angles-be-gone with the trusty angle grinder.</Description>
+      <Description>Des angles à faire disparaître avec la fidèle meuleuse d'angle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconOre</Key>
       <Value>Minerai (Silicium)</Value>
-      <Description>Silicon is a chemical element with the symbol "Si" and is one of the most useful elements to {LINK:Stationeers;Stationeers}. Readily available throughout the universe, silicon is used in a range of {LINK:IngotPage;alloys}, glass, plastics and various electronic components a Stationeer may  need to complete their mission.</Description>
+      <Description>Le silicium est un élément chimique portant le symbole "Si" et est l'un des éléments les plus utiles aux {LINK:Stationeers;Stationeers}. Facilement disponible dans tout l'univers, le silicium est utilisé dans une gamme de {LINK:IngotPage;alloys}, de verre, de plastiques et de divers composants électroniques dont un stationnaire peut avoir besoin pour mener à bien sa mission.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconIngot</Key>
@@ -2611,32 +2612,32 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemFern</Key>
       <Value>Fougère</Value>
-      <Description>There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use equivalent quantities of fern directly in recipes.</Description>
+      <Description>Il fut un temps où les stationnaires devaient fabriquer {THING:ReagentFenoxitone} à l'aide du  {THING:ApplianceReagentProcessor}. Les récents progrès technologiques permettent d'utiliser des quantités équivalentes de fougère directement dans les recettes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBar</Key>
       <Value>Barre de céréales</Value>
-      <Description>Sustains, without decay. If only all our relationships were so well balanced.</Description>
+      <Description>Il se maintient, sans se dégrader. Si seulement toutes nos relations étaient aussi bien équilibrées.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
       <Value>Imprimante Electronique</Value>
-      <Description>The electronic printer will create any {LINK:ElectronicPage;electronic} part you need. From circuit boards and electronic devices to solar panels. The choice is yours. Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
+      <Description>L'imprimante électronique crée n'importe quelle pièce  {LINK:ElectronicPage;electronic} dont vous avez besoin. Qu'il s'agisse de cartes de circuits imprimés, d'appareils électroniques ou de panneaux solaires. Vous avez le choix. Mettez l'appareil à niveau en utilisant un {THING:ElectronicPrinterMod} pour obtenir des recettes supplémentaires et des vitesses de traitement plus rapides.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemVolatiles</Key>
       <Value>Glace (Volatiles)</Value>
-      <Description>An extremely reactive ice with numerous hydrocarbons trapped inside. For simplicity's sake, these are often displayed as H2 by devices like the {THING:CartridgeAtmosAnalyser}.
+      <Description>Une glace extrêmement réactive avec de nombreux hydrocarbures piégés à l'intérieur. Par souci de simplicité, ceux-ci sont souvent affichés comme H2 par des appareils tels que le  {THING:CartridgeAtmosAnalyser}.
       
-Volatiles combust in a 2:1 ratio with {GAS:Oxygen}, creating {GAS:CarbonDioxide} and pollutants. However when catalysed via devices such as the {THING:H2Combustor} in the presence of {GAS:Oxygen}, they produce water and heat with a modicum of {GAS:CarbonDioxide} and {GAS:Pollutant} due to the autoignition of the volatiles in the chamber. Along with {GAS:Oxygen}, volatiles gas is also the major component of fuel for such devices as the {THING:ItemWeldingTorch}.
+Les volatiles brûlent dans un rapport de 2:1 avec le {GAS:Oxygen}, créant du {GAS:CarbonDioxide} et des polluants. Cependant, lorsqu'elles sont catalysées par des dispositifs tels que le {THING:H2Combustor} en présence de {GAS:Oxygen}, elles produisent de l'eau et de la chaleur avec un minimum de {GAS:CarbonDioxide} et de {GAS:Pollutant} en raison de l'auto-inflammation des substances volatiles dans la chambre. Avec le {GAS:Oxygen}, le gaz volatil est également le principal composant du combustible pour des appareils tels que le {THING:ItemWeldingTorch}.
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemOxite</Key>
       <Value>Glace (Oxite)</Value>
-      <Description>Oxite ice is largely composed of frozen {GAS:Oxygen}, and found on many planets in the Solar System. Highly valuable and sought after, not all planets a {LINK:Stationeers;Stationeer] visits will have some. 
+      <Description>La glace oxite est largement composée de {GAS:Oxygen}, congelé, et se trouve sur de nombreuses planètes du système solaire. Très précieuse et recherchée, toutes les planètes qu'un  {LINK:Stationeers;Stationeer} visite n'en ont pas. 
 
-Highly sensitive to temperature, oxite will begin to melt as soon as it is mined, unless the temperature is below zero, or it is stored in the {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} or devices like the {THING:StructureIceCrusher} or {THING:StructureFridgeSmall}. When melting, oxite produces a mixture of {GAS:Oxygen} and {GAS:Nitrogen}.</Description>
+Très sensible à la température, l'oxite commencera à fondre dès qu'elle sera extraite, à moins que la température ne soit inférieure à zéro, ou qu'elle soit stockée dans la {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} ou des appareils comme le  {THING:StructureIceCrusher} ou {THING:StructureFridgeSmall}. En fondant, l'oxite produit un mélange de {GAS:Oxygen} et d'{GAS:Nitrogen}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron</Key>
@@ -2713,7 +2714,7 @@ Highly sensitive to temperature, oxite will begin to melt as soon as it is mined
     <RecordThing>
       <Key>StructureHydraulicPipeBender</Key>
       <Value>Cintreuse Hydraulique</Value>
-      <Description>A go-to tool for all your atmospheric and plumbing needs, the {LINK:ExMin;ExMin} Atmoprinter will create everything from pipes, pumps and tanks, to vents and filters, ensuring your survival in any environment. Upgrade the Atmoprinter using a {THING:PipeBenderMod} for additional recipes and faster processing speeds.</Description>
+      <Description>Outil indispensable pour tous vos besoins en matière d'atmosphère et de plomberie, l'imprimante atmosphérique {LINK:ExMin;ExMin} L'Atmoprinter créera tout, des tuyaux, pompes et réservoirs aux évents et filtres, assurant votre survie dans n'importe quel environnement. Améliorez l'Atmoprinter en utilisant un {THING:PipeBenderMod} pour des recettes supplémentaires et des vitesses de traitement plus rapides.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydraulicPipeBender</Key>
@@ -2742,8 +2743,8 @@ Highly sensitive to temperature, oxite will begin to melt as soon as it is mined
     <RecordThing>
       <Key>StructureToolManufactory</Key>
       <Value>Imprimante Outillage</Value>
-      <Description>No mission can be completed without the proper tools. The {LINK:Norsec;Norsec} ThuulDek manufactory can fabricate almost any tool or hand-held device a {LINK:Stationeer;Stationeer} may need to complete their mission, as well as a variety of delightful paints.
-Upgrade the device using a {THING:ToolPrinterMod} for additional recipes and faster processing speeds.</Description>
+      <Description>Aucune mission ne peut être accomplie sans les outils appropriés. La manufacture de ThuulDek peut fabriquer presque tous les outils ou appareils portatifs dont un {LINK:Stationeer;Stationeer} peut avoir besoin pour accomplir sa mission, ainsi qu'une variété de peintures délicieuses.
+Améliorez l'appareil en utilisant un {THING:ToolPrinterMod} pour obtenir des recettes supplémentaires et des vitesses de traitement plus rapides.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
@@ -2752,8 +2753,8 @@ Upgrade the device using a {THING:ToolPrinterMod} for additional recipes and fas
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
       <Value>Transformateur Inversé (Petit)</Value>
-      <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
-Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Description>Les transformateurs contrôlent la puissance maximale qui circule dans un sous-réseau de câbles, afin d'éviter de surcharger les systèmes {LINK:ElectronicPage;electrical} La puissance des petits transformateurs peut être réglée de 0 à 5000W.
+Notez que les transformateurs fonctionnent comme des isolateurs de données, empêchant le flux de données vers tout réseau situé au-delà.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicUnit</Key>
@@ -2838,7 +2839,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
       <Value>Panneau Solaire (Double connexion)</Value>
-      <Description>{LINK:Sinotai;Sinotai} dual solar panels are used for generating power from sunlight, with dedicated data and power ports. They can be connected to {{LINK:LogicPage;Logic} systems, in order to track sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>Les panneaux solaires doubles sont utilisés pour générer de l'énergie à partir de la lumière du soleil, avec des ports de données et d'alimentation dédiés. Ils peuvent être connectés à des systèmes {LINK:LogicPage;Logic} afin de suivre la lumière du soleil, mais leur efficacité est réduite pendant les tempêtes et lorsqu'ils sont endommagés. Vous pouvez les réparer à l'aide d'un fiable  {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchWriter</Key>
@@ -2859,7 +2860,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureRecycler</Key>
       <Value>Recycleur</Value>
-      <Description>A device for collecting the raw resources while destroying an item. Produces {THING:ItemReagentMix} containing packages of reagents. Pass these through the {THING:StructureCentrifuge} to gain back the source ores. Plants and organic matter passed through will create Biomass, which when passed through the {THING:StructureCentrifuge} will produce {THING:ItemBiomass}.</Description>
+      <Description>Un dispositif permettant de collecter les ressources brutes lors de la destruction d'un objet. Produit des {THING:ItemReagentMix} contenant des paquets de réactifs. Passez-les dans la {THING:StructureCentrifuge} pour récupérer les minerais d'origine. Les plantes et la matière organique qui passent à travers créeront de la Biomasse, qui une fois passée dans la  {THING:StructureCentrifuge} produira {THING:ItemBiomass}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRecycler</Key>
@@ -2876,7 +2877,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicDial</Key>
       <Value>Sélecteur</Value>
-      <Description>An asignable dial with up to 1000 modes.</Description>
+      <Description>Un cadran asignable avec jusqu'à 1000 modes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED1x2</Key>
@@ -2929,14 +2930,14 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>DynamicGPR</Key>
       <Value>Radar Souterrain</Value>
-      <Description>The {LINK:Recurso;Recurso} Ground Penetrating Radar (GPR), when used in conjunction with either a {THING:CartridgeOreScanner} or a {THING:CartridgeOreScannerColor} placed in a {THING:ItemTablet}, allows a {LINK:Stationeers;Stationeer] to maximize mining yields and save time gathering resources to complete their mission by displaying hidden ores in the terrain. 
+      <Description> Le radar portable (GPR), lorsqu'il est utilisé conjointement avec un {THING:CartridgeOreScanner} ou un {THING:CartridgeOreScannerColor} placé dans une  {THING:ItemTablet}, de maximiser les rendements miniers et de gagner du temps pour rassembler les ressources nécessaires à l'accomplissement de sa mission en affichant les minerais cachés sur le terrain. 
 
-Insert a cartridge or color scanner into the tablet, then press the activate button on the GPR to scan the surroundings. The data will be displayed on the tablet.</Description>
+Insérez une cartouche ou un scanner couleur dans la tablette, puis appuyez sur le bouton d'activation du GPR pour scanner les environs. Les données s'affichent sur la tablette</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeOreScanner</Key>
       <Value>Carte (Scanneur de minéral)</Value>
-      <Description>When inserted into a {THING:ItemTablet} and used in conjunction with a {THING:DynamicGPR}, the scanner will display minerals hidden underground on the tablet.</Description>
+      <Description>Lorsqu'il est inséré dans une {THING:ItemTablet} et utilisé en conjonction avec un {THING:DynamicGPR}, le scanner affichera les minéraux cachés sous la tablette.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPotatoBaked</Key>
@@ -2945,7 +2946,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>ItemTomatoSoup</Key>
       <Value>Soupe de tomate</Value>
-      <Description>Made using {THING:ItemCookedTomato}s and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}.</Description>
+      <Description>Réalisé à l'aide de {THING:ItemCookedTomato} et d'un {THING:ItemEmptyCan} dans une {THING:AppliancePackagingMachine} ou {THING:StructureAdvancedPackagingMachine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoyOil</Key>
@@ -3098,7 +3099,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureOrganicsPrinter</Key>
       <Value>Imprimante Organique</Value>
-      <Description>Please note, the organics printer has been deprecated - it is now spawnable in Creative mode only.</Description>
+      <Description>Veuillez noter que l'imprimante organique a été dépréciée - elle ne peut désormais être créée qu'en mode créatif.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowIron</Key>
@@ -3443,7 +3444,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureSecurityPrinter</Key>
       <Value>Imprimante de Sécurité</Value>
-      <Description>Any {LINK:Stationeer;Stationeer} concerned about security needs the {LINK:Harkwell;Harkwell-designed} Vigilant-E security printer. Use the Vigilant-E to create a {THING:CartridgeAccessController}, in order to restrict access to different parts of your base via keycards like the {THING:AccessCardBlue}. The printer also makes a variety of weapons and ammunitions to defend your base against any hostile, aggressive or just slightly rude entites you encounter as you explore the Solar System.
+      <Description>Tout {LINK:Stationeer;Stationeer} préoccupé par la sécurité a besoin de l'imprimante de sécurité {LINK:Harkwell;Harkwell-designed} Vigilant-E. Utilisez le Vigilant-E pour créer un {THING:CartridgeAccessController}, afin de restreindre l'accès à différentes parties de votre base via des cartes-clés comme la {THING:AccessCardBlue}. L'imprimante fabrique également une variété d'armes et de munitions pour défendre votre base contre toute entité hostile, agressive ou simplement un peu grossière que vous rencontrerez au cours de votre exploration du système solaire.
 </Description>
     </RecordThing>
     <RecordThing>
@@ -3473,7 +3474,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureElectrolyzer</Key>
       <Value>Electrolyseur</Value>
-      <Description>The {LINK:Norsec;Norsec-designed} Electrolyzer splits water into hydrogen and {GAS:Oxygen}. Employing unknown proprietary technology, the device uses water's latent heat as the energy to drive the electrosis process. If there is a downside to this near-miraculous fission, it's that the device is limited by the quantity of power available, which is used to maintain the temperature output. In other words, the machine works best with hot gas.</Description>
+      <Description>Le {LINK:Norsec;Norsec-designed} L'électrolyseur sépare l'eau en hydrogène et {GAS:Oxygen}. Utilisant une technologie propriétaire inconnue, l'appareil utilise la chaleur latente de l'eau comme énergie pour alimenter le processus d'électrosis. S'il y a un inconvénient à cette fission quasi-miraculeuse, c'est que l'appareil est limité par la quantité d'énergie disponible, qui est utilisée pour maintenir la température de sortie. En d'autres termes, la machine fonctionne mieux avec du gaz chaud.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorShaft</Key>
@@ -3558,7 +3559,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureVendingMachine</Key>
       <Value>Distributeur automatique</Value>
-      <Description>The {LINK:Xigo;Xigo-designed} 'Slot Mate' vending machine allows storage of almost any item, while also operating as a distribution point for working with {LINK:TradingPage;Traders}. You cannot trade without a vending machine, or its more advanced equivalent, the {THING:StructureRefrigeratedVendingMachine}. Each vending machine can hold up to 100 stacks.</Description>
+      <Description>Le {LINK:Xigo;Xigo-designed} Le distributeur automatique "Slot Mate" permet de stocker presque n'importe quel article, tout en servant de point de distribution pour travailler avec {LINK:TradingPage;Traders}. Il n'est pas possible de commercer sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque distributeur automatique peut contenir jusqu'à 100 piles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachine</Key>
@@ -3583,7 +3584,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>ItemHardsuitHelmet</Key>
       <Value>Casque spatial renforcé</Value>
-      <Description>The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh enviroments like Venus and Vulcan.</Description>
+      <Description>Le casque Hardsuit est similaire au {THING:ItemSpaceHelmet}, mais peut résister à des températures et des pressions plus élevées. Il est parfait pour supporter des environnements difficiles comme Vénus et Vulcain.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
@@ -3620,15 +3621,15 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureUnloader</Key>
       <Value>Déchargeur</Value>
-      <Description>The {LINK:Xigo;Xigo} Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty a mining belt of its contents, insert them into the chute network, then insert the mining belt itself. A {THING:StructureSorter} is recommended to reclaim the mining belt.
+      <Description>Le {LINK:Xigo;Xigo} Le Re:Gurge est une unité pratique pour décharger tous les objets qui y sont insérés, et les introduire dans un réseau de goulottes. Par exemple, si vous ajoutez une {THING:ItemMiningBelt}, pleine, le Re:Gurge videra une ceinture minière de son contenu, l'insérera dans le réseau de goulottes, puis insérera la ceinture minière elle-même. Un {THING:StructureSorter} est recommandé pour récupérer la ceinture minière.
 
-Output = 0 exporting the main item
-Output = 1 exporting items inside and eventually the main item.</Description>
+Sortie = 0 exportant l'élément principal
+Sortie = 1 exportant les objets à l'intérieur et éventuellement l'objet principal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ReagentFenoxitone</Key>
       <Value>Poudre de Fenoxitone</Value>
-      <Description>Effectively deprecated. Use {THING:ItemFern} directly.</Description>
+      <Description>Effectivement déprécié. Utilisez directement{THING:ItemFern}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePlatformLadderOpen</Key>
@@ -3673,7 +3674,7 @@ Output = 1 exporting items inside and eventually the main item.</Description>
     <RecordThing>
       <Key>ItemKitDynamicLiquidCanister</Key>
       <Value>Kit (Citerne portable)</Value>
-      <Description>This kit produces a {THING:DynamicLiquidCanisterEmpty}.</Description>
+      <Description>Ce kit permet de produire un {THING:DynamicLiquidCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlowerBlue</Key>
@@ -3774,7 +3775,7 @@ Output = 1 exporting items inside and eventually the main item.</Description>
     <RecordThing>
       <Key>ItemMushroom</Key>
       <Value>Champignon</Value>
-      <Description>A tasty food item. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide} and will only grow when not in sunlight.</Description>
+      <Description>Un aliment savoureux. Contrairement aux plantes normales, elle consomme du {GAS:Oxygen} et produit du {GAS:CarbonDioxide} et ne se développe que lorsqu'elle n'est pas exposée au soleil.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkin</Key>
@@ -3791,14 +3792,14 @@ Output = 1 exporting items inside and eventually the main item.</Description>
     <RecordThing>
       <Key>ItemHardBackpack</Key>
       <Value>Sac à dos renforcé</Value>
-      <Description>This backpack can be useful when you are working inside and don't need to fly around.</Description>
+      <Description>Ce sac à dos peut être utile lorsque vous travaillez à l'intérieur et que vous n'avez pas besoin de vous déplacer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHardJetpack</Key>
       <Value>Propulseur dorsal renforcé</Value>
-      <Description>The {LINK:Norsec;Norsec} jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
-The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fourteen storage slots.
-USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
+      <Description>Le jetpack {LINK:Norsec;Norsec} n'est pas "techniquement" un jetpack du tout, c'est un propulseur à gaz. Il peut être alimenté par n'importe quel gaz, tant que la pression interne de la {LINK:AtmosphericsPage;canister} est supérieure à la pression externe ambiante. Si la pression externe est supérieure, le propulseur spatial ne fonctionnera pas. L'ajustement de la valeur de la poussée modifie votre taux d'accélération, tandis que l'activation du stabilisateur permet au sac spatial de se mettre en vol stationnaire lorsqu'une hauteur donnée est atteinte.
+Le jetpack de la combinaison est capable d'atteindre des vitesses beaucoup plus élevées que le {THING:ItemJetpackBasic} - jusqu'à 15m/s. Indispensable pour la construction, l'exploitation minière et les déplacements en général, il dispose de quatorze emplacements de stockage.
+UTILISATION : 'J' pour activer ; 'espace' pour monter ; 'ctrl gauche' pour descendre ; et 'ZQSD' pour se déplacer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
@@ -3811,7 +3812,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureKlaxon</Key>
       <Value>Haut-Parleur</Value>
-      <Description>Klaxons allow you to play over 50 announcemets and sounds, depending on your {LINK:LogicPage;Logic} set-up. Set the mode to select the output.</Description>
+      <Description>Les klaxons vous permettent de jouer plus de 50 annonces et sons, en fonction de votre configuration {LINK:LogicPage;Logic} Réglez le mode pour sélectionner la sortie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSpeaker</Key>
@@ -3820,14 +3821,14 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>CartridgeOreScannerColor</Key>
       <Value>Scanner de minerai (couleur)</Value>
-      <Description>When inserted into a {THING:ItemTablet} and used in conjunction with a {THING:DynamicGPR}, the scanner will display minerals hidden underground in different colors on the tablet.
+      <Description>Lorsqu'il est inséré dans une {THING:ItemTablet} et utilisé en conjonction avec un {THING:DynamicGPR}, le scanner affichera les minéraux cachés sous terre en différentes couleurs sur la tablette.
 
-Iron and Nickle = red 
-Ice, Lead, Cobalt = cyan
-Gold and Silver = green
-Coal and Silicon = magenta
-Copper and Oxite = yellow
-Volatiles and Uranium = white</Description>
+Fer et Nickel = rouge 
+Glace, Plomb, Cobalt = cyan
+Or et argent = vert
+Charbon et Silicium = magenta
+Cuivre et Oxite = jaune
+Volatiles et Uranium = blanc</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicWriterSwitch</Key>
@@ -3836,7 +3837,7 @@ Volatiles and Uranium = white</Description>
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
       <Value>Carte mère (Editeur IC)</Value>
-      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ItemIntegratedCircuit10} if housed in an {THING:StructureCircuitHousing}.</Description>
+      <Description>Lorsqu'il est placé dans un {THING:StructureComputer}, l'Editeur de CI permet aux joueurs d'écrire et de modifier le code de CI, qui peut ensuite être téléchargé dans un {THING:ItemIntegratedCircuit10} s'il est logé dans un  {THING:StructureCircuitHousing}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
@@ -3901,7 +3902,7 @@ Volatiles and Uranium = white</Description>
     <RecordThing>
       <Key>StructureShuttleLandingPad</Key>
       <Value>Aire d&apos;atterrissage</Value>
-      <Description>Landing pad capable of handling a small trade shuttle. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
+      <Description>Plate-forme d'atterrissage capable d'accueillir une petite navette commerciale. Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:MotherboardComms}, une {THING:StructureSatelliteDish}, et une {THING:StructureVendingMachine} elle permet de commercer avec les fournisseurs. Vous avez besoin d'un signal de communication de 95% ou plus pour établir des communications fiables avec un commerçant.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPad</Key>
@@ -3910,9 +3911,9 @@ Volatiles and Uranium = white</Description>
     <RecordThing>
       <Key>StructureSatelliteDish</Key>
       <Value>Antenne satellite</Value>
-      <Description>This large communications unit can be used to communicate with nearby trade vessels.
+      <Description>Cette grande unité de communication peut être utilisée pour communiquer avec les navires commerciaux à proximité.
       
-When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine}, this allows Stationeers to trade with suppliers. Adjust its horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
+Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:MotherboardComms} carte mère, un {THING:StructureShuttleLandingPad}, et un {THING:StructureVendingMachine}, elle permet aux Stationeers de commercer avec les fournisseurs. Ajustez ses attributs horizontaux et verticaux soit directement, soit par le biais de la logique. Vous avez besoin d'un signal de communication de 95% ou plus pour établir des communications fiables avec un commerçant.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSatelliteDish</Key>
@@ -3929,7 +3930,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>MotherboardComms</Key>
       <Value>Carte mère (Communications)</Value>
-      <Description>When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} allows Stationeers to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
+      <Description>Lorsqu'il est placé dans un {THING:StructureComputer} et connecté à un {THING:StructureShuttleLandingPad}, un {THING:StructureSatelliteDish}, et un {THING:StructureVendingMachine} il permet aux Stationeers de faire du commerce avec les fournisseurs. Ajustez les attributs horizontaux et verticaux de la {THING:StructureSatelliteDish} soit directement, soit par le biais de la logique. Vous avez besoin d'un signal de communication de 95% ou plus pour établir des communications fiables avec un commerçant.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMarineBodyArmor</Key>
@@ -3962,7 +3963,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>ItemMiningDrillHeavy</Key>
       <Value>Foreuse lourde</Value>
-      <Description>Sometimes mining trips require something a little bigger to bring home the goods. This scaled up version of the {LINK:Recurso;Recurso} 'Topo' design {THING:ItemMiningDrill} can literally move mountains. The heavy mining drill will remove more ground and mine {LINK:OrePage;ore} more quickly than the standard mining drill. The heavy mining drill is also resilient to temperature and pressure. So no matter what planet or extreme weather conditions may be present, the Recurso heavy mining drill will get the job done.</Description>
+      <Description>Parfois, les voyages miniers nécessitent quelque chose d'un peu plus grand pour ramener les marchandises à la maison. Cette version à grande échelle du modèle {THING:ItemMiningDrill} peut littéralement déplacer des montagnes. La foreuse lourde permet d'extraire plus de terre et de miner {LINK:OrePage;ore} plus rapidement que la foreuse standard. La foreuse minière lourde est également résistante à la température et à la pression. Ainsi, quelle que soit la planète ou les conditions météorologiques extrêmes, la foreuse minière lourde Recurso fera le travail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>RoverCargo</Key>
@@ -4028,7 +4029,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>StructureSolarPanelFused</Key>
       <Value>Panneau Solaire</Value>
-      <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>Utilisé pour produire de l'énergie à partir de la lumière du soleil. Son efficacité est réduite pendant les tempêtes et lorsqu'il est endommagé. Vous pouvez la réparer à l'aide de quelques {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCoffeeMug</Key>
@@ -4037,19 +4038,19 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>Robot</Key>
       <Value>AIMeE</Value>
-      <Description>Designed by - presumably drunk - {LINK:Norsec;Norsec} roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a {LINK:Stationeers;Stationeer's} best friend, or tiresome nemesis, or both several times in the same day. 
+      <Description>Conçue par des roboticiens - vraisemblablement ivres - l'AIMeE (Automated Independent Mechanical Entity) peut être le meilleur ami d'un {LINK:Stationeers;Stationeer's} ou son ennemi juré, voire les deux plusieurs fois dans la même journée. 
       
-Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate, and {THING:MotherboardProgrammableChip}.
+Destinée à déterrer et à récupérer des minerais automatiquement, l'unité nécessite des connaissances de base en programmation pour fonctionner, et {THING:MotherboardProgrammableChip}.
 
-AIMEe has 7 modes:
+AIMEe dispose de 7 modes :
 
-RobotMode.None = 0 = Do nothing
-RobotMode.None = 1 = Follow nearest player
-RobotMode.None = 2 = Move to target in straight line
-RobotMode.None = 3 = Wander around looking for ores in 15 co-ords radius
-RobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids
-RobotMode.None = 5 = Path(find) to target
-RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full</Description>
+RobotMode.None = 0 = Ne rien faire
+RobotMode.None = 1 = Suivre le joueur le plus proche
+RobotMode.None = 2 = Se déplacer vers la cible en ligne droite
+RobotMode.None = 3 = Se promener à la recherche de minerais dans un rayon de 15 cordes.
+RobotMode.None = 4 = Décharger dans l'entrée de la goulotte ou dans le bac de la goulotte dans un rayon de 3 mètres / 1,5 grandes grilles
+RobotMode.None = 5 = Chemin (trouver) vers la cible
+RobotMode.None = 6 = État attribué automatiquement, indique quand les emplacements de stockage sont pleins</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeGPS</Key>
@@ -4066,7 +4067,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>StructureAdvancedFurnace</Key>
       <Value>Fourneau avancé</Value>
-      <Description>The advanced furnace comes with integrated inlet and outlet pumps for controlling the unit's internal pressure.</Description>
+      <Description>Le four perfectionné est doté de pompes d'entrée et de sortie intégrées permettant de contrôler la pression interne de l'unité.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedFurnace</Key>
@@ -4091,12 +4092,12 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>ItemAstroloyIngot</Key>
       <Value>Lingot (Astroloy)</Value>
-      <Description>Due to the original Stationeer manual collapsing into a singularity, Astroloy recipes have been warped by spacetime contortions. The correct Astroloy recipe, as memorialized for all time in a series of charming plastic icons, is 1.0 Copper, 1.0 Cobalt, and 2.0 Steel.</Description>
+      <Description>En raison de l'effondrement du manuel original du Stationnaire dans une singularité, les recettes d'Astroloy ont été déformées par les contorsions de l'espace-temps. La recette correcte de l'astroloy, telle qu'elle est mémorisée à jamais dans une série de charmantes icônes en plastique, est de 1,0 cuivre, 1,0 cobalt et 2,0 acier.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltOre</Key>
       <Value>Minerai (Cobalt)</Value>
-      <Description>Cobalt is a chemical element with the symbol "Co" and is typically found in only small deposits. Cobalt is a rare substance, but used create the {THING:ItemHealPill} and several  {LINK:IngotPage;alloys}.</Description>
+      <Description>Le cobalt est un élément chimique portant le symbole "Co" et ne se trouve généralement que dans de petits dépôts. Le cobalt est une substance rare, mais utilisée pour créer la {THING:ItemHealPill} et plusieurs {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltIngot</Key>
@@ -4129,36 +4130,36 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>ElectronicPrinterMod</Key>
       <Value>Module Imprimante Electronique</Value>
-      <Description>Apply to an {THING:StructureElectronicsPrinter} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Description>Appliquez à une {THING:StructureElectronicsPrinter} avec un {THING:ItemWeldingTorch} ou {THING:ItemArcWelder} pour obtenir une vitesse de traitement accrue et plus d'options de recettes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
       <Value>Module Tour Automatique</Value>
-      <Description>Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Description>Appliquez à une {THING:StructureAutolathe} avec un {THING:ItemWeldingTorch} ou {THING:ItemArcWelder} pour obtenir une vitesse de traitement accrue et plus d'options de recettes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PipeBenderMod</Key>
       <Value>Module Cintreuse Hydraulique</Value>
-      <Description>Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Description>Appliquez à une {THING:StructureHydraulicPipeBender} avec un {THING:ItemWeldingTorch} ou {THING:ItemArcWelder} pour obtenir une vitesse de traitement accrue et plus d'options de recettes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ToolPrinterMod</Key>
       <Value>Module Imprimante Outillage</Value>
-      <Description>Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Description>Appliquez à une {THING:StructureToolManufactory} avec un {THING:ItemWeldingTorch} ou {THING:ItemArcWelder} pour obtenir une vitesse de traitement accrue et plus d'options de recettes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium</Key>
       <Value>Transformateur (Moyen)</Value>
-      <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. 
-Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
-Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Description>Les transformateurs contrôlent la puissance maximale qui circulera dans un sous-réseau de câbles, afin d'éviter de surcharger les systèmes {LINK:ElectronicPage;electrical}.
+Les transformateurs moyens sont utilisés dans les grandes installations où plus de 5000W sont nécessaires, avec une sortie qui peut être réglée à un maximum de 25000W.
+Notez que les transformateurs fonctionnent également comme des isolateurs de données, empêchant les données de circuler dans tout réseau situé au-delà.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
       <Value>Transformateur Inversé (Moyen)</Value>
-      <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. 
-Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
-Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Description>Les transformateurs contrôlent la puissance maximale qui circulera dans un sous-réseau de câbles, afin d'éviter de surcharger les systèmes {LINK:ElectronicPage;electrical}.
+Les transformateurs moyens sont utilisés dans les grandes installations où plus de 5000W sont nécessaires, avec une sortie qui peut être réglée à un maximum de 25000W.
+Notez que les transformateurs fonctionnent également comme des isolateurs de données, empêchant les données de circuler dans tout réseau situé au-delà.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
@@ -4167,9 +4168,9 @@ Note that transformers also operate as data isolators, preventing data flowing i
     <RecordThing>
       <Key>ItemJetpackBasic</Key>
       <Value>Jetpack basique</Value>
-      <Description>The basic {LINK:CHAC;CHAC} jetpack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.
-Indispensible for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
-USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
+      <Description>Le jetpack {LINK:CHAC;CHAC} de base n'est pas "techniquement" un jetpack, c'est un propulseur à gaz. Il peut être alimenté par n'importe quel gaz, tant que la pression interne de la {LINK:AtmosphericsPage;canister} est supérieure à la pression externe ambiante. Si la pression externe est supérieure, le propulseur spatial ne fonctionnera pas.
+Indispensable pour la construction, l'exploitation minière et les déplacements en général, il dispose de dix emplacements de stockage et permet aux {LINK:Stationeers;Stationeers} de voler à 3m/s, par rapport au {THING:ItemHardJetpack}. plus puissant. L'ajustement de la valeur de la poussée modifie votre taux d'accélération, tandis que l'activation du stabilisateur permet au spacepack de faire du surplace lorsqu'une hauteur donnée est atteinte.
+UTILISATION : 'J' pour activer ; 'espace' pour monter ; 'ctrl gauche' pour descendre ; et 'ZQSD' pour se déplacer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRTGSurvival</Key>
@@ -4354,7 +4355,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
       <Value>Petite station de minage</Value>
-      <Description>The {LINK:Recurso;Recurso} SquareDig autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs more {LINK:OrePage;ore} than a conventional {THING:ItemMiningDrill} over the same area.</Description>
+      <Description>L'autominer {LINK:Recurso;Recurso} SquareDig est une structure qui, une fois construite, exploite un puits vertical de 2x2 jusqu'à ce qu'il atteigne la roche-mère. L'autominer peut être connecté à un système de chute, et est contrôlable par un réseau logique. Notez que l'autominer produit plus de {LINK:OrePage;ore} qu'un {THING:ItemMiningDrill} conventionnel sur la même zone.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
@@ -4367,7 +4368,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemDirtCanister</Key>
       <Value>Réservoir de terre</Value>
-      <Description>A container the will fill with Dirt when using a {THING:ItemMiningDrill} when placed inside a {THING:ItemMiningBelt}. You can then use this {SLOT:DirtCanister} with the {THING:ItemTerrainManipulator} to adjust the terrain to suit your needs.</Description>
+      <Description>Un conteneur qui se remplira de terre lors de l'utilisation d'un {THING:ItemMiningDrill} placé à l'intérieur d'une {THING:ItemMiningBelt}. Vous pouvez ensuite utiliser ce {SLOT:DirtCanister} avec le {THING:ItemTerrainManipulator} pour ajuster le terrain à vos besoins.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTerrainManipulator</Key>
@@ -4380,23 +4381,23 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureModularRocketCargo01</Key>
       <Value>Module cargo de Fusée</Value>
-      <Description>The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total. This cargo will be released in orbit and descend the surface of your destination. Unless that happens to be the asteroid belt, in which case it will be left floating serenely in the void.</Description>
+      <Description>Le module cargo peut contenir deux caisses à dix fentes. Vous pouvez avoir plusieurs modules de fret sur votre fusée. La fusée peut soulever jusqu'à sept modules au total. Cette cargaison sera libérée en orbite et descendra à la surface de votre destination. À moins qu'il ne s'agisse de la ceinture d'astéroïdes, auquel cas elle flottera sereinement dans le vide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCommand01</Key>
       <Value>Module de commande de Fusée</Value>
-      <Description>The command module must be placed on top of the rocket, and will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
+      <Description>Le module de commande doit être placé sur le dessus de la fusée, et évaluera l'état de préparation de la fusée pour le vol. Une fois que toutes les conditions sont remplies, la fusée peut être lancée lorsque tous les joueurs sont assis dans le module en appuyant sur la touche " IGNITION " de la console.
 
-The following conditions must be met for launch:
+Les conditions suivantes doivent être remplies pour le lancement :
 
-- Fuel full
-- Fuel mix ratio correct - a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}.
-- All players seated
-- Power supplied to the {THING:StructureLaunchPad}
-- Fully built rocket
+- Carburant plein
+- Rapport de mélange de carburant correct - un mélange 2:1 de {GAS:Volatiles} et {GAS:Oxygen}.
+- Tous les joueurs sont assis
+- Alimentation électrique du {THING:StructureLaunchPad}
+ Fusée entièrement construite
 
-The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
-When landing, the rocket will deploy a lander, and any cargo contained in the {THING:StructureModularRocketCargo01} module.</Description>
+La console {THING:StructureModularRocketCommand01} affiche l'état actuel de ces conditions. Elle ne nécessite pas d'atmosphère pour le décollage - l'atmosphère de votre combinaison est suffisante.
+Lors de l'atterrissage, la fusée déploiera un atterrisseur et toute cargaison contenue dans le module {THING:StructureModularRocketCargo01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicModularRocketCommand01</Key>
@@ -4409,69 +4410,69 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>H2Combustor</Key>
       <Value>Bruleur à hydrogène</Value>
-      <Description>Adapted slightly from its original {LINK:Recurso;Recurso} design, the {GAS:Volatiles} Combustor does exactly what its name suggests - it burns a mixture of volatiles and {GAS:Oxygen} to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat. The device is also less than perfectly efficient, resulting in the autoignition of volatiles in the chamber, and the production of waste gases which must be dealt with.</Description>
+      <Description>Légèrement adapté de sa conception originale {LINK:Recurso;Recurso}, le Combustor {GAS:Volatiles} fait exactement ce que son nom suggère - il brûle un mélange de volatiles et {GAS:Oxygen} pour créer de l'eau. Extrêmement utile dans les environnements chauds ou arides, les utilisateurs doivent savoir que la chambre de combustion produit une chaleur résiduelle considérable. Le dispositif n'est pas non plus parfaitement efficace, ce qui entraîne l'auto-inflammation des substances volatiles dans la chambre et la production de gaz résiduels qui doivent être traités.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
       <Value>Tuyau calfeutré (Droit)</Value>
-      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCorner</Key>
       <Value>Tuyau calfeutré (Coin)</Value>
-      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction</Key>
       <Value>Tuyau calfeutré (En Croix)</Value>
-      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction3</Key>
       <Value>Tuyau calfeutré (3 voies)</Value>
-      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction4</Key>
       <Value>Tuyau calfeutré (4 voies)</Value>
-      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction5</Key>
       <Value>Tuyau calfeutré (5 voies)</Value>
-      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction6</Key>
       <Value>Tuyau calfeutré (6 voies)</Value>
-      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeTJunction</Key>
       <Value>Tuyau calfeutré (Jonction T)</Value>
-      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Les tuyaux isolés réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAdvancedTablet</Key>
       <Value>Tablette avancée</Value>
-      <Description>The advanced {LINK:Xigo;Xigo} Padi 2 tablet is an improved version of the basic {THING:ItemTablet}, boasting two {LINK:CartridgePage;cartridge} slots. The Padi 2 accepts {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, and various other cartridges.</Description>
+      <Description>La tablette avancée {LINK:Xigo;Xigo} Padi 2 est une version améliorée de la {THING:ItemTablet} de base, dotée de deux emplacements {LINK:CartridgePage;cartridge} La Padi 2 accepte {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, et diverses autres cartouches.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipe</Key>
       <Value>Kit (Tuyau calfeutré)</Value>
-      <Description>This kit produces varieties of {THING:StructureInsulatedPipeStraight}, which greatly reduce heat loss from gases stored in them.</Description>
+      <Description>Ce kit produit des variétés de {THING:StructureInsulatedPipeStraight}, qui réduisent considérablement la perte de chaleur des gaz qui y sont stockés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketEngine01</Key>
       <Value>Module Moteur de Fusée</Value>
-      <Description>The modular rocket engine is capable of lifting up to seven modules, including itself. It must be fueled by at least one {THING:StructureModularRocketFueltank01}.</Description>
+      <Description>Le moteur de fusée modulaire est capable de soulever jusqu'à sept modules, y compris lui-même. Il doit être alimenté en carburant par au moins une {THING:StructureModularRocketFueltank01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketFueltank01</Key>
       <Value>Module Réservoir de Fusée</Value>
-      <Description>The rocket fueltank requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other {LINK:GasPage;gases} in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
+      <Description>Le réservoir de la fusée nécessite un mélange 2:1 de {GAS:Volatiles} et d'{GAS:Oxygen}. Si le mélange dépasse ces proportions, ou si vous placez d'autres {LINK:GasPage;gases} dans le réservoir, la console {THING:StructureModularRocketCommand01} affichera une erreur 'Invalide'.
       
-      Note that the rocket fueltank can also be used to collect gas mined by the {THING:StructureModularRocketGasMining}, when connected to that unit by a {THING:StructureModularRocketCouplingUp} or {THING:StructureModularRocketCouplingDown}.</Description>
+      Notez que le réservoir de la fusée peut également être utilisé pour recueillir le gaz extrait par la {THING:StructureModularRocketGasMining}, lorsqu'il est connecté à cette unité par un {THING:StructureModularRocketCouplingUp} ou un {THING:StructureModularRocketCouplingDown}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCommand01</Key>
@@ -4613,12 +4614,12 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>StructurePipeOrgan</Key>
       <Value>Orgue</Value>
-      <Description>The pipe organ can be attached to one end of a {THING:ItemPipeValve}. The length of the pipe after the pipe organ changes the pitch of the note it will play when the valve is opened. Use {LINK:LogicPage;Logic} to open and close the valves to create some custom tunes for your base or an audible warning.</Description>
+      <Description>L'orgue à tuyaux peut être attaché à une extrémité d'une {THING:ItemPipeValve}. La longueur du tuyau après l'orgue à tuyaux modifie la hauteur de la note qu'il jouera lorsque la valve sera ouverte. Utilisez {LINK:LogicPage;Logic} pour ouvrir et fermer les valves afin de créer des mélodies personnalisées pour votre base ou un avertissement sonore.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeOrgan</Key>
       <Value>Kit (Orgue)</Value>
-      <Description>Creates a {THING:StructurePipeOrgan}.</Description>
+      <Description>Crée un {THING:StructurePipeOrgan}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterRocketFuel</Key>
@@ -4851,7 +4852,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>StructureBatteryLarge</Key>
       <Value>Station Battery (Large)</Value>
-      <Description>Providing even better large-scale, reliable power storage than the {THING;StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer] bases. 
+      <Description>Providing even better large-scale, reliable power storage than the {THING;StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer} bases. 
 There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
 {HEADER:POWER OUTPUT}
 Able to store up to 9000001 watts of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}. </Description>
@@ -5421,7 +5422,7 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>Rover_MkI</Key>
       <Value>Rover MkI</Value>
-      <Description>A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
+      <Description>A distant cousin of the jeep, the Mk I {LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
 A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
     </RecordThing>
     <RecordThing>
@@ -5863,7 +5864,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
       <Value>Pied de biche MKII</Value>
-      <Description>{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer] settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise. The MK II is more resistant to temperature and pressure.</Description>
+      <Description>{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer} settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise. The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
