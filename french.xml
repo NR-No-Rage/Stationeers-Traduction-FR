@@ -1036,7 +1036,7 @@ La bobinage normal a une puissance maximale de 5kW. Pour les applications à cou
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>Pied de biche</Value>
-      <Description>{LINK:Recurso;Recurso's} Le pied-de-biche d'entrée de gamme est utile dans une variété de situations quotidiennes d'un {LINK:Stationeers;Stationeer] de l'ouverture de {THING:StructureAreaPowerControl}s et de {THING:StructureAirlock}, non alimentés, à l'éclatement de headcrabs pan-dimensionnels, si le besoin s'en fait sentir.</Description>
+      <Description>{LINK:Recurso;Recurso's} Le pied-de-biche d'entrée de gamme est utile dans une variété de situations quotidiennes d'un {LINK:Stationeers;Stationeer} de l'ouverture de {THING:StructureAreaPowerControl} et de {THING:StructureAirlock}, non alimentés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
@@ -1046,7 +1046,7 @@ La bobinage normal a une puissance maximale de 5kW. Pour les applications à cou
     <RecordThing>
       <Key>ItemDrill</Key>
       <Value>Perceuse</Value>
-      <Description>Le {LINK:ExMin;ExMin} La perceuse à main excentrée est le compagnon des {LINK:Stationeers;Stationeers} depuis des décennies. Indispensable pour assembler et déconstruire divers objets et structures, indépendamment de la gravité, de la pression ou de la température.</Description>
+      <Description>{LINK:ExMin;ExMin} La perceuse à main excentrée est le compagnon des {LINK:Stationeers;Stationeers} depuis des décennies. Indispensable pour assembler et déconstruire divers objets et structures, indépendamment de la gravité, de la pression ou de la température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDuctTape</Key>
@@ -1155,37 +1155,37 @@ Veillez à ne pas dépasser une pression de 10MPa, sinon elle risque de faire "b
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
       <Value>Bouteille De Liquide</Value>
-      <Description>Contient de {GAS:Water}, si vous en avez.</Description>
+      <Description>Contient du {GAS:Water}, si vous en avez.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtre (CO2)</Value>
-      <Description>Given humanity's obsession with exhaling {GAS:CarbonDioxide}, all {LINK:Stationeers;Stationeers} are issued two basic {LINK:Sinotai;Sinotai} {GAS:CarbonDioxide} {SLOT:GasFilter} as part of their standard deployment kit (SDK). These filters allow passage of {GAS:CarbonDioxide} into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available.</Description>
+      <Description>Étant donné l'obsession de l'humanité pour l'exhalaison de  {GAS:CarbonDioxide}, tous les {LINK:Stationeers;Stationeers} reçoivent deux {GAS:CarbonDioxide} {SLOT:GasFilter} de base dans le cadre de leur kit de déploiement standard (SDK). Ces filtres permettent le passage du {GAS:CarbonDioxide} dans la {THING:ItemGasCanisterEmpty} de la combinaison, mais sont également des composants critiques du  {THING:DynamicScrubber} et de la {THING:StructureFiltration}. Les {THING:ItemGasFilterCarbonDioxideM} et {THING:ItemGasFilterCarbonDioxideL} ont également disponibles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
       <Value>Filtre (Polluant)</Value>
-      <Description>Filters are used to capture various gases, such as waste emissions from a {THING:StructureFurnace} or {THING:StructureArcFurnace}. Adding {LINK:Sinotai;Sinotai}-designed {GAS:Pollutant} filters to a {THING:ItemDynamicScrubber} allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a {THING:StructureWallCooler}. Try not to inhale.</Description>
+      <Description>Les filtres sont utilisés pour capturer divers gaz, comme les émissions de déchets d'un {THING:StructureFurnace} ou d'un {THING:StructureArcFurnace}.  En ajoutant des filtres {GAS:Pollutant} à un {THING:ItemDynamicScrubber} vous pouvez isoler ce gaz, puis l'ajouter à un réseau de tuyaux et utiliser ses excellentes propriétés de refroidissement dans un {THING:StructureWallCooler}. Essayez de ne pas l'inhaler.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
       <Value>Filtre (Azote)</Value>
-      <Description>Filters are used to capture various gases, which can be disposed of or used elsewhere. {GAS:Nitrogen} is a byproduct of smelting various ores, notably {THING:ItemNitrice}, which may be combined with {GAS:Oxygen} to make a breathable - and considerably less flammable - atmosphere.</Description>
+      <Description>Des filtres sont utilisés pour capturer divers gaz, qui peuvent être éliminés ou utilisés ailleurs. {GAS:Nitrogen} est un sous-produit de la fusion de divers minerais, notamment {THING:ItemNitrice}, qui peut être combiné avec {GAS:Oxygen} pour obtenir une atmosphère respirable et considérablement moins inflammable.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
       <Value>Filtre (Oxygène)</Value>
-      <Description>{LINK:Sinotai;Sinotai} have cornered the market in filter design. Their trademarked templates are simple to print and highly efficient at capturing various gases, which can be disposed of or used elsewhere. {GAS:Oxygen} is a common byproduct of smelting various ores, but must be filtered of such impurities as {GAS:Nitrogen} using this filter and various devices, such as the {THING:ItemDynamicScrubber}.</Description>
+      <Description>{LINK:Sinotai;Sinotai} ont accaparé le marché de la conception de filtres. Leurs modèles de marque déposée sont simples à imprimer et très efficaces pour capturer divers gaz, qui peuvent être éliminés ou utilisés ailleurs. L'{GAS:Oxygen} est un sous-produit courant de la fonte de divers minerais, mais il doit être débarrassé d'impuretés telles que le {GAS:Nitrogen} à l'aide de ce filtre et de divers dispositifs, tels que le {THING:ItemDynamicScrubber}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
       <Value>Filtre (Hydrogène)</Value>
-      <Description>Filters are used to capture various gases, which can be disposed of or used elsewhere. {GAS:Volatiles} are created by exposing {THING:ItemVolatiles} to heat. The product can then be collected and combined with {GAS:Oxygen} to create fuel, or used within a {THING:StructureFurnace} to smelt ores and create {LINK:IngotPage;alloys}.</Description>
+      <Description>Les filtres sont utilisés pour capturer divers gaz, qui peuvent être éliminés ou utilisés ailleurs. {GAS:Volatiles} sont créés en exposant {THING:ItemVolatiles} à la chaleur. Le produit peut ensuite être collecté et combiné avec du {GAS:Oxygen} pour créer du carburant, ou utilisé dans un {THING:StructureFurnace} pour fondre des minerais et créer des {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
       <Value>Filtre (Eau)</Value>
-      <Description>{LINK:Sinotai;Sinotai} filters are used to capture various gases, which can be disposed of, or used elsewhere. {GAS:Water} can be collected by filtering smelted {THING:ItemIce}</Description>
+      <Description>Les filtres sont utilisés pour capturer divers gaz, qui peuvent être éliminés ou utilisés ailleurs. L'{GAS:Water} peut être collecté en filtrant le {THING:ItemIce}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -1225,520 +1225,520 @@ Veillez à ne pas dépasser une pression de 10MPa, sinon elle risque de faire "b
     <RecordThing>
       <Key>ItemHealPill</Key>
       <Value>Pilule de Soin</Value>
-      <Description>Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response.</Description>
+      <Description>Trois siècles de technologie pharmaceutique comprimés dans une petite pilule facile à avaler : la pilule Heal Pill, alias la pilule Proton, alias Mr Happy contient des enzymes actives, des protéines thérapeutiques, des souches microbiennes modifiées et des analogues de lignées cellulaires mammaliennes dans une dose unique de grande pureté, efficacité et puissance qui potentialise une réponse immunitaire parasympathique rapide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
       <Value>Kit (Bac Hydroponique)</Value>
-      <Description>This kits creates a {THING:StructureHydroponicsTray} for growing various plants.</Description>
+      <Description>Ce kit crée un {THING:StructureHydroponicsTray} pour la culture de diverses plantes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIce</Key>
       <Value>Glace (Eau)</Value>
-      <Description>Water ice can be found on most planets in the Solar System, though not all worlds visited by {LINK:Stationeers;Stationeers} possess this resource. Highly sensitive to temperature, ice will begin to melt as soon as it is mined, unless kept in the {THING:ItemMiningBelt}. When melting, ice produces a mixture of {GAS:Water} and {GAS:Nitrogen} gas.</Description>
+      <Description>La glace d'eau peut être trouvée sur la plupart des planètes du système solaire, bien que tous les mondes visités par les  {LINK:Stationeers;Stationeers} ne possèdent pas cette ressource. Très sensible à la température, la glace commence à fondre dès qu'elle est exploitée, à moins qu'elle ne soit conservée dans la {THING:ItemMiningBelt}. En fondant, la glace produit un mélange de gaz {GAS:Water} et {GAS:Nitrogen}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIgniter</Key>
       <Value>Kit (Allumeur)</Value>
-      <Description>This kit creates an {THING:ItemIgniter} unit.</Description>
+      <Description>Ce kit crée un {THING:ItemIgniter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulation</Key>
       <Value>Isolation</Value>
-      <Description>Mysterious in the extreme, the function of this item is lost to the ages.</Description>
+      <Description>Mystérieux à l'extrême, la fonction de cet objet est perdue dans l'histoire.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronIngot</Key>
       <Value>Lingot (Fer)</Value>
-      <Description>The most basic unit of construction available to {LINK:Stationeers;Stationeer]-kind, iron ingots are created by smelting {THING:ItemIronOre} in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of items.</Description>
+      <Description>Unité de construction la plus élémentaire à la disposition des {LINK:Stationeers;Stationeer]les lingots de fer sont créés par la fusion de {THING:ItemIronOre} dans le {THING:StructureFurnace} et le {THING:StructureArcFurnace}, et utilisés pour créer une variété d'objets.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
       <Value>Minerai (Fer)</Value>
-      <Description>Abundant throughout the Solar System, iron is the {LINK:OrePage;ore} most commonly used by {LINK:Stationeers;Stationeers} constructing offworld bases. It can be smelted into both {THING:ItemIronIngot}s and {THING:ItemSteelIngot}s.</Description>
+      <Description>Abondant dans tout le système solaire, le fer est le {LINK:OrePage;ore} le plus couramment utilisé par les {LINK:Stationeers;Stationeers} qui construisent des bases hors du monde. Il peut être fondu en {THING:ItemIronIngot} et {THING:ItemSteelIngot}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
       <Value>Kit (Porte étanche)</Value>
-      <Description>This kit produces a single {THING:StructureAirlock} portal.</Description>
+      <Description>Ce kit produit un seul {THING:StructureAirlock}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAtmospherics</Key>
       <Value>Kit (Atmosphérique)</Value>
-      <Description>This kit produces a {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration} or {THING:H2Combustor}.</Description>
+      <Description>Ce kit permet de produire un {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration} ou {THING:H2Combustor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBattery</Key>
       <Value>Kit (Batterie)</Value>
-      <Description>This kit produces a single station {THING:StructureBattery}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureBattery}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
       <Value>Kit (Centrifugeuse)</Value>
-      <Description>This kit produces a single {THING:StructureCentrifuge}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureCentrifuge}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChute</Key>
       <Value>Kit (Gaines)</Value>
-      <Description>This kit produces a range of chute structures, including {THING:StructureChuteStraight} and {THING:StructureChuteCorner}.</Description>
+      <Description>Ce kit permet de produire une gamme de structures de goulottes, notamment {THING:StructureChuteStraight} et {THING:StructureChuteCorner}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitComputer</Key>
       <Value>Kit (Ordinateur)</Value>
-      <Description>This kit produces a single {THING:StructureComputer}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureComputer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
       <Value>Kit (Console)</Value>
-      <Description>This kit produces a range of {THING:StructureConsole}s and displays such as the {THING:StructureConsoleLED1x2}.</Description>
+      <Description>Ce kit produit une gamme de {THING:StructureConsole} et d'afficheurs tels que le {THING:StructureConsoleLED1x2}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConveyor</Key>
       <Value>Kit (Convoyeur)</Value>
-      <Description>This kit produces conveyor elements, such as the {THING:StructureConveyorStraight}.</Description>
+      <Description>Ce kit permet de produire des éléments de convoyeur, tels que le {THING:StructureConveyorStraight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCryoTube</Key>
       <Value>Kit (Cryotube)</Value>
-      <Description>This kit produces a single {THING:StructureCryoTube}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureCryoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngine</Key>
       <Value>Kit (Moteur de fusée)</Value>
-      <Description>This kit produces an engine.</Description>
+      <Description>Ce kit produit un moteur.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
       <Value>Kit (Fabricateur)</Value>
-      <Description>This kit produces a single {THING:StructureFabricator}. (Creative Mode only)</Description>
+      <Description>Ce kit produit un seul {THING:StructureFabricator}. (Creative Mode only)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurnace</Key>
       <Value>Kit (Fourneau)</Value>
-      <Description>This kit produces a single {THING:StructureFurnace}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureFurnace}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurniture</Key>
       <Value>Kit (Mobilier)</Value>
-      <Description>This kit produces a range of {LINK:FurniturePage;furniture}.</Description>
+      <Description>Ce kit produit une gamme de {LINK:FurniturePage;furniture}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGyroscope</Key>
       <Value>Kit (Gyroscope)</Value>
-      <Description>This kit produces a single {THING:StructureGyroscope}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureGyroscope}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRegulator</Key>
       <Value>Kit (Régulateur de Pression)</Value>
-      <Description>This kit produces a single {THING:StructurePressureRegulator}.</Description>
+      <Description>Ce kit produit un seul {THING:StructurePressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSensor</Key>
       <Value>Kit (Capteur)</Value>
-      <Description>This kit produces a range of sensors, including {THING:StructureGasSensor}, {THING:StructureDaylightSensor} and the {THING:StructureMotionSensor}.</Description>
+      <Description>Ce kit produit une gamme de capteurs, notamment {THING:StructureGasSensor}, {THING:StructureDaylightSensor} et le {THING:StructureMotionSensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSign</Key>
       <Value>Kit (Panneau indicateur)</Value>
-      <Description>This kit produces a {THING:StructureSign1x1} or {THING:StructureSign2x1}.</Description>
+      <Description>Ce kit permet de produire un {THING:StructureSign1x1} ou {THING:StructureSign2x1}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSleeper</Key>
       <Value>Kit (Couchette)</Value>
-      <Description>This kit produces a single {THING:StructureSleeper}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureSleeper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanel</Key>
       <Value>Kit (Panneau Solaire)</Value>
-      <Description>This kit produces a {THING:StructureSolarPanel} and several variants.</Description>
+      <Description>Ce kit produit un {THING:StructureSolarPanel} et plusieurs variantes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStairs</Key>
       <Value>Kit (Escalier)</Value>
-      <Description>This kit produces a {THING:StructureStairs4x2} and several variants.</Description>
+      <Description>Ce kit produit un {THING:StructureStairs4x2} et plusieurs variantes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStellarAnchor</Key>
       <Value>Kit (Ancre Stellaire)</Value>
-      <Description>This kit produces a single {THING:StructureStellarAnchor}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureStellarAnchor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStorage</Key>
       <Value>Kit (Stockage)</Value>
-      <Description>This kit produces a {THING:StructureSuitStorage}.</Description>
+      <Description>Ce kit produit un {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
       <Value>Kit (Réservoir)</Value>
-      <Description>This kit produces either a {THING:StructureTankBig} or {THING:StructureTankSmall}.</Description>
+      <Description>Ce kit permet de produire soit un {THING:StructureTankBig}  ou {THING:StructureTankSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
       <Value>Kit (Lanceur de Torpille)</Value>
-      <Description>This kit produces a single {THING:StructureTorpedoTube}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureTorpedoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
       <Value>Kit (Tourelle)</Value>
-      <Description>This kit produces a single {THING:StructureGunTurret}.</Description>
+      <Description>Ce kit produit un seul {THING:StructureGunTurret}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
       <Value>Kit (Mur Composite)</Value>
-      <Description>This kit produces a range of composite wall elements and windows.</Description>
+      <Description>Ce kit permet de produire toute une série d'éléments muraux et de fenêtres en composite.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLabeller</Key>
       <Value>Etiqueteuse</Value>
-      <Description>The {LINK:Stationeers;Stationeer's} best friend, a labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and {LINK:LogicPage;Logic}.</Description>
+      <Description>Le meilleur ami du {LINK:Stationeers;Stationeer's} un étiqueteur vous permet de définir des noms et des valeurs sur une variété de dispositifs et de structures, notamment {THING:StructureConsole} et {LINK:LogicPage;Logic}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLightSword</Key>
       <Value>Epée laser</Value>
-      <Description>A charming, if useless, psuedo-weapon. (Creative only.)</Description>
+      <Description>charmante, bien qu'inutile, arme factice. (Seulement créative.)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMilk</Key>
       <Value>Lait</Value>
-      <Description>Full disclosure, it's not actually 'milk', but an {LINK:Agrizero;Agrizero-invented} synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other {LINK:FoodPage;food} in the {THING:ApplianceMicrowave} or {THING:StructureAutomatedOven}. Think, {THING:ItemMuffin}.</Description>
+      <Description>Pour tout vous dire, ce n'est pas vraiment du "lait", mais une synthèse {LINK:Agrizero;Agrizero-invented} de 5ml  {THING:ItemSoyOil} et 5g {THING:ItemFern}, délicatement mélangés dans la {THING:ApplianceChemistryStation}. Étonnamment rassasiant, il peut être utilisé comme ingrédient pour cuisiner d'autres {LINK:FoodPage;food} dans le {THING:ApplianceMicrowave} ou le {THING:StructureAutomatedOven}. Pensez-y, {THING:ItemMuffin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBelt</Key>
       <Value>Ceinture de mineur</Value>
-      <Description>Originally developed by {LINK:Recurso;Recurso Espaciais} for asteroid mining, the {LINK:Stationeers;Stationeer's} miningbelt has room for two {LINK:ToolPage;tools} and eight {LINK:OrePage;ore} stacks. While wearing the belt, {LINK:OrePage;ore} is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit.</Description>
+      <Description>Développée à l'origine par {LINK:Recurso;Recurso Espaciais} pour l'exploitation des astéroïdes, la ceinture minière {LINK:Stationeers;Stationeer's} peut contenir deux  {LINK:ToolPage;tools} et huit {LINK:OrePage;ore} piles. Lorsqu'il porte la ceinture, le {LINK:OrePage;ore} y est automatiquement stocké lorsqu'il est extrait. Les substances volatiles et dépendantes de la température restent stables dans l'unité à environnement contrôlé.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
       <Value>Foreuse</Value>
-      <Description>The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modelled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.'</Description>
+      <Description>La foreuse minière rotative à trois cônes "Topo" a été conçue pour une seule chose : creuser rapidement. Conçue sur le modèle classique {LINK:Recurso;Recurso} à gravité zéro, elle fonctionne aussi bien dans le vide que dans l'atmosphère, avec des mèches en carbure cémenté pour augmenter la résilience et la durée de vie des roulements, et réduire l'écaillage. Comme l'a dit un jour Jenk Murtons, "The Topo don't stopo".</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMuffin</Key>
       <Value>Muffin</Value>
-      <Description>A delicious, semi-healthful snack, nothing comforts a {LINK:Stationeers;Stationeer] 800 million kilometers from home like a hand-made muffin.</Description>
+      <Description>Délicieux en-cas à moitié sain, rien ne réconforte un homme à 800 millions de kilomètres de chez lui comme un muffin.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPassiveVent</Key>
       <Value>Kit (Ventilation Passive)</Value>
-      <Description>This kit creates a {THING:ItemPassiveVent}.</Description>
+      <Description>Ce kit permet de créer un {THING:ItemPassiveVent}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPickaxe</Key>
       <Value>Pioche</Value>
-      <Description>When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe.</Description>
+      <Description>Lorsque le soleil se couche et que la {THING:ItemMiningDrill} est à plat, que ses batteries sont épuisées et que votre {THING:StructureSolarPanel} est froid et sans vie, que la  {THING:StructureAutolathe} est vide, que la voie à suivre n'est pas claire, une chose retient l'interminable nuit de la défaite : la fidèle pioche.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPillHeal</Key>
       <Value>Pilule (Médical)</Value>
-      <Description>Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response.</Description>
+      <Description>Trois siècles de technologie pharmaceutique comprimés dans une petite pilule facile à avaler : la pilule Heal, alias la pilule Proton, alias Mr Happy contient des enzymes actives, des protéines thérapeutiques, des souches microbiennes modifiées et des analogues de lignées cellulaires mammaliennes dans une dose unique de grande pureté, efficacité et puissance qui potentialise une réponse immunitaire parasympathique rapide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPillStun</Key>
       <Value>Pilule (Paralysie)</Value>
-      <Description>Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it.</Description>
+      <Description>Bien que rarement rendue publique, l'existence de cette pilule est un secret de polichinelle. Utilisé lorsque tout le reste a échoué, le Suppositoire Sayonara immobilise et met rapidement fin à la vie du {LINK:Stationeers;Stationeer}. Le mode de livraison garantit que si un Stationeer choisit de prendre cette pilule, il doit vraiment le vouloir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
       <Value>Kit (Analyseur de Tuyau)</Value>
-      <Description>This kit creates a {THING:StructurePipeAnalysizer}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeAnalysizer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCorner</Key>
       <Value>Tuyau (Coin)</Value>
-      <Description>This kit creates a {THING:StructurePipeCorner}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeCorner}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction</Key>
       <Value>Tuyau (En Croix)</Value>
-      <Description>This kit creates a {THING:StructurePipeCrossJunction}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeCrossJunction}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction3</Key>
       <Value>Tuyau (3 Jonctions)</Value>
-      <Description>This kit creates a {THING:StructurePipeCrossJunction3}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeCrossJunction3}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction5</Key>
       <Value>Tuyau (5 Jonctions)</Value>
-      <Description>This kit creates a {THING:StructurePipeCrossJunction5}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeCrossJunction5}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction6</Key>
       <Value>Tuyau (6 Jonctions)</Value>
-      <Description>This kit creates a {THING:StructurePipeCrossJunction6}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeCrossJunction6}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeDigitalValve</Key>
       <Value>Kit (Électrovanne à gaz)</Value>
-      <Description>This kit creates a {THING:StructureDigitalValve}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureDigitalValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeGasMixer</Key>
       <Value>Kit (Mélangeur de Gaz)</Value>
-      <Description>This kit creates a {THING:StructureGasMixer}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureGasMixer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLabel</Key>
       <Value>Kit (Étiquette de Tuyau)</Value>
-      <Description>This kit creates a {THING:StructurePipeLabel}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeLabel}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeMeter</Key>
       <Value>Kit (Tuyau avec Manomètre)</Value>
-      <Description>This kit creates a {THING:StructurePipeMeter}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeMeter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeRadiator</Key>
       <Value>Kit (Radiateur de Tuyau)</Value>
-      <Description>This kit creates a {THING:StructurePipeRadiator}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeStraight</Key>
       <Value>Tuyau (Droit)</Value>
-      <Description>This kit creates a {THING:StructurePipeStraight}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeStraight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeTJunction</Key>
       <Value>Tuyau (Jonction T)</Value>
-      <Description>This kit creates a {THING:StructurePipeTJunction}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePipeTJunction}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeValve</Key>
       <Value>Kit (Vanne)</Value>
-      <Description>This kit creates a {THING:StructureValve}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeVolumePump</Key>
       <Value>Kit (Tuyau avec Pompe)</Value>
-      <Description>This kit creates a {THING:StructureVolumePump}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeValve</Key>
       <Value>Kit (vanne à liquide)</Value>
-      <Description>This kit creates a {THING:StructureLiquidValve}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureLiquidValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPowerConnector</Key>
       <Value>Kit (Connecteur électrique)</Value>
-      <Description>This kit creates a {THING:StructurePowerConnector}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructurePowerConnector}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemReagentMix</Key>
       <Value>Mélange de Réactifs</Value>
-      <Description>Reagent mix is pure potential. A slurry of undifferentiated {LINK:OrePage;ores}, it is output by the {THING:StructureRecycler} and can be fed into the {THING:StructureCentrifuge} to separate and recover the individual materials. Reagent mix is also output by the {THING:StructureFurnace} when the current contents are ejected without smelting a specific ingot.</Description>
+      <Description>Le mélange de réactifs est un potentiel pur. Une boule de minerais indifférenciés {LINK:OrePage;ores}, elle est produite par le {THING:StructureRecycler} et peut être introduite dans la {THING:StructureCentrifuge} pour séparer et récupérer les matériaux individuels. Le mélange de réactifs est également produit par le {THING:StructureFurnace} lorsque le contenu actuel est éjecté sans fondre un lingot spécifique.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRoadFlare</Key>
       <Value>Fusée éclairante</Value>
-      <Description>Designed to burn anywhere in the Solar System, the EZC magnesium fusee supplies its own oxygen to fuel combustion, and dispel the eternal night of space.</Description>
+      <Description>Conçue pour brûler partout dans le système solaire, la fusée en magnésium EZC fournit son propre oxygène pour alimenter la combustion et dissiper la nuit éternelle de l'espace.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRTG</Key>
       <Value>Kit (Creative RTG)</Value>
-      <Description>This kit creates that miracle of modern science, a {THING:ItemRTG}.</Description>
+      <Description>Ce kit crée ce miracle de la science moderne, un {THING:ItemRTG}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRTGSurvival</Key>
       <Value>Kit (RTG)</Value>
-      <Description>This kit creates a {THING:ItemRTGSurvival}.</Description>
+      <Description>Ce kit permet de créer un {THING:ItemRTGSurvival}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemScanner</Key>
       <Value>Scanneur portable</Value>
-      <Description>A mysterious piece of technology, rumoured to have Zrillian origins.</Description>
+      <Description>Une pièce mystérieuse de la technologie, dont on dit qu'elle a des origines zrilliennes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemScrewdriver</Key>
       <Value>Tournevis</Value>
-      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definintely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units.</Description>
+      <Description>Ce dispositif de réglage de l'adhérence par friction, qui fait partie de l'équipement standard, est un modèle haut de gamme, bi-rotatif, avec une poignée uni-grip en forme de colonne. Ce n'est définitivement pas un simple tournevis. Utilisez-le pour la construction et la déconstruction de certains kits, et le réglage des valeurs sur les unités {LINK:LogicUnitPage;logic}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSecurityCamera</Key>
       <Value>Caméra de Sécurité</Value>
-      <Description>Security cameras can be paired with a {THING:StructureMotionSensor}, then connected to a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay} for that 'always watched' feeling.</Description>
+      <Description>Les caméras de sécurité peuvent être couplées à un {THING:StructureMotionSensor},  puis connectées à une {THING:StructureConsole} équipée d'un {THING:CircuitboardCameraDisplay} pour donner l'impression d'être toujours surveillé.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpaceCleaner</Key>
       <Value>Nettoyeur Spatial</Value>
-      <Description>There was a time when humanity really wanted to keep space clean. That time has passed.</Description>
+      <Description>Il fut un temps où l'humanité voulait vraiment garder l'espace propre. Cette époque est révolue.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
       <Value>Casque spatial</Value>
-      <Description>The basic space helmet insulates {LINK:Stationeers;Stationeers} against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
-It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any colour you like using the {THING:AppliancePaintMixer}.</Description>
+      <Description>Le casque spatial de base isole le {LINK:Stationeers;Stationeers} contre tout, du vide poussé aux odeurs de cuisine bizarres. Fournissant une atmosphère respirable à pression contrôlée, il est équipé d'une lumière intégrée alimentée par votre {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
+Il intègre également une fonction de verrouillage/déverrouillage pour éviter toute ouverture accidentelle, ainsi qu'une fonction de rinçage pour expulser et remplacer l'atmosphère interne. Si elle est endommagée, utilisez {THING:ItemDuctTape} pour la réparer, ou peignez-la de la couleur de votre choix à l'aide du {THING:AppliancePaintMixer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
       <Value>Sac à dos Spatial</Value>
-      <Description>The basic {LINK:CHAC;CHAC} spacepack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.
-Indispensible for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
-USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
+      <Description>Le sac spatial de base {LINK:CHAC;CHAC} n'est pas "techniquement" un jetpack, c'est un propulseur à gaz. Il peut être alimenté par n'importe quel gaz, tant que la pression interne de la {LINK:AtmosphericsPage;canister} est supérieure à la pression externe ambiante. Si la pression externe est supérieure, le propulseur spatial ne fonctionnera pas.
+Indispensable pour la construction, l'exploitation minière et les déplacements en général, il dispose de dix emplacements de stockage et permet aux {LINK:Stationeers;Stationeers} de voler à 3m/s, par rapport aux {THING:ItemJetpackBasic} ou {THING:ItemHardJetpack}. plus puissants. L'ajustement de la valeur de la poussée modifie votre taux d'accélération, tandis que l'activation du stabilisateur permet au spacepack de faire du surplace lorsqu'une hauteur donnée est atteinte.
+UTILISATION : 'J' pour activer ; 'espace' pour monter ; 'ctrl gauche' pour descendre ; et 'ZQSD' pour se déplacer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
       <Value>Peinture en Aérosol (Noir)</Value>
-      <Description>Go classic, clandestine or just plain gothic with black paint, which can be applied to most items. Each can has 20 uses.</Description>
+      <Description>Soyez classique, clandestin ou tout simplement gothique avec la peinture noire, qui peut être appliquée sur la plupart des objets. Chaque boîte a 20 utilisations.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlue</Key>
       <Value>Peinture en Aérosol (Bleu)</Value>
-      <Description>What kind of a color is blue? The kind of of color that says, 'Hey, what about me?'</Description>
+      <Description>C'est quoi comme couleur, le bleu ? Le genre de couleur qui dit : "Et moi, alors ?'</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBrown</Key>
       <Value>Peinture en Aérosol (Marron)</Value>
-      <Description>In more artistic {LINK:Stationeers;Stationeers} circles, the absence of brown is often lamented, but seldom changed.</Description>
+      <Description>Dans les milieux plus artistiques des {LINK:Stationeers;Stationeers} l'absence de marron est souvent déplorée, mais rarement changée.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGreen</Key>
       <Value>Peinture en Aérosol (Vert)</Value>
-      <Description>Green is the color of life, and longing. Paradoxically, it's also the color of envy, and tolerance. It denotes sickness, youth, and wealth. But really, it's just what light does at around 500 billionths of a meter.</Description>
+      <Description>Le vert est la couleur de la vie et de la nostalgie. Paradoxalement, c'est aussi la couleur de l'envie et de la tolérance. Il dénote la maladie, la jeunesse et la richesse. Mais en fait, c'est juste ce que fait la lumière à environ 500 milliardièmes de mètre.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGrey</Key>
       <Value>Peinture en Aérosol (Gris)</Value>
-      <Description>Arguably the most popular color in the universe, grey was invented so designers had something to do.</Description>
+      <Description>Sans doute la couleur la plus populaire de l'univers, le gris a été inventé pour que les designers aient quelque chose à faire.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanKhaki</Key>
       <Value>Peinture en Aérosol (Kaki)</Value>
-      <Description>Not so much a single color, as a category of boredom, khaki is the pigmentation equivalent of a mild depressive episode.</Description>
+      <Description>Pas tant une couleur unique qu'une catégorie d'ennui, le kaki est l'équivalent pigmentaire d'un léger épisode dépressif.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanOrange</Key>
       <Value>Peinture en Aérosol (Orange)</Value>
-      <Description>Orange is fun, but also suggestive of hazards. Sitting proudly in the middle of the visual spectrum, it has nothing to prove.</Description>
+      <Description>L'orange est amusant, mais il évoque aussi des dangers. Se situant fièrement au milieu du spectre visuel, il n'a rien à prouver.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPink</Key>
       <Value>Peinture en Aérosol (Rose)</Value>
-      <Description>With the invention of enduring chemical dyes, the 20th century bestowed associations with innocence and tenderness upon this pale tint of red. Yet classically, it was the color of seduction and eroticism. Things change.</Description>
+      <Description>Avec l'invention des teintures chimiques durables, le XXe siècle a associé cette pâle teinte de rouge à l'innocence et à la tendresse. Pourtant, classiquement, c'était la couleur de la séduction et de l'érotisme. Les choses changent.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPurple</Key>
       <Value>Peinture en Aérosol (Violet)</Value>
-      <Description>Purple is a curious color. You need to be careful with purple. It can be very good, or go horribly, horribly wrong.</Description>
+      <Description>Le violet est une couleur curieuse. Il faut être prudent avec le violet. Il peut être très bon, ou aller très, très mal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanRed</Key>
       <Value>Peinture en Aérosol (Rouge)</Value>
-      <Description>The king of colors, red is perhaps the defining tone of the universe. Linked to blood, royalty, fire and damnation, it is the chromatic expression of power.</Description>
+      <Description>Le roi des couleurs, le rouge est peut-être le ton qui définit l'univers. Associé au sang, à la royauté, au feu et à la damnation, il est l'expression chromatique du pouvoir</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanWhite</Key>
       <Value>Peinture en Aérosol (Blanc)</Value>
-      <Description>White looks clean, sharp and nice. But {LINK:Stationeers;Stationeering} can be a dirty job. White tends to scuff.</Description>
+      <Description>Le blanc est propre, net et agréable. Mais cela peut être un travail sale. Le blanc a tendance à s'érafler.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanYellow</Key>
       <Value>Peinture en Aérosol (Jaune)</Value>
-      <Description>A caricature of light itself, yellow lacks the self-confidence of red, or the swagger of purple. It's less fun than orange, but less emotionally limp than khaki. It's hard to know when yellow is appropriate, but it persists as a primary color regardless. Suggesting that yellow gonna yellow, no matter what anyone thinks.</Description>
+      <Description>Caricature de la lumière elle-même, le jaune n'a pas la confiance en soi du rouge, ni l'audace du violet. Il est moins amusant que l'orange, mais moins mou émotionnellement que le kaki. Il est difficile de savoir quand le jaune est approprié, mais il persiste malgré tout à être une couleur primaire. Suggérant que le jaune reste jaune, quoi qu'on en pense.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelFrames</Key>
       <Value>Kit (Cadres en Acier)</Value>
-      <Description>An advanced and stronger version of {THING:ItemIronFrames}, steel frames are placed by right-clicking. To complete construction, use {THING:ItemSteelSheets} and a {THING:ItemWeldingTorch} in your active hand.</Description>
+      <Description>Une version avancée et plus solide de {THING:ItemIronFrames}, les cadres en acier sont placés par un clic droit. Pour terminer la construction, utilisez {THING:ItemSteelSheets} and a {THING:ItemWeldingTorch} dans votre main active.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelIngot</Key>
       <Value>Lingot (Acier)</Value>
-      <Description>Steel ingots are a metal alloy, crafted in a {THING:StructureFurnace} by smelting {THING:ItemIronOre} and {THING:ItemCoalOre} at a ratio of 3:1.
-It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be combined at a ratio of 1:2 in a furnace to create the necessary gas mixture for smelting.</Description>
+      <Description>Les lingots d'acier sont un alliage métallique, fabriqué dans un {THING:StructureFurnace} en fondant {THING:ItemIronOre} et {THING:ItemCoalOre} dans un rapport de 3:1.
+Ce n'est peut-être pas très élégant, mais {THING:ItemOxite} et {THING:ItemVolatiles} peuvent être combinés à un ratio de 1:2 dans un fourneau pour créer le mélange gazeux nécessaire à la fusion.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelSheets</Key>
       <Value>Plaques d&apos;Acier</Value>
-      <Description>An advanced building material, {THING:ItemSteelIngot} sheets are used when constructing a {THING:StructureFrame} and several other {LINK:StructuresPage;wall} types.</Description>
+      <Description>Matériau de construction avancé, les feuilles de  {THING:ItemSteelIngot} sont utilisées pour construire une  {THING:StructureFrame} et plusieurs autres types de  {LINK:StructuresPage;wall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitStorage</Key>
       <Value>Kit (Armoire à combinaison)</Value>
-      <Description>This kit creates a {THING:StructureSuitStorage}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTablet</Key>
       <Value>Tablette de Poche</Value>
-      <Description>The {LINK:Xigo;Xigo} handheld 'Padi' tablet is an all-purpose data platform, provided as standard issue to all {LINK:Stationeers;Stationeers}. A dynamic multi-tool that accepts a range of {LINK:CartridgePage;cartridges}, the Padi becomes an {THING:CartridgeAtmosAnalyser} or {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, and various other functions.</Description>
+      <Description>Le {LINK:Xigo;Xigo} portable "Padi" est une plateforme de données polyvalente, fournie en standard à tous les {LINK:Stationeers;Stationeers}. Un multi-outil dynamique qui accepte une gamme de {LINK:CartridgePage;cartridges}, e Padi devient un {THING:CartridgeAtmosAnalyser} ou {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, et diverses autres fonctions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnector</Key>
       <Value>Kit (Connecteur de Réservoir portable)</Value>
-      <Description>This kit creates a {THING:StructureTankConnector}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureTankConnector}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnectorLiquid</Key>
       <Value>Kit (Connecteur de Citerne portable)</Value>
-      <Description>This kit creates a {THING:StructureTankConnectorLiquid}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureTankConnectorLiquid}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>Ceinture d&apos;outils</Value>
-      <Description>If there's one piece of equipment that embodies {LINK:Stationeers;Stationeer] life above all else, it's the humble toolbelt (Editor's note: a recent {LINK:ODA;ODA} survey of iconic Stationeer equipment also rated the smoking, toxic ruins of an over-pressurized {THING:StructureFurnace} lying amid the charred remains of your latest base very highly).
-Designed to meet the most strict-ish ODA safety standards, the toolbelt's eight slots hold one thing: tools, and {THING:ItemCableCoil}. Not to be confused with the {THING:ItemMiningBelt}.</Description>
+      <Description>S'il y a une pièce d'équipement qui incarne la vie par-dessus tout, c'est l'humble ceinture à outils (Note de l'éditeur : une récente enquête {LINK:ODA;ODA} sur l'équipement emblématique des stationnaires a également évalué très positivement les ruines fumantes et toxiques d'un {THING:StructureFurnace} surpressé gisant au milieu des restes carbonisés de votre dernière base).
+Conçue pour répondre aux normes de sécurité les plus strictes de l'ODA, les huit emplacements de la ceinture à outils ne contiennent qu'une seule chose : des outils et des {THING:ItemCableCoil}. A ne pas confondre avec la {THING:ItemMiningBelt}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
       <Value>Minerai (Uranium)</Value>
-      <Description>In 1934, Enrico Fermi noticed that bombarding uranium with neutrons produced a burst of beta rays, and a new material. This process was named 'nuclear fission', and resulted in cheap energy, the Cold War, and countless thousand deaths. While reasonably common throughout the Solar System, {LINK:Stationeers;Stationeers} are wary of the material.</Description>
+      <Description>En 1934, Enrico Fermi a remarqué que le bombardement de l'uranium par des neutrons produisait une explosion de rayons bêta et un nouveau matériau. Ce processus a été baptisé "fission nucléaire" et a donné naissance à une énergie bon marché, à la guerre froide et à d'innombrables milliers de morts. Bien qu'il soit raisonnablement commun dans tout le système solaire, les {LINK:Stationeers;Stationeers} se méfie de ce matériau.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallCooler</Key>
       <Value>Kit (Refroidisseur mural)</Value>
-      <Description>This kit creates a {THING:StructureWallCooler}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureWallCooler}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallHeater</Key>
       <Value>Kit (Chauffage mural)</Value>
-      <Description>This kit creates a {THING:ItemWallHeater}.</Description>
+      <Description>Ce kit permet de créer un {THING:ItemWallHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallLight</Key>
       <Value>Kit (Lumière murale)</Value>
-      <Description>This kit creates any one of ten {THING:ItemWallLight} variants.</Description>
+      <Description>Ce kit permet de créer l'une des dix {THING:ItemWallLight} variantes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWeldingTorch</Key>
       <Value>Chalumeau</Value>
-      <Description>Stored in the standard issue {LINK:Stationeers;Stationeers} {THING:ItemToolBelt}, the Arlite welding torch is used to construct a range of essential structures.
-An upgraded version of the classic 'Zairo' model first manufactured by {LINK:ExMin;ExMin} for modular space habitat assembly, the Arlite is powered by a single {THING:ItemGasCanisterFuel} and designed to function equally well in deep space and deep gravity wells.</Description>
+      <Description>Rangé dans la {THING:ItemToolBelt}, standard, le chalumeau Arlite est utilisé pour construire une série de structures essentielles.
+Version améliorée du modèle classique "Zairo" fabriqué à l'origine par {LINK:ExMin;ExMin} pour l'assemblage d'habitats spatiaux modulaires, l'Arlite est alimentée par une seule {THING:ItemGasCanisterFuel} et conçue pour fonctionner aussi bien dans l'espace profond que dans les puits de gravité profonds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWheat</Key>
       <Value>Blé</Value>
-      <Description>A classical symbol of growth and new life, wheat is grown in various {LINK:OrganicPage;hydroponics} devices. Once harvested, it produces two wheat, and can be turned into a {LINK:ReagentPage;flour} using the {THING:ApplianceReagentProcessor}, thence transmuted into sustenance like a {THING:ItemCerealBar} or {THING:ItemMuffin} using the {THING:ApplianceMicrowave}.</Description>
+      <Description>Symbole classique de la croissance et de la vie nouvelle, le blé est cultivé dans divers dispositifs {LINK:OrganicPage;hydroponics} Une fois récolté, il produit deux blés et peut être transformé en {LINK:ReagentPage;flour} à l'aide du {THING:ApplianceReagentProcessor}, puis transformé en nourriture comme une {THING:ItemCerealBar} ou un {THING:ItemMuffin} à l'aide du {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWireCutters</Key>
       <Value>Pince coupante</Value>
-      <Description>Wirecutters allow you to deconstruct various {LINK:StructurePage;structures}, as well as cross-lay cables when held in your non-active hand, and defuse explosives as needed. Wirecutters are stored in the {THING:ItemToolBelt}, along with other essential {LINK:ToolPage;tools}.</Description>
+      <Description>La pince coupante vous permet de déconstruire diverses {LINK:StructurePage;structures}, ainsi que de croiser des câbles lorsque vous la tenez dans votre main inactive, et de désamorcer des explosifs si nécessaire. Les pinces coupantes sont rangées dans la {THING:ItemToolBelt}, avec d'autres {LINK:ToolPage;tools}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWrench</Key>
       <Value>Clé à molette</Value>
-      <Description>One of humanity's enduring contributions to the cosmos, the wrench represents the essence of our species. A simple, effective and spiritually barren tool, use it to build and deconstruct a variety of {LINK:StructurePage;structures}</Description>
+      <Description>L'une des contributions durables de l'humanité au cosmos, la clé à molette représente l'essence de notre espèce. Un outil simple, efficace et spirituellement stérile, utilisez-la pour construire et déconstruire une variété de {LINK:StructurePage;structures}</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardLogic</Key>
       <Value>Carte mère (Logique)</Value>
-      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
-The {LINK:Norsec;Norsec-designed} K-cops logic motherboard allows {LINK:Stationeers;Stationeers} to set variables and actions on specific {LINK:LogicUnitPage;logic}-controlled items.</Description>
+      <Description>Les cartes mères sont connectées à des {THING:StructureComputer} pour exécuter diverses fonctions techniques.
+La carte mère logique des {LINK:Norsec;Norsec-designed} K-cops permet aux {LINK:Stationeers;Stationeers} de définir des variables et des actions sur des éléments spécifiques {LINK:LogicUnitPage;logic} contrôlés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
       <Value>Carte mère (Fabricateur)</Value>
-      <Description>Deprecated.</Description>
+      <Description>Déprécié.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardSorter</Key>
       <Value>Carte mère (Trieur)</Value>
-      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
-The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:Stationeers;Stationeers} to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
+      <Description>Les cartes mères sont connectées à des {THING:StructureComputer}pour exécuter diverses fonctions techniques.
+La carte mère de la trieuse {LINK:Norsec;Norsec-designed} K-cops 10-10 permet aux {LINK:Stationeers;Stationeers} de contrôler les articles qu'une {THING:StructureSorter} autorise ou non à passer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
       <Value>Noyau de Vaisseau mère</Value>
-      <Description>A relic of from an earlier era of space ambition, {LINK:Sinotai;Sinotai's} mothership cores formed the central element of a generation's space-going creations. While Sinotai's pivot to smaller, modular craft upset some purists, motherships continue to be built and maintained by dedicated enthusiasts.</Description>
+      <Description>Relique d'une époque plus ancienne de l'ambition spatiale, les noyaux de vaisseaux-mères constituaient l'élément central des créations spatiales d'une génération. Si le passage de Sinotai à des vaisseaux plus petits et modulaires a dérangé certains puristes, les vaisseaux-mères continuent d'être construits et entretenus par des passionnés.</Description>
     </RecordThing>
     <RecordThing>
       <Key>NPCDummyCharacter</Key>
@@ -1752,23 +1752,23 @@ The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:
     <RecordThing>
       <Key>OrganBrain</Key>
       <Value>Cerveau Humain</Value>
-      <Description>This is your brain on {LINK:Stationeers;Stationeers}.</Description>
+      <Description>C'est votre cerveau sur {LINK:Stationeers;Stationeers}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>OrganLungs</Key>
       <Value>Poumons Humains</Value>
-      <Description>Lungs are delicate organs. Keeping them at the correct temperature and pressure is advisable.</Description>
+      <Description>Les poumons sont des organes délicats. Il est conseillé de les maintenir à une température et une pression correctes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpaceShuttle</Key>
       <Value>Navette Spatiale</Value>
-      <Description>An antiquated {LINK:Sinotai;Sinotai} transport craft, long since de-commissioned.</Description>
+      <Description>Un vaisseau de transport obsolète, désaffecté depuis longtemps.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Ventilation Active</Value>
-      <Description>Fragments of the original {LINK:Stationeers;Stationeers} Handbook recovered from the singularity describe the design of active vents:
-... active vent is a powered device for maintaining {LINK:GasPage;gas} pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward ...</Description>
+      <Description>Les fragments du manuel d'origine récupérés dans la singularité décrivent la conception des évents actifs :
+... l'évent actif est un dispositif motorisé permettant de maintenir la pression {LINK:GasPage;gas} en pompant le gaz dans (ou hors) d'un réseau de tuyaux. L'évent a deux modes : "Outward" (vers l'extérieur) lui permet de pomper du gaz dans un espace jusqu'à ce que la pression soit atteinte ; "Inward" (vers l'intérieur) lui permet de pomper du gaz jusqu'à ce que la pression soit atteinte. Le paramètre de pression peut être défini sur une {THING:StructureConsole}. connectée. La pression par défaut est de 101kPa pour Outward ; 0kPa pour Inward ...</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
@@ -4476,27 +4476,27 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>ItemKitStructureModularRocketCommand01</Key>
       <Value>Kit (Module de commande de fusée)</Value>
-      <Description>This kit creates a {THING:StructureModularRocketCommand01}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureModularRocketCommand01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCargo01</Key>
       <Value>Kit (Module cargo de fusée)</Value>
-      <Description>This kit creates a {THING:StructureModularRocketCargo01}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureModularRocketCargo01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureLaunchPad</Key>
       <Value>Kit (Aire de lancement)</Value>
-      <Description>This kit creates a {THING:StructureLaunchPad}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureLaunchPad}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketEngine01</Key>
       <Value>Kit (Module moteur de fusée)</Value>
-      <Description>This kit creates a {THING:StructureModularRocketEngine01}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureModularRocketEngine01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>Kit (réservoir de fusée)</Value>
-      <Description>This kit creates a {THING:StructureModularRocketFueltank01}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureModularRocketFueltank01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron02</Key>
@@ -4663,7 +4663,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>ItemKitSolarPanelBasic</Key>
       <Value>Kit (Panneau Solaire basique)</Value>
-      <Description>This kit creates a standing solar panel.</Description>
+      <Description>Ce kit permet de créer un standing solar panel.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBHopperAdvanced</Key>
@@ -4685,7 +4685,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>KitSDBSilo</Key>
       <Value>Kit (SDB Silo)</Value>
-      <Description>This kit creates a {THING:StructureSDBSilo}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureSDBSilo}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallInsulated</Key>
@@ -5782,7 +5782,7 @@ If the KoolAuger is full, it will not accept any further ice until the gas or li
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
       <Value>Kit (Broyeur de glace)</Value>
-      <Description>This kit creates a {THING:StructureIceCrusher}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureIceCrusher}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedOxygen</Key>
@@ -5803,7 +5803,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemPipeLiquidRadiator</Key>
       <Value>Kit (Radiateur de Tube)</Value>
-      <Description>This kit creates a {THING:StructureLiquidPipeRadiator}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureLiquidPipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
@@ -6099,7 +6099,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>ItemKitModularRocketGasMining</Key>
       <Value>Kit (Automated Rocket Gas Mining Module)</Value>
-      <Description>This kit creates a {THING:StructureModularRocketGasMining}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureModularRocketGasMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketGasMining</Key>
@@ -6110,7 +6110,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>ItemKitHeatExchanger</Key>
       <Value>Kit Heat Exchanger</Value>
-      <Description>This kit creates a {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} and {THING:StructureHeatExchangerGastoGas}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} and {THING:StructureHeatExchangerGastoGas}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerLiquidtoLiquid</Key>
@@ -6290,7 +6290,7 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
     <RecordThing>
       <Key>ItemKitFridgeBig</Key>
       <Value>Kit (Fridge Large)</Value>
-      <Description>This kit creates a {THING:StructureFridgeBig}.</Description>
+      <Description>Ce kit permet de créer un {THING:StructureFridgeBig}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeSmall</Key>
