@@ -5,9 +5,9 @@
     <String>Appuyer sur {KEY:ToggleHandPower} ou {KEY:SecondaryAction} permet d'activer/désactiver l'alimentation des objets que vous tenez dans la main.</String>    
     <String>Appuyez sur {KEY:ToggleLight} pour activer ou désactiver la lumière de votre {THING:ItemSpaceHelmet}.</String>
     <String>Appuyez sur {KEY:EmoteWave} pour faire des signes à un autre joueur.</String>
-    <String>Press {KEY:Jetpack} pour basculer votre {THING:ItemSpacepack} on/off.</String>
+    <String>Appuyez sur {KEY:Jetpack} pour basculer votre {THING:ItemSpacepack} on/off.</String>
     <String>Appuyez sur {KEY:ToggleUI} pour activer ou désactiver l&apos;interface utilisateur afin de pouvoir faire des captures d&apos;écran ou des vidéos plus réussites.</String>
-    <String>Press {KEY:Ascend} pour voler vers le haut lorsque votre {THING:ItemSpacepack} est activé. Appuyez sur {KEY:Descend} pour descendre.</String>
+    <String>Appuyez sur {KEY:Ascend} pour voler vers le haut lorsque votre {THING:ItemSpacepack} est activé. Appuyez sur {KEY:Descend} pour descendre.</String>
     <String>Appuyer sur {KEY:InventorySelect} passe d'un emplacement d'inventaire à votre main active.</String>
     <String>Appuyer sur {KEY:Drop} fait tomber ce qui se trouve dans votre main. Maintenir {KEY:Drop} pour le lancer. Maintenez plus longtemps pour le lancer plus loin.</String>
     <String>Appuyer sur {KEY:SwapHands} pour permuter de main active. Appuyer sur {KEY:ActiveHandSlot} affichera des options d&apos;interaction de l&apos;objet qui se trouve dans votre main active.</String>
