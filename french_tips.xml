@@ -2,11 +2,19 @@
   <Code>FR</Code>
   <GameTip>
     <String>Appuyez sur {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} ou sur {KEY:ToolBeltSlot} pour basculer entre les fenêtres des emplacements des équipements que vous portez. Appuyez et maintenez enfoncé pour permuter l&apos;équipement dans votre main active.</String>
+    <String>Appuyer sur {KEY:ToggleHandPower} ou {KEY:SecondaryAction} permet d'activer/désactiver l'alimentation des objets que vous tenez dans la main.</String>    
     <String>Appuyez sur {KEY:ToggleLight} pour activer ou désactiver la lumière de votre {THING:ItemSpaceHelmet}.</String>
     <String>Appuyez sur {KEY:EmoteWave} pour faire des signes à un autre joueur.</String>
+    <String>Press {KEY:Jetpack} pour basculer votre {THING:ItemSpacepack} on/off.</String>
     <String>Appuyez sur {KEY:ToggleUI} pour activer ou désactiver l&apos;interface utilisateur afin de pouvoir faire des captures d&apos;écran ou des vidéos plus réussites.</String>
+    <String>Press {KEY:Ascend} pour voler vers le haut lorsque votre {THING:ItemSpacepack} est activé. Appuyez sur {KEY:Descend} pour descendre.</String>
+    <String>Appuyer sur {KEY:InventorySelect} passe d'un emplacement d'inventaire à votre main active.</String>
+    <String>Appuyer sur {KEY:Drop} fait tomber ce qui se trouve dans votre main. Maintenir {KEY:Drop} pour le lancer. Maintenez plus longtemps pour le lancer plus loin.</String>
     <String>Appuyer sur {KEY:SwapHands} pour permuter de main active. Appuyer sur {KEY:ActiveHandSlot} affichera des options d&apos;interaction de l&apos;objet qui se trouve dans votre main active.</String>
     <String>Appuyez sur {KEY:Internals} pour ouvrir ou fermer rapidement votre {THING:ItemSpaceHelmet}.</String>
+    <String>Appuyez sur {KEY:Chatting} pour commencer à chatter avec d'autres joueurs.</String>
+    <String>Appuyez sur {KEY:RotateLeft} pour faire tourner le curseur de construction vers la gauche, {KEY:RotateRight} pour le faire tourner vers la droite, {KEY:RotateUp} pour le faire tourner vers le haut, {KEY:RotateDown} pour le faire tourner vers le bas, {KEY:RotateRollLeft} pour le faire rouler vers la gauche ou, {KEY:RotateRollRight} pour le faire rouler vers la droite.</String>
+    <String>L'espace n'est pas aussi vide qu'il n'y paraît.</String>
     <String>Utilisez le {THING:ItemWeldingTorch} allumé dans une main et une pile de {THING:ItemIronSheets} dans l&apos;autre main pour souder un {THING:StructureFrameIron}.</String>
     <String>Placez une pile de {THING:ItemIronOre} dans un {THING:StructureArcFurnace} afin de le transformer en {THING:ItemIronIngot}.</String>
     <String>Placez une {THING:MotherboardLogic} dans un {THING:StructureComputer} pour activer le contrôle logique. Vous serez en mesure d&apos;ajouter des conditions et des actions qui contrôleront les états des équipements connectés.</String>
@@ -22,6 +30,7 @@
     <String>Le programme Stationeers a été créé par l’Agence de développement Offworld pour soutenir l’exploration du système solaire, et au-delà.</String>
     <String>Le {THING:ItemHardBackpack} permet de transporter plus d&apos;objets, mais il ne peut pas vous porter !</String>
     <String>Plus votre combinaison est abîmée, moins elle fonctionnera efficacement.</String>
+    <String>Si votre station est morose, remontez le moral avec des airs du {THING:StructureKlaxon} ou créez votre propre échantillonneur en utilisant la logique.</String>
     <String>{THING:StructureHarvie} permet d&apos;automatiser complétement la plantation, la croissance, et la récolte des plantes.</String>
     <String>Les info-bulles étendues peuvent être activées/désactivées dans le menu paramètres.</String>
     <String>Vous pouvez effacer toutes les fenêtres ouvertes sur votre écran à la fois en appuyant sur {KEY: HideAllWindows}.</String>
@@ -32,6 +41,7 @@
     <String>Le casque spatial isole les Stationeers contre tout, de l’aspirateur fou aux odeurs de cuisine bizarres.</String>
     <String>La physique est ton amie. Jusqu’à ce que ce ne soit plus le cas.</String>
     <String>Le dispositif de réglage de l’adhérence par frottement est un modèle double rotation avec une poignée à colonne unique. Ce n’est pas un simple tournevis</String>
+    <String>Ce n'est pas vraiment du "lait", mais une synthèse brevetée par Agrizero de {THING:ItemSoyOil} et {THING:ItemFern}, délicatement mélangée dans la {THING:ApplianceChemistryStation}.</String>
     <String>Illégales sur Terre depuis l’événement de Chengdu, les batteries nucléaires de Norsec ont trouvé un nouveau marché hors-monde nettement moins soucieux de la sécurité.</String>
     <String>Faim ? Les barres de céréales sont compactes, nutritives et rafraîchissantes et peu radioactive.</String>
     <String>Marre de remplacer les filtres normaux ? Les filtres moyens et grands durent 5x et 20x aussi longtemps, mais sont plus chers.</String>
