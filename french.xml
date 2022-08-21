@@ -2081,7 +2081,7 @@ Le cadre latéral incliné permet une variété presque infinie d'érections arc
       <Value>Fourneau</Value>
       <Description>Le four Zhurong utilise un mélange gazeux à haute température composé de {GAS:Oxygen} et de {GAS:Volatiles} pour fondre des {LINK:IngotPage;ingots} et une gamme de {LINK:IngotPage;alloys} comme matières premières pour les {LINK:FabricatorPage;fabricators}.
 Un mélange gazeux de base peut être obtenu en ajoutant {THING:ItemOxite} et {THING:ItemVolatiles} dans un rapport de 1:2 directement dans le four, mais les alliages plus complexes nécessiteront une gestion attentive d'un réseau de mélange gazeux dédié. Les rapports exacts entre les ingrédients doivent être respectés. De même, la fusion de minerais à des températures insuffisantes produira des {LINK:ReagentPage;reagents}, qui doivent être recyclés.
-Si de l'eau est présente dans le four, elle s'y accumulera jusqu'à ce que le four soit connecté à un réseau de conduites de liquide.</Description>
+Si de l'eau est présente dans le four, elle s'y accumulera jusqu'à ce que le four soit connecté à un réseau de Tuyau de liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMixer</Key>
@@ -2292,7 +2292,7 @@ Tous les tuyaux du rack doivent être connectés ou l'unité affichera un état 
     <RecordThing>
       <Key>StructureTankConnectorLiquid</Key>
       <Value>Connecteur de Citerne portable</Value>
-      <Description>Les raccords de réservoir sont des dispositifs de montage de base qui vous permettent de fixer un {THING:DynamicLiquidCanisterEmpty} à un réseau de conduites de gaz.</Description>
+      <Description>Les raccords de réservoir sont des dispositifs de montage de base qui vous permettent de fixer un {THING:DynamicLiquidCanisterEmpty} à un réseau de Tuyau de gaz.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
@@ -4635,12 +4635,12 @@ Lors de l'atterrissage, la fusée déploiera un atterrisseur et toute cargaison 
     <RecordThing>
       <Key>ItemSensorProcessingUnitOreScanner</Key>
       <Value>Carte lunette (Scanneur de minéral)</Value>
-      <Description>The Sensor Processing unit can be inserted into {THING:ItemSensorLenses} to reveal underground minerals in a HUD.</Description>
+      <Description>L'unité de traitement des capteurs peut être insérée dans {THING:ItemSensorLenses} pour révéler les minéraux souterrains dans un HUD.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorLenses</Key>
       <Value>Lunettes AR</Value>
-      <Description>These {LINK:Norsec;Norsec} glasses might not be the most fashionable thing, but when a {THING:ItemSensorProcessingUnitOreScanner} is inserted, Stationeers can use these handy glasses to x-ray the ground and find ores that are hidden beneath the surface.</Description>
+      <Description>Ces lunettes {LINK:Norsec;Norsec} ne sont peut-être pas les plus à la mode, mais lorsqu'un {THING:ItemSensorProcessingUnitOreScanner} est inséré, les stationnaires peuvent utiliser ces lunettes pratiques pour radiographier le sol et trouver les minerais cachés sous la surface.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
@@ -4653,17 +4653,17 @@ Lors de l'atterrissage, la fusée déploiera un atterrisseur et toute cargaison 
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
       <Value>Panneau Solaire basique (plat)</Value>
-      <Description>{LINK:Sinotai;Sinotai} basic solar panels generate power from sunlight. They lie flat to the ground, and their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>Les panneaux solaires de base produisent de l'électricité à partir de la lumière du soleil. Ils sont posés à plat sur le sol, et leur efficacité est réduite pendant les tempêtes et lorsqu'ils sont endommagés. Vous pouvez les réparer à l'aide de votre fidèle {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45</Key>
       <Value>Panneau Solaire basique (incliné)</Value>
-      <Description>{LINK:Sinotai;Sinotai} basic solar panels generate power from sunlight, sitting at 45 degrees to the ground. Their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>Les panneaux solaires de base génèrent de l'énergie à partir de la lumière du soleil, en se plaçant à 45 degrés par rapport au sol. Leur efficacité est réduite pendant les tempêtes et lorsqu'ils sont endommagés. Vous pouvez les réparer à l'aide de votre fidèle {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasic</Key>
       <Value>Kit (Panneau Solaire basique)</Value>
-      <Description>Ce kit permet de créer un standing solar panel.</Description>
+      <Description>Ce kit permet de créer un panneau solaire sur pied.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBHopperAdvanced</Key>
@@ -4680,7 +4680,7 @@ Lors de l'atterrissage, la fusée déploiera un atterrisseur et toute cargaison 
     <RecordThing>
       <Key>StructureSDBSilo</Key>
       <Value>SDB Silo</Value>
-      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly. The silo can hold up to 600 stacks.</Description>
+      <Description>Le majestueux silo contient de grandes quantités de presque tout. Tant qu'il le fait, il ne peut pas être déconstruit. Notez également que toute nourriture que vous mettez dans un silo est susceptible de {LINK:DecayPage;decay} extrêmement rapidement. Le silo peut contenir jusqu'à 600 piles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
@@ -4806,115 +4806,115 @@ Lors de l'atterrissage, la fusée déploiera un atterrisseur et toute cargaison 
     <RecordThing>
       <Key>StructureLightRoundAngled</Key>
       <Value>Lumière murale (Ronde, orientable)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRound</Key>
       <Value>Lumière murale (Ronde)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRoundSmall</Key>
       <Value>Lumière murale (Ronde, petite)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSingleBed</Key>
       <Value>Lit une place</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlockBed</Key>
       <Value>Lit cabine</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>TriggerZone</Key>
       <Value>Zone de déclenchement</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEmergencyButton</Key>
       <Value>Gros Bouton Bleu</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Kit (Portail étanche)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlockGate</Key>
       <Value>Portail étanche</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryLarge</Key>
       <Value>Station Battery (Large)</Value>
-      <Description>Providing even better large-scale, reliable power storage than the {THING;StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer} bases. 
-There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
-{HEADER:POWER OUTPUT}
-Able to store up to 9000001 watts of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}. </Description>
+      <Description>Fournissant un meilleur stockage d'énergie à grande échelle et fiable que la {THING;StructureBattery}, la grande batterie de station est le cœur de la plupart des bases des {LINK:Stationeers;Stationeer}.
+La conception des systèmes électriques utilisant des batteries fait l'objet de nombreuses précautions, et chaque stationneur expérimenté a une histoire à raconter.
+{HEADER:PUISSANCE DE SORTIE}
+Capable de stocker jusqu'à 9000001 watts de puissance, il n'y a pas de limites pratiques à son débit, d'où la sagesse d'utiliser  {THING:ItemCableCoilHeavy}. Les ingénieurs électriciens chevronnés se moqueront également de ceux qui ne parviennent pas à séparer leurs réseaux de production d'énergie en utilisant un {THING:StructureAreaPowerControl} et un {THING:StructureTransformer}. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBatteryLarge</Key>
       <Value>Kit (Batterie Stationnaire, Grande)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine1</Key>
       <Value>Morceau de {THING:StructureVendingMachine}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine2</Key>
       <Value>Morceau de {THING:StructureVendingMachine}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine3</Key>
       <Value>Morceau de {THING:StructureVendingMachine}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine4</Key>
       <Value>Morceau de {THING:StructureVendingMachine}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace1</Key>
       <Value>Tube de {THING:StructureArcFurnace}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace2</Key>
       <Value>Poulie de {THING:StructureArcFurnace}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace3</Key>
       <Value>Plaque de {THING:StructureArcFurnace}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAreaPowerControl1</Key>
       <Value>Commande de {THING:StructureAreaPowerControl}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAreaPowerControl2</Key>
       <Value>Couvercle de {THING:StructureAreaPowerControl}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAreaPowerControlReversed1</Key>
       <Value>Commande de {THING:StructureAreaPowerControl}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAreaPowerControlReversed2</Key>
       <Value>Couvercle de {THING:StructureAreaPowerControl}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSolarPanel1</Key>
@@ -4927,17 +4927,17 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>ItemWreckageSolarPanel3</Key>
       <Value>Morceau de panneau solaire</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformer1</Key>
       <Value>Bouton de transformateur </Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformer2</Key>
       <Value>Morceau de Transformateur</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformerMedium1</Key>
@@ -4952,107 +4952,107 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>ItemWreckageTransformerSmall1</Key>
       <Value>Bouton de transformateur</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformerSmall2</Key>
       <Value>Morceau de Transformateur</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter1</Key>
       <Value>Morceau d&apos;Imprimante de Sécurité</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter2</Key>
       <Value>Morceau d&apos;Imprimante de Sécurité</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter3</Key>
       <Value>Levier d&apos;Imprimante de Sécurité</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter4</Key>
       <Value>Morceau d&apos;Imprimante de Sécurité</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter5</Key>
       <Value>Plaque d&apos;Imprimante de Sécurité</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter6</Key>
       <Value>Capot d&apos;Imprimante de Sécurité</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe1</Key>
       <Value>Plaque de {THING:StrucutreAutolathe}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe2</Key>
       <Value>Plaque de {THING:StrucutreAutolathe}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe3</Key>
       <Value>Levier de {THING:StructureAutolathe}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe4</Key>
       <Value>Capot de {THING:StructureAutolathe}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe5</Key>
       <Value>Morceau de {THING:StructureAutolathe}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe6</Key>
       <Value>Plaque de {THING:StrucutreAutolathe}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe7</Key>
       <Value>Plaque de {THING:StrucutreAutolathe}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter1</Key>
       <Value>Morceau d&apos;{THING:StructureElectronicsPrinter}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter2</Key>
       <Value>Levier de {THING:StructureElectronicsPrinter}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter3</Key>
       <Value>Plaque de {THING:StructureElectronicsPrinter}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter4</Key>
       <Value>Plaque de {THING:StructureElectronicsPrinter}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter5</Key>
       <Value>Capot de {THING:StructureElectronicsPrinter}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter6</Key>
       <Value>Plaque de {THING:StructureElectronicsPrinter}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge1</Key>
@@ -5082,122 +5082,122 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>ItemWreckageGasGenerator1</Key>
       <Value>Plaque de {THING:StructureGasGenerator}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageGasGenerator2</Key>
       <Value>Piston de {THING:StructureGasGenerator}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVent1</Key>
       <Value>Morceau de Ventilation</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish1</Key>
       <Value>Bouton de {THING:StructureSatelliteDish}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish2</Key>
       <Value>Bras de support de {THING:StructureSatelliteDish}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish3</Key>
       <Value>Récepteur d&apos;{THING:StructureSatelliteDish}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectrolysis1</Key>
       <Value>Morceau d&apos;{THING:StructureElectrolyzer}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectrolysis2</Key>
       <Value>Morceau d&apos;{THING:StructureElectrolyzer}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLight1</Key>
       <Value>Fragment de lumière murale</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLight2</Key>
       <Value>Débris de lumière murale</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongAngled1</Key>
       <Value>Fragment de lumière murale (Angle)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongAngled2</Key>
       <Value>Débris de lumière murale (Angle)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongWide1</Key>
       <Value>Fragment de lumière murale (Large)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongWide2</Key>
       <Value>Débris de lumière murale (Large)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWallLightBatteryPowered1</Key>
       <Value>Fragment de lumière murale (Batterie)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWallLightBatteryPowered2</Key>
       <Value>Débris de lumière murale (Batterie)</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler1</Key>
       <Value>Plaque de {THING:StructureRecycler}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler2</Key>
       <Value>Morceau de {THING:StructureRecycler}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler3</Key>
       <Value>Porte de {THING:StructureRecycler}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler4</Key>
       <Value>Plaque de {THING:StructureRecycler}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler5</Key>
       <Value>Plaque de {THING:StructureRecycler}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler6</Key>
       <Value>Plaque de {THING:StructureRecycler}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageFlashingLight1</Key>
       <Value>Fragment de Gyrophare</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageFlashingLight2</Key>
       <Value>Débris de Gyrophare</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageActiveVent1</Key>
@@ -5212,47 +5212,47 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>ItemWreckageCoalGenerator1</Key>
       <Value>Tuyau de {THING:StructureSolidFuelGenerator}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator2</Key>
       <Value>Morceau de {THING:StructureSolidFuelGenerator}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator3</Key>
       <Value>Morceau de {THING:StructureSolidFuelGenerator}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageH2Combustor1</Key>
       <Value>Tube de {THING:H2Combustor}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic1</Key>
       <Value>Plaque de {THING:StructureHydroponicsAutomated}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic2</Key>
       <Value>Plaque de {THING:StructureHydroponicsAutomated}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic3</Key>
       <Value>Plaque de {THING:StructureHydroponicsAutomated}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsStation1</Key>
       <Value>Morceau de {THING:StructureHydroponicsStation}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsStation2</Key>
       <Value>Morceau de {THING:StructureHydroponicsStation}</Value>
-      <Description>Description coming.</Description>
+      <Description>Description à venir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo1</Key>
@@ -5381,12 +5381,12 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>StructureHarvieReversed</Key>
       <Value>Récolteur inversé</Value>
-      <Description>Use above a {THING:StructureHydroponicsTray} or {THING:StructureHydroponicsTrayData} to manage the planting and harvest of your crops. It contains a button that will allow you to activate it's modes, or connect it to a logic system to do this for you. The modes indicate current growth status of the plant below. Import is used for planting, and harvested plants are sent to export.</Description>
+      <Description>Utilisez-le au-dessus d'un {THING:StructureHydroponicsTray} ou d'un {THING:StructureHydroponicsTrayData} pour gérer la plantation et la récolte de vos cultures. Il contient un bouton qui vous permettra d'activer ses modes, ou de le connecter à un système logique qui le fera pour vous. Les modes indiquent l'état de croissance actuel de la plante située en dessous. L'importation est utilisée pour la plantation, et les plantes récoltées sont envoyées à l'exportation.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHarvie</Key>
       <Value>Récolteur</Value>
-      <Description>Use above a {THING:StructureHydroponicsTray} or {THING:StructureHydroponicsTrayData} to manage the planting and harvest of your crops. It contains a button that will allow you to activate it's modes, or connect it to a logic system to do this for you. The modes indicate current growth status of the plant below. Import is used for planting, and harvested plants are sent to export.</Description>
+      <Description>Utilisez-le au-dessus d'un {THING:StructureHydroponicsTray} ou d'un {THING:StructureHydroponicsTrayData} pour gérer la plantation et la récolte de vos cultures. Il contient un bouton qui vous permettra d'activer ses modes, ou de le connecter à un système logique qui le fera pour vous. Les modes indiquent l'état de croissance actuel de la plante située en dessous. L'importation est utilisée pour la plantation, et les plantes récoltées sont envoyées à l'exportation.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpecialBlocks</Key>
@@ -5421,8 +5421,8 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>Rover_MkI</Key>
       <Value>Rover MkI</Value>
-      <Description>A distant cousin of the jeep, the Mk I {LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
-A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
+      <Description>Cousin éloigné de la jeep, le rover électrique Mk I {LINK:Sinotai;Sinotai} est l'un des véhicules légers les plus simples et les plus durables de l'univers connu. Capable de transporter deux passagers et une cargaison telle que le {THING:DynamicGasCanisterAir} ou le {THING:Crate}, il est alimenté par un maximum de trois batteries, acceptant tout, y compris le {THING:ItemBatteryCellNuclear}.
+Un quadruple réseau de moteurs électriques montés sur le moyeu propulse le cadre en aluminium renforcé sur la plupart des terrains et des obstacles modestes. Bien que le Mk I soit conçu pour être stable dans des circonstances de faible horizontalité, s'il roule, essayez d'utiliser votre {THING:ItemCrowbar} pour le remettre à l'endroit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
@@ -5432,7 +5432,7 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>RespawnPoint</Key>
       <Value>Point de réapparition (panneau sur pieds)</Value>
-      <Description>Place a respawn point to set a player entry point to your base when loading in, or returning from the dead.</Description>
+      <Description>Placez un point de respawn pour définir le point d'entrée des joueurs dans votre base lorsqu'ils se chargent ou reviennent d'entre les morts.</Description>
     </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
@@ -5512,7 +5512,7 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
       <Value>Kit (Rover MKI)</Value>
-      <Description>Creates a {THING:Rover_MkI}</Description>
+      <Description>Crée un {THING:Rover_MkI}</Description>
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
@@ -5522,12 +5522,12 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>StructureGrowLight</Key>
       <Value>Lampe horticole</Value>
-      <Description>{LINK:Agrizero;Agrizero's} leading hydroponic lighting system, the GrowUp UV light supplements sunshine in low light or sun-distant conditions. The unit adds growability over the space of a grid, so requires proximate placement to work. </Description>
+      <Description>{LINK:Agrizero;Agrizero's} système d'éclairage hydroponique de pointe, la lumière UV GrowUp complète l'ensoleillement dans des conditions de faible luminosité ou de manque de soleil. L'unité ajoute la possibilité de cultiver sur l'espace d'une grille, donc nécessite un placement proche pour fonctionner. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
       <Value>Kit (Lampe horticole)</Value>
-      <Description>This kit produces an {LINK:Agrizero;Agrizero} {THING:StructureGrowLight}.</Description>
+      <Description>Ce kit permet de produire un {LINK:Agrizero;Agrizero} {THING:StructureGrowLight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWeatherStation</Key>
@@ -5542,38 +5542,38 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>ItemKitUprightWindTurbine</Key>
       <Value>Kit (Éolienne verticale)</Value>
-      <Description>This kit produces a {THING:StructureUprightWindTurbine}.</Description>
+      <Description>Ce kit permet de produire un {THING:StructureUprightWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureUprightWindTurbine</Key>
       <Value>Éolienne verticale</Value>
-      <Description>Norsec's basic wind turbine is an easily fabricated, rapidly deployed design that is strong enough to withstand the worst that environments can throw at it. 
-While the wind turbine is optimized to produce power even on low atmosphere worlds (up to 200W), it performs best in denser environments. Output varies with wind speed, and during storms, may increase dramatically (up to 800W), so be careful to design your power networks with that in mind.</Description>
+      <Description>L'éolienne de base de Norsec est une conception facile à fabriquer, rapidement déployée et suffisamment solide pour résister aux pires conditions environnementales. 
+Bien que l'éolienne soit optimisée pour produire de l'énergie même sur des mondes à faible atmosphère (jusqu'à 200W), elle est plus performante dans des environnements plus denses. La production varie en fonction de la vitesse du vent et, en cas de tempête, elle peut augmenter considérablement (jusqu'à 800 W) ; veillez donc à concevoir vos réseaux d'alimentation en tenant compte de ce facteur.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CrateMkII</Key>
       <Value>Caisse Mk 2</Value>
-      <Description>A more heavily reinforced version of the iconic {THING:DynamicCrate}, the Crate Mk II is resistant to incredibly high pressures and temperatures. Short of disposing of it in a black hole, the Mk II is about as safe as luggage gets.</Description>
+      <Description>Une version plus lourdement renforcée de l'emblématique {THING:DynamicCrate}, la caisse Mk II est résistante à des pressions et des températures incroyablement élevées. À moins de le jeter dans un trou noir, le Mk II est aussi sûr qu'un bagage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
       <Value>Kit (Caisse Mk 2)</Value>
-      <Description>This kit produces a {THING:CrateMkII}.</Description>
+      <Description>Ce kit permet de produire un {THING:CrateMkII}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmptyCan</Key>
       <Value>Boîte vide</Value>
-      <Description>Used for making soups when combined with food in the {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
+      <Description>Utilisé pour faire des soupes lorsqu'il est combiné avec des aliments dans la {THING:AppliancePackagingMachine} ou la {THING:StructureAdvancedPackagingMachine}. Assez riches en nutriments, les conserves ne sont pas {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkinSoup</Key>
       <Value>Soupe de citrouille</Value>
-      <Description>Made using {THING:ItemCookedPumpkin} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+      <Description>Fabriqué à partir de {THING:ItemCookedPumpkin} et d'une {THING:ItemEmptyCan} dans une {THING:AppliancePackagingMachine} ou une {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCornSoup</Key>
       <Value>Soupe de maïs</Value>
-      <Description>Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
+      <Description>Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Assez riches en nutriments, les conserves ne sont pas {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
@@ -5583,48 +5583,48 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     <RecordThing>
       <Key>ItemBiomass</Key>
       <Value>Biomasse</Value>
-      <Description>Diced organic material that is returned when food and organic matter is passed through the {THING:StructureRecycler} and {THING:StructureCentrifuge}. Can be burned in a {THING:StructureFurnace} into {THING:ItemCharcoal} for use in the {THING:StructureSolidFuelGenerator}.</Description>
+      <Description>Matière organique coupée en dés qui est obtenue lorsque de la nourriture et des matières organiques passent dans le {THING:StructureRecycler} et la {THING:StructureCentrifuge}. Peut être brûlée dans un {THING:StructureFurnace} en {THING:ItemCharcoal} pour être utilisée dans le {THING:StructureSolidFuelGenerator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
       <Value>Bac Hydroponique</Value>
-      <Description>The {LINK:Agrizero;Agrizero} hydroponics device is the ideal vessel for growing a range of {LINK:OrganicPage;plantlife}. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. 
-It can be automated using the {THING:StructureHarvie}. Note that unlike the {THING:StructureHydroponicsTray}, these cannot be placed consecutively as they are considered devices rather than pure pipes. They do, however, allow data interrogation for logic systems.</Description>
+      <Description>Le dispositif hydroponique est le récipient idéal pour la culture de toute une série de {LINK:OrganicPage;plantlife}. Il doit être alimenté en eau par un réseau de tuyaux, et en lumière suffisante pour générer la photosynthèse. 
+Il peut être automatisé à l'aide du {THING:StructureHarvie}. Notez que contrairement au {THING:StructureHydroponicsTray}, ceux-ci ne peuvent pas être placés consécutivement car ils sont considérés comme des dispositifs plutôt que comme de purs tuyaux. Ils permettent cependant l'interrogation des données pour les systèmes logiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCharcoal</Key>
       <Value>Charbon de bois</Value>
-      <Description>Charcoal is a lightweight, black carbon residue produced by heating {THING:ItemBiomass} in a {THING:StructureArcFurnace}. It contains less energy potential than {THING:ItemCoalOre}, but can be used as a basic fuel source. Charcoal can also be substituted for coal in {LINK:IngotPage;alloy} recipes.</Description>
+      <Description>Le charbon de bois est un résidu de carbone noir léger produit par le chauffage de {THING:ItemBiomass} dans un {THING:StructureArcFurnace}. Il contient moins de potentiel énergétique que le {THING:ItemCoalOre}, mais peut être utilisé comme source de combustible de base. Le charbon de bois peut également être substitué au charbon dans les recettes {LINK:IngotPage;alloy} recipes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
       <Value>Kit (Panneau Solaire Renforcé)</Value>
-      <Description>This kit produces heavy duty solar panels that are resistant to storm damage.</Description>
+      <Description>Ce kit permet de fabriquer des panneaux solaires robustes qui résistent aux dommages causés par les tempêtes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasicReinforced</Key>
       <Value>Kit (Panneau Solaire basique renforcé)</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Ce panneau solaire est résistant aux dommages causés par les tempêtes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45Reinforced</Key>
       <Value>Panneau Solaire basique renforcé (incliné)</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Ce panneau solaire est résistant aux dommages causés par les tempêtes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDualReinforced</Key>
       <Value>Panneau Solaire renforcé (Double connexion)</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Ce panneau solaire est résistant aux dommages causés par les tempêtes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlatReinforced</Key>
       <Value>Panneau Solaire basique renforcé (plat)</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Ce panneau solaire est résistant aux dommages causés par les tempêtes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelReinforced</Key>
       <Value>Panneau Solaire renforcé</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Ce panneau solaire est résistant aux dommages causés par les tempêtes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
@@ -5634,63 +5634,63 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
       <Value>Ceinture de mineur MKII</Value>
-      <Description>The Mk II mining belt is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips. It also has space for two tools.</Description>
+      <Description>La ceinture minière Mk II est similaire à la {THING:ItemMiningBelt}, mais dispose de 13 emplacements au lieu des 8 de base, afin d'augmenter la durée de vos voyages miniers. Elle peut également accueillir deux outils.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindTurbine</Key>
       <Value>Éolienne</Value>
-      <Description>The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceeedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.
-While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind.</Description>
+      <Description>L'éolienne Stationeers a été conçue par les ingénieurs atmosphériques de Norsec, qui cherchaient à créer un système de production d'énergie éolienne capable de fonctionner même sur des mondes à très faible atmosphère. Les pales ultra-légères répondent à des densités atmosphériques extrêmement faibles, tout en étant suffisamment solides pour fonctionner même sous une énorme pression dans des environnements beaucoup plus exigeants.
+Bien que l'éolienne soit optimisée pour produire de l'énergie (jusqu'à 500 W) même sur des mondes à faible atmosphère, elle est plus performante dans des environnements plus denses. La production varie en fonction de la vitesse du vent et, pendant les tempêtes, elle peut augmenter de façon spectaculaire (jusqu'à 10 000 W) ; veillez donc à concevoir vos réseaux d'alimentation en tenant compte de cet aspect.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
       <Value>Kit (Éolienne)</Value>
-      <Description>This kit produces a {THING:StructureWindTurbine}.</Description>
+      <Description>Ce kit permet de produire un {THING:StructureWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeLiquid</Key>
       <Value>Kit (Tube)</Value>
-      <Description>This kit produces a range of liquid pipes.</Description>
+      <Description>Ce kit produit une gamme de tuyaux liquides.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction</Key>
       <Value>Tube (En Croix)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Tout est dans le titre - les Tuyau de liquide créent des réseaux de Tuyau pour le stockage et le transport du deuxième état de la matière : le liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight</Key>
       <Value>Tube (Droit)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Tout est dans le titre - les Tuyau de liquide créent des réseaux de Tuyau pour le stockage et le transport du deuxième état de la matière : le liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
       <Value>Tube (Coin)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Tout est dans le titre - les Tuyau de liquide créent des réseaux de Tuyau pour le stockage et le transport du deuxième état de la matière : le liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction3</Key>
       <Value>Tube (En Croix, trois voies)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Tout est dans le titre - les Tuyau de liquide créent des réseaux de Tuyau pour le stockage et le transport du deuxième état de la matière : le liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction4</Key>
       <Value>Tube (En Croix, quatre voies)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Tout est dans le titre - les Tuyau de liquide créent des réseaux de Tuyau pour le stockage et le transport du deuxième état de la matière : le liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction5</Key>
       <Value>Tube (En Croix, cinq voies)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Tout est dans le titre - les Tuyau de liquide créent des réseaux de Tuyau pour le stockage et le transport du deuxième état de la matière : le liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction6</Key>
       <Value>Tube (En Croix, six voies)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Tout est dans le titre - les Tuyau de liquide créent des réseaux de Tuyau pour le stockage et le transport du deuxième état de la matière : le liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidTJunction</Key>
       <Value>Tube (Jonction T)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Tout est dans le titre - les Tuyau de liquide créent des réseaux de Tuyau pour le stockage et le transport du deuxième état de la matière : le liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine001</Key>
@@ -5760,12 +5760,12 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>ItemWaterBottle</Key>
       <Value>Bouteille d&apos;eau</Value>
-      <Description>Delicious and pure H20, refined from local sources as varied as Venusian ice and trans-Solar comets. Empty bottles can be refilled using the {THING:StructureWaterBottleFiller}.</Description>
+      <Description>De l'H2O délicieuse et pure, raffinée à partir de sources locales aussi variées que la glace vénusienne et les comètes transsolaires. Les bouteilles vides peuvent être remplies à l'aide du {THING:StructureWaterBottleFiller}. {THING:StructureWaterBottleFiller}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottleFiller</Key>
       <Value>Remplisseur de bouteille d’eau</Value>
-      <Description>As its somewhat uninspired name suggests, this device refills a {THING:ItemWaterBottle}, when connected to a liquid pipe network.</Description>
+      <Description>Comme son nom peu inspiré le suggère, ce dispositif remplit une {THING:ItemWaterBottle}, lorsqu'il est connecté à un réseau de canalisations de liquide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFiller</Key>
@@ -5775,9 +5775,9 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>StructureIceCrusher</Key>
       <Value>Broyeur de glace</Value>
-      <Description>The {LINK:Recurso;Recurso} KoolAuger converts various ices into their respective {LINK:GasPage;gases} and liquids.
-A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.
-If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch.</Description>
+      <Description>Le KoolAuger convertit diverses glaces en leurs {LINK:GasPage;gases} et liquides respectifs.
+Appareil de sublimation-fusion remarquablement intelligent et compact, il produit du gaz ou du liquide en fonction de la glace à traiter. La sortie supérieure est pour le gaz, l'inférieure pour le liquide, et bien que vous puissiez attacher n'importe quel tuyau à l'une ou l'autre sortie, elle ne fonctionnera que si le bon réseau est attaché. De même, il ne fera passer du gaz ou du liquide dans un réseau que s'il est alimenté et allumé.
+Si le KoolAuger est plein, il n'acceptera pas d'autres glaçons tant que le contenu en gaz ou en liquide n'aura pas été vidé. Dans cet état, il fera clignoter un état d'erreur jaune sur l'interrupteur d'activation.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
@@ -5792,13 +5792,13 @@ If the KoolAuger is full, it will not accept any further ice until the gas or li
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
       <Value>Citerne portable MKII (Eau)</Value>
-      <Description>An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature.</Description>
+      <Description>Une version isolée du  {THING:DynamicMKIILiquidCanisterWater}, vous êtes en mesure de stocker de l'eau dans ce {SLOT:GasCanister} sans qu'il ne gagne ou perde de la température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeRadiator</Key>
       <Value>Radiateur de Tube</Value>
-      <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added to the liquid within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
-The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will speed up heat transfer.</Description>
+      <Description>Simple échangeur de chaleur, les radiateurs tubulaires peuvent être placés sur des tuyaux pour perdre ou gagner de la chaleur, en fonction de la température de l'atmosphère environnante. Si l'atmosphère est plus chaude, la chaleur sera ajoutée au liquide dans le réseau de tuyaux, et vice versa si elle est plus froide. Dans le vide, la chaleur est rayonnée. 
+La vitesse de gain ou de perte de chaleur dépendra du liquide en question. L'ajout de plusieurs radiateurs accélérera le transfert de chaleur.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLiquidRadiator</Key>
@@ -5808,7 +5808,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
       <Value>Portable Liquid Tank Mk II</Value>
-      <Description>An empty, insulated liquid {SLOT:GasCanister}.</Description>
+      <Description>Un liquide vide et isolé {SLOT:GasCanister}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
@@ -5818,7 +5818,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
       <Value>Citerne portable MKII (Eau)</Value>
-      <Description>An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature.</Description>
+      <Description>Une version isolée du {THING:DynamicMKIILiquidCanisterWater}, pour conserver les liquides sans qu'ils ne gagnent ou perdent en température</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
@@ -5837,7 +5837,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </RecordThing>
     <RecordThing>
       <Key>StructureBackLiquidPressureRegulator</Key>
-      <Value>Liquid Back Pressure Regulator</Value>
+      <Value>Régulateur de la contre-pression du liquide</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5853,17 +5853,17 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
       <Value>Tournevis MKII</Value>
-      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definintely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units. The MK II is more resistant to temperature and pressure.</Description>
+      <Description>Ce dispositif de réglage de l'adhérence par friction, qui fait partie de l'équipement standard, est un modèle haut de gamme, bi-rotatif, avec une poignée uni-grip en forme de colonne. Ce n'est définitivement pas un simple tournevis. Utilisez-le pour la construction et la déconstruction de certains kits, et le réglage des valeurs sur les unités {LINK:LogicUnitPage;logic} Le MK II est plus résistant à la température et à la pression..</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
       <Value>Meuleuse MKII</Value>
-      <Description>Angles-be-gone with the trusty angle grinder. The MK II is more resistant to temperature and pressure.</Description>
+      <Description>Les angles disparaissent avec la fidèle meuleuse d'angle. Le MK II est plus résistant à la température et à la pression.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
       <Value>Pied de biche MKII</Value>
-      <Description>{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer} settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise. The MK II is more resistant to temperature and pressure.</Description>
+      <Description>Le pied-de-biche d'entrée de gamme est utile dans une variété de situations quotidiennes d'un {LINK:Stationeers;Stationeer} de l'ouverture de {THING:StructureAreaPowerControl} et de {THING:StructureAirlock}non alimentés, en cas de besoin. Le MK II est plus résistant à la température et à la pression.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
@@ -5873,7 +5873,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
       <Value>Perceuse MKII</Value>
-      <Description>The {LINK:ExMin;ExMin} Off-whirled Hand Drill has been a companion to {LINK:Stationeers;Stationeers} for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
+      <Description>Le {LINK:ExMin;ExMin} La perceuse à main excentrée est le compagnon des {LINK:Stationeers;Stationeers} depuis des décennies. Indispensable pour assembler et déconstruire divers objets et structures, indépendamment de la gravité, de la pression ou de la température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
@@ -5918,17 +5918,17 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTankInsulated</Key>
-      <Value>Kit (Insulated Liquid Tank)</Value>
+      <Value>Kit (Réservoir à liquides isolé)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBigInsulated</Key>
-      <Value>Insulated Liquid Tank Big</Value>
+      <Value>Réservoir de liquide isolé Grand</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmallInsulated</Key>
-      <Value>Insulated Liquid Tank Small</Value>
+      <Value>Réservoir de liquide isolé Petit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5939,38 +5939,38 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>StructureRocketModuleSilo</Key>
       <Value>Module de silo de fusée autonome</Value>
-      <Description>The {LINK:ExMin;ExMin} autononmous silo module provides storage for {LINK:OrePage;ores} collected by the {THING:StructureRocketModuleMiningOre}, {LINK:OrePage;ices} collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds up to 600 'medium-sized dry goods'.
-The silo module must be connected to a mining or salvage module by a correctly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for material to pass into the silo.
-The silo module must also be powered when on the launch pad. It is 'on' by default, but can be turned off with logic if needed. 
-The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to {LINK:ImportExportPage;import/export} networks.
-To extract resources from the silo module, you must set its state to 'OPEN' using logic.</Description>
+      <Description>Le module silo autonome {LINK:ExMin;ExMin} permet de stocker les {LINK:OrePage;ores} collectés par le {THING:StructureRocketModuleMiningOre}, {LINK:OrePage;ices} collectés par le {THING:StructureModularRocketIceMining} et les 'déchets spatiaux' récupérés par le {THING:StructureModularRocketScrapMining} . En d'autres termes, il peut contenir jusqu'à 600 "marchandises sèches de taille moyenne".
+Le module silo doit être relié à un module d'extraction ou de récupération par un  {THING:StructureModularRocketCouplingDown} ou {THING:StructureModularRocketCouplingUp}, correctement placé, afin que les matériaux puissent passer dans le silo.
+Le module silo doit également être alimenté lorsqu'il se trouve sur le pas de tir. Il est allumé par défaut, mais peut être éteint par la logique si nécessaire. 
+Le module peut également être attaché à une {THING:StructureChuteInlet} afin de le connecter aux réseaux {LINK:ImportExportPage;import/export}.
+Pour extraire des ressources du module silo, vous devez définir son état sur 'OPEN' en utilisant la logique.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleBattery</Key>
       <Value>Module de stockage d&apos;énergie de fusée autonome</Value>
-      <Description>Coming soon</Description>
+      <Description>Bientôt disponible</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleGasCollector</Key>
       <Value>Module de collecte des gaz de fusée autonome</Value>
-      <Description>Collects gas from space by magic.</Description>
+      <Description>Récupère les gaz de l'espace par magie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleEnergyGenerator</Key>
       <Value>Module de collecte d&apos;énergie de fusée autonome</Value>
-      <Description>Collects energy by electromagnetically capturing the solar wind. Stores it in the {THING:StructureRocketModuleBattery}.
+      <Description>Collecte l'énergie en capturant électromagnétiquement le vent solaire. Elle la stocke dans la {THING:StructureRocketModuleBattery}.
 Coming soon</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
-      <Description>The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for {LINK:OrePage;ore} to pass from the collector unit into the silo.</Description>
+      <Description>Le module doit être relié à un {THING:StructureRocketModuleSilo} par un {THING:StructureModularRocketCouplingDown} ou {THING:StructureModularRocketCouplingUp}, correctement placé, afin que le {LINK:OrePage;ore} passe de l'unité de collecte dans le silo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningOre</Key>
       <Value>Module d&apos;extraction de minerai de fusée autonome</Value>
-      <Description>The {LINK:ExMin;ExMin} autonomous {LINK:OrePage;ore} miner harvests metallic ores from asteroids and planets in the local region of space. Its range - and therefore how much {LINK:OrePage;ore} it collects - is strictly determined by the rocket's fuel quantity.
-The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for {LINK:OrePage;ore} to pass from the collector unit into the silo.
-It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4).</Description>
+      <Description>Le mineur {LINK:ExMin;ExMin} autonome {LINK:OrePage;ore} récolte les minerais métalliques des astéroïdes et des planètes dans la région locale de l'espace. Sa portée - et donc la quantité de {LINK:OrePage;ore} qu'il collecte - est strictement déterminée par la quantité de carburant de la fusée.
+Le module doit être relié à un {THING:StructureRocketModuleSilo} par un {THING:StructureModularRocketCouplingDown} ou {THING:StructureModularRocketCouplingUp}, correctement placé, afin que le {LINK:OrePage;ore} passe de l'unité de collecte dans le silo.
+Il a deux modes - actif (1) et inactif (0), qui ne doit être déclenché que lorsque la fusée est arrivée sur la planète et est inactive (mode 4).</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
@@ -5979,67 +5979,67 @@ It has two modes - active (1), and inactive (0), which should only be triggered 
     <RecordThing>
       <Key>StructureRocketModuleCollectorLiquid</Key>
       <Value>Module récolteur de liquide de fusée autonome</Value>
-      <Description>Coming soon</Description>
+      <Description>Bientôt disponible</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketAutomation</Key>
       <Value>Module d&apos;automatisation de fusée autonome</Value>
-      <Description>The automation module completes the rocket. It passes logic to its respective components.</Description>
+      <Description>Le module d'automatisation complète de la fusée. Il transmet la logique à ses composants respectifs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCouplingDown</Key>
       <Value>Module de couplage de fusée autonome (bas)</Value>
-      <Description>A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between various mining and storage modules. It is essential for the function of the mining unit.
-When placed BELOW a mining module (eg {THING:StructureRocketModuleMiningOre}), the DOWN coupler passes mined or harvested material (solid, liquid or gas) into the respective storage unit (eg {THING:StructureRocketModuleSilo}).</Description>
+      <Description>Solution de transport unidirectionnelle et multi-états, le module de couplage est conçu pour servir d'interface entre les différents modules d'extraction et de stockage. Il est essentiel au fonctionnement de l'unité d'exploitation minière.
+Lorsqu'il est placé EN DESSOUS d'un module d'exploitation minière (par exemple {THING:StructureRocketModuleMiningOre}), le coupleur DOWN fait passer les matériaux exploités ou récoltés (solides, liquides ou gazeux) dans l'unité de stockage correspondante (par exemple {THING:StructureRocketModuleSilo}).</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCouplingUp</Key>
       <Value>Module de couplage de fusée autonome (Haut)</Value>
-      <Description>A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between various mining and storage modules. It is essential for the function of the mining unit.
-When placed ABOVE a mining module (eg {THING:StructureRocketModuleMiningOre}), the UP coupler passes mined or harvested material (solid, liquid or gas) into the respective storage unit (eg {THING:StructureRocketModuleSilo}).</Description>
+      <Description>Solution de transport unidirectionnelle et multi-états, le module de couplage est conçu pour servir d'interface entre les différents modules d'extraction et de stockage. Il est essentiel au fonctionnement de l'unité d'exploitation minière.
+Lorsqu'il est placé au-dessus d'un module d'exploitation minière (par exemple {THING:StructureRocketModuleMiningOre}), le coupleur UP fait passer les matériaux exploités ou récoltés (solides, liquides ou gazeux) dans l'unité de stockage correspondante (par exemple {THING:StructureRocketModuleSilo}).</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreStorage</Key>
       <Value>Kit (Module de silo de fusée autonome)</Value>
-      <Description>Creates a {THING:StructureRocketModuleSilo}.</Description>
+      <Description>Crée un {THING:StructureRocketModuleSilo}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketCoupling</Key>
       <Value>Kit (Module de couplage de fusée autonome)</Value>
-      <Description>Creates a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}</Description>
+      <Description>Crée un {THING:StructureModularRocketCouplingDown} ou {THING:StructureModularRocketCouplingUp}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketAutomation</Key>
       <Value>Kit (Module d&apos;automatisation de fusée autonome)</Value>
-      <Description>Creates a {THING:StructureModularRocketAutomation}</Description>
+      <Description>Crée un {THING:StructureModularRocketAutomation}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreMining</Key>
       <Value>Kit (Module d&apos;extraction de minerai de fusée autonome)</Value>
-      <Description>Creates a {THING:StructureRocketModuleMiningOre}.</Description>
+      <Description>Crée un {THING:StructureRocketModuleMiningOre}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketIceMining</Key>
       <Value>Module d&apos;extraction de glace de fusée autonome</Value>
-      <Description>The {LINK:ExMin;ExMin} autonomous ice miner is a purpose-built, robotic ice harvester, able to mine ice ores from asteroids and planets in the local region of space. Its range - and therefore how much ice {LINK:OrePage;ore} it collects - is strictly determined by the rocket's fuel quantity.
-The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for {LINK:OrePage;ore} to pass from the collector unit into the silo.
-It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4).</Description>
+      <Description>Le mineur de glace autonome {LINK:ExMin;ExMin} est une moissonneuse de glace robotisée spécialement conçue pour exploiter les minerais de glace des astéroïdes et des planètes dans la région locale de l'espace. Sa portée - et donc la quantité de glace {LINK:OrePage;ore} qu'il collecte - est strictement déterminée par la quantité de carburant de la fusée.
+Le module doit être relié à un {THING:StructureRocketModuleSilo} par un {THING:StructureModularRocketCouplingDown} ou {THING:StructureModularRocketCouplingUp}, correctement placé, afin que le {LINK:OrePage;ore} passe de l'unité de collecte dans le silo.
+Il a deux modes - actif (1) et inactif (0), qui ne doit être déclenché que lorsque la fusée est arrivée sur la planète et est inactive (mode 4).</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketIceMining</Key>
       <Value>Kit (Module d&apos;extraction de glace de fusée autonome)</Value>
-      <Description>Creates a {THING:StructureModularRocketIceMining}.</Description>
+      <Description>Crée un {THING:StructureModularRocketIceMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketScrapMining</Key>
       <Value>Module de récupération de fusée autonome</Value>
-      <Description>The so-called {LINK:Sinotai;Sinotai} 'space junk' collector module is really a high-end automated salvaging unit, purpose designed to interface with the {LINK:ExMin;ExMin} autonomous rocket. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. 
-The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for {LINK:OrePage;ore} to pass from the collector unit into the silo.</Description>
+      <Description>Le module collecteur de "déchets spatiaux" de {LINK:Sinotai;Sinotai} est en fait une unité de récupération automatisée haut de gamme, conçue spécialement pour s'interfacer avec la fusée autonome {LINK:ExMin;ExMin}. Il balaie la région locale de l'espace à la recherche d'épaves, de vaisseaux spatiaux abandonnés et d'autres détritus. En tant que tel, il renvoie un assortiment d'objets assez aléatoire. 
+Le module doit être relié à un {THING:StructureRocketModuleSilo} par un {THING:StructureModularRocketCouplingDown} ou {THING:StructureModularRocketCouplingUp}, correctement placé, afin que le {LINK:OrePage;ore} passe de l'unité de collecte dans le silo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketScrapMining</Key>
       <Value>Kit (Module de récupération de fusée automatisée)</Value>
-      <Description>Creates a {THING:StructureModularRocketScrapMining}.</Description>
+      <Description>Crée un {THING:StructureModularRocketScrapMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
@@ -6078,65 +6078,65 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidDrain</Key>
-      <Value>Kit (Liquid Drain)</Value>
+      <Value>Kit (Drainage de liquide)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidDrain</Key>
-      <Value>Liquid Drain</Value>
-      <Description>The drain is a simple device, although not without a touch of mystery. When connected to power and activated, it drains liquid from a liquid network at a rate of 1 mol per tick. Handy if there's liquid you need ... gone.</Description>
+      <Value>Drainage de liquide</Value>
+      <Description>Le drain est un appareil simple, mais non dénué d'une touche de mystère. Lorsqu'il est connecté à l'alimentation et activé, il draine le liquide d'un réseau liquide à un taux de 1 mol par tic. Pratique s'il y a un liquide que vous devez... faire disparaître.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeAnalyzer</Key>
-      <Value>Kit (Liquid Pipe Analyzer)</Value>
+      <Value>Kit (Analyseur de tuyauterie liquide)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeAnalyzer</Key>
-      <Value>Liquid Pipe Analyzer</Value>
+      <Value>Analyseur de tuyauterie liquide</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketGasMining</Key>
-      <Value>Kit (Automated Rocket Gas Mining Module)</Value>
+      <Value>Kit (Module minier automatisé à gaz de fusée)</Value>
       <Description>Ce kit permet de créer un {THING:StructureModularRocketGasMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketGasMining</Key>
-      <Value>Automated Rocket Gas Mining Module</Value>
-      <Description>In typical {LINK:Recurso;Recurso} fashion, the A.R.M. gas mining module is a rapidly designed addition to a more sophisticated system by a company with very little concern for safety or reliability.
-      The module will store mined gas in an empty {THING:StructureModularRocketFueltank01}, so long as it is connected by a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}.</Description>
+      <Value>Module minier automatisé à gaz de fusée</Value>
+      <Description>De manière typique {LINK:Recurso;Recurso} le module d'extraction de gaz A.R.M. est un ajout rapidement conçu à un système plus sophistiqué par une société qui se soucie très peu de la sécurité ou de la fiabilité.
+      Le module stockera le gaz extrait dans un {THING:StructureModularRocketFueltank01}, vide, à condition qu'il soit relié par un {THING:StructureModularRocketCouplingDown} ou un {THING:StructureModularRocketCouplingUp}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHeatExchanger</Key>
-      <Value>Kit Heat Exchanger</Value>
-      <Description>Ce kit permet de créer un {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} and {THING:StructureHeatExchangerGastoGas}.</Description>
+      <Value>Kit d'échangeur de chaleur</Value>
+      <Description>Ce kit permet de créer un {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} et {THING:StructureHeatExchangerGastoGas}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerLiquidtoLiquid</Key>
-      <Value>Heat Exchanger - Liquid</Value>
-      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored {LINK:Sinotai;Sinotai} designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
-The 'N Flow-P' has four connections, allowing you to pass two liquid networks into the unit, which then works to equalize temperature across the two separate networks.
-As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to liquid management devices like a {THING:StructureLiquidVolumePump} or a {THING:StructureBackLiquidPressureRegulator}.
+      <Value>Echangeur de chaleur - liquide</Value>
+      <Description>Les spécifications originales de l'échangeur de chaleur Flow-P de la série N auraient été griffonnées au dos d'un ticket de caisse de hamburger par un concepteur qui s'ennuyait en montant dans l'ascenseur spatial brésilien, mais cela ne l'a pas empêché de devenir l'un des modèles d'échangeur de chaleur les plus copiés dans le système solaire.
+Le "N Flow-P" possède quatre connexions, ce qui permet de faire passer deux réseaux de liquide dans l'unité, qui travaille ensuite pour égaliser la température entre les deux réseaux séparés.
+Comme le N Flow-P est un système passif, il égalise la pression sur l'ensemble de chaque réseau individuel, à moins qu'il ne soit connecté à des dispositifs de gestion du liquide tels qu'une {THING:StructureLiquidVolumePump} ou un {THING:StructureBackLiquidPressureRegulator}.
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerGastoGas</Key>
-      <Value>Heat Exchanger - Gas</Value>
-      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored {LINK:Sinotai;Sinotai} designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
-The 'N Flow-P' has four connections, allowing you to pass two gas networks into the unit, which then works to equalize temperature across the two separate networks.
-As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to gas management devices like a {THING:StructureVolumePump} or a {THING:StructureBackPressureRegulator}.</Description>
+      <Value>Echangeur de chaleur - Gaz</Value>
+      <Description>Les spécifications originales de l'échangeur de chaleur Flow-P de la série N auraient été griffonnées au dos d'un ticket de caisse de hamburger par un concepteur qui s'ennuyait en montant dans l'ascenseur spatial brésilien, mais cela ne l'a pas empêché de devenir l'un des modèles d'échangeur de chaleur les plus copiés dans le système solaire.
+Le "N Flow-P" possède quatre connexions, ce qui permet de faire passer deux réseaux de gaz dans l'unité, qui travaille ensuite pour égaliser la température entre les deux réseaux séparés.
+Comme le N Flow-P est un système passif, il égalise la pression sur l'ensemble de chaque réseau individuel, à moins qu'il ne soit connecté à des dispositifs de gestion des gaz tels qu'une {THING:StructureVolumePump} ou un {THING:StructureBackPressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangeLiquidtoGas</Key>
-      <Value>Heat Exchanger - Liquid + Gas</Value>
-      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored {LINK:Sinotai;Sinotai} designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
-The 'N Flow-P' has four connections, allowing you to pass separate liquid and gas networks into the unit, which then works to equalize temperature across the two separate networks.
-As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to devices like a {THING:StructureVolumePump} or a {THING:StructureBackLiquidPressureRegulator}.</Description>
+      <Value>Echangeur de chaleur - liquide + gaz</Value>
+      <Description>Les spécifications originales de l'échangeur de chaleur Flow-P de la série N auraient été griffonnées au dos d'un ticket de caisse de hamburger par un concepteur qui s'ennuyait en montant dans l'ascenseur spatial brésilien, mais cela ne l'a pas empêché de devenir l'un des modèles d'échangeur de chaleur les plus copiés dans le système solaire.
+Le "N Flow-P" possède quatre connexions, permettant de faire passer des réseaux séparés de liquide et de gaz dans l'unité, qui travaille ensuite pour égaliser la température entre les deux réseaux séparés.
+Le N Flow-P étant un système passif, il égalise la pression sur l'ensemble de chaque réseau individuel, sauf s'il est connecté à des dispositifs tels qu'une {THING:StructureVolumePump} ou un {THING:StructureBackLiquidPressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangeLiquidAndGas</Key>
-      <Value>Heat Exchange Liquid And Gas</Value>
+      <Value>Échange de chaleur liquide et gazeux</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6146,98 +6146,98 @@ As the N Flow-P is a passive system, it equalizes pressure across the entire of 
     </RecordThing>
     <RecordThing>
       <Key>LogicStepSequencer8</Key>
-      <Value>Logic Step Sequencer</Value>
-      <Description>The {LINK:ODA;ODA} does not approve of soundtracks or other distractions.
-As such, {LINK:Stationeers;Stationeers} have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.
-Central to this pasttime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. 
+      <Value>Séquenceur logique à étapes</Value>
+      <Description>Le {LINK:ODA;ODA} n'approuve pas les bandes sonores ou autres distractions.
+C'est pourquoi les {LINK:Stationeers;Stationeers} ont dû créer leur propre accompagnement musical pour le travail exigeant de la construction et de l'entretien des infrastructures extérieures.
+L'élément central de ce passe-temps est le séquenceur de pas, qui permet aux stationnaires de séquencer de courts motifs musicaux ou des boucles. 
 
-{HEADER:DIY MUSIC - GETTING STARTED}
+{HEADER:MUSIQUE DIY - POUR COMMENCER}
 
-1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the lefthand side.
+1: Connectez 8 {THING:DeviceStepUnit} à votre séquenceur pas à pas via le port de données sur le côté gauche.
 
-2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdiver.
+2: Etiquettez chaque unité d'étape, puis assignez les unités d'étape 1 à 8 sur le séquenceur à l'aide du tournevis.
 
-3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the righthand side of the sequencer.
+3: Sélectionnez le haut-parleur de sortie (par exemple {THING:PassiveSpeaker}) où le séquenceur jouera les sons. Elle doit être connectée au réseau logique sur le côté droit du séquenceur.
 
-4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.
+4: Placez un {THING:StopWatch} et utilisez un {THING:StructureLogicReader} et un {THING:StructureLogicWriter} pour écrire le temps dans la variable temps du séquenceur.
 
-5: Set the BPM on the sequencer using a {THING:StructureLogicDial} and a {THING:StructureLogicWriter} to write to the sequencer's BPM variable. A higher bpm will play the sequence faster. 
+5: Réglez le BPM sur le séquenceur en utilisant un {THING:StructureLogicDial} et un {THING:StructureLogicWriter} pour écrire dans la variable BPM du séquenceur. Un bpm plus élevé jouera la séquence plus rapidement.
 
-6: Insert a sound cartridge of your chosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartidge slot.
+6: Insérez une cartouche de son de votre choix et sélectionnez la variante de son que vous souhaitez jouer en appuyant sur les boutons fléchés situés au-dessus et en dessous de la fente de la cartouche de son.
 
-7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).
+7: Choisissez la hauteur des sons à jouer en réglant le cadran de chacune de vos unités de 8 pas sur la note désirée. Avec les tambours, chaque note correspond à un son de tambour différent. Vous pouvez tester vos sons en appuyant sur le bouton d'activation de chaque step unit (avec le séquenceur inactif).
 
-8: Get freaky with the {THING:DeviceLfoVolume}.
+8: Faites des folies avec le {THING:DeviceLfoVolume}.
 
-9: Finally, activate the sequencer, Vibeoneer.</Description>
+9: Enfin, activez le séquenceur, Vibeoneer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DeviceStepUnit</Key>
-      <Value>Device Step Unit</Value>
+      <Value>Appareil Unité d'étape</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StopWatch</Key>
-      <Value>Stop Watch</Value>
+      <Value>Chronomètre</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeBass</Key>
-      <Value>Sound Cartridge Bass</Value>
+      <Value>Cartouche de son Bass</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeDrums</Key>
-      <Value>Sound Cartridge Drums</Value>
+      <Value>Cartouche de son Tambours</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeLeads</Key>
-      <Value>Sound Cartridge Leads</Value>
+      <Value>Cartouche de son Plombs</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeSynth</Key>
-      <Value>Sound Cartridge Synth</Value>
+      <Value>Cartouche de son Synthèse</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitMusicMachines</Key>
-      <Value>Kit (Music Machines)</Value>
+      <Value>Kit (Machines à musique)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnector</Key>
-      <Value>Insulated (Tank Connector)</Value>
+      <Value>Isolé (connecteur du réservoir)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedTankConnector</Key>
-      <Value>Insulated Tank Connector</Value>
+      <Value>Connecteur de réservoir isolé</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnectorLiquid</Key>
-      <Value>Kit (Insulated Tank Connector Liquid)</Value>
+      <Value>Kit (Raccordement du réservoir isolé liquide)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedTankConnectorLiquid</Key>
-      <Value>Insulated Tank Connector Liquid</Value>
+      <Value>Connecteur de réservoir isolé Liquide</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DecayedFood</Key>
-      <Value>Decayed Food</Value>
-      <Description>When your {LINK:OrganicPage;food} decays, it turns into this. {LINK:ODA;ODA} scientists have attempted to determine the exact constituents of this substance, but it remains evasive and mysterious. Suffice to say, eating it is a bad idea. Research has determined, however, that The exact speed of decay varies individually by:
+      <Value>Aliments pourris</Value>
+      <Description>Quand votre {LINK:OrganicPage;food} se décompose, il se transforme en ceci. Les scientifiques ont tenté de déterminer les constituants exacts de cette substance, mais elle reste évasive et mystérieuse. Il suffit de dire que c'est une mauvaise idée d'en manger. La recherche a cependant déterminé que la vitesse exacte de décomposition varie individuellement selon :
 
-- TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C).
+- LA TEMPÉRATURE - La réfrigération ralentit la décomposition, mais de nombreux aliments seront endommagés par une exposition à une pression extrêmement basse, ainsi qu'à une chaleur extrême. La température optimale est de 0 kelvin (-272 C).
 
-- FOOD TYPE - Each {LINK:OrganicPage;food} type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
+- TYPE D'ALIMENT - Chaque type d'aliment {LINK:OrganicPage;food} a ses propres propriétés de décomposition. Une {THING:ItemTomatoSoup} dure beaucoup plus longtemps qu'une {THING:ItemTomato}, par exemple.
 
-- PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures. 
+ PRESSION - La nourriture se dégrade plus rapidement lorsque la pression descend en dessous d'une atmosphère (101kPa). La décomposition est exponentiellement plus rapide lorsque l'atmosphère s'approche d'un vide parfait. Les pressions plus élevées n'ont aucun effet. 
 
-- ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
+- ATMOSPHÈRE - Différents gaz peuvent ralentir ou accélérer le processus de décomposition. Le processus tiendra compte des rapports respectifs des gaz dans les atmosphères mixtes pour calculer le modificateur de décomposition. Les taux suivants s'appliquent à tous les aliments :
 
 &gt; {GAS:Oxygen} x 1.3
 &gt; {GAS:Nitrogen} x 0.6
@@ -6246,151 +6246,151 @@ Central to this pasttime is the step sequencer, which allows Stationeers to sequ
 &gt; {GAS:Pollutant} x 3
 &gt; {GAS:NitrousOxide} x 1.5
 &gt; {GAS:Water} x 2
-&gt; Vacuum (see PRESSURE above)
+&gt; Sous vide (voir PRESSION ci-dessus)
 
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureShelfMedium</Key>
-      <Value>Shelf Medium</Value>
-      <Description>A shelf for putting things on, so you can see them.</Description>
+      <Value>Étagère moyenne</Value>
+      <Description>Une étagère pour poser les objets, afin de pouvoir les voir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PassiveSpeaker</Key>
-      <Value>Passive Speaker</Value>
+      <Value>Haut-parleur passif</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DeviceLfoVolume</Key>
-      <Value>Low frequency oscillator</Value>
-      <Description>The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.
+      <Value>Oscillateur à basse fréquence</Value>
+      <Description>L'oscillateur basse fréquence (ou LFO) donne un son sombre, tordu et croustillant en modifiant la forme des ondes émises par un {THING:LogicStepSequencer8}.
       
-To set up an LFO:
+Pour configurer un LFO :
 
-1. Place the LFO unit
-2. Set the LFO output to a {THING:PassiveSpeaker}
-2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.
-3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.
-4. Use another logic writer to write the BPM to the LFO.
-5. You are ready. This is the future. You're in space. Make it sound cool.
+1. Placez l'unité LFO
+2. Réglez la sortie du LFO sur un {THING:PassiveSpeaker}
+3. Réglez la sortie d'un séquenceur sur LFO - ainsi le signal du séquenceur passe par le LFO vers un haut-parleur.
+4. Placez un {THING:StopWatch} ou utilisez-en un existant, puis utilisez un {THING:StructureLogicWriter} pour l'écrire dans le LFO.
+5. Utilisez un autre écrivain logique pour écrire le BPM au LFO.
+6. Vous êtes prêt. Nous sommes dans le futur. Tu es dans l'espace. Faites en sorte que ça sonne bien.
 
-For more info, check out the {LINK:MusicPage;music page}.</Description>
+Pour plus d'informations, consultez la page {LINK:MusicPage;music page}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeBig</Key>
-      <Value>Fridge (Large)</Value>
-      <Description>The {LINK:Xigo;Xigo} Koolaid fridge is a self-cooling storage device with 15 slots that preserves food when powered and turned on. While many users have complained about the placement of the power switch, its place in the pantheon of off-world whiteware is unquestioned.
+      <Value>Réfrigérateur (grand)</Value>
+      <Description>Le réfrigérateur Koolaid {LINK:Xigo;Xigo} est un appareil de stockage auto-réfrigérant doté de 15 fentes qui conserve les aliments lorsqu'il est alimenté et allumé. Bien que de nombreux utilisateurs se soient plaints de l'emplacement de l'interrupteur d'alimentation, sa place dans le panthéon des produits blancs hors du monde est incontestable.
       
-With its own permanent internal atmosphere, the Koolaid fridge slows the decay of {LINK:OrganicPage;food} by maintaining an optimal internal temperature. Its power usage varies on the external temperature against which it must balance its internal temperature. As such, it must shed heat to operate, so the Koolaid fridge DOES NOT work in a vacuum.
+Avec sa propre atmosphère interne permanente, le réfrigérateur Koolaid ralentit la décomposition des {LINK:OrganicPage;food}  en maintenant une température interne optimale. Sa consommation d'énergie varie en fonction de la température extérieure contre laquelle il doit équilibrer sa température interne. En tant que tel, il doit perdre de la chaleur pour fonctionner. Le réfrigérateur Koolaid ne fonctionne donc PAS dans le vide.
       
-Also, don't leave the door open, as it will equalize with the current world temperature. And maybe start to beep.
+Aussi, ne laissez pas la porte ouverte, car elle s'égalisera avec la température mondiale actuelle. Et peut-être commencera-t-il à émettre des bips.
 
-For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
+Pour plus d'informations sur la conservation des aliments, visite la section {LINK:DecayPage;food decay} de la Stationpedia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeBig</Key>
-      <Value>Kit (Fridge Large)</Value>
+      <Value>Kit (Réfrigérateur grand)</Value>
       <Description>Ce kit permet de créer un {THING:StructureFridgeBig}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeSmall</Key>
-      <Value>Fridge Small</Value>
-      <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the {LINK:Recurso;Recurso} Minibar fridge was a simple solution to the problem of {LINK:NutritionPage;food decay}. It stores a small number of items, at any temperature you can muster.
+      <Value>Réfrigérateur Petit</Value>
+      <Description>Essentiellement une boîte fortement isolée qui permet aux utilisateurs de pipe dans n'importe quelle atmosphère désirée, le {LINK:Recurso;Recurso} le petit réfrigérateur était une solution simple au problème de {LINK:NutritionPage;food decay}. Il permet de stocker un petit nombre d'articles, à n'importe quelle température.
       
-      For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
+      Pour plus d'informations sur la conservation des aliments, visitez la section {LINK:DecayPage;food decay} de la Stationpedia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
-      <Value>Refrigerated Vending Machine</Value>
-      <Description>The refrigerated OmniKool vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage. It can hold up to 100 stacks.
-The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.
-NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. </Description>
+      <Value>Distributeur automatique réfrigéré</Value>
+      <Description>Le distributeur automatique réfrigéré OmniKool est une version avancée du modèle standard {THING;StructureVendingMachine}, qui maintient une pression optimale et une température constante de -130 degrés C, afin d'éviter la détérioration des aliments. Il peut contenir jusqu'à 100 piles.
+L'OmniKool dispose également d'un {THING:StructureStacker}, intégré, permettant aux joueurs de définir la taille des piles de tous les articles ajoutés à l'appareil. La taille de pile par défaut de l'unité est de 50.
+REMARQUE : la modification de la taille des piles ne modifie pas les piles existantes dans la machine, mais uniquement celles qui sont ajoutées ultérieurement. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachineRefrigerated</Key>
-      <Value>Kit (Vending Machine Refrigerated)</Value>
+      <Value>Kit (Distributeur automatique réfrigéré)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Potato</Key>
-      <Value>Potato Seeds</Value>
-      <Description>Grow a {THING:ItemPotato}.</Description>
+      <Value>Graines de pomme de terre</Value>
+      <Description>Cultivez {THING:ItemPotato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Corn</Key>
-      <Value>Corn Seeds</Value>
-      <Description>Grow a {THING:ItemCorn}.</Description>
+      <Value>Graines de maïs</Value>
+      <Description>Cultivez {THING:ItemCorn}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Wheet</Key>
-      <Value>Wheat Seeds</Value>
-      <Description>Grow some {THING:ItemWheat}.</Description>
+      <Value>Graines de blé</Value>
+      <Description>Cultivez {THING:ItemWheat}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Tomato</Key>
-      <Value>Tomato Seeds</Value>
-      <Description>Grow a {THING:ItemTomato}.</Description>
+      <Value>Graines de tomates</Value>
+      <Description>Cultivez {THING:ItemTomato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Soybean</Key>
-      <Value>Soybean Seeds</Value>
-      <Description>Grow some {THING:ItemSoybean}.</Description>
+      <Value>Graines de soja</Value>
+      <Description>Cultivez {THING:ItemSoybean}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Rice</Key>
-      <Value>Rice Seeds</Value>
-      <Description>Grow some {THING:ItemRice}.</Description>
+      <Value>Graines de riz</Value>
+      <Description>Cultivez {THING:ItemRice}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Pumpkin</Key>
-      <Value>Pumpkin Seeds</Value>
-      <Description>Grow a {THING:ItemPumpkin}.</Description>
+      <Value>Graines de citrouille</Value>
+      <Description>Cultivez {THING:ItemPumpkin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Fern</Key>
-      <Value>Fern Seeds</Value>
-      <Description>Grow a {THING:ItemFern}.</Description>
+      <Value>Graines de fougère</Value>
+      <Description>Cultivez {THING:ItemFern}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Fertilizer</Key>
-      <Value>Fertilizer</Value>
-      <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.
-Fertilizer's affects depend on its ingredients:
+      <Value>Engrais</Value>
+      <Description>L'engrais modifie les processus de croissance des plantes. Il est créé par le composteur de base et le {THING:StructureAdvancedComposter} en utilisant des matières {LINK:OrganicPage;organic}.
+Les effets de l'engrais dépendent de ses ingrédients:
 
-- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
+- {LINK:OrganicPage;Food} augmente le RENDEMENT DES PLANTES jusqu'à deux fois.
+- {THING:DecayedFood} augmente la VITESSE DE CROISSANCE des plantes jusqu'à deux fois.
+- {THING:ItemBiomass} augmente le NOMBRE DE CYCLES DE CROISSANCE pendant lesquels l'engrais dure.
 
-The effect of these ingredients depends on their respective proportions in the composter when processing is activated. </Description>
+L'effet de ces ingrédients dépend de leurs proportions respectives dans le composteur lorsque le traitement est activé. </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedComposter</Key>
-      <Value>Advanced Composter</Value>
-      <Description>The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.
-When processing, it releases nitrogen and volatiles, as well a small amount of heat. 
+      <Value>Composteur avancé</Value>
+      <Description>Le composteur avancé crée {THING:Fertilizer} à partir de matières organiques. Il accepte {LINK:OrganicPage;food}, {THING:DecayedFood} ou {THING:ItemBiomass}. Il a besoin d'{GAS:Water} et d'énergie pour fonctionner, accélérant ainsi le processus naturel de compostage.
+Lors du traitement, il libère de l'azote et des substances volatiles, ainsi qu'une petite quantité de chaleur. 
 
-{HEADER:Compost composition}
-Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
+{HEADER:Composition du compost}
+L'engrais est produit dans un rapport de 1:3 entre l'engrais et les ingrédients. Les effets de l'engrais sur les plantes varient en fonction des proportions respectives de ses ingrédients.
 
-- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times
+- {LINK:OrganicPage;Food} augmente jusqu'à deux fois le RENDEMENT DES PLANTES
+- {THING:DecayedFood} augmente la VITESSE DE CROISSANCE des plantes jusqu'à deux fois.
+- {THING:ItemBiomass} augmente jusqu'à cinq fois le NOMBRE DE CYCLES DE CROISSANCE que dure l'engrais.
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedComposter</Key>
-      <Value>Kit (Advanced Composter)</Value>
-      <Description>Creates an {THING:StructureAdvancedComposter}.</Description>
+      <Value>Kit (Composteur avancé)</Value>
+      <Description>Crée unn {THING:StructureAdvancedComposter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeSmall</Key>
-      <Value>Kit (Fridge Small)</Value>
-      <Description>Creates a {THING:StructureFridgeSmall}.</Description>
+      <Value>Kit (Réfrigérateur Petit)</Value>
+      <Description>Crée un {THING:StructureFridgeSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePlanter</Key>
       <Value>Planter</Value>
-      <Description>A small planter for decorative or hydroponic purposes. Can be connected to {GAS:Water}, or watered manually using a {THING:ItemWaterBottle} or {THING:ItemGasCanisterWater}.</Description>
+      <Description>Une petite jardinière à des fins décoratives ou hydroponiques. Peut être connectée à {GAS:Water}, ou arrosée manuellement à l'aide d'une {THING:ItemWaterBottle} ou d'une {THING:ItemGasCanisterWater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitPlanter</Key>
@@ -6399,33 +6399,33 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     </RecordThing>
     <RecordThing>
       <Key>PortableComposter</Key>
-      <Value>Portable Composter</Value>
-      <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
-When processing, it releases nitrogen and volatiles, as well a small amount of heat.
+      <Value>Composteur portable</Value>
+      <Description>Un dispositif de compostage simple, le composteur de base crée {THING:Fertilizer} à partir de la matière organique. Il accepte {LINK:OrganicPage;food}, {THING:DecayedFood} ou {THING:ItemBiomass}. Il nécessite un {THING:ItemLiquidCanisterEmpty} plein et une batterie pour fonctionner, accélérant ainsi le processus naturel de compostage.
+Lors du traitement, il libère de l'azote et des substances volatiles, ainsi qu'une petite quantité de chaleur.
 
-{HEADER:Compost composition}
-Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
+{HEADER:Composition du compost}
+L'engrais est produit dans un rapport de 1:3 entre l'engrais et les ingrédients. Les effets de l'engrais sur les plantes varient en fonction des proportions respectives de ses ingrédients.
 
-- {LINK:OrganicPage;food} increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for</Description>
+- {LINK:OrganicPage;food} augmente jusqu'à deux fois le RENDEMENT DES PLANTES
+- {THING:DecayedFood} augmente la VITESSE DE CROISSANCE des plantes jusqu'à deux fois.
+- {THING:ItemBiomass} augmente le NOMBRE DE CYCLES DE CROISSANCE pendant lesquels l'engrais dure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
-      <Value>Basic Packaging Machine</Value>
-      <Description>The {LINK:Xigo;Xigo} Cannifier requires {THING:ItemEmptyCan} and cooked {LINK:OrganicPage;food} to create {LINK:DecayPage;long-lasting}, easily stored sustenance. Note that the Cannifier must be bolted to a {THING:StructureBench} for power, and only accepts cooked food and tin cans.
+      <Value>Machine d'emballage de base</Value>
+      <Description>Le Cannificateur nécessite {THING:ItemEmptyCan} et de la {LINK:OrganicPage;food} cuite pour créer une subsistance  {LINK:DecayPage;long-lasting}, facile à stocker. Notez que le Canificateur doit être boulonné à une {THING:StructureBench} pour être alimenté et qu'il n'accepte que les aliments cuits et les boîtes de conserve.
 
-{HEADER:OPERATION}
+{HEADER:FONCTIONNEMENT}
 
-1. Add the correct ingredients to the device via the hopper in the TOP.
+1. Ajoutez les bons ingrédients à l'appareil via la trémie située dans le TOP.
 
-2. Close the device using the dropdown handle.
+2. Fermez l'appareil à l'aide de la poignée rabattable.
 
-3. Activate the device.
+3. Activez l'appareil.
 
-4. Remove canned goods from the outlet in the FRONT.
+4. Retirez les conserves de la prise située à l'AVANT.
 
-Note: the Cannifier will flash an error on its activation switch if you attempt to activate it before closing it.
+Remarque : le Cannificateur fera clignoter une erreur sur son interrupteur d'activation si vous tentez de l'activer avant de le fermer.
 
 
       </Description>
@@ -6437,581 +6437,581 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </RecordThing>
     <RecordThing>
       <Key>StructureAutomatedOven</Key>
-      <Value>Automated Oven</Value>
+      <Value>Four automatisé</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutomatedOven</Key>
-      <Value>Kit (Automated Oven)</Value>
+      <Value>Kit (Four automatisé)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedMushroom</Key>
-      <Value>Canned Mushroom</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedMushroom}  and a {THING:ItemEmptyCan}, delicious mushroom soup is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+      <Value>Champignons en conserve</Value>
+      <Description>Fabriquée dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, à l'aide de {THING:ItemCookedMushroom}  et d'une {THING:ItemEmptyCan},  la délicieuse soupe aux champignons est assez riche en nutriments et ne {LINK:DecayPage;decay} pas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPowderedeggs</Key>
-      <Value>Powdered Eggs</Value>
-      <Description>Powdered eggs: the reason you went to space.</Description>
+      <Value>Œufs en poudre</Value>
+      <Description>Les œufs en poudre : la raison pour laquelle vous êtes allé dans l'espace.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPoweredEggs</Key>
-      <Value>Powered Eggs</Value>
+      <Value>Œufs en poudre</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemFrenchFries</Key>
-      <Value>Canned French Fries</Value>
-      <Description>Because space would suck without 'em.</Description>
+      <Value>Frites en conserve</Value>
+      <Description>Parce que l'espace craindrait sans eux.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedRicePudding</Key>
-      <Value>Canned Rice Pudding</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedRice} and an {THING:ItemEmptyCan}, canned rice pudding is a sweet treat, fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+      <Value>Riz au lait en conserve</Value>
+      <Description>Fabriqué dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, à l'aide d'un {THING:ItemCookedRice} et d'une {THING:ItemEmptyCan}, le riz au lait en conserve est une friandise sucrée, assez riche en nutriments, et ne  {LINK:DecayPage;decay} pas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedCondensedMilk</Key>
-      <Value>Canned Condensed Milk</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedCondensedMilk} and an {THING:ItemEmptyCan}, canned condensed milk is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+      <Value>Lait condensé en conserve</Value>
+      <Description>Fabriqué dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, à l'aide d'un {THING:ItemCookedCondensedMilk} et d'une {THING:ItemEmptyCan}, le lait concentré en conserve est assez riche en nutriments et ne {LINK:DecayPage;decay} pas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedEdamame</Key>
       <Value>Canned Edamame</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedSoybean} and an {THING:ItemEmptyCan}, canned edamame beans are fairly high in nutrition, and do not {LINK:DecayPage;decay}.</Description>
+      <Description>Fabriqué dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, à l'aide d'un {THING:ItemCookedSoybean} et d'une {THING:ItemEmptyCan}, Les haricots en conserve sont assez riches en nutriments, et ne {LINK:DecayPage;decay} pas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedPowderedEggs</Key>
       <Value>Canned Powdered Eggs</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedPowderedEggs}  and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+      <Description>Fabriqué dans une {THING:StructureAdvancedPackagingMachine} ou une {THING:AppliancePackagingMachine}, à l'aide d'un {THING:ItemCookedPowderedEggs}  et d'une {THING:ItemEmptyCan}, Les œufs en poudre en conserve sont un aliment dynamique et passionnant, assez riche sur le plan nutritionnel, et ne {LINK:DecayPage;decay} pas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedPackagingMachine</Key>
-      <Value>Advanced Packaging Machine</Value>
-      <Description>The {LINK:Xigo;Xigo} Advanced Cannifier Multi-Plus Pro is an automateable packaging machine that uses {THING:ItemEmptyCan}s and cooked {LINK:OrganicPage;food} to create canned sustenance that does not decay. Note that the ACMPP only accepts cooked food and tin cans.</Description>
+      <Value>Machine d'emballage avancée</Value>
+      <Description>L'Advanced Cannifier Multi-Plus Pro est une machine d'emballage automatisable qui utilise des {THING:ItemEmptyCan} et des {LINK:OrganicPage;food} cuits pour créer des conserves qui ne se décomposent pas. Notez que l'ACMPP n'accepte que les aliments cuits et les boîtes de conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedPackagingMachine</Key>
-      <Value>Kit (Advanced Packaging Machine)</Value>
-      <Description>Creates and {THING:StructureAdvancedPackagingMachine.}</Description>
+      <Value>Kit (Machine d'emballage avancée)</Value>
+      <Description>Crée une {THING:StructureAdvancedPackagingMachine.}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedSoybean</Key>
-      <Value>Cooked Soybean</Value>
-      <Description>A high-nutrient cooked food, which can be canned.</Description>
+      <Value>Soja cuit</Value>
+      <Description>Un aliment cuit à haute teneur en nutriments, qui peut être mis en conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedTomato</Key>
-      <Value>Cooked Tomato</Value>
-      <Description>A high-nutrient cooked food, which can be canned.</Description>
+      <Value>Tomate cuite</Value>
+      <Description>Un aliment cuit à haute teneur en nutriments, qui peut être mis en conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedCorn</Key>
-      <Value>Cooked Corn</Value>
-      <Description>A high-nutrient cooked food, which can be canned.</Description>
+      <Value>Maïs cuit</Value>
+      <Description>Un aliment cuit à haute teneur en nutriments, qui peut être mis en conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedRice</Key>
-      <Value>Cooked Rice</Value>
-      <Description>A high-nutrient cooked food, which can be canned.</Description>
+      <Value>Riz cuit</Value>
+      <Description>Un aliment cuit à haute teneur en nutriments, qui peut être mis en conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedPumpkin</Key>
-      <Value>Cooked Pumpkin</Value>
-      <Description>A high-nutrient cooked food, which can be canned.</Description>
+      <Value>Citrouille cuite</Value>
+      <Description>Un aliment cuit à haute teneur en nutriments, qui peut être mis en conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedMushroom</Key>
-      <Value>Cooked Mushroom</Value>
-      <Description>A high-nutrient cooked food, which can be canned.</Description>
+      <Value>Champignon cuit</Value>
+      <Description>Un aliment cuit à haute teneur en nutriments, qui peut être mis en conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedPowderedEggs</Key>
-      <Value>Powdered Eggs</Value>
-      <Description>A high-nutrient cooked food, which can be canned.</Description>
+      <Value>Œufs en poudre</Value>
+      <Description>Un aliment cuit à haute teneur en nutriments, qui peut être mis en conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedCondensedMilk</Key>
-      <Value>Condensed Milk</Value>
-      <Description>A high-nutrient cooked food, which can be canned.</Description>
+      <Value>Lait condensé</Value>
+      <Description>Un aliment cuit à haute teneur en nutriments, qui peut être mis en conserve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTropicalPlant</Key>
-      <Value>Tropical Lily</Value>
-      <Description>An anthurium, evolved in the jungles of South America, which will tolerate higher temperatures than most plants.</Description>
+      <Value>Lys tropical</Value>
+      <Description>Un anthurium, évolué dans les jungles d'Amérique du Sud, qui tolère des températures plus élevées que la plupart des plantes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPeaceLily</Key>
-      <Value>Peace Lily</Value>
-      <Description>A fetching lily with greater resistance to cold temperatures.</Description>
+      <Value>Lys de la paix</Value>
+      <Description>Un joli lys qui résiste mieux au froid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDecorFern</Key>
-      <Value>Decorative Fern</Value>
-      <Description>One of the universe's many ferns, useful in a range of medicinal and organic recipes.</Description>
+      <Value>Fougère décorative</Value>
+      <Description>Une des nombreuses fougères de l'univers, utile dans une série de recettes médicinales et biologiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFilterFern</Key>
-      <Value>Darga Fern</Value>
-      <Description>A fern adapted by {LINK:Agrizero;Agrizero}to process a much greater volume of {GAS:CarbonDioxide} into {GAS:Oxygen} than an average plant.</Description>
+      <Value>Fougère de Darga</Value>
+      <Description>Une fougère adaptée pour transformer un volume beaucoup plus important de {GAS:CarbonDioxide} en {GAS:Oxygen} qu'une plante moyenne.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedWaterPipe</Key>
-      <Value>Insulated Water Pipe Kit</Value>
+      <Value>Kit de tuyaux d'eau isolés</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedLiquidPipe</Key>
-      <Value>Insulated Liquid Pipe (Kit)</Value>
+      <Value>Tuyau de liquide isolé (Kit)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCorner</Key>
-      <Value>Insulated Liquid Pipe Corner</Value>
+      <Value>Coin isolé pour tuyau de liquide</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction</Key>
-      <Value>Insulated Liquid Pipe Cross Junction</Value>
+      <Value>Traversée de tuyaux de liquide isolés Junction</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction3</Key>
-      <Value>Insulated Liquid Pipe Cross Junction3</Value>
+      <Value>Traversée de tuyaux de liquide isolés Junction3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction4</Key>
-      <Value>Insulated Liquid Pipe Cross Junction4</Value>
+      <Value>Traversée de tuyaux de liquide isolés Junction4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction5</Key>
-      <Value>Insulated Liquid Pipe Cross Junction5</Value>
+      <Value>Traversée de tuyaux de liquide isolés Junction5</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction6</Key>
-      <Value>Insulated Liquid Pipe Cross Junction6</Value>
+      <Value>Traversée de tuyaux de liquide isolés Junction6</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeJunction</Key>
-      <Value>Insulated Liquid Pipe Junction</Value>
+      <Value>Jonction de tuyaux isolés pour liquides</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeStraight</Key>
-      <Value>Insulated Liquid Pipe Straight</Value>
+      <Value>Tuyau de liquide isolé droit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCorner</Key>
-      <Value>Insulated Liquid Pipe (Corner)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Value>Tuyau de liquide isolée (angle)</Value>
+      <Description>Tuyauterie de liquide avec très faible perte ou gain de température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Value>Tuyau de liquide isolée (jonction croisée)</Value>
+      <Description>Tuyauterie de liquide avec très faible perte ou gain de température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction4)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Value>Tuyau de liquide isolé (Cross Junction4)</Value>
+      <Description>Tuyauterie de liquide avec très faible perte ou gain de température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Value>Tuyau de liquide isolé (Cross Junction)</Value>
+      <Description>Tuyauterie de liquide avec très faible perte ou gain de température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction5</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction5)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Value>Tuyau de liquide isolé (Cross Junction5)</Value>
+      <Description>Tuyauterie de liquide avec très faible perte ou gain de température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction6</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction6)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Value>Tuyau de liquide isolé (Cross Junction6)</Value>
+      <Description>Tuyauterie de liquide avec très faible perte ou gain de température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight</Key>
-      <Value>Insulated Liquid Pipe (Straight)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Value>Tuyau de liquide isolé (Straight)</Value>
+      <Description>Tuyauterie de liquide avec très faible perte ou gain de température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidTJunction</Key>
-      <Value>Insulated Liquid Pipe (T Junction)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Value>Tuyau de liquide isolé (T Junction)</Value>
+      <Description>Tuyauterie de liquide avec très faible perte ou gain de température.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeHeater</Key>
-      <Value>Pipe Heater (Gas)</Value>
-      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+      <Value>Réchauffeur de tuyaux (gaz)</Value>
+      <Description>Ajoute 1000 joules de chaleur par tic au contenu de votre réseau de tuyaux.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOneWayValve</Key>
-      <Value>One Way Valve (Gas)</Value>
-      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.
+      <Value>Vanne à sens unique (gaz)</Value>
+      <Description>La vanne unidirectionnelle déplace le gaz dans un seul sens : du côté de l'entrée vers le côté de la sortie. Elle ne permet le débit que si la pression d'entrée est supérieure à la pression de sortie.
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOneWayValve</Key>
-      <Value>One Way Valve (Gas)</Value>
-      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.</Description>
+      <Value>Vanne à sens unique (gaz)</Value>
+      <Description>La vanne unidirectionnelle déplace le gaz dans un seul sens : du côté de l'entrée vers le côté de la sortie. Elle ne permet le débit que si la pression d'entrée est supérieure à la pression de sortie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPipeHeater</Key>
-      <Value>Pipe Heater (Gas)</Value>
-      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+      <Value>Réchauffeur de tuyaux (gaz)</Value>
+      <Description>Ajoute 1000 joules de chaleur par tic au contenu de votre réseau de tuyaux.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeHeater</Key>
-      <Value>Pipe Heater Kit (Gas)</Value>
-      <Description>Creates a {THING:StructurePipeHeater}.</Description>
+      <Value>Kit de chauffage de tuyau (gaz)</Value>
+      <Description>Crée un {THING:StructurePipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeHeater</Key>
-      <Value>Pipe Heater Kit (Liquid)</Value>
-      <Description>Creates a {THING:StructureLiquidPipeHeater}.</Description>
+      <Value>Kit de chauffage de tuyau (liquide)</Value>
+      <Description>Crée un {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeHeater</Key>
-      <Value>Pipe Heater Kit (Liquid)</Value>
-      <Description>Creates a {THING:StructureLiquidPipeHeater}.</Description>
+      <Value>Kit de chauffage de tuyau (liquide)</Value>
+      <Description>Crée un {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeHeater</Key>
-      <Value>Pipe Heater (Liquid)</Value>
-      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+      <Value>Chauffe-tuyaux (liquide)</Value>
+      <Description>Ajoute 1000 joules de chaleur par tic au contenu de votre réseau de tuyaux.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTurboVolumePump</Key>
-      <Value>Turbo Volume Pump (Gas)</Value>
-      <Description>Shifts 10 times more gas than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
+      <Value>Pompe de volume turbo (gaz)</Value>
+      <Description>Transporte 10 fois plus de gaz qu'une {THING:StructureVolumePump}, de base, avec un mode qui peut être réglé pour s'écouler dans les deux sens.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurboVolumePump</Key>
-      <Value>Kit (Turbo Volume Pump - Gas)</Value>
-      <Description>Creates a {THING:StructureTurboVolumePump}.</Description>
+      <Value>Kit (Pompe de volume turbo - Gaz)</Value>
+      <Description>Crée un {THING:StructureTurboVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTurboVolumePump</Key>
-      <Value>Turbo Volume Pump (Liquid)</Value>
-      <Description>Shifts 10 times more liquid than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
+      <Value>Pompe de volume turbo (liquide)</Value>
+      <Description>Transporte 10 fois plus de liquide qu'une {THING:StructureVolumePump}, de base, avec un mode qui peut être réglé pour s'écouler dans les deux sens.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTurboVolumePump</Key>
-      <Value>Kit (Turbo Volume Pump - Liquid)</Value>
-      <Description>Creates a {THING:StructureLiquidTurboVolumePump}.</Description>
+      <Value>Kit (Pompe à volume turbo - liquide)</Value>
+      <Description>Crée un {THING:StructureLiquidTurboVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMkIIToolbelt</Key>
-      <Value>Tool Belt MK II</Value>
-      <Description>A large, ten-slot tool belt with two extra generic slots for carrying whatever takes your fancy.</Description>
+      <Value>Ceinture à outils MK II</Value>
+      <Description>Une grande ceinture à outils à dix fentes, avec deux fentes génériques supplémentaires pour transporter ce qui vous plaît.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltMKII</Key>
-      <Value>Mining Belt MK II</Value>
-      <Description>A larger and more capacious mining belt, the Mk II is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips. It also has space for two tools. </Description>
+      <Value>Ceinture minière MK II</Value>
+      <Description>Une ceinture minière plus grande et plus spacieuse, la Mk II est similaire à la {THING:ItemMiningBelt}, mais dispose de 13 emplacements au lieu des 8 de base, pour augmenter la durée de vos voyages miniers. Elle peut également accueillir deux outils.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeOneWayValve</Key>
-      <Value>One Way Valve (Liquid)</Value>
-      <Description>The oneway valve moves liquid in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure..</Description>
+      <Value>Vanne à sens unique (liquide)</Value>
+      <Description>La vanne unidirectionnelle déplace le liquide dans un seul sens : du côté de l'entrée vers le côté de la sortie. Elle ne permet le débit que si la pression d'entrée est supérieure à la pression de sortie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindowShutter</Key>
-      <Value>Window Shutter</Value>
-      <Description>For those special, private moments, a window that can be closed to prying eyes. 
+      <Value>Volet pour fenêtre</Value>
+      <Description>Pour ces moments spéciaux et privés, une fenêtre qui peut être fermée aux regards indiscrets. 
       
-When closed, has the heat transfer characteristics of a basic wall. Requires power, and can be connected to logic systems.</Description>
+Quand elle est fermée, elle a les caractéristiques de transfert de chaleur d'un simple mur. Elle nécessite de l'énergie et peut être connectée à des systèmes logiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindowShutter</Key>
-      <Value>Kit (Window Shutter)</Value>
-      <Description>Produces a {THING:StructureWindowShutter}.</Description>
+      <Value>Kit (Volet pour fenêtre)</Value>
+      <Description>Produit un {THING:StructureWindowShutter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemExplosiveBasic</Key>
-      <Value>Item Explosive Basic</Value>
-      <Description>A low cost, high yield explosive with a 10 second timer.</Description>
+      <Value>Objet Explosif de base</Value>
+      <Description>Un explosif à faible coût et à haut rendement avec une minuterie de 10 secondes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningCharge</Key>
       <Value>Mining Charge</Value>
-      <Description>A low cost, high yield explosive with a 10 second timer.</Description>
+      <Description>Un explosif à faible coût et à haut rendement avec une minuterie de 10 secondes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHorizontalAutoMiner</Key>
       <Value>OGRE</Value>
-      <Description>The {LINK:Recurso;Recurso} OGRE (Orthogonal Ground Rotating Excavator) is a base structure with attached mining vehicle, which will mine a horizontal shaft up to X meters long. When full, the mining vehicle will return to the base to empty itself, before returning to dig. If it encounters empty space, it will also return to base and await instruction. The unit will return if deactivated.
+      <Description>L'OGRE (Orthogonal Ground Rotating Excavator) est une structure de base à laquelle est attaché un véhicule minier, qui exploite un puits horizontal d'une longueur maximale de X mètres. Lorsqu'il est plein, le véhicule minier retourne à la base pour se vider, avant de recommencer à creuser. S'il rencontre un espace vide, il retourne également à la base et attend les instructions. L'unité reviendra si elle est désactivée.
       
-The OGRE can be connected to a chute system, and is controllable by a logic network. Note that the OGRE outputs more {LINK:OrePage;ore} than a conventional {THING:ItemMiningDrill} over the same area, due to more efficient processing.
+L'OGRE peut être connecté à un système de chute, et est contrôlable par un réseau logique. Notez que l'OGRE produit plus de {LINK:OrePage;ore} qu'un {THING:ItemMiningDrill} conventionnel sur la même zone, en raison d'un traitement plus efficace.
 
 {HEADER:MODES}
-Idle - 0
-Mining - 1
-Returning - 2
-DepostingOre - 3
-Finished - 4
+Inactif - 0
+Exploitation minière - 1
+Retourner - 2
+Dépôt de minerai - 3
+Terminé - 4
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
-      <Value>Reinforced Window (Composite)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Fenêtre renforcée (Composite)</Value>
+      <Description>Profitez des paysages extraterrestres, même les plus sauvages, grâce à ces cadres de fenêtre robustes, qui résistent à des différences de pression allant jusqu'à 1 MPa.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindowSteel</Key>
-      <Value>Reinforced Window (Composite Steel)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Fenêtre renforcée (Composite Acier)</Value>
+      <Description>Profitez des paysages extraterrestres, même les plus sauvages, grâce à ces cadres de fenêtre robustes, qui résistent à des différences de pression allant jusqu'à 1 MPa.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindow</Key>
-      <Value>Reinforced Window (Padded)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Fenêtre renforcée (Rembourré)</Value>
+      <Description>Profitez des paysages extraterrestres, même les plus sauvages, grâce à ces cadres de fenêtre robustes, qui résistent à des différences de pression allant jusqu'à 1 MPa.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindowThin</Key>
-      <Value>Reinforced Window (Thin)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Fenêtre renforcée (Mince)</Value>
+      <Description>Profitez des paysages extraterrestres, même les plus sauvages, grâce à ces cadres de fenêtre robustes, qui résistent à des différences de pression allant jusqu'à 1 MPa.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteGlassSheets</Key>
-      <Value>Item Stellite Glass Sheets</Value>
-      <Description>A stronger glass substitute.</Description>
+      <Value>Article Feuilles de verre Stellite</Value>
+      <Description>Un substitut de verre plus solide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitReinforcedWindows</Key>
-      <Value>Reinforced Windows (Kit)</Value>
-      <Description>Creates {THING:StructureReinforcedCompositeWindow} and other variants.</Description>
+      <Value>Fenêtre renforcées (Kit)</Value>
+      <Description>Crée {THING:StructureReinforcedCompositeWindow} et d'autres variantes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHorizontalAutoMiner</Key>
       <Value>Kit (OGRE)</Value>
-      <Description>Creates a {THING:StructureHorizontalAutoMiner}.</Description>
+      <Description>Crée un {THING:StructureHorizontalAutoMiner}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLaptop</Key>
-      <Value>Laptop</Value>
-      <Description>A portable IC editor, the {LINK:Norsec;Norsec} 'Slaptop' was designed for rugged use and abuse by intrepid {LINK:Stationeers;Stationeers} across the Solar System. While it will never replace the multifunctionality of the {THING:StructureComputer}, the Slaptop's low weight and portability have earned it a place in many an ODA operative's heart.
+      <Value>Ordinateur portable</Value>
+      <Description>Un éditeur de circuits intégrés portable, le Slaptop a été conçu pour être utilisé et maltraité par les intrépides {LINK:Stationeers;Stationeers} à travers le système solaire. Bien qu'il ne remplacera jamais la multifonctionnalité de l'{THING:StructureComputer}, e faible poids et la portabilité du Slaptop lui ont valu une place dans le coeur de nombreux agents de l'ODA.
       
-The Slaptop requires a {THING:MotherboardProgrammableChip} for operation.</Description>
+Le Slaptop nécessite une {THING:MotherboardProgrammableChip} pour fonctionner.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
       <Value>Winterspawn (Alpha variant)</Value>
-      <Description>{LINK:Agrizero;Agrizero's} Winterspawn atmospheric bio-processor is a recent addition to their catalogue of genespliced environmental decorations. Using ambient heat to split {GAS:Water} into {GAS:Volatiles} and {GAS:Oxygen}, the Winterspawn cools its surroundings, when supplied with sufficient {GAS:Nitrogen}. The alpha variant has a peak cooling and electrolysis capacity of 90Watts and is most efficient operating in air temperatures of 0 to 40 Degrees Celsius.</Description>
+      <Description>Le bio-processeur atmosphérique Winterspawn est un ajout récent à leur catalogue de décorations environnementales génépliquées. Utilisant la chaleur ambiante pour séparer l'{GAS:Water} en {GAS:Volatiles} et {GAS:Oxygen}, le Winterspawn refroidit son environnement, lorsqu'il est alimenté avec suffisamment d'{GAS:Nitrogen}. La variante alpha a une capacité maximale de refroidissement et d'électrolyse de 90 watts et est plus efficace lorsqu'elle fonctionne à des températures de l'air comprises entre 0 et 40 degrés Celsius.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool2</Key>
       <Value>Winterspawn (Beta variant)</Value>
-      <Description>{LINK:Agrizero;Agrizero's} Winterspawn atmospheric bio-processor is a recent addition to their catalogue of genespliced environmental decorations. Using ambient heat to split {GAS:Water} into {GAS:Volatiles} and {GAS:Oxygen}, the Winterspawn cools its surroundings when supplied with sufficient {GAS:Nitrogen}. The beta variant has a peak cooling and electrolysis capacity of 150Watts and is most efficient operating in air temperatures of 14 to 24 Degrees Celsius.</Description>
+      <Description>Le bio-processeur atmosphérique Winterspawn est un ajout récent à leur catalogue de décorations environnementales génépliquées. Utilisant la chaleur ambiante pour séparer l'{GAS:Water}en {GAS:Volatiles} et {GAS:Oxygen}, le Winterspawn refroidit son environnement, lorsqu'il est alimenté avec suffisamment d'{GAS:Nitrogen}. La variante bêta a une capacité maximale de refroidissement et d'électrolyse de 150 watts et est plus efficace lorsqu'elle fonctionne à des températures de l'air comprises entre 14 et 24 degrés Celsius.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool1</Key>
-      <Value>Hades Flower (Alpha strain)</Value>
-      <Description>The {LINK:Agrizero;Agrizero's}-created Hades Flower is the result of as dubious experiment to combine the allure of tropical plants with the comfort and homeliness of a heat pump. The plant breathes a 1:3 mix of {GAS:Volatiles} and {GAS:Oxygen}, and exhales heated {GAS:Pollutant}.</Description>
+      <Value>Fleur d'Hadès (Alpha strain)</Value>
+      <Description>La fleur d'Hadès est le résultat d'une expérience douteuse visant à combiner l'attrait des plantes tropicales avec le confort et la convivialité d'une pompe à chaleur. La plante respire un mélange 1:3 de {GAS:Volatiles} et {GAS:Oxygen}, et expire un {GAS:Pollutant} chauffé.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool2</Key>
-      <Value>Hades Flower (Beta strain)</Value>
-      <Description>The {LINK:Agrizero;Agrizero's}-created Hades Flower is the result of as dubious experiment to combine the allure of tropical plants with the comfort and homeliness of a heat pump. The plant breathes a 1:3 mix of {GAS:Volatiles} and {GAS:Oxygen}, and exhales heated {GAS:Pollutant}. The beta strain is notably more efficient than the earlier, more experimental alpha variant.</Description>
+      <Value>Fleur d'Hadès (Beta strain)</Value>
+      <Description>La fleur d'Hadès est le résultat d'une expérience douteuse visant à combiner l'attrait des plantes tropicales avec le confort et la convivialité d'une pompe à chaleur. La plante respire un mélange 1:3 de {GAS:Volatiles} et {GAS:Oxygen}, et expire un {GAS:Pollutant} chauffé. La souche bêta est nettement plus efficace que la variante alpha, plus expérimentale.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStirlingEngine</Key>
-      <Value>Kit (Stirling Engine)</Value>
-      <Description>Creates a {THING:StructureStirlingEngine}.</Description>
+      <Value>Kit (Moteur Stirling)</Value>
+      <Description>Crée un {THING:StructureStirlingEngine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStirlingEngine</Key>
-      <Value>Stirling Engine</Value>
-      <Description>Harnessing an ancient thermal exploit, the {LINK:Recurso;Recurso} 'Libra' Stirling Engine generates power via the expansion and contraction of a working gas to drive pistons operating an electrical generator.
+      <Value>Moteur Stirling</Value>
+      <Description>Exploitant un ancien exploit thermique, le moteur Stirling "Libra" génère de l'énergie par l'expansion et la contraction d'un gaz de travail pour entraîner des pistons actionnant un générateur électrique.
       
-When high pressure hot gas is supplied into the input pipe, this gas will heat the hot side of the unit, then pass into the output pipe. The cooler side uses the room's ambient atmosphere, which must be kept at a lower temperature and pressure in order to create a differential. Add a working gas by inserting a {SLOT:GasCanister}. The unit must be deactivated when adding or removing canisters, or the working gas may leak into the surrounding atmosphere.
+Lorsque du gaz chaud à haute pression est introduit dans le tuyau d'entrée, ce gaz chauffe le côté chaud de l'unité, puis passe dans le tuyau de sortie. Le côté froid utilise l'atmosphère ambiante de la pièce, qui doit être maintenue à une température et une pression inférieures afin de créer un différentiel. Ajoutez un gaz de travail en insérant une {SLOT:GasCanister}.  L'unité doit être désactivée lors de l'ajout ou du retrait des cartouches, sinon le gaz de travail risque de fuir dans l'atmosphère ambiante.
  
-Gases with a low molecular mass make the most efficient working gases. Increasing the moles of working gas can result in a greater potential power output. However, overpressuring the unit may have ... sub-optimal results.</Description>
+Les gaz à faible masse moléculaire sont les gaz de travail les plus efficaces. L'augmentation du nombre de moles de gaz de travail peut entraîner une plus grande puissance potentielle. Cependant, une surpression de l'unité peut donner des résultats non optimaux.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitter</Key>
-      <Value>Microwave Power Transmitter</Value>
-      <Description>The {LINK:Norsec;Norsec} Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.
-The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output.</Description>
+      <Value>Transmetteur de puissance hyperfréquence</Value>
+      <Description>L'émetteur de puissance sans fil est un système de transmission électrique unidirectionnel, de A à B, en champ lointain. L'émetteur de base rotatif délivre un faisceau de micro-ondes étroit et non létal à un récepteur de base dédié.
+L'émetteur doit être aligné sur la station de base pour pouvoir transmettre une quelconque puissance. La luminosité de l'arc du collimateur de l'émetteur donne une indication de l'intensité de la transmission. Notez qu'il y a une attrition sur les longues distances, l'unité nécessite donc plus de puissance sur de plus grandes distances pour fournir la même sortie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitterReceiver</Key>
-      <Value>Microwave Power Receiver</Value>
-      <Description>The {LINK:Norsec;Norsec} Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.
-The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output.</Description>
+      <Value>Récepteur de puissance hyperfréquence</Value>
+      <Description>L'émetteur de puissance sans fil est un système de transmission électrique unidirectionnel, de A à B, en champ lointain. L'émetteur de base rotatif délivre un faisceau de micro-ondes étroit et non létal à un récepteur de base dédié.
+L'émetteur doit être aligné sur la station de base pour pouvoir transmettre une quelconque puissance. La luminosité de l'arc du collimateur de l'émetteur donne une indication de l'intensité de la transmission. Notez qu'il y a une attrition sur les longues distances, l'unité nécessite donc plus de puissance sur de plus grandes distances pour fournir la même sortie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOverheadShortCornerLocker</Key>
-      <Value>Overhead Corner Locker</Value>
+      <Value>Casier d'angle supérieur</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureOverheadShortLocker</Key>
-      <Value>Overhead Locker</Value>
+      <Value>Casier supérieur</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureShortCornerLocker</Key>
-      <Value>Short Corner Locker</Value>
+      <Value>Casier d'angle court</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureShortLocker</Key>
-      <Value>Short Locker</Value>
+      <Value>Casier court</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCornerLocker</Key>
-      <Value>Corner Locker</Value>
+      <Value>Casier d'angle</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Creative</Key>
-      <Value>Endothermic Plant Creative</Value>
+      <Value>Plante endothermique créative</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Creative</Key>
-      <Value>Thermogenic Plant Creative</Value>
+      <Value>Plante thermogénique Creative</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPowerTransmitter</Key>
-      <Value>Kit (Power Transmitter)</Value>
+      <Value>Kit (Émetteur de puissance)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorTriangle</Key>
-      <Value>Interior Door Triangle</Value>
+      <Value>Triangle de porte intérieure</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorPaddedThin</Key>
-      <Value>Interior Door Padded Thin</Value>
+      <Value>Porte intérieure rembourrée mince</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorPadded</Key>
-      <Value>Interior Door Padded</Value>
+      <Value>Porte intérieure rembourrée</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorGlass</Key>
-      <Value>Interior Door Glass</Value>
+      <Value>Porte intérieure en verre</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInteriorDoors</Key>
-      <Value>Kit (Interior Doors)</Value>
+      <Value>Kit (Portes intérieures)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureUnpoweredHatch</Key>
-      <Value>Structure Unpowered Hatch</Value>
+      <Value>Structure Trappe non alimentée</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureManualHatch</Key>
-      <Value>Manual Hatch</Value>
+      <Value>Trappe manuelle</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPowerTransmitterOmni</Key>
-      <Value>Kit (Power Transmitter Omni)</Value>
+      <Value>Kit (Émetteur de puissance Omni)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitterOmni</Key>
-      <Value>Structure Power Transmitter Omni</Value>
+      <Value>Structure Émetteur de puissance Omni</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Battery_Wireless_cell</Key>
-      <Value>Battery Wireless Cell</Value>
+      <Value>Pile sans fil</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Battery_Wireless_cell_Big</Key>
-      <Value>Battery Wireless Cell (Big)</Value>
+      <Value>Pile sans fil (grande)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicLightNetworkTest</Key>
-      <Value>Dynamic Light Network Test</Value>
+      <Value>Test du réseau lumineux dynamique</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeExtendableRadiator</Key>
-      <Value>Kit (Large Extendable Radiator)</Value>
+      <Value>Kit (Grand radiateur extensible)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeExtendableRadiator</Key>
-      <Value>Structure Large Extendable Radiator</Value>
+      <Value>Structure Grand Radiateur Extensible</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLargeExtendableRadiator01</Key>
-      <Value>Wreckage Large Extendable Radiator</Value>
+      <Value>Radiateur extensible de grande taille Wreckage</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPoweredBottom</Key>
-      <Value>Waterbottle Filler</Value>
+      <Value>Remplisseur de bouteille d'eau</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPowered</Key>
-      <Value>Waterbottle Filler</Value>
+      <Value>Remplisseur de bouteille d'eau</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemNitrice</Key>
-      <Value>Ice (Nitrice)</Value>
-      <Description>Nitrice is the nickname given to solid {GAS:Nitrogen} Ice, and found on many planets and moons in the Solar System. Given the inert nature of the {GAS:Nitrogen} it produces, the ice is useful when making breathable atmospheres with low flammability.
+      <Value>Glace (Nitrice)</Value>
+      <Description>Nitrice est le surnom donné à la glace solide {GAS:Nitrogen} On la trouve sur de nombreuses planètes et lunes du système solaire. Étant donné la nature inerte de l' {GAS:Nitrogen} qu'elle produit, la glace est utile pour créer des atmosphères respirables et peu inflammables.
 
-Highly sensitive to temperature, nitrice will begin to melt as soon as it is mined, unless the temperature is below zero, or it is stored in the {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} or devices like the {THING:StructureIceCrusher} or {THING:StructureFridgeSmall}.</Description>
+Très sensible à la température, la nitrice commencera à fondre dès qu'elle sera exploitée, à moins que la température ne soit inférieure à zéro, ou qu'elle soit stockée dans la {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} ou des dispositifs comme le {THING:StructureIceCrusher} ou le {THING:StructureFridgeSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiator</Key>
-      <Value>Kit (Passive Large Radiator)</Value>
+      <Value>Kit (Grand radiateur passif)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLargeRadiator</Key>
-      <Value>Passive Large Radiator</Value>
+      <Value>Grand radiateur passif</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiatorGas</Key>
-      <Value>Kit (Passive Large Radiator Gas)</Value>
+      <Value>Kit (Grand radiateur passif à gaz)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiatorLiquid</Key>
-      <Value>Kit (Passive Large Radiator Liquid)</Value>
+      <Value>Kit (liquide passif à grand radiateur)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLargeRadiatorLiquid</Key>
-      <Value>Passive Large Radiator Liquid</Value>
+      <Value>Grand radiateur passif liquide</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLargeRadiatorGas</Key>
-      <Value>Passive Large Radiator Gas</Value>
+      <Value>Grand radiateur passif à gaz</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicGate</Key>
-      <Value>Logic Gate</Value>
-      <Description>A {LINK:LogicPage;logic} device that performs a logical operation on one or more binary inputs that produces a single binary output. An input greater than zero is considered true for operations.</Description>
+      <Value>Porte logique</Value>
+      <Description>Un dispositif {LINK:LogicPage;logic} qui effectue une opération logique sur une ou plusieurs entrées binaires et produit une seule sortie binaire. Une entrée supérieure à zéro est considérée comme vraie pour les opérations.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureNitrolyzer</Key>
@@ -7020,12 +7020,12 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBackPack</Key>
-      <Value>Mining Backpack</Value>
+      <Value>Sac à dos minier</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemHardMiningBackPack</Key>
-      <Value>Hard Mining Backpack</Value>
+      <Value>Sac à dos dur pour l'exploitation minière</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -8040,11 +8040,11 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     </Record>
     <Record>
       <Key>CannotConnectToMetaServer</Key>
-      <Value>Cannot Connect To Meta Server</Value>
+      <Value>Impossible de se connecter au serveur Meta</Value>
     </Record>
     <Record>
       <Key>ServerListCannotBeRetrieved</Key>
-      <Value>Server List Cannot Be Retrieved</Value>
+      <Value>Impossible de récupérer la liste des serveurs</Value>
     </Record>
     <Record>
       <Key>JoinMenuInputAddressTitle</Key>
@@ -9582,35 +9582,35 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
     </Record>
     <Record>
       <Key>LogicTypePressureInput</Key>
-      <Value>The current pressure reading of the device's Input Network</Value>
+      <Value>La lecture actuelle de la pression du réseau d'entrée de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureInput</Key>
-      <Value>The current temperature reading of the device's Input Network</Value>
+      <Value>La température actuelle du réseau d'entrée de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInput2</Key>
-      <Value>The current pressure reading of the device's Input2 Network</Value>
+      <Value>La lecture actuelle de la pression du réseau d'entrée 2 de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureInput2</Key>
-      <Value>The current temperature reading of the device's Input2 Network</Value>
+      <Value>La lecture de la température actuelle du réseau Input2 de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureOutput</Key>
-      <Value>The current pressure reading of the device's Output Network</Value>
+      <Value>La lecture de la pression actuelle du réseau de sortie de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureOutput</Key>
-      <Value>The current temperature reading of the device's Output Network</Value>
+      <Value>La lecture de la température actuelle du réseau de sortie de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureOutput2</Key>
-      <Value>The current pressure reading of the device's Output2 Network</Value>
+      <Value>La lecture de la pression actuelle du réseau de sortie 2 de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureOutput2</Key>
-      <Value>The current temperature reading of the device's Output2 Network</Value>
+      <Value>La lecture de la température actuelle du réseau de sortie 2 de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureExternal</Key>
@@ -9670,67 +9670,67 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenInput</Key>
-      <Value>The ratio of oxygen in device's input network</Value>
+      <Value>Le ratio d'oxygène dans le réseau d'entrée de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideInput</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device's input network</Value>
+      <Value>Le rapport de {GAS:CarbonDioxide} dans le réseau d'entrée du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenInput</Key>
-      <Value>The ratio of nitrogen in device's input network</Value>
+      <Value>Le rapport de l'azote dans le réseau d'entrée de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantInput</Key>
-      <Value>The ratio of pollutant in device's input network</Value>
+      <Value>Le rapport du polluant dans le réseau d'entrée de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesInput</Key>
-      <Value>The ratio of volatiles in device's input network</Value>
+      <Value>Le rapport des volatiles dans le réseau d'entrée de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput</Key>
-      <Value>The ratio of water in device's input network</Value>
+      <Value>Le rapport de l'eau dans le réseau d'entrée de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideInput</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device's input network</Value>
+      <Value>Le rapport de {GAS:NitrousOxide} dans le réseau d'entrée du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionInput</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if device's input network is on fire, 0 if not.</Value>
+      <Value>L'atmosphère d'évaluation est en feu. Renvoie 1 si le réseau d'entrée du dispositif est en feu, 0 sinon.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenInput2</Key>
-      <Value>The ratio of oxygen in device's Input2 network</Value>
+      <Value>Le ratio d'oxygène dans le réseau d'entrée 2 de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideInput2</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device's Input2 network</Value>
+      <Value>Le rapport de {GAS:CarbonDioxide} dans le réseau d'entrée 2 du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenInput2</Key>
-      <Value>The ratio of nitrogen in device's Input2 network</Value>
+      <Value>Le rapport de l'azote dans le réseau d'entrée 2 de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantInput2</Key>
-      <Value>The ratio of pollutant in device's Input2 network</Value>
+      <Value>Le rapport du polluant dans le réseau d'entrée 2 du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesInput2</Key>
-      <Value>The ratio of volatiles in device's Input2 network</Value>
+      <Value>Le rapport des volatiles dans le réseau d'entrée 2 du dispositif</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput2</Key>
-      <Value>The ratio of water in device's Input2 network</Value>
+      <Value>Le rapport de l'eau dans le réseau d'entrée 2 de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideInput2</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device's Input2 network</Value>
+      <Value>Le rapport de {GAS:NitrousOxide} dans le réseau d'entrée 2 du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionInput2</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if device's Input2 network is on fire, 0 if not.</Value>
+      <Value>L'atmosphère d'évaluation est en feu. Renvoie 1 si le réseau de l'entrée 2 du dispositif est en feu, 0 sinon.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenOutput</Key>
@@ -9738,63 +9738,63 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideOutput</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device's Output network</Value>
+      <Value>Le rapport {GAS:CarbonDioxide} dans le réseau de sortie du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenOutput</Key>
-      <Value>The ratio of nitrogen in device's Output network</Value>
+      <Value>Le rapport de l'azote dans le réseau de sortie de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantOutput</Key>
-      <Value>The ratio of pollutant in device's Output network</Value>
+      <Value>Le rapport du polluant dans le réseau de sortie du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesOutput</Key>
-      <Value>The ratio of volatiles in device's Output network</Value>
+      <Value>Le rapport des volatiles dans le réseau de sortie du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterOutput</Key>
-      <Value>The ratio of water in device's Output network</Value>
+      <Value>Le taux d'eau dans le réseau de sortie de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideOutput</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device's Output network</Value>
+      <Value>Le rapport {GAS:NitrousOxide} dans le réseau de sortie du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionOutput</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if device's Output network is on fire, 0 if not.</Value>
+      <Value>L'atmosphère d'évaluation est en feu. Renvoie 1 si le réseau de sortie du dispositif est en feu, 0 sinon.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenOutput2</Key>
-      <Value>The ratio of oxygen in device's Output2 network</Value>
+      <Value>Le taux d'oxygène dans le réseau de sortie 2 de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideOutput2</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device's Output2 network</Value>
+      <Value>Le rapport {GAS:CarbonDioxide} dans le réseau de sortie 2 du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenOutput2</Key>
-      <Value>The ratio of nitrogen in device's Output2 network</Value>
+      <Value>Le rapport de l'azote dans le réseau Output2 du dispositif</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantOutput2</Key>
-      <Value>The ratio of pollutant in device's Output2 network</Value>
+      <Value>Le rapport du polluant dans le réseau de sortie 2 du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesOutput2</Key>
-      <Value>The ratio of volatiles in device's Output2 network</Value>
+      <Value>Le rapport des volatiles dans le réseau de sortie 2 de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterOutput2</Key>
-      <Value>The ratio of water in device's Output2 network</Value>
+      <Value>Le ratio d'eau dans le réseau de sortie 2 de l'appareil</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideOutput2</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device's Output2 network</Value>
+      <Value>Le rapport de {GAS:NitrousOxide} dans le réseau de sortie 2 du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionOutput2</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if device's Output2 network is on fire, 0 if not.</Value>
+      <Value>L'atmosphère d'évaluation est en feu. Renvoie 1 si le réseau de sortie 2 du dispositif est en feu, 0 sinon.</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontal</Key>
@@ -10003,19 +10003,19 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesInput</Key>
-      <Value>Returns the total moles of the device's Input Network</Value>
+      <Value>Renvoie le nombre total de moles du réseau d'entrée de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesInput2</Key>
-      <Value>Returns the total moles of the device's Input2 Network</Value>
+      <Value>Renvoie le nombre total de moles du réseau d'entrée 2 du dispositif.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesOutput</Key>
-      <Value>Returns the total moles of the device's Output Network</Value>
+      <Value>Renvoie le nombre total de moles du réseau de sortie de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesOutput2</Key>
-      <Value>Returns the total moles of the device's Output2 Network</Value>
+      <Value>Renvoie le nombre total de moles du réseau de sortie 2 de l'appareil.</Value>
     </Record>
     <Record>
       <Key>LogicTypeVolume</Key>
@@ -10167,11 +10167,11 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     </Record>
     <Record>
       <Key>FuelInTankRemaining</Key>
-      <Value>Gets the fuel remaining in your rocket's fuel tank.</Value>
+      <Value>Obtient le carburant restant dans le réservoir de votre fusée.</Value>
     </Record>
     <Record>
       <Key>FuelReturnCost</Key>
-      <Value>Gets the cost of fuel to return the rocket to your current world.</Value>
+      <Value>Obtient le coût du carburant pour ramener la fusée dans votre monde actuel.</Value>
     </Record>
     <Record>
       <Key>RocketMode</Key>
@@ -10179,7 +10179,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     </Record>
     <Record>
       <Key>CollectableGoods</Key>
-      <Value>Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.</Value>
+      <Value>Renvoie 0 ou 1 selon que le système de fusée actuel a ou non la capacité de collecter des ressources sur la planète.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
@@ -11619,7 +11619,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     </Record>
     <Record>
       <Key>StatusWindowVitals</Key>
-      <Value>Satiété</Value>
+      <Value>Faim/Soif</Value>
     </Record>
     <Record>
       <Key>StatusWindowJetpack</Key>
@@ -11939,7 +11939,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     </Record>
     <Record>
       <Key>CommandSetHunger</Key>
-      <Value>Sets the hunger rate. : "/hungerrate 0.25"</Value>
+      <Value>Règle le taux de faim : "/hungerrate 0.25"</Value>
     </Record>
     <Record>
       <Key>CommandPause</Key>
@@ -12015,15 +12015,15 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     </Record>
     <Record>
       <Key>CommandSetDecay</Key>
-      <Value>Sets the global food Decay Multiplier. : "/setdecay 2"</Value>
+      <Value>Règle le multiplicateur de désintégration alimentaire global. : "/setdecay 2"</Value>
     </Record>
     <Record>
       <Key>CommandSetContact</Key>
-      <Value>Sets the required signal amount to contact a trader. : "/setcontact 10"</Value>
+      <Value>Définit le montant du signal requis pour contacter un trader : "/setcontact 10".</Value>
     </Record>
     <Record>
       <Key>CommandHelp</Key>
-      <Value>Displays the commands list. : "/help"</Value>
+      <Value>Affiche la liste des commandes. : "/help"</Value>
     </Record>
     <Record>
       <Key>Seedsstring</Key>
@@ -12546,7 +12546,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>CrowbarToFlip</Key>
-      <Value>Flip using crowbar</Value>
+      <Value>Retournement à l'aide d'un pied de biche</Value>
     </Record>
     <Record>
       <Key>TimerPanel</Key>
@@ -12562,15 +12562,15 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>LogicTypeEnvironmentEfficiency</Key>
-      <Value>The Environment Efficiency reported by the machine, as a float between 0 and 1</Value>
+      <Value>Efficacité environnementale signalée par la machine, sous la forme d'une valeur flottante comprise entre 0 et 1.</Value>
     </Record>
     <Record>
       <Key>LogicTypeWorkingGasEfficiency</Key>
-      <Value>The Working Gas Efficiency reported by the machine, as a float between 0 and 1</Value>
+      <Value>L'efficacité du gaz de travail rapportée par la machine, sous la forme d'un flotteur entre 0 et 1.</Value>
     </Record>
     <Record>
       <Key>Pitch</Key>
-      <Value>Pitch</Value>
+      <Value>Emplacement</Value>
     </Record>
     <Record>
       <Key>Volume</Key>
@@ -12578,11 +12578,11 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>NoAudioReceiverDevices</Key>
-      <Value>No Audio Receiver Devices</Value>
+      <Value>Aucun dispositif de réception audio</Value>
     </Record>
     <Record>
       <Key>Speed</Key>
-      <Value>Speed</Value>
+      <Value>Vitesse</Value>
     </Record>
     <Record>
       <Key>Attack</Key>
@@ -12594,31 +12594,31 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>CurrentInstrument</Key>
-      <Value>Current Instrument</Value>
+      <Value>Instrument actuel</Value>
     </Record>
     <Record>
       <Key>NoSoundCartridge</Key>
-      <Value>No Sound Cartridge</Value>
+      <Value>Pas de cartouche de son</Value>
     </Record>
     <Record>
       <Key>NoNote</Key>
-      <Value>No Note</Value>
+      <Value>Pas de note</Value>
     </Record>
     <Record>
       <Key>Intensity</Key>
-      <Value>Intensity</Value>
+      <Value>Intensité</Value>
     </Record>
     <Record>
       <Key>Waveform</Key>
-      <Value>Waveform</Value>
+      <Value>Forme d'onde</Value>
     </Record>
     <Record>
       <Key>StationpediaBasePowerUsage</Key>
-      <Value>Base Power Usage:</Value>
+      <Value>Utilisation de la puissance de la base :</Value>
     </Record>
     <Record>
       <Key>StationpediaMaxPressure</Key>
-      <Value>Max Pressure:</Value>
+      <Value>Pression maximale :</Value>
     </Record>
     <Record>
       <Key>StationpediaVolume</Key>
@@ -12630,53 +12630,53 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>MoleOxygenDescription</Key>
-      <Value>Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures.</Value>
+      <Value>L'oxygène fournit de l'énergie lorsqu'il est libéré lors d'une combustion, et se lie également à l'hydrogène pour créer {GAS:Water}. Il est créé par {LINK:OrganicPage;plants}, ainsi que par le traitement de {THING:ItemOxite}. Il est hautement inflammable à basse température.</Value>
     </Record>
     <Record>
       <Key>MoleNitrogenDescription</Key>
-      <Value>{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stablize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System.</Value>
+      <Value>{GAS:Nitrogen} peut être mélangé à l'{GAS:Oxygen} pour stabiliser son inflammabilité et éviter la toxicité de l'{GAS:Oxygen} C'est une ressource à part entière, utile pour créer une atmosphère respirable (à raison d'environ 3:1 {GAS:Nitrogen} et {GAS:Oxygen}). La source la plus efficace de {GAS:Nitrogen} provient des dépôts de  {THING:ItemNitrice} trouvés autour du système solaire.</Value>
     </Record>
     <Record>
       <Key>MoleCarbonDioxideDescription</Key>
-      <Value>You breathe it out, {LINK:OrganicPage;plants} breath it in. They don't grow without it. You can use items placed in {SLOT:GasFilter} slots to remove this from the atmosphere.
+      <Value>Vous l'expirez, {LINK:OrganicPage;plants} l'inspirent. Elles ne peuvent pas se développer sans lui. Vous pouvez utiliser des objets placés dans les emplacements {SLOT:GasFilter} pour le retirer de l'atmosphère.
       
-{GAS:CarbonDioxide} has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Coo
-{THING:StructureWallCooler}. {GAS:Water} is better, but usually has more important uses.</Value>
+{GAS:CarbonDioxide} a une chaleur spécifique modérément élevée, ce qui signifie qu'il s'agit d'un bon liquide de refroidissement pour des dispositifs comme
+{THING:StructureWallCooler}. {GAS:Water} est meilleur, mais a généralement des utilisations plus importantes.</Value>
     </Record>
     <Record>
       <Key>MoleVolatilesDescription</Key>
-      <Value>Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.
+      <Value>Les Volatiles sont une molécule organique complexe et extrêmement réactive, qui peut être utilisée en conjonction avec l'oxygène comme combustible. Elle est raffinée à partir de  {THING:ItemVolatiles}.
       
-Due to obscure and largely forgotten {LINK:ODA;ODA} regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. {GAS:Volatiles} will not produce {GAS:Water} when combusted, without a catalyst (see the {THING:H2Combustor}). Alone, they create {GAS:Pollutant}s and {GAS:CarbonDioxide} when burned in the following ratio:
+En raison de règlements obscurs et largement oubliés {LINK:ODA;ODA} les volatiles sont parfois étiquetés "H2" par divers éléments technologiques. Cependant, bien qu'ils soient similaires à l'hydrogène, ils ne sont pas "réellement" de l'hydrogène. Les {GAS:Volatiles} lorsqu'ils sont brûlés, sans catalyseur (voir le {THING:H2Combustor}). Seuls, ils créent des {GAS:Pollutant} et du {GAS:CarbonDioxide} lorsqu'ils sont brûlés dans le rapport suivant :
       
-2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + heat.</Value>
+2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + chaleur.</Value>
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
-      <Value>Also known as 'X', {GAS:Pollutant} is created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere.
+      <Value>Aussi connu sous le nom de 'X', {GAS:Pollutant} est créé lors de la fusion de certains métaux. Une concentration de 0,1 mol ou plus fera que votre combinaison vous avertira de la présence de poison dans l'atmosphère.
       
-Pollutant has a high specific heat, making it an excellent coolant. Unfortunately it is extremely bad for organic beings, and will severely damage the lungs of most {REAGENT:Carbon} based organisms.</Value>
+Le polluant a une chaleur spécifique élevée, ce qui en fait un excellent liquide de refroidissement. Malheureusement, il est extrêmement mauvais pour les êtres organiques, et endommagera sévèrement les poumons de la plupart des organismes à base de  {REAGENT:Carbon}.</Value>
     </Record>
     <Record>
       <Key>MoleWaterDescription</Key>
-      <Value>You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}, or by combusting {GAS:Volatiles} and oxygen using the {THING:H2Combustor}.
+      <Value>Vous pouvez obtenir de l'eau en fondant ou en broyant {THING:ItemIce}  l'aide d'un {THING:StructureFurnace} ou d'un {THING:StructureIceCrusher}, ou en brûlant des {GAS:Volatiles} et de l'oxygène à l'aide du {THING:H2Combustor}.
       
-{GAS:Water} is critical for {LINK:OrganicPage;plants} to stay alive, and grow {LINK:NutritionPage;food}. It is also an exceptional coolant with a very high specific heat capacity.
+{GAS:Water} est essentielle pour que les {LINK:OrganicPage;plants} restent en vie et que la {LINK:NutritionPage;food}. se développe.} C'est également un liquide de refroidissement exceptionnel avec une capacité thermique spécifique très élevée.
 
-Note: {GAS:Water} was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. {GAS:Water} is currently the only available liquid, and does not presently change states.
+Remarque : {GAS:Water} était auparavant traité comme un gaz, mais un nouveau système pour les liquides est en cours de développement, comprenant des tuyaux, des réservoirs, des pompes, etc. séparés pour les liquides. {GAS:Water} est actuellement le seul liquide disponible, et ne change pas d'état pour le moment.
 </Value>
     </Record>
     <Record>
       <Key>MoleNitrousOxideDescription</Key>
-      <Value>Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh.</Value>
+      <Value>Le protoxyde d'azote est un gaz inerte qui assomme les joueurs s'il est inhalé.</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
-      <Value>Smooth Terrain</Value>
+      <Value>Terrain lisse</Value>
     </Record>
     <Record>
       <Key>SettingsVirtualizedRendering</Key>
-      <Value>Virtualized Rendering
+      <Value>Rendement virtualisé
 </Value>
     </Record>
     <Record>
