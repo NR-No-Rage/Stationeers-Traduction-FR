@@ -7028,6 +7028,11 @@ Très sensible à la température, la nitrice commencera à fondre dès qu'elle 
       <Value>Sac à dos dur pour l'exploitation minière</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>StructureH2Combustor</Key>
+      <Value>Structure H2 Combustor</Value>
+      <Description>Adapted slightly from its original {LINK:Recurso;Recurso} design, the {GAS:Volatiles} Combustor does exactly what its name suggests - it burns a mixture of volatiles and {GAS:Oxygen} to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat. The device is also less than perfectly efficient, resulting in the autoignition of volatiles in the chamber, and the production of waste gases which must be dealt with.</Description>
+    </RecordThing>	
   </Things>
   <Slots>
     <Record>
@@ -10098,6 +10103,18 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Renvoie l&apos;identification du contact avec le signal le plus fort de ce satellite</Value>
     </Record>
     <Record>
+	 <Key>LogicTypeOperationalTemperatureEfficiency</Key>
+      <Value>Comment la température du tuyau d'entrée affecte l'efficacité des machines ?</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureDifferentialEfficiency</Key>
+      <Value>Comment la différence de température entre le tuyau d'entrée et le tuyau d'évacuation affecte l'efficacité des machines ?</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureEfficiency</Key>
+      <Value>Comment la pression du tuyau d'entrée et du tuyau d'évacuation affecte-t-elle l'efficacité des machines ?</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Aucune description</Value>
     </Record>
@@ -12682,6 +12699,26 @@ Remarque : {GAS:Water} était auparavant traité comme un gaz, mais un nouveau s
     <Record>
       <Key>SettingsStartLocalHost</Key>
       <Value>StartLocalHost</Value>
+    </Record>
+	<Record>
+      <Key>MainMenuChangeAppearance</Key>
+      <Value>Modifier l'apparence</Value>
+    </Record>
+    <Record>
+      <Key>CreateNewGame</Key>
+      <Value>Créer un nouveau jeu</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopModsTitle</Key>
+      <Value>Mods d'atelier</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSaveAs</Key>
+      <Value>Enregistrer le jeu sous...</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuPauseGameButton</Key>
+      <Value>Mettre le jeu en pause</Value>
     </Record>
   </Interface>
   <Colors>
